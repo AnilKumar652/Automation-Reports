@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22682824]
+Title: Verify User can submit Upload External Credential with valid required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:48:28.688Z] [INFO] [W0] [C22682824] [Admin] → Open Agency Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22682824]
+Status: FAILED
+Duration: 72755ms
+[2026-09-05T05:49:40.783Z] [ERROR] [W0] [C22682824] [object Object]
+────────────────────────────────────────────────────────

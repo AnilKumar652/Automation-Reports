@@ -1,0 +1,24 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T04:59:07.922Z] [INFO] [W1] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-09-05T04:59:13.517Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Open Global Credentials page (5595ms)
+[2026-09-05T04:59:13.518Z] [INFO] [W1] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-09-05T04:59:14.600Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (1082ms)
+[2026-09-05T04:59:14.629Z] [INFO] [W1] [C22181795] [Super Admin] → Create global credential "AutoGlobalCred-1788584347922"
+[2026-09-05T04:59:30.214Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Create global credential "AutoGlobalCred-1788584347922" (15585ms)
+[2026-09-05T04:59:30.214Z] [INFO] [W1] [C22181795] [Super Admin] → Is Add Global Credential Modal Open
+[2026-09-05T04:59:31.340Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Is Add Global Credential Modal Open (1126ms)
+[2026-09-05T04:59:31.343Z] [INFO] [W1] [C22181795] [Super Admin] → Search global credentials for "AutoGlobalCred-1788584347922"
+[2026-09-05T04:59:32.645Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Search global credentials for "AutoGlobalCred-1788584347922" (1302ms)
+[2026-09-05T04:59:32.646Z] [INFO] [W1] [C22181795] [Super Admin] → Global Credential Row Visible
+[2026-09-05T04:59:32.669Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Global Credential Row Visible (23ms)
+[2026-09-05T04:59:32.670Z] [INFO] [W1] [C22181795] [Admin] → Open Agency Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181795]
+Status: FAILED
+Duration: 95609ms
+[2026-09-05T05:00:42.827Z] [ERROR] [W1] [C22181795] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852435]
+Title: Verify combined filters by date range, creator, active status, topics, and courses refine the category grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:48:52.765Z] [INFO] [W1] [C21852435] [Admin] → Open Training Setup Categories page
+[2026-09-05T05:48:57.589Z] [INFO] [W1] [C21852435] [Admin] ✓ Open Training Setup Categories page (4824ms)
+[2026-09-05T05:48:57.590Z] [INFO] [W1] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-09-05T05:48:57.608Z] [INFO] [W1] [C21852435] [Admin] ✓ Categories grid contains records verified (18ms)
+[2026-09-05T05:48:57.610Z] [INFO] [W1] [C21852435] [Admin] → Find the first category row with creator, topics, and courses populated
+[2026-09-05T05:49:00.753Z] [INFO] [W1] [C21852435] [Admin] ✓ Find the first category row with creator, topics, and courses populated (3143ms)
+[2026-09-05T05:49:00.755Z] [INFO] [W1] [C21852435] [Admin] → Apply category filters from the filter panel
+[2026-09-05T05:49:03.282Z] [INFO] [W1] [C21852435] [Admin] ✓ Apply category filters from the filter panel (2527ms)
+[2026-09-05T05:49:03.282Z] [INFO] [W1] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-09-05T05:49:03.296Z] [INFO] [W1] [C21852435] [Admin] ✓ Categories grid contains records verified (14ms)
+[2026-09-05T05:49:03.296Z] [INFO] [W1] [C21852435] [Admin] → Visible Category Names
+[2026-09-05T05:49:03.315Z] [INFO] [W1] [C21852435] [Admin] ✓ Visible Category Names (19ms)
+[2026-09-05T05:49:03.321Z] [INFO] [W1] [C21852435] [Admin] → Change category Is Active filter to "No"

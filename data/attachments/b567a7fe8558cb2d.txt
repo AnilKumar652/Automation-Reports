@@ -1,0 +1,11 @@
+[2026-09-05T05:13:23.175Z] [ERROR] [W1] [C54659] [Admin] ✗ Wait until Import Global Credentials button is visible within 60000ms (60014ms)
+[2026-09-05T05:13:23.176Z] [ERROR] [W1] [C54659] Locator: [data-testid="training-credential-import-global"]
+[2026-09-05T05:13:23.176Z] [ERROR] [W1] [C54659] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-import-global"]') to be visible
+
+[2026-09-05T05:13:23.176Z] [ERROR] [W1] [C54659] [Admin] ✗ Open Agency Credentials page (64010ms)
+[2026-09-05T05:13:23.176Z] [ERROR] [W1] [C54659] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-import-global"]') to be visible
+

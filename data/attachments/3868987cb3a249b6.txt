@@ -1,0 +1,40 @@
+[2026-09-05T05:49:13.346Z] [ERROR] [W1] [C21852435] [Admin] ✗ Click Is Active filter field dropdown trigger (10010ms)
+[2026-09-05T05:49:13.346Z] [ERROR] [W1] [C21852435] Locator: [data-testid="training_setup_category_list-filter-is_active"] >> [title="Open dropdown"]
+[2026-09-05T05:49:13.346Z] [ERROR] [W1] [C21852435] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training_setup_category_list-filter-is_active"]').locator('[title="Open dropdown"]')
+    - locator resolved to <div tabindex="0" role="button" title="Open dropdown" class="dropdown-label-container">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+
+[2026-09-05T05:49:13.346Z] [ERROR] [W1] [C21852435] [Admin] ✗ Select "No" in Is Active filter field (10011ms)
+[2026-09-05T05:49:13.346Z] [ERROR] [W1] [C21852435] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training_setup_category_list-filter-is_active"]').locator('[title="Open dropdown"]')
+    - locator resolved to <div tabindex="0" role="button" title="Open dropdown" class="dropdown-label-container">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+
+[2026-09-05T05:49:13.346Z] [ERROR] [W1] [C21852435] [Admin] ✗ Change category Is Active filter to "No" (10026ms)
+[2026-09-05T05:49:13.346Z] [ERROR] [W1] [C21852435] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training_setup_category_list-filter-is_active"]').locator('[title="Open dropdown"]')
+    - locator resolved to <div tabindex="0" role="button" title="Open dropdown" class="dropdown-label-container">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+

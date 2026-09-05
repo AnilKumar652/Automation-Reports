@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852434]
+Title: Verify deactivate, delete confirmation cancel, and bulk delete affordance on category rows
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:48:35.519Z] [INFO] [W1] [C21852434] [Admin] → Open Training Setup Categories page
+[2026-09-05T05:48:41.992Z] [INFO] [W1] [C21852434] [Admin] ✓ Open Training Setup Categories page (6473ms)
+[2026-09-05T05:48:41.992Z] [INFO] [W1] [C21852434] [Admin] → Verify Categories grid contains records
+[2026-09-05T05:48:42.121Z] [INFO] [W1] [C21852434] [Admin] ✓ Categories grid contains records verified (129ms)
+[2026-09-05T05:48:42.121Z] [INFO] [W1] [C21852434] [Admin] → Open First Row Delete Dialog
+[2026-09-05T05:48:49.438Z] [INFO] [W1] [C21852434] [Admin] ✓ Open First Row Delete Dialog (7317ms)
+[2026-09-05T05:48:49.439Z] [INFO] [W1] [C21852434] [Admin] → Is Delete Category Modal Open
+[2026-09-05T05:48:49.477Z] [INFO] [W1] [C21852434] [Admin] ✓ Is Delete Category Modal Open (38ms)
+[2026-09-05T05:48:49.484Z] [INFO] [W1] [C21852434] [Admin] → Cancel Delete Category Dialog
+[2026-09-05T05:48:49.564Z] [INFO] [W1] [C21852434] [Admin] ✓ Cancel Delete Category Dialog (80ms)
+[2026-09-05T05:48:49.564Z] [INFO] [W1] [C21852434] [Admin] → Is Delete Category Modal Open
+[2026-09-05T05:48:49.597Z] [INFO] [W1] [C21852434] [Admin] ✓ Is Delete Category Modal Open (33ms)
+[2026-09-05T05:48:49.603Z] [INFO] [W1] [C21852434] [Admin] → Verify Categories grid contains records
+[2026-09-05T05:48:49.620Z] [INFO] [W1] [C21852434] [Admin] ✓ Categories grid contains records verified (17ms)
+[2026-09-05T05:48:49.626Z] [INFO] [W1] [C21852434] [Admin] → Select First Category Row
+[2026-09-05T05:48:49.786Z] [INFO] [W1] [C21852434] [Admin] ✓ Select First Category Row (160ms)
+[2026-09-05T05:48:49.786Z] [INFO] [W1] [C21852434] [Admin] → Is Bulk Delete Visible
+[2026-09-05T05:48:49.826Z] [INFO] [W1] [C21852434] [Admin] ✓ Is Bulk Delete Visible (40ms)
+[2026-09-05T05:48:49.827Z] [INFO] [W1] [C21852434] [Admin] → Select First Category Row
+[2026-09-05T05:48:49.963Z] [INFO] [W1] [C21852434] [Admin] ✓ Select First Category Row (136ms)
+[2026-09-05T05:48:49.963Z] [INFO] [W1] [C21852434] [Admin] → Selected Category Row Count
+[2026-09-05T05:48:49.994Z] [INFO] [W1] [C21852434] [Admin] ✓ Selected Category Row Count (31ms)

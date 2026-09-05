@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181796]
+Title: Verify validation messages when saving a credential with empty mandatory fields
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-05T04:59:21.866Z] [INFO] [W0] [C22181796] [Admin] → Open Agency Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181796]
+Status: FAILED
+Duration: 68890ms
+[2026-09-05T05:00:30.340Z] [ERROR] [W0] [C22181796] [object Object]
+────────────────────────────────────────────────────────

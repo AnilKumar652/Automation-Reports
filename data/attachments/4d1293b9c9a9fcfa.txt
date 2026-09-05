@@ -1,0 +1,25 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [—]
+Title: super admin, admin, and user can act independently in the same test
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T04:53:08.967Z] [INFO] [W0] [—] [Super Admin] → Open dashboard page
+[2026-09-05T04:53:15.254Z] [INFO] [W0] [—] [Super Admin] ✓ Open dashboard page (6287ms)
+[2026-09-05T04:53:15.255Z] [INFO] [W0] [—] [Super Admin] → Is Logged In
+[2026-09-05T04:53:15.272Z] [INFO] [W0] [—] [Super Admin] ✓ Is Logged In (17ms)
+[2026-09-05T04:53:15.272Z] [INFO] [W0] [—] ASSERT: super admin should be logged in
+[2026-09-05T04:53:15.287Z] [INFO] [W0] [—] [Admin] → Open dashboard page
+[2026-09-05T04:53:20.612Z] [INFO] [W0] [—] [Admin] ✓ Open dashboard page (5325ms)
+[2026-09-05T04:53:20.615Z] [INFO] [W0] [—] [Admin] → Is Logged In
+[2026-09-05T04:53:20.636Z] [INFO] [W0] [—] [Admin] ✓ Is Logged In (21ms)
+[2026-09-05T04:53:20.636Z] [INFO] [W0] [—] ASSERT: admin should be logged in
+[2026-09-05T04:53:20.641Z] [INFO] [W0] [—] [User] → Open dashboard page
+[2026-09-05T04:53:29.124Z] [INFO] [W0] [—] [User] ✓ Open dashboard page (8483ms)
+[2026-09-05T04:53:29.124Z] [INFO] [W0] [—] [User] → Is Logged In
+[2026-09-05T04:53:29.142Z] [INFO] [W0] [—] [User] ✓ Is Logged In (18ms)
+[2026-09-05T04:53:29.142Z] [INFO] [W0] [—] ASSERT: user should be logged in
+────────────────────────────────────────────────────────
+TEST END | [W0] [—]
+Status: PASSED
+Duration: 21411ms
+────────────────────────────────────────────────────────

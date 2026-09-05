@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:04:45.642Z] [INFO] [W1] [C52162] [Admin] → Prepare and assign credential "AgCred-1788584685635" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C52162]
+Status: FAILED
+Duration: 48701ms
+[2026-09-05T05:05:33.867Z] [ERROR] [W1] [C52162] [object Object]
+────────────────────────────────────────────────────────

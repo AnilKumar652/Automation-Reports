@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C52161]
+Title: Verify credential added in Training appears in Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:03:00.275Z] [INFO] [W1] [C52161] [Admin] → Prepare and assign credential "AgCred-1788584580274" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C52161]
+Status: FAILED
+Duration: 38337ms
+[2026-09-05T05:03:38.572Z] [ERROR] [W1] [C52161] [object Object]
+────────────────────────────────────────────────────────

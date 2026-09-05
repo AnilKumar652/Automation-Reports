@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52164]
+Title: Verify user can edit an existing credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:05:01.829Z] [INFO] [W0] [C52164] [Admin] → Open Agency Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52164]
+Status: FAILED
+Duration: 67079ms
+[2026-09-05T05:06:08.521Z] [ERROR] [W0] [C52164] [object Object]
+────────────────────────────────────────────────────────

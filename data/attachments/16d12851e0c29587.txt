@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C10485260]
+Title: Verify autogenerate toggle for same credential type across different clients
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-05T04:53:08.663Z] [INFO] [W1] [C10485260] [Admin] → Open Agency Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W1] [C10485260]
+Status: FAILED
+Duration: 66516ms
+[2026-09-05T04:54:14.949Z] [ERROR] [W1] [C10485260] [object Object]
+────────────────────────────────────────────────────────

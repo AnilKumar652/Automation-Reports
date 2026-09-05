@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:11:50.442Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 67511ms
+[2026-09-05T05:12:57.714Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

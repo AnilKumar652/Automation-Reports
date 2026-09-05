@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54656]
+Title: Verify single unused credential can be deleted
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:10:58.381Z] [INFO] [W1] [C54656] [Admin] → Open Agency Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54656]
+Status: FAILED
+Duration: 67891ms
+[2026-09-05T05:12:06.002Z] [ERROR] [W1] [C54656] [object Object]
+────────────────────────────────────────────────────────

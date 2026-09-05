@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58122]
+Title: Verify credential log can be removed from Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:18:10.597Z] [INFO] [W0] [C58122] [Admin] → Prepare and assign credential "AgCred-1788585490593" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58122]
+Status: FAILED
+Duration: 42849ms
+[2026-09-05T05:18:53.177Z] [ERROR] [W0] [C58122] [object Object]
+────────────────────────────────────────────────────────

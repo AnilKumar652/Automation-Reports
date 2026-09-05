@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54133]
+Title: Verify mandatory field validations when saving a credential without required details
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:07:53.957Z] [INFO] [W0] [C54133] [Admin] → Open Agency Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54133]
+Status: FAILED
+Duration: 67154ms
+[2026-09-05T05:09:00.642Z] [ERROR] [W0] [C54133] [object Object]
+────────────────────────────────────────────────────────

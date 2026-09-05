@@ -1,0 +1,22 @@
+[2026-09-05T05:18:00.572Z] [ERROR] [W0] [C58113] [Admin] ✗ Enable Personnel Record for "halFD@firstduesizeup.com" (16895ms)
+[2026-09-05T05:18:00.574Z] [ERROR] [W0] [C58113] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /Expand search input|Open search/i })
+    - locator resolved to <i tabindex="0" role="button" aria-label="Open search" class="icon-glyph-search search-input-icon"></i>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+
+[2026-09-05T05:18:00.575Z] [ERROR] [W0] [C58113] [Admin] ✗ Prepare and assign credential "AgCred-1788585454954" to personnel "Ravi Last" (25621ms)
+[2026-09-05T05:18:00.575Z] [ERROR] [W0] [C58113] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /Expand search input|Open search/i })
+    - locator resolved to <i tabindex="0" role="button" aria-label="Open search" class="icon-glyph-search search-input-icon"></i>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+

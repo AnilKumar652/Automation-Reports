@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5701947]
+Title: Verify filters in Credentials - Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:13:56.959Z] [INFO] [W0] [C5701947] [Admin] → Prepare and assign credential "AgCred-1788585236959" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5701947]
+Status: FAILED
+Duration: 49413ms
+[2026-09-05T05:14:45.929Z] [ERROR] [W0] [C5701947] [object Object]
+────────────────────────────────────────────────────────

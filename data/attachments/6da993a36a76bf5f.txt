@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C52165]
+Title: Verify duplicate credential name validation on create
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:06:34.782Z] [INFO] [W1] [C52165] [Admin] → Open Agency Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W1] [C52165]
+Status: FAILED
+Duration: 68297ms
+[2026-09-05T05:07:42.763Z] [ERROR] [W1] [C52165] [object Object]
+────────────────────────────────────────────────────────

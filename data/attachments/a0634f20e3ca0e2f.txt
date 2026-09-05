@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22670969]
+Title: Verify My Credentials page loads successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:27:04.088Z] [INFO] [W1] [C22670969] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22670969]
+Status: FAILED
+Duration: 60689ms
+[2026-09-05T05:28:04.495Z] [ERROR] [W1] [C22670969] [object Object]
+────────────────────────────────────────────────────────

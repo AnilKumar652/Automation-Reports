@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C7283439]
+Title: Verify autogenerate toggle for credential ID during credential creation
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:25:22.491Z] [INFO] [W0] [C7283439] [Admin] → Open Agency Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C7283439]
+Status: FAILED
+Duration: 64186ms
+[2026-09-05T05:26:26.444Z] [ERROR] [W0] [C7283439] [object Object]
+────────────────────────────────────────────────────────

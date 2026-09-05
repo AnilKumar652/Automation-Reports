@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58129]
+Title: Verify personnel removal from Admin Users reflects in Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-05T05:18:51.517Z] [INFO] [W1] [C58129] [Admin] → Prepare and assign credential "AgCred-1788585531516" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58129]
+Status: FAILED
+Duration: 43361ms
+[2026-09-05T05:19:34.622Z] [ERROR] [W1] [C58129] [object Object]
+────────────────────────────────────────────────────────

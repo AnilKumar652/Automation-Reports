@@ -1,0 +1,6 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181792]
+Title: Verify State / Province is optional when creating a regular credential
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-05T04:54:16.311Z] [INFO] [W0] [C22181792] [Admin] → Open Agency Credentials page
