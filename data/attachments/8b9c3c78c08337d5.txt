@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181793]
+Title: Verify State / Province is optional when creating a credential from Setup
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:20:26.150Z] [INFO] [W1] [C22181793] [Admin] → Open Agency Credentials page
+[2026-09-15T05:20:29.252Z] [INFO] [W1] [C22181793] [Admin] ✓ Open Agency Credentials page (3102ms)
+[2026-09-15T05:20:29.253Z] [INFO] [W1] [C22181793] [Admin] → Verify Agency Credentials page is ready
+[2026-09-15T05:20:29.471Z] [INFO] [W1] [C22181793] [Admin] ✓ Agency Credentials page is ready (218ms)
+[2026-09-15T05:20:29.479Z] [INFO] [W1] [C22181793] [Admin] → Open Add Credential form
+[2026-09-15T05:20:30.278Z] [INFO] [W1] [C22181793] [Admin] ✓ Open Add Credential form (799ms)
+[2026-09-15T05:20:30.279Z] [INFO] [W1] [C22181793] [Admin] → State Province Mandatory Indicator
+[2026-09-15T05:20:30.452Z] [INFO] [W1] [C22181793] [Admin] ✓ State Province Mandatory Indicator (173ms)
+[2026-09-15T05:20:30.453Z] [INFO] [W1] [C22181793] [Admin] → Create agency credential "AgCred-1789449626150"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181793]
+Status: FAILED
+Duration: 19139ms
+[2026-09-15T05:20:44.770Z] [ERROR] [W1] [C22181793] [object Object]
+────────────────────────────────────────────────────────

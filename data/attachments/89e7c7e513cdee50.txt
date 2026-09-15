@@ -1,0 +1,32 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181791]
+Title: Verify State / Province is mandatory for Global Credentials when TRN-1853 is enabled
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:19:44.213Z] [INFO] [W0] [C22181791] [Super Admin] → Open Global Credentials page
+[2026-09-15T05:19:49.492Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Open Global Credentials page (5279ms)
+[2026-09-15T05:19:49.500Z] [INFO] [W0] [C22181791] [Super Admin] → Is Global Credentials Page Ready
+[2026-09-15T05:19:50.165Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Is Global Credentials Page Ready (665ms)
+[2026-09-15T05:19:50.191Z] [INFO] [W0] [C22181791] [Super Admin] → Open Add Global Credential form
+[2026-09-15T05:19:58.741Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Open Add Global Credential form (8550ms)
+[2026-09-15T05:19:58.741Z] [INFO] [W0] [C22181791] [Super Admin] → Submit Global Credential Without State
+[2026-09-15T05:20:01.111Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Submit Global Credential Without State (2370ms)
+[2026-09-15T05:20:01.111Z] [INFO] [W0] [C22181791] [Super Admin] → Credential Validation Dialog Text
+[2026-09-15T05:20:01.155Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Credential Validation Dialog Text (44ms)
+[2026-09-15T05:20:01.161Z] [INFO] [W0] [C22181791] [Super Admin] → Dismiss Credential Validation Dialog
+[2026-09-15T05:20:01.220Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Dismiss Credential Validation Dialog (59ms)
+[2026-09-15T05:20:01.220Z] [INFO] [W0] [C22181791] [Super Admin] → Close Global Credential form
+[2026-09-15T05:20:01.476Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Close Global Credential form (256ms)
+[2026-09-15T05:20:01.476Z] [INFO] [W0] [C22181791] [Super Admin] → Create global credential "AutoGlobalCred-1789449601476"
+[2026-09-15T05:20:06.898Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Create global credential "AutoGlobalCred-1789449601476" (5422ms)
+[2026-09-15T05:20:06.899Z] [INFO] [W0] [C22181791] [Super Admin] → Is Add Global Credential Modal Open
+[2026-09-15T05:20:06.915Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Is Add Global Credential Modal Open (16ms)
+[2026-09-15T05:20:06.916Z] [INFO] [W0] [C22181791] [Super Admin] → Search global credentials for "AutoGlobalCred-1789449601476"
+[2026-09-15T05:20:08.709Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Search global credentials for "AutoGlobalCred-1789449601476" (1793ms)
+[2026-09-15T05:20:08.711Z] [INFO] [W0] [C22181791] [Super Admin] → Global Credential Row Visible
+[2026-09-15T05:20:08.771Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Global Credential Row Visible (60ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181791]
+Status: PASSED
+Duration: 25090ms
+────────────────────────────────────────────────────────

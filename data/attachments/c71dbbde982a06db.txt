@@ -1,0 +1,6 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:24:03.594Z] [INFO] [W0] [C52162] [Admin] → Prepare and assign credential "AgCred-1789449843594" to personnel "Ravi Last"

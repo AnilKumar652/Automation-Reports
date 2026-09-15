@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-09-15T05:18:17.855Z] [INFO] [W1] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-09-15T05:18:24.978Z] [INFO] [W1] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (7123ms)
+[2026-09-15T05:18:24.982Z] [INFO] [W1] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-09-15T05:18:25.153Z] [INFO] [W1] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (171ms)
+[2026-09-15T05:18:25.182Z] [INFO] [W1] [C45556] [Admin] → Create apparatus group "AutoApparatusGroup-1789449497855"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45556]
+Status: FAILED
+Duration: 76529ms
+[2026-09-15T05:19:34.109Z] [ERROR] [W1] [C45556] [object Object]
+────────────────────────────────────────────────────────

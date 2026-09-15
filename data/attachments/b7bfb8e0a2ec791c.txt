@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58112]
+Title: Verify first edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:30:57.155Z] [INFO] [W0] [C58112] [Admin] → Prepare and assign credential "AgCred-1789450257150" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58112]
+Status: FAILED
+Duration: 57219ms
+[2026-09-15T05:31:54.009Z] [ERROR] [W0] [C58112] [object Object]
+────────────────────────────────────────────────────────

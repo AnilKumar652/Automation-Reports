@@ -1,0 +1,24 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52160]
+Title: Verify credential creation modal displays all configured fields, controls, and default values
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:23:43.716Z] [INFO] [W0] [C52160] [Admin] → Open Agency Credentials page
+[2026-09-15T05:23:51.317Z] [INFO] [W0] [C52160] [Admin] ✓ Open Agency Credentials page (7601ms)
+[2026-09-15T05:23:51.317Z] [INFO] [W0] [C52160] [Admin] → Verify Agency Credentials page is ready
+[2026-09-15T05:23:58.315Z] [INFO] [W0] [C52160] [Admin] ✓ Agency Credentials page is ready (6998ms)
+[2026-09-15T05:23:58.327Z] [INFO] [W0] [C52160] [Admin] → Open Add Credential form
+[2026-09-15T05:24:00.394Z] [INFO] [W0] [C52160] [Admin] ✓ Open Add Credential form (2067ms)
+[2026-09-15T05:24:00.395Z] [INFO] [W0] [C52160] [Admin] → Verify credential form controls are visible
+[2026-09-15T05:24:00.649Z] [INFO] [W0] [C52160] [Admin] ✓ Credential form controls are visible (254ms)
+[2026-09-15T05:24:00.654Z] [INFO] [W0] [C52160] [Admin] → Verify Total Hours default value
+[2026-09-15T05:24:00.708Z] [INFO] [W0] [C52160] [Admin] ✓ Total Hours default value verified (54ms)
+[2026-09-15T05:24:00.714Z] [INFO] [W0] [C52160] [Admin] → Close Credential form
+[2026-09-15T05:24:00.951Z] [INFO] [W0] [C52160] [Admin] ✓ Close Credential form (237ms)
+[2026-09-15T05:24:00.951Z] [INFO] [W0] [C52160] [Admin] → Verify Add Credential modal is closed
+[2026-09-15T05:24:00.993Z] [INFO] [W0] [C52160] [Admin] ✓ Add Credential modal is closed (42ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52160]
+Status: PASSED
+Duration: 17784ms
+────────────────────────────────────────────────────────

@@ -1,0 +1,10 @@
+[2026-09-15T05:28:06.154Z] [ERROR] [W0] [C54657] [Admin] ✗ Select first available linked training plan (10074ms)
+[2026-09-15T05:28:06.157Z] [ERROR] [W0] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-09-15T05:28:06.157Z] [ERROR] [W0] [C54657] [Admin] ✗ Create agency credential "AutoBulkDel-1789450056449-1" (13685ms)
+[2026-09-15T05:28:06.157Z] [ERROR] [W0] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

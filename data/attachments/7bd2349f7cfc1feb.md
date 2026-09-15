@@ -1,0 +1,386 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: asset-management-setup/apparatus-groups/C45556-create-apparatus-groups.spec.ts >> Asset management setup apparatus groups >> C45556: Create Apparatus Groups
+- Location: src/tests/asset-management-setup/apparatus-groups/C45556-create-apparatus-groups.spec.ts:17:7
+
+# Error details
+
+```
+TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="asset_setup_tab_apparatus_groups"]')
+    - locator resolved to <a class="" title="Apparatus Groups" data-testid="asset_setup_tab_apparatus_groups">↵                                        Apparatu…</a>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to main content":
+    - /url: "#main-content"
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - button "Show main sidebar" [ref=e8]:
+          - img [ref=e9]
+        - generic [ref=e14]: Setup
+        - generic:
+          - generic:  
+      - main [ref=e15]:
+        - generic [ref=e21]:
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - generic "Settings" [ref=e25] [cursor=pointer]
+            - listitem [ref=e26]:
+              - generic "Checklist" [ref=e27] [cursor=pointer]
+            - listitem [ref=e28]:
+              - generic "Work Orders" [ref=e29] [cursor=pointer]
+            - listitem [ref=e30]:
+              - generic "Preventative Maintenance" [ref=e31] [cursor=pointer]
+            - listitem [ref=e32]:
+              - generic "Notification" [ref=e33] [cursor=pointer]
+            - listitem [ref=e34]:
+              - generic "External Sharing" [ref=e35] [cursor=pointer]
+            - listitem [ref=e36]:
+              - generic "Apparatus Groups" [ref=e37] [cursor=pointer]
+            - listitem [ref=e38]:
+              - generic "Equipment Groups" [ref=e39] [cursor=pointer]
+            - listitem [ref=e40]:
+              - generic "Location Groups" [ref=e41] [cursor=pointer]
+            - listitem [ref=e42]:
+              - generic "Kit Groups" [ref=e43] [cursor=pointer]
+            - listitem [ref=e44]:
+              - generic "Fluid Types" [ref=e45] [cursor=pointer]
+            - listitem [ref=e46]:
+              - generic "Inventory" [ref=e47] [cursor=pointer]
+            - listitem [ref=e48]:
+              - generic "Orders" [ref=e49] [cursor=pointer]
+            - listitem [ref=e50]:
+              - generic "FEMA Cost Codes" [ref=e51] [cursor=pointer]
+          - generic [ref=e54]:
+            - heading "Apparatus Groups" [level=2] [ref=e56]
+            - search [ref=e57]:
+              - generic [ref=e58]:
+                - generic [ref=e59]:
+                  - generic [ref=e60]:
+                    - generic [ref=e61]: Name
+                    - textbox "Name" [ref=e63]
+                  - generic [ref=e64]:
+                    - generic [ref=e65]: Description
+                    - textbox "Description" [ref=e67]
+                - generic [ref=e68]:
+                  - button "Search" [ref=e69] [cursor=pointer]
+                  - link "Reset" [ref=e70] [cursor=pointer]:
+                    - /url: "#"
+              - generic "Download" [ref=e72]:
+                - generic [ref=e73]: 
+            - generic [ref=e75]:
+              - link "New Apparatus Group" [ref=e76] [cursor=pointer]:
+                - /url: "#"
+              - link "Bulk Update" [ref=e77]:
+                - /url: "#"
+            - table [ref=e78]:
+              - rowgroup [ref=e79]:
+                - row "Select All Position Name Description Actions" [ref=e80]:
+                  - columnheader "Select All" [ref=e81]:
+                    - checkbox "Select All" [ref=e82]
+                  - columnheader "Position" [ref=e83]
+                  - columnheader "Name" [ref=e84]
+                  - columnheader "Description" [ref=e85]
+                  - columnheader "Actions" [ref=e86]
+              - rowgroup [ref=e87]:
+                - row " AutoApparatusGroup-1788528099928 Automation apparatus group 1788528099928  " [ref=e88]:
+                  - cell [ref=e89]:
+                    - checkbox [ref=e90]
+                  - cell "" [ref=e91]:
+                    - generic "Drag and Drop" [ref=e92]: 
+                  - cell "AutoApparatusGroup-1788528099928" [ref=e93]
+                  - cell "Automation apparatus group 1788528099928" [ref=e94]
+                  - cell " " [ref=e95]:
+                    - generic "Edit" [ref=e96] [cursor=pointer]: 
+                    - generic "Delete" [ref=e97] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1788789938834 Automation apparatus group 1788789938834  " [ref=e98]:
+                  - cell [ref=e99]:
+                    - checkbox [ref=e100]
+                  - cell "" [ref=e101]:
+                    - generic "Drag and Drop" [ref=e102]: 
+                  - cell "AutoApparatusGroup-1788789938834" [ref=e103]
+                  - cell "Automation apparatus group 1788789938834" [ref=e104]
+                  - cell " " [ref=e105]:
+                    - generic "Edit" [ref=e106] [cursor=pointer]: 
+                    - generic "Delete" [ref=e107] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1788789979327 Automation apparatus group 1788789979327  " [ref=e108]:
+                  - cell [ref=e109]:
+                    - checkbox [ref=e110]
+                  - cell "" [ref=e111]:
+                    - generic "Drag and Drop" [ref=e112]: 
+                  - cell "AutoApparatusGroup-1788789979327" [ref=e113]
+                  - cell "Automation apparatus group 1788789979327" [ref=e114]
+                  - cell " " [ref=e115]:
+                    - generic "Edit" [ref=e116] [cursor=pointer]: 
+                    - generic "Delete" [ref=e117] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1788844015085 Automation apparatus group 1788844015085  " [ref=e118]:
+                  - cell [ref=e119]:
+                    - checkbox [ref=e120]
+                  - cell "" [ref=e121]:
+                    - generic "Drag and Drop" [ref=e122]: 
+                  - cell "AutoApparatusGroup-1788844015085" [ref=e123]
+                  - cell "Automation apparatus group 1788844015085" [ref=e124]
+                  - cell " " [ref=e125]:
+                    - generic "Edit" [ref=e126] [cursor=pointer]: 
+                    - generic "Delete" [ref=e127] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1788844015708 Automation apparatus group 1788844015708  " [ref=e128]:
+                  - cell [ref=e129]:
+                    - checkbox [ref=e130]
+                  - cell "" [ref=e131]:
+                    - generic "Drag and Drop" [ref=e132]: 
+                  - cell "AutoApparatusGroup-1788844015708" [ref=e133]
+                  - cell "Automation apparatus group 1788844015708" [ref=e134]
+                  - cell " " [ref=e135]:
+                    - generic "Edit" [ref=e136] [cursor=pointer]: 
+                    - generic "Delete" [ref=e137] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1788852058332 Automation apparatus group 1788852058332  " [ref=e138]:
+                  - cell [ref=e139]:
+                    - checkbox [ref=e140]
+                  - cell "" [ref=e141]:
+                    - generic "Drag and Drop" [ref=e142]: 
+                  - cell "AutoApparatusGroup-1788852058332" [ref=e143]
+                  - cell "Automation apparatus group 1788852058332" [ref=e144]
+                  - cell " " [ref=e145]:
+                    - generic "Edit" [ref=e146] [cursor=pointer]: 
+                    - generic "Delete" [ref=e147] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1788852353203 Automation apparatus group 1788852353203  " [ref=e148]:
+                  - cell [ref=e149]:
+                    - checkbox [ref=e150]
+                  - cell "" [ref=e151]:
+                    - generic "Drag and Drop" [ref=e152]: 
+                  - cell "AutoApparatusGroup-1788852353203" [ref=e153]
+                  - cell "Automation apparatus group 1788852353203" [ref=e154]
+                  - cell " " [ref=e155]:
+                    - generic "Edit" [ref=e156] [cursor=pointer]: 
+                    - generic "Delete" [ref=e157] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1788860278370 Automation apparatus group 1788860278370  " [ref=e158]:
+                  - cell [ref=e159]:
+                    - checkbox [ref=e160]
+                  - cell "" [ref=e161]:
+                    - generic "Drag and Drop" [ref=e162]: 
+                  - cell "AutoApparatusGroup-1788860278370" [ref=e163]
+                  - cell "Automation apparatus group 1788860278370" [ref=e164]
+                  - cell " " [ref=e165]:
+                    - generic "Edit" [ref=e166] [cursor=pointer]: 
+                    - generic "Delete" [ref=e167] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1788860640590 Automation apparatus group 1788860640590  " [ref=e168]:
+                  - cell [ref=e169]:
+                    - checkbox [ref=e170]
+                  - cell "" [ref=e171]:
+                    - generic "Drag and Drop" [ref=e172]: 
+                  - cell "AutoApparatusGroup-1788860640590" [ref=e173]
+                  - cell "Automation apparatus group 1788860640590" [ref=e174]
+                  - cell " " [ref=e175]:
+                    - generic "Edit" [ref=e176] [cursor=pointer]: 
+                    - generic "Delete" [ref=e177] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1788930337802 Automation apparatus group 1788930337802  " [ref=e178]:
+                  - cell [ref=e179]:
+                    - checkbox [ref=e180]
+                  - cell "" [ref=e181]:
+                    - generic "Drag and Drop" [ref=e182]: 
+                  - cell "AutoApparatusGroup-1788930337802" [ref=e183]
+                  - cell "Automation apparatus group 1788930337802" [ref=e184]
+                  - cell " " [ref=e185]:
+                    - generic "Edit" [ref=e186] [cursor=pointer]: 
+                    - generic "Delete" [ref=e187] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1788930337854 Automation apparatus group 1788930337854  " [ref=e188]:
+                  - cell [ref=e189]:
+                    - checkbox [ref=e190]
+                  - cell "" [ref=e191]:
+                    - generic "Drag and Drop" [ref=e192]: 
+                  - cell "AutoApparatusGroup-1788930337854" [ref=e193]
+                  - cell "Automation apparatus group 1788930337854" [ref=e194]
+                  - cell " " [ref=e195]:
+                    - generic "Edit" [ref=e196] [cursor=pointer]: 
+                    - generic "Delete" [ref=e197] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1789016915767 Automation apparatus group 1789016915767  " [ref=e198]:
+                  - cell [ref=e199]:
+                    - checkbox [ref=e200]
+                  - cell "" [ref=e201]:
+                    - generic "Drag and Drop" [ref=e202]: 
+                  - cell "AutoApparatusGroup-1789016915767" [ref=e203]
+                  - cell "Automation apparatus group 1789016915767" [ref=e204]
+                  - cell " " [ref=e205]:
+                    - generic "Edit" [ref=e206] [cursor=pointer]: 
+                    - generic "Delete" [ref=e207] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1789016919933 Automation apparatus group 1789016919933  " [ref=e208]:
+                  - cell [ref=e209]:
+                    - checkbox [ref=e210]
+                  - cell "" [ref=e211]:
+                    - generic "Drag and Drop" [ref=e212]: 
+                  - cell "AutoApparatusGroup-1789016919933" [ref=e213]
+                  - cell "Automation apparatus group 1789016919933" [ref=e214]
+                  - cell " " [ref=e215]:
+                    - generic "Edit" [ref=e216] [cursor=pointer]: 
+                    - generic "Delete" [ref=e217] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1789103215106 Automation apparatus group 1789103215106  " [ref=e218]:
+                  - cell [ref=e219]:
+                    - checkbox [ref=e220]
+                  - cell "" [ref=e221]:
+                    - generic "Drag and Drop" [ref=e222]: 
+                  - cell "AutoApparatusGroup-1789103215106" [ref=e223]
+                  - cell "Automation apparatus group 1789103215106" [ref=e224]
+                  - cell " " [ref=e225]:
+                    - generic "Edit" [ref=e226] [cursor=pointer]: 
+                    - generic "Delete" [ref=e227] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1789103250467 Automation apparatus group 1789103250467  " [ref=e228]:
+                  - cell [ref=e229]:
+                    - checkbox [ref=e230]
+                  - cell "" [ref=e231]:
+                    - generic "Drag and Drop" [ref=e232]: 
+                  - cell "AutoApparatusGroup-1789103250467" [ref=e233]
+                  - cell "Automation apparatus group 1789103250467" [ref=e234]
+                  - cell " " [ref=e235]:
+                    - generic "Edit" [ref=e236] [cursor=pointer]: 
+                    - generic "Delete" [ref=e237] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1789188973295 Automation apparatus group 1789188973295  " [ref=e238]:
+                  - cell [ref=e239]:
+                    - checkbox [ref=e240]
+                  - cell "" [ref=e241]:
+                    - generic "Drag and Drop" [ref=e242]: 
+                  - cell "AutoApparatusGroup-1789188973295" [ref=e243]
+                  - cell "Automation apparatus group 1789188973295" [ref=e244]
+                  - cell " " [ref=e245]:
+                    - generic "Edit" [ref=e246] [cursor=pointer]: 
+                    - generic "Delete" [ref=e247] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1789188973233 Automation apparatus group 1789188973233  " [ref=e248]:
+                  - cell [ref=e249]:
+                    - checkbox [ref=e250]
+                  - cell "" [ref=e251]:
+                    - generic "Drag and Drop" [ref=e252]: 
+                  - cell "AutoApparatusGroup-1789188973233" [ref=e253]
+                  - cell "Automation apparatus group 1789188973233" [ref=e254]
+                  - cell " " [ref=e255]:
+                    - generic "Edit" [ref=e256] [cursor=pointer]: 
+                    - generic "Delete" [ref=e257] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1789276715218 Automation apparatus group 1789276715218  " [ref=e258]:
+                  - cell [ref=e259]:
+                    - checkbox [ref=e260]
+                  - cell "" [ref=e261]:
+                    - generic "Drag and Drop" [ref=e262]: 
+                  - cell "AutoApparatusGroup-1789276715218" [ref=e263]
+                  - cell "Automation apparatus group 1789276715218" [ref=e264]
+                  - cell " " [ref=e265]:
+                    - generic "Edit" [ref=e266] [cursor=pointer]: 
+                    - generic "Delete" [ref=e267] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1789276802121 Automation apparatus group 1789276802121  " [ref=e268]:
+                  - cell [ref=e269]:
+                    - checkbox [ref=e270]
+                  - cell "" [ref=e271]:
+                    - generic "Drag and Drop" [ref=e272]: 
+                  - cell "AutoApparatusGroup-1789276802121" [ref=e273]
+                  - cell "Automation apparatus group 1789276802121" [ref=e274]
+                  - cell " " [ref=e275]:
+                    - generic "Edit" [ref=e276] [cursor=pointer]: 
+                    - generic "Delete" [ref=e277] [cursor=pointer]: 
+                - row " AutoApparatusGroup-1789363372264 Automation apparatus group 1789363372264  " [ref=e278]:
+                  - cell [ref=e279]:
+                    - checkbox [ref=e280]
+                  - cell "" [ref=e281]:
+                    - generic "Drag and Drop" [ref=e282]: 
+                  - cell "AutoApparatusGroup-1789363372264" [ref=e283]
+                  - cell "Automation apparatus group 1789363372264" [ref=e284]
+                  - cell " " [ref=e285]:
+                    - generic "Edit" [ref=e286] [cursor=pointer]: 
+                    - generic "Delete" [ref=e287] [cursor=pointer]: 
+            - generic [ref=e288]:
+              - generic [ref=e289]:
+                - generic:
+                  - list:
+                    - listitem [ref=e290]:
+                      - link "1" [ref=e291] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e292]:
+                      - link "2" [ref=e293] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e294]:
+                      - link "→" [ref=e295] [cursor=pointer]:
+                        - /url: "#"
+              - list [ref=e296]:
+                - listitem [ref=e297]:
+                  - generic [ref=e298]: "20"
+                - listitem [ref=e299]:
+                  - link "50" [ref=e300] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e301]:
+                  - link "100" [ref=e302] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e303]:
+                  - link "All" [ref=e304] [cursor=pointer]:
+                    - /url: "#"
+      - contentinfo [ref=e305]:
+        - text: © 2017-2026 First Due. Powered by
+        - link "LocalityMedia, Inc" [ref=e306] [cursor=pointer]:
+          - /url: https://www.firstdue.com/
+        - text: .
+    - text: 
+  - generic [ref=e308] [cursor=pointer]: 
+  - generic:
+    - button "Chat Close Maven Chat" [ref=e309] [cursor=pointer]:
+      - img "Chat" [ref=e311]
+      - button "Close Maven Chat"
+    - iframe
+```
+
+# Test source
+
+```ts
+  1  | import type { Actor } from '../Actor';
+  2  | import { Interaction } from '../Interaction';
+  3  | import type { Target } from '../Target';
+  4  | import { resolveLocator } from '../Target';
+  5  | import { BrowseTheWeb } from '../abilities/BrowseTheWeb';
+  6  | 
+  7  | export class Click extends Interaction {
+  8  |   private constructor(
+  9  |     private readonly target: Target | string,
+  10 |     private readonly timeout?: number,
+  11 |   ) {
+  12 |     super();
+  13 |   }
+  14 | 
+  15 |   static on(target: Target | string, timeout?: number): Click {
+  16 |     return new Click(target, timeout);
+  17 |   }
+  18 | 
+  19 |   describeAction(): string {
+  20 |     const timeoutSuffix = this.timeout ? ` (timeout ${this.timeout}ms)` : '';
+  21 |     return `Click ${Interaction.targetLabel(this.target)}${timeoutSuffix}`;
+  22 |   }
+  23 | 
+  24 |   describeDebugDetails(): string | undefined {
+  25 |     return Interaction.locatorDetail(this.target);
+  26 |   }
+  27 | 
+  28 |   async performAs(actor: Actor): Promise<void> {
+  29 |     const { page } = actor.abilityTo(BrowseTheWeb);
+  30 | 
+> 31 |     await page.locator(resolveLocator(this.target)).click({
+     |                                                     ^ TimeoutError: locator.click: Timeout 10000ms exceeded.
+  32 |       timeout: this.timeout,
+  33 |     });
+  34 |   }
+  35 | }
+  36 | 
+```

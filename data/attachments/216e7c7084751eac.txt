@@ -1,0 +1,44 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:22:32.069Z] [INFO] [W1] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-09-15T05:22:39.814Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Open Global Credentials page (7745ms)
+[2026-09-15T05:22:39.816Z] [INFO] [W1] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-09-15T05:22:47.555Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (7739ms)
+[2026-09-15T05:22:47.565Z] [INFO] [W1] [C22181795] [Super Admin] → Create global credential "AutoGlobalCred-1789449752069"
+[2026-09-15T05:22:56.241Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Create global credential "AutoGlobalCred-1789449752069" (8676ms)
+[2026-09-15T05:22:56.241Z] [INFO] [W1] [C22181795] [Super Admin] → Is Add Global Credential Modal Open
+[2026-09-15T05:22:56.317Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Is Add Global Credential Modal Open (76ms)
+[2026-09-15T05:22:56.331Z] [INFO] [W1] [C22181795] [Super Admin] → Search global credentials for "AutoGlobalCred-1789449752069"
+[2026-09-15T05:22:57.963Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Search global credentials for "AutoGlobalCred-1789449752069" (1632ms)
+[2026-09-15T05:22:57.963Z] [INFO] [W1] [C22181795] [Super Admin] → Global Credential Row Visible
+[2026-09-15T05:22:58.014Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Global Credential Row Visible (46ms)
+[2026-09-15T05:22:58.015Z] [INFO] [W1] [C22181795] [Admin] → Open Agency Credentials page
+[2026-09-15T05:23:08.656Z] [INFO] [W1] [C22181795] [Admin] ✓ Open Agency Credentials page (10641ms)
+[2026-09-15T05:23:08.656Z] [INFO] [W1] [C22181795] [Admin] → Verify Agency Credentials page is ready
+[2026-09-15T05:23:27.039Z] [INFO] [W1] [C22181795] [Admin] ✓ Agency Credentials page is ready (18383ms)
+[2026-09-15T05:23:27.041Z] [INFO] [W1] [C22181795] [Admin] → Import global credential "AutoGlobalCred-1789449752069"
+[2026-09-15T05:23:29.328Z] [INFO] [W1] [C22181795] [Admin] ✓ Import global credential "AutoGlobalCred-1789449752069" (2287ms)
+[2026-09-15T05:23:29.329Z] [INFO] [W1] [C22181795] [Admin] → Is Import Global Credentials Modal Open
+[2026-09-15T05:23:29.414Z] [INFO] [W1] [C22181795] [Admin] ✓ Is Import Global Credentials Modal Open (85ms)
+[2026-09-15T05:23:29.423Z] [INFO] [W1] [C22181795] [Admin] → Import Complete Dialog Text
+[2026-09-15T05:23:29.510Z] [INFO] [W1] [C22181795] [Admin] ✓ Import Complete Dialog Text (87ms)
+[2026-09-15T05:23:29.527Z] [INFO] [W1] [C22181795] [Admin] → Dismiss Import Complete dialog
+[2026-09-15T05:23:29.859Z] [INFO] [W1] [C22181795] [Admin] ✓ Dismiss Import Complete dialog (332ms)
+[2026-09-15T05:23:29.860Z] [INFO] [W1] [C22181795] [Admin] → Import Global Credential Result
+[2026-09-15T05:23:29.914Z] [INFO] [W1] [C22181795] [Admin] ✓ Import Global Credential Result (54ms)
+[2026-09-15T05:23:29.915Z] [INFO] [W1] [C22181795] [Admin] → Close Import Global Credentials modal
+[2026-09-15T05:23:31.567Z] [INFO] [W1] [C22181795] [Admin] ✓ Close Import Global Credentials modal (1652ms)
+[2026-09-15T05:23:31.567Z] [INFO] [W1] [C22181795] [Admin] → Is Import Global Credentials Modal Open
+[2026-09-15T05:23:31.633Z] [INFO] [W1] [C22181795] [Admin] ✓ Is Import Global Credentials Modal Open (66ms)
+[2026-09-15T05:23:31.640Z] [INFO] [W1] [C22181795] [Admin] → Search agency credentials for "AutoGlobalCred-1789449752069"
+[2026-09-15T05:23:34.442Z] [INFO] [W1] [C22181795] [Admin] ✓ Search agency credentials for "AutoGlobalCred-1789449752069" (2802ms)
+[2026-09-15T05:23:34.442Z] [INFO] [W1] [C22181795] [Admin] → Agency Credential Row Visible
+[2026-09-15T05:23:34.480Z] [INFO] [W1] [C22181795] [Admin] ✓ Agency Credential Row Visible (38ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181795]
+Status: PASSED
+Duration: 63216ms
+────────────────────────────────────────────────────────

@@ -1,0 +1,11 @@
+[2026-09-15T05:14:16.861Z] [ERROR] [W1] [C5877541] [Admin] ✗ Wait until Organization row for "AutoShift-1789449187018" is visible (60012ms)
+[2026-09-15T05:14:16.862Z] [ERROR] [W1] [C5877541] Locator: role=gridcell[name="AutoShift-1789449187018"i]
+[2026-09-15T05:14:16.862Z] [ERROR] [W1] [C5877541] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="AutoShift-1789449187018"i]') to be visible
+
+[2026-09-15T05:14:16.862Z] [ERROR] [W1] [C5877541] [Admin] ✗ Add organization shift "AutoShift-1789449187018" (62072ms)
+[2026-09-15T05:14:16.862Z] [ERROR] [W1] [C5877541] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="AutoShift-1789449187018"i]') to be visible
+

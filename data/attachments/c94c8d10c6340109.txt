@@ -1,0 +1,11 @@
+[2026-09-15T05:14:17.378Z] [ERROR] [W0] [C5877540] [Admin] ✗ Wait until Organization row for "AutoDivision-1789449194497" is visible (60020ms)
+[2026-09-15T05:14:17.378Z] [ERROR] [W0] [C5877540] Locator: role=gridcell[name="AutoDivision-1789449194497"i]
+[2026-09-15T05:14:17.378Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="AutoDivision-1789449194497"i]') to be visible
+
+[2026-09-15T05:14:17.378Z] [ERROR] [W0] [C5877540] [Admin] ✗ Add organization division "AutoDivision-1789449194497" (62625ms)
+[2026-09-15T05:14:17.378Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="AutoDivision-1789449194497"i]') to be visible
+

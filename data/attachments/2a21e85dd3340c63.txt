@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22682822]
+Title: Verify View opens In Progress credential renewal details with progress hours
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:55:21.970Z] [INFO] [W0] [C22682822] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22682822]
+Status: FAILED
+Duration: 60752ms
+[2026-09-15T05:56:22.454Z] [ERROR] [W0] [C22682822] [object Object]
+────────────────────────────────────────────────────────

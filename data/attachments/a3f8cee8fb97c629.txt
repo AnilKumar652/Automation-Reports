@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C52161]
+Title: Verify Credential Added in Training Appears in Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:24:28.823Z] [INFO] [W1] [C52161] [Admin] → Open Personnel List page
+[2026-09-15T05:24:33.100Z] [INFO] [W1] [C52161] [Admin] ✓ Open Personnel List page (4277ms)
+[2026-09-15T05:24:33.100Z] [INFO] [W1] [C52161] [Admin] → Search personnel list for "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C52161]
+Status: FAILED
+Duration: 41710ms
+[2026-09-15T05:25:10.143Z] [ERROR] [W1] [C52161] [object Object]
+────────────────────────────────────────────────────────

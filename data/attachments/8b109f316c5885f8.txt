@@ -1,0 +1,5 @@
+[2026-09-15T05:24:26.052Z] [ERROR] [W1] [C52161] [Admin] ✗ Search personnel list for "Ravi Last" (38177ms)
+[2026-09-15T05:24:26.052Z] [ERROR] [W1] [C52161] locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for getByRole('row', { name: /(?=.*Ravi)(?=.*Last).*/i }).first() to be visible
+

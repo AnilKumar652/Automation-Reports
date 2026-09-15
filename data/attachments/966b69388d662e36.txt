@@ -1,0 +1,6 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22670969]
+Title: Verify My Credentials page loads successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:38:28.730Z] [INFO] [W1] [C22670969] [User] → Open My Credentials page

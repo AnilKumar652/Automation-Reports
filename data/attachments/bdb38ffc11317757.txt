@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C2796236]
+Title: Create Group with toggle "show on shift board" ON
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:58:49.726Z] [INFO] [W0] [C2796236] [Admin] → Open Scheduling Setup Groups page
+[2026-09-15T05:58:53.230Z] [INFO] [W0] [C2796236] [Admin] ✓ Open Scheduling Setup Groups page (3504ms)
+[2026-09-15T05:58:53.231Z] [INFO] [W0] [C2796236] [Admin] → Is Groups Page Ready
+[2026-09-15T05:58:53.258Z] [INFO] [W0] [C2796236] [Admin] ✓ Is Groups Page Ready (27ms)
+[2026-09-15T05:58:53.262Z] [INFO] [W0] [C2796236] [Admin] → Open create group form
+[2026-09-15T05:58:55.036Z] [INFO] [W0] [C2796236] [Admin] ✓ Open create group form (1774ms)
+[2026-09-15T05:58:55.036Z] [INFO] [W0] [C2796236] [Admin] → Fill group form for "AutoGroup-1789451929725"
+[2026-09-15T05:58:55.648Z] [INFO] [W0] [C2796236] [Admin] ✓ Fill group form for "AutoGroup-1789451929725" (612ms)
+[2026-09-15T05:58:55.648Z] [INFO] [W0] [C2796236] [Admin] → Group Show On Shift Board Toggle State
+[2026-09-15T05:58:55.701Z] [INFO] [W0] [C2796236] [Admin] ✓ Group Show On Shift Board Toggle State (53ms)
+[2026-09-15T05:58:55.705Z] [INFO] [W0] [C2796236] [Admin] → Ensure group show on shift board toggle is on
+[2026-09-15T05:58:55.733Z] [INFO] [W0] [C2796236] [Admin] ✓ Ensure group show on shift board toggle is on (28ms)
+[2026-09-15T05:58:55.733Z] [INFO] [W0] [C2796236] [Admin] → Save group "AutoGroup-1789451929725"
+[2026-09-15T05:59:00.689Z] [INFO] [W0] [C2796236] [Admin] ✓ Save group "AutoGroup-1789451929725" (4956ms)
+[2026-09-15T05:59:00.689Z] [INFO] [W0] [C2796236] [Admin] → Group Created Success Message
+[2026-09-15T05:59:00.714Z] [INFO] [W0] [C2796236] [Admin] ✓ Group Created Success Message (25ms)
+[2026-09-15T05:59:00.717Z] [INFO] [W0] [C2796236] [Admin] → Scheduling Setup Row Visible
+[2026-09-15T05:59:00.756Z] [INFO] [W0] [C2796236] [Admin] ✓ Scheduling Setup Row Visible (39ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C2796236]
+Status: PASSED
+Duration: 11352ms
+────────────────────────────────────────────────────────

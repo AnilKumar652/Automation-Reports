@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54659]
+Title: Verify in-use credential cannot be deleted
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:28:08.075Z] [INFO] [W1] [C54659] [Admin] → Open Agency Credentials page
+[2026-09-15T05:28:12.111Z] [INFO] [W1] [C54659] [Admin] ✓ Open Agency Credentials page (4036ms)
+[2026-09-15T05:28:12.111Z] [INFO] [W1] [C54659] [Admin] → Verify Agency Credentials page is ready
+[2026-09-15T05:28:12.837Z] [INFO] [W1] [C54659] [Admin] ✓ Agency Credentials page is ready (726ms)
+[2026-09-15T05:28:12.862Z] [INFO] [W1] [C54659] [Admin] → Create agency credential "AgCred-1789450088074"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54659]
+Status: FAILED
+Duration: 26308ms
+[2026-09-15T05:28:33.642Z] [ERROR] [W1] [C54659] [object Object]
+────────────────────────────────────────────────────────

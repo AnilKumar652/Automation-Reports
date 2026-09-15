@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:27:36.449Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+[2026-09-15T05:27:42.192Z] [INFO] [W0] [C54657] [Admin] ✓ Open Agency Credentials page (5743ms)
+[2026-09-15T05:27:42.193Z] [INFO] [W0] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-09-15T05:27:52.461Z] [INFO] [W0] [C54657] [Admin] ✓ Agency Credentials page is ready (10268ms)
+[2026-09-15T05:27:52.472Z] [INFO] [W0] [C54657] [Admin] → Create agency credential "AutoBulkDel-1789450056449-1"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 30658ms
+[2026-09-15T05:28:06.320Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

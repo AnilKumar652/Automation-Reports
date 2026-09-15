@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:16:38.951Z] [INFO] [W1] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-09-15T05:17:01.970Z] [INFO] [W1] [C5877543] [Admin] ✓ Open Agency Setup Organization page (23019ms)
+[2026-09-15T05:17:01.973Z] [INFO] [W1] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-09-15T05:17:02.173Z] [INFO] [W1] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (200ms)
+[2026-09-15T05:17:02.185Z] [INFO] [W1] [C5877543] [Admin] → Select Organization Positions tab
+[2026-09-15T05:17:02.950Z] [INFO] [W1] [C5877543] [Admin] ✓ Select Organization Positions tab (765ms)
+[2026-09-15T05:17:02.951Z] [INFO] [W1] [C5877543] [Admin] → Add organization position "AutoPosition-1789449421970"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5877543]
+Status: FAILED
+Duration: 86149ms
+[2026-09-15T05:18:04.833Z] [ERROR] [W1] [C5877543] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5883872]
+Title: Verify unique credential ID validation
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:34:19.869Z] [INFO] [W1] [C5883872] [Admin] → Open Agency Credentials page
+[2026-09-15T05:34:23.525Z] [INFO] [W1] [C5883872] [Admin] ✓ Open Agency Credentials page (3656ms)
+[2026-09-15T05:34:23.525Z] [INFO] [W1] [C5883872] [Admin] → Verify Agency Credentials page is ready
+[2026-09-15T05:34:23.610Z] [INFO] [W1] [C5883872] [Admin] ✓ Agency Credentials page is ready (85ms)
+[2026-09-15T05:34:23.623Z] [INFO] [W1] [C5883872] [Admin] → Create agency credential "AgCred-1789450459869"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5883872]
+Status: FAILED
+Duration: 22457ms
+[2026-09-15T05:34:41.830Z] [ERROR] [W1] [C5883872] [object Object]
+────────────────────────────────────────────────────────

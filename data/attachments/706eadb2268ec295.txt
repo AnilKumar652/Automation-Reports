@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:17:01.738Z] [INFO] [W0] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-09-15T05:17:17.383Z] [INFO] [W0] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (15645ms)
+[2026-09-15T05:17:17.383Z] [INFO] [W0] [C22779515] [Admin] → Create apparatus group "AutoApparatusGroup-1789449421735"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22779515]
+Status: FAILED
+Duration: 76952ms
+[2026-09-15T05:18:17.989Z] [ERROR] [W0] [C22779515] [object Object]
+────────────────────────────────────────────────────────

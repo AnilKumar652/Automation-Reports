@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54656]
+Title: Verify single unused credential can be deleted
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:27:29.426Z] [INFO] [W1] [C54656] [Admin] → Open Agency Credentials page
+[2026-09-15T05:27:38.149Z] [INFO] [W1] [C54656] [Admin] ✓ Open Agency Credentials page (8723ms)
+[2026-09-15T05:27:38.149Z] [INFO] [W1] [C54656] [Admin] → Verify Agency Credentials page is ready
+[2026-09-15T05:27:46.663Z] [INFO] [W1] [C54656] [Admin] ✓ Agency Credentials page is ready (8514ms)
+[2026-09-15T05:27:46.668Z] [INFO] [W1] [C54656] [Admin] → Create agency credential "AgCred-1789450049423"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54656]
+Status: FAILED
+Duration: 32356ms
+[2026-09-15T05:28:01.531Z] [ERROR] [W1] [C54656] [object Object]
+────────────────────────────────────────────────────────

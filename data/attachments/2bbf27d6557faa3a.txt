@@ -1,0 +1,10 @@
+[2026-09-15T05:30:48.292Z] [ERROR] [W1] [C58111] [Admin] ✗ Enable Personnel Record for "halFD@firstduesizeup.com" (44795ms)
+[2026-09-15T05:30:48.292Z] [ERROR] [W1] [C58111] locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('row', { name: /halFD@firstduesizeup.com/i }).first() to be visible
+
+[2026-09-15T05:30:48.293Z] [ERROR] [W1] [C58111] [Admin] ✗ Prepare and assign credential "AgCred-1789450192857" to personnel "Ravi Last" (55436ms)
+[2026-09-15T05:30:48.293Z] [ERROR] [W1] [C58111] locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('row', { name: /halFD@firstduesizeup.com/i }).first() to be visible
+

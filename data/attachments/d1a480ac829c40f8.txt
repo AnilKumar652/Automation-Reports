@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:21:26.923Z] [INFO] [W1] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-09-15T05:21:33.463Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Open Global Credentials page (6540ms)
+[2026-09-15T05:21:33.463Z] [INFO] [W1] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-09-15T05:21:35.037Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (1574ms)
+[2026-09-15T05:21:35.049Z] [INFO] [W1] [C22181795] [Super Admin] → Create global credential "AutoGlobalCred-1789449686923"
+[2026-09-15T05:21:53.465Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Create global credential "AutoGlobalCred-1789449686923" (18416ms)
+[2026-09-15T05:21:53.465Z] [INFO] [W1] [C22181795] [Super Admin] → Is Add Global Credential Modal Open
+[2026-09-15T05:21:53.495Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Is Add Global Credential Modal Open (30ms)
+[2026-09-15T05:21:53.505Z] [INFO] [W1] [C22181795] [Super Admin] → Search global credentials for "AutoGlobalCred-1789449686923"
+[2026-09-15T05:21:56.589Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Search global credentials for "AutoGlobalCred-1789449686923" (3084ms)
+[2026-09-15T05:21:56.589Z] [INFO] [W1] [C22181795] [Super Admin] → Global Credential Row Visible
+[2026-09-15T05:21:56.616Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Global Credential Row Visible (27ms)
+[2026-09-15T05:21:56.625Z] [INFO] [W1] [C22181795] [Admin] → Open Agency Credentials page
+[2026-09-15T05:22:03.925Z] [INFO] [W1] [C22181795] [Admin] ✓ Open Agency Credentials page (7300ms)
+[2026-09-15T05:22:03.925Z] [INFO] [W1] [C22181795] [Admin] → Verify Agency Credentials page is ready
+[2026-09-15T05:22:04.093Z] [INFO] [W1] [C22181795] [Admin] ✓ Agency Credentials page is ready (168ms)
+[2026-09-15T05:22:04.106Z] [INFO] [W1] [C22181795] [Admin] → Import global credential "AutoGlobalCred-1789449686923"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181795]
+Status: FAILED
+Duration: 47994ms
+[2026-09-15T05:22:19.157Z] [ERROR] [W1] [C22181795] [object Object]
+────────────────────────────────────────────────────────

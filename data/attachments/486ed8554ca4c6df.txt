@@ -1,0 +1,16 @@
+[2026-09-15T05:18:17.880Z] [ERROR] [W0] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "AutoApparatusGroup-1789449421735" is visible (60032ms)
+[2026-09-15T05:18:17.880Z] [ERROR] [W0] [C22779515] Locator: role=cell[name="AutoApparatusGroup-1789449421735"i]
+[2026-09-15T05:18:17.880Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="AutoApparatusGroup-1789449421735"i]') to be visible
+
+[2026-09-15T05:18:17.880Z] [ERROR] [W0] [C22779515] [Admin] ✗ Save apparatus group "AutoApparatusGroup-1789449421735" (60130ms)
+[2026-09-15T05:18:17.881Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="AutoApparatusGroup-1789449421735"i]') to be visible
+
+[2026-09-15T05:18:17.881Z] [ERROR] [W0] [C22779515] [Admin] ✗ Create apparatus group "AutoApparatusGroup-1789449421735" (60498ms)
+[2026-09-15T05:18:17.881Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="AutoApparatusGroup-1789449421735"i]') to be visible
+

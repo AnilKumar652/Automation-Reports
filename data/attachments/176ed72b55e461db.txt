@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877540]
+Title: Verify user can add an organization division
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:14:37.305Z] [INFO] [W0] [C5877540] [Admin] → Open Agency Setup Organization page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877540]
+Status: FAILED
+Duration: 21289ms
+[2026-09-15T05:14:58.286Z] [ERROR] [W0] [C5877540] [object Object]
+────────────────────────────────────────────────────────

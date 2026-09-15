@@ -1,0 +1,19 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:59:32.210Z] [INFO] [W0] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-09-15T05:59:43.324Z] [INFO] [W0] [C21852430] [Admin] ✓ Open Training Setup Categories page (11114ms)
+[2026-09-15T05:59:43.324Z] [INFO] [W0] [C21852430] [Admin] → Create category "AutoCat-1789451983324"
+[2026-09-15T05:59:45.827Z] [INFO] [W0] [C21852430] [Admin] ✓ Create category "AutoCat-1789451983324" (2503ms)
+[2026-09-15T05:59:45.827Z] [INFO] [W0] [C21852430] [Admin] → Search categories by name "AutoCat-1789451983324" (exact match)
+[2026-09-15T05:59:47.217Z] [INFO] [W0] [C21852430] [Admin] ✓ Search categories by name "AutoCat-1789451983324" (exact match) (1390ms)
+[2026-09-15T05:59:47.217Z] [INFO] [W0] [C21852430] [Admin] → Category Row Visible
+[2026-09-15T05:59:47.247Z] [INFO] [W0] [C21852430] [Admin] ✓ Category Row Visible (30ms)
+[2026-09-15T05:59:47.250Z] [INFO] [W0] [C21852430] [Admin] → Open Edit Category Modal
+[2026-09-15T05:59:47.850Z] [INFO] [W0] [C21852430] [Admin] ✓ Open Edit Category Modal (600ms)
+[2026-09-15T05:59:47.850Z] [INFO] [W0] [C21852430] [Admin] → Is Edit Category Modal Open
+[2026-09-15T05:59:47.877Z] [INFO] [W0] [C21852430] [Admin] ✓ Is Edit Category Modal Open (27ms)
+[2026-09-15T05:59:47.886Z] [INFO] [W0] [C21852430] [Admin] → Category Modal Name Value
+[2026-09-15T05:59:47.905Z] [INFO] [W0] [C21852430] [Admin] ✓ Category Modal Name Value (19ms)

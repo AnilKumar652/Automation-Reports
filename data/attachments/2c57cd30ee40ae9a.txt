@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877542]
+Title: Verify user can add an organization rank
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:15:08.665Z] [INFO] [W0] [C5877542] [Admin] → Open Agency Setup Organization page
+[2026-09-15T05:15:16.526Z] [INFO] [W0] [C5877542] [Admin] ✓ Open Agency Setup Organization page (7861ms)
+[2026-09-15T05:15:16.544Z] [INFO] [W0] [C5877542] [Admin] → Is Agency Setup Organization Ready
+[2026-09-15T05:15:17.090Z] [INFO] [W0] [C5877542] [Admin] ✓ Is Agency Setup Organization Ready (546ms)
+[2026-09-15T05:15:17.120Z] [INFO] [W0] [C5877542] [Admin] → Select Organization Rank tab
+[2026-09-15T05:15:25.402Z] [INFO] [W0] [C5877542] [Admin] ✓ Select Organization Rank tab (8282ms)
+[2026-09-15T05:15:25.402Z] [INFO] [W0] [C5877542] [Admin] → Add organization rank "AutoRank-1789449316543"
+[2026-09-15T05:15:28.804Z] [INFO] [W0] [C5877542] [Admin] ✓ Add organization rank "AutoRank-1789449316543" (3402ms)
+[2026-09-15T05:15:28.804Z] [INFO] [W0] [C5877542] [Admin] → Organization Row Visible
+[2026-09-15T05:15:28.932Z] [INFO] [W0] [C5877542] [Admin] ✓ Organization Row Visible (128ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877542]
+Status: PASSED
+Duration: 20762ms
+────────────────────────────────────────────────────────

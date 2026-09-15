@@ -1,0 +1,29 @@
+[2026-09-15T05:20:18.152Z] [ERROR] [W1] [C45556] [Admin] ✗ Click Apparatus Groups setup tab (15949ms)
+[2026-09-15T05:20:18.153Z] [ERROR] [W1] [C45556] Locator: [data-testid="asset_setup_tab_apparatus_groups"]
+[2026-09-15T05:20:18.153Z] [ERROR] [W1] [C45556] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="asset_setup_tab_apparatus_groups"]')
+    - locator resolved to <a class="" title="Apparatus Groups" data-testid="asset_setup_tab_apparatus_groups">↵                                        Apparatu…</a>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+
+[2026-09-15T05:20:18.153Z] [ERROR] [W1] [C45556] [Admin] ✗ Open Asset Management Setup Apparatus Groups page (23763ms)
+[2026-09-15T05:20:18.153Z] [ERROR] [W1] [C45556] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="asset_setup_tab_apparatus_groups"]')
+    - locator resolved to <a class="" title="Apparatus Groups" data-testid="asset_setup_tab_apparatus_groups">↵                                        Apparatu…</a>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+

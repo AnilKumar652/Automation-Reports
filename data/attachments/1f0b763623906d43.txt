@@ -1,0 +1,26 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C77675]
+Title: Verify user can create a fire station with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:37:45.440Z] [INFO] [W1] [C77675] [Admin] → Open Fire Station list page
+[2026-09-15T05:37:50.655Z] [INFO] [W1] [C77675] [Admin] ✓ Open Fire Station list page (5215ms)
+[2026-09-15T05:37:50.656Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station List Ready
+[2026-09-15T05:37:51.917Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station List Ready (1261ms)
+[2026-09-15T05:37:51.950Z] [INFO] [W1] [C77675] [Admin] → Open new fire station form
+[2026-09-15T05:37:56.532Z] [INFO] [W1] [C77675] [Admin] ✓ Open new fire station form (4582ms)
+[2026-09-15T05:37:56.532Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station Create Form Open
+[2026-09-15T05:37:58.001Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station Create Form Open (1469ms)
+[2026-09-15T05:37:58.004Z] [INFO] [W1] [C77675] [Admin] → Fire Station Create Form Fields Visible
+[2026-09-15T05:38:04.787Z] [INFO] [W1] [C77675] [Admin] ✓ Fire Station Create Form Fields Visible (6783ms)
+[2026-09-15T05:38:04.788Z] [INFO] [W1] [C77675] [Admin] → Create fire station "AutoLoc-1789450665439"
+[2026-09-15T05:38:15.641Z] [INFO] [W1] [C77675] [Admin] ✓ Create fire station "AutoLoc-1789450665439" (10853ms)
+[2026-09-15T05:38:15.641Z] [INFO] [W1] [C77675] [Admin] → Search fire stations by name "AutoLoc-1789450665439"
+[2026-09-15T05:38:26.793Z] [INFO] [W1] [C77675] [Admin] ✓ Search fire stations by name "AutoLoc-1789450665439" (11152ms)
+[2026-09-15T05:38:26.793Z] [INFO] [W1] [C77675] [Admin] → Fire Station Row Visible
+[2026-09-15T05:38:27.017Z] [INFO] [W1] [C77675] [Admin] ✓ Fire Station Row Visible (224ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C77675]
+Status: PASSED
+Duration: 42365ms
+────────────────────────────────────────────────────────

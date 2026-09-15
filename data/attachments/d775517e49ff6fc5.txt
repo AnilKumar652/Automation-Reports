@@ -1,0 +1,21 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:59:49.997Z] [INFO] [W0] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-09-15T06:00:04.000Z] [INFO] [W0] [C21852431] [Admin] ✓ Open Training Setup Categories page (14003ms)
+[2026-09-15T06:00:04.001Z] [INFO] [W0] [C21852431] [Admin] → Create category "AutoCat-1789452004001"
+[2026-09-15T06:00:05.881Z] [INFO] [W0] [C21852431] [Admin] ✓ Create category "AutoCat-1789452004001" (1880ms)
+[2026-09-15T06:00:05.881Z] [INFO] [W0] [C21852431] [Admin] → Search categories by name "AutoCat-1789452004001" (exact match)
+[2026-09-15T06:00:07.467Z] [INFO] [W0] [C21852431] [Admin] ✓ Search categories by name "AutoCat-1789452004001" (exact match) (1586ms)
+[2026-09-15T06:00:07.467Z] [INFO] [W0] [C21852431] [Admin] → Edit Category
+[2026-09-15T06:00:08.502Z] [INFO] [W0] [C21852431] [Admin] ✓ Edit Category (1035ms)
+[2026-09-15T06:00:08.502Z] [INFO] [W0] [C21852431] [Admin] → Search categories by name "AutoCat-1789452004001" (exact match)
+[2026-09-15T06:00:09.450Z] [INFO] [W0] [C21852431] [Admin] ✓ Search categories by name "AutoCat-1789452004001" (exact match) (948ms)
+[2026-09-15T06:00:09.450Z] [INFO] [W0] [C21852431] [Admin] → Category Row Visible
+[2026-09-15T06:00:09.468Z] [INFO] [W0] [C21852431] [Admin] ✓ Category Row Visible (18ms)
+[2026-09-15T06:00:09.468Z] [INFO] [W0] [C21852431] [Admin] → Open Edit Category Modal
+[2026-09-15T06:00:10.188Z] [INFO] [W0] [C21852431] [Admin] ✓ Open Edit Category Modal (720ms)
+[2026-09-15T06:00:10.188Z] [INFO] [W0] [C21852431] [Admin] → Category Modal Name Value
+[2026-09-15T06:00:10.402Z] [INFO] [W0] [C21852431] [Admin] ✓ Category Modal Name Value (214ms)

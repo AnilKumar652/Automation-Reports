@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C7135673]
+Title: Verify clone action duplicates a credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:37:09.359Z] [INFO] [W1] [C7135673] [Admin] → Open Agency Credentials page
+[2026-09-15T05:37:13.059Z] [INFO] [W1] [C7135673] [Admin] ✓ Open Agency Credentials page (3700ms)
+[2026-09-15T05:37:13.059Z] [INFO] [W1] [C7135673] [Admin] → Verify Agency Credentials page is ready
+[2026-09-15T05:37:13.554Z] [INFO] [W1] [C7135673] [Admin] ✓ Agency Credentials page is ready (495ms)
+[2026-09-15T05:37:13.569Z] [INFO] [W1] [C7135673] [Admin] → Create agency credential "AgCred-1789450629358"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C7135673]
+Status: FAILED
+Duration: 26325ms
+[2026-09-15T05:37:35.544Z] [ERROR] [W1] [C7135673] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,32 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:59:55.663Z] [INFO] [W1] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-09-15T06:00:10.372Z] [INFO] [W1] [C21852432] [Admin] ✓ Open Training Setup Categories page (14710ms)
+[2026-09-15T06:00:10.376Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-09-15T06:00:10.624Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (248ms)
+[2026-09-15T06:00:10.624Z] [INFO] [W1] [C21852432] [Admin] → Search categories by name "AutoCat" (matching results)
+[2026-09-15T06:00:11.853Z] [INFO] [W1] [C21852432] [Admin] ✓ Search categories by name "AutoCat" (matching results) (1229ms)
+[2026-09-15T06:00:11.854Z] [INFO] [W1] [C21852432] [Admin] → Visible Category Names
+[2026-09-15T06:00:12.323Z] [INFO] [W1] [C21852432] [Admin] ✓ Visible Category Names (469ms)
+[2026-09-15T06:00:12.338Z] [INFO] [W1] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-09-15T06:00:12.535Z] [INFO] [W1] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (197ms)
+[2026-09-15T06:00:12.535Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-09-15T06:00:12.601Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (66ms)
+[2026-09-15T06:00:12.605Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-09-15T06:00:12.868Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (263ms)
+[2026-09-15T06:00:12.869Z] [INFO] [W1] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-09-15T06:00:13.103Z] [INFO] [W1] [C21852432] [Admin] ✓ Toggle Header Row Selection (234ms)
+[2026-09-15T06:00:13.105Z] [INFO] [W1] [C21852432] [Admin] → Selected Category Row Count
+[2026-09-15T06:00:13.146Z] [INFO] [W1] [C21852432] [Admin] ✓ Selected Category Row Count (41ms)
+[2026-09-15T06:00:13.154Z] [INFO] [W1] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-09-15T06:00:13.577Z] [INFO] [W1] [C21852432] [Admin] ✓ Toggle Header Row Selection (423ms)
+[2026-09-15T06:00:13.577Z] [INFO] [W1] [C21852432] [Admin] → Selected Category Row Count
+[2026-09-15T06:00:13.696Z] [INFO] [W1] [C21852432] [Admin] ✓ Selected Category Row Count (119ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C21852432]
+Status: PASSED
+Duration: 18518ms
+────────────────────────────────────────────────────────

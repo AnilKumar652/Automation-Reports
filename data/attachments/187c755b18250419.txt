@@ -1,0 +1,67 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-15T06:00:55.842Z] [INFO] [W0] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-09-15T06:01:05.521Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Training Setup Categories page (9679ms)
+[2026-09-15T06:01:05.522Z] [INFO] [W0] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-09-15T06:01:05.743Z] [INFO] [W0] [C22680549] [Admin] ✓ Categories grid contains records verified (221ms)
+[2026-09-15T06:01:05.743Z] [INFO] [W0] [C22680549] [Admin] → Open Import Categories Modal
+[2026-09-15T06:01:05.997Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Import Categories Modal (254ms)
+[2026-09-15T06:01:05.997Z] [INFO] [W0] [C22680549] [Admin] → Is Import Modal Open
+[2026-09-15T06:01:06.054Z] [INFO] [W0] [C22680549] [Admin] ✓ Is Import Modal Open (57ms)
+[2026-09-15T06:01:06.056Z] [INFO] [W0] [C22680549] [Admin] → Read Import Categories help text
+[2026-09-15T06:01:06.122Z] [INFO] [W0] [C22680549] [Admin] ✓ Read Import Categories help text (66ms)
+[2026-09-15T06:01:06.125Z] [INFO] [W0] [C22680549] [Admin] → Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/categories-non-csv.txt"
+[2026-09-15T06:01:06.314Z] [INFO] [W0] [C22680549] [Admin] ✓ Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/categories-non-csv.txt" (189ms)
+[2026-09-15T06:01:06.314Z] [INFO] [W0] [C22680549] [Admin] → Read Import Categories validation messages
+[2026-09-15T06:01:06.385Z] [INFO] [W0] [C22680549] [Admin] ✓ Read Import Categories validation messages (70ms)
+[2026-09-15T06:01:06.385Z] [INFO] [W0] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-09-15T06:01:06.407Z] [INFO] [W0] [C22680549] [Admin] ✓ Categories grid contains records verified (22ms)
+[2026-09-15T06:01:06.453Z] [INFO] [W0] [C22680549] [Admin] → Upload categories import file "/tmp/categories-oversized-import.csv"
+[2026-09-15T06:01:06.595Z] [INFO] [W0] [C22680549] [Admin] ✓ Upload categories import file "/tmp/categories-oversized-import.csv" (142ms)
+[2026-09-15T06:01:06.595Z] [INFO] [W0] [C22680549] [Admin] → Read Import Categories validation messages
+[2026-09-15T06:01:07.072Z] [INFO] [W0] [C22680549] [Admin] ✓ Read Import Categories validation messages (477ms)
+[2026-09-15T06:01:07.073Z] [INFO] [W0] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-09-15T06:01:07.087Z] [INFO] [W0] [C22680549] [Admin] ✓ Categories grid contains records verified (14ms)
+[2026-09-15T06:01:07.088Z] [INFO] [W0] [C22680549] [Admin] → Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/bulk_category_import_sample.csv"
+[2026-09-15T06:01:07.185Z] [INFO] [W0] [C22680549] [Admin] ✓ Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/bulk_category_import_sample.csv" (97ms)
+[2026-09-15T06:01:07.185Z] [INFO] [W0] [C22680549] [Admin] → Check whether import file "bulk_category_import_sample.csv" is listed in the modal
+[2026-09-15T06:01:07.238Z] [INFO] [W0] [C22680549] [Admin] ✓ Check whether import file "bulk_category_import_sample.csv" is listed in the modal (53ms)
+[2026-09-15T06:01:07.239Z] [INFO] [W0] [C22680549] [Admin] → Submit categories import
+[2026-09-15T06:01:07.346Z] [INFO] [W0] [C22680549] [Admin] ✓ Submit categories import (107ms)
+[2026-09-15T06:01:07.347Z] [INFO] [W0] [C22680549] [Admin] → Determine categories import submit outcome
+[2026-09-15T06:01:07.541Z] [INFO] [W0] [C22680549] [Admin] ✓ Determine categories import submit outcome (194ms)
+[2026-09-15T06:01:07.543Z] [INFO] [W0] [C22680549] [Admin] → Check whether Import duplicate dialog Cancel, Reject, and Update controls are visible
+[2026-09-15T06:01:07.606Z] [INFO] [W0] [C22680549] [Admin] ✓ Check whether Import duplicate dialog Cancel, Reject, and Update controls are visible (63ms)
+[2026-09-15T06:01:07.607Z] [INFO] [W0] [C22680549] [Admin] → Read Import duplicate dialog message
+[2026-09-15T06:01:07.624Z] [INFO] [W0] [C22680549] [Admin] ✓ Read Import duplicate dialog message (17ms)
+[2026-09-15T06:01:07.627Z] [INFO] [W0] [C22680549] [Admin] → Cancel categories import duplicate resolution
+[2026-09-15T06:01:07.750Z] [INFO] [W0] [C22680549] [Admin] ✓ Cancel categories import duplicate resolution (123ms)
+[2026-09-15T06:01:07.751Z] [INFO] [W0] [C22680549] [Admin] → Is Import Duplicate Dialog Open
+[2026-09-15T06:01:07.783Z] [INFO] [W0] [C22680549] [Admin] ✓ Is Import Duplicate Dialog Open (32ms)
+[2026-09-15T06:01:07.784Z] [INFO] [W0] [C22680549] [Admin] → Close Import Categories Modal
+[2026-09-15T06:01:07.806Z] [INFO] [W0] [C22680549] [Admin] ✓ Close Import Categories Modal (22ms)
+[2026-09-15T06:01:07.806Z] [INFO] [W0] [C22680549] [Admin] → Open Import Categories Modal
+[2026-09-15T06:01:07.916Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Import Categories Modal (110ms)
+[2026-09-15T06:01:07.916Z] [INFO] [W0] [C22680549] [Admin] → Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/bulk_category_import_sample.csv"
+[2026-09-15T06:01:08.057Z] [INFO] [W0] [C22680549] [Admin] ✓ Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/bulk_category_import_sample.csv" (141ms)
+[2026-09-15T06:01:08.057Z] [INFO] [W0] [C22680549] [Admin] → Submit categories import
+[2026-09-15T06:01:08.145Z] [INFO] [W0] [C22680549] [Admin] ✓ Submit categories import (88ms)
+[2026-09-15T06:01:08.145Z] [INFO] [W0] [C22680549] [Admin] → Determine categories import submit outcome
+[2026-09-15T06:01:08.341Z] [INFO] [W0] [C22680549] [Admin] ✓ Determine categories import submit outcome (196ms)
+[2026-09-15T06:01:08.342Z] [INFO] [W0] [C22680549] [Admin] → Reject duplicated categories import rows
+[2026-09-15T06:01:08.712Z] [INFO] [W0] [C22680549] [Admin] ✓ Reject duplicated categories import rows (371ms)
+[2026-09-15T06:01:08.712Z] [INFO] [W0] [C22680549] [Admin] → Is Import Duplicate Dialog Open
+[2026-09-15T06:01:08.768Z] [INFO] [W0] [C22680549] [Admin] ✓ Is Import Duplicate Dialog Open (56ms)
+[2026-09-15T06:01:08.771Z] [INFO] [W0] [C22680549] [Admin] → Close Import Categories Modal
+[2026-09-15T06:01:09.085Z] [INFO] [W0] [C22680549] [Admin] ✓ Close Import Categories Modal (314ms)
+[2026-09-15T06:01:09.085Z] [INFO] [W0] [C22680549] [Admin] → Open Import Categories Modal
+[2026-09-15T06:01:09.183Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Import Categories Modal (98ms)
+[2026-09-15T06:01:09.183Z] [INFO] [W0] [C22680549] [Admin] → Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/bulk_category_import_sample.csv"
+[2026-09-15T06:01:09.347Z] [INFO] [W0] [C22680549] [Admin] ✓ Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/bulk_category_import_sample.csv" (164ms)
+[2026-09-15T06:01:09.347Z] [INFO] [W0] [C22680549] [Admin] → Submit categories import
+[2026-09-15T06:01:09.429Z] [INFO] [W0] [C22680549] [Admin] ✓ Submit categories import (82ms)
+[2026-09-15T06:01:09.429Z] [INFO] [W0] [C22680549] [Admin] → Determine categories import submit outcome
+[2026-09-15T06:01:09.498Z] [INFO] [W0] [C22680549] [Admin] ✓ Determine categories import submit outcome (69ms)

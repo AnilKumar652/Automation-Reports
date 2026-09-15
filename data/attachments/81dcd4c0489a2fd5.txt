@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852428]
+Title: Verify Training setup Categories page renders filters, grid, toolbar, and vertical setup navigation
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:59:14.007Z] [INFO] [W0] [C21852428] [Admin] → Open Training Setup Categories page
+[2026-09-15T05:59:20.965Z] [INFO] [W0] [C21852428] [Admin] ✓ Open Training Setup Categories page (6958ms)
+[2026-09-15T05:59:20.966Z] [INFO] [W0] [C21852428] [Admin] → Verify Categories page loaded successfully
+[2026-09-15T05:59:21.567Z] [INFO] [W0] [C21852428] [Admin] ✓ Categories page loaded successfully verified (601ms)
+[2026-09-15T05:59:21.569Z] [INFO] [W0] [C21852428] [Admin] → Get current URL
+[2026-09-15T05:59:21.573Z] [INFO] [W0] [C21852428] [Admin] ✓ Get current URL (4ms)
+[2026-09-15T05:59:21.574Z] [INFO] [W0] [C21852428] [Admin] → Verify left navigation menu links
+[2026-09-15T05:59:21.809Z] [INFO] [W0] [C21852428] [Admin] ✓ left navigation menu links verified (235ms)
+[2026-09-15T05:59:21.815Z] [INFO] [W0] [C21852428] [Admin] → Verify Add Category button is visible
+[2026-09-15T05:59:21.846Z] [INFO] [W0] [C21852428] [Admin] ✓ Add Category button is visible (32ms)
+[2026-09-15T05:59:21.847Z] [INFO] [W0] [C21852428] [Admin] → Verify Import Categories button is visible
+[2026-09-15T05:59:21.878Z] [INFO] [W0] [C21852428] [Admin] ✓ Import Categories button is visible (31ms)
+[2026-09-15T05:59:21.880Z] [INFO] [W0] [C21852428] [Admin] → Verify Categories grid contains records
+[2026-09-15T05:59:21.889Z] [INFO] [W0] [C21852428] [Admin] ✓ Categories grid contains records verified (9ms)
+[2026-09-15T05:59:21.890Z] [INFO] [W0] [C21852428] [Admin] → Verify Associated Courses help icon is visible
+[2026-09-15T05:59:21.906Z] [INFO] [W0] [C21852428] [Admin] ✓ Associated Courses help icon is visible (16ms)
+[2026-09-15T05:59:21.907Z] [INFO] [W0] [C21852428] [Admin] → Hover Associated Courses help icon
+[2026-09-15T05:59:21.967Z] [INFO] [W0] [C21852428] [Admin] ✓ Hover Associated Courses help icon (60ms)
+[2026-09-15T05:59:21.967Z] [INFO] [W0] [C21852428] [Admin] → Verify Tooltip is visible
+[2026-09-15T05:59:21.983Z] [INFO] [W0] [C21852428] [Admin] ✓ Tooltip is visible (16ms)
+[2026-09-15T05:59:21.985Z] [INFO] [W0] [C21852428] [Admin] → Verify Associated Courses help tooltip is displayed
+[2026-09-15T05:59:22.037Z] [INFO] [W0] [C21852428] [Admin] ✓ Associated Courses help tooltip is displayed verified (52ms)

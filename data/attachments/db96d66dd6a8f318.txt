@@ -1,0 +1,11 @@
+[2026-09-15T05:16:28.223Z] [ERROR] [W1] [C5877543] [Admin] ✗ Wait until Organization row for "AutoPosition-1789449325248" is visible (60005ms)
+[2026-09-15T05:16:28.223Z] [ERROR] [W1] [C5877543] Locator: role=gridcell[name="AutoPosition-1789449325248"i]
+[2026-09-15T05:16:28.223Z] [ERROR] [W1] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="AutoPosition-1789449325248"i]') to be visible
+
+[2026-09-15T05:16:28.224Z] [ERROR] [W1] [C5877543] [Admin] ✗ Add organization position "AutoPosition-1789449325248" (61790ms)
+[2026-09-15T05:16:28.224Z] [ERROR] [W1] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="AutoPosition-1789449325248"i]') to be visible
+

@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52165]
+Title: Verify duplicate credential name validation on create
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:25:46.546Z] [INFO] [W0] [C52165] [Admin] → Open Agency Credentials page
+[2026-09-15T05:25:51.096Z] [INFO] [W0] [C52165] [Admin] ✓ Open Agency Credentials page (4550ms)
+[2026-09-15T05:25:51.096Z] [INFO] [W0] [C52165] [Admin] → Verify Agency Credentials page is ready
+[2026-09-15T05:25:51.376Z] [INFO] [W0] [C52165] [Admin] ✓ Agency Credentials page is ready (280ms)
+[2026-09-15T05:25:51.404Z] [INFO] [W0] [C52165] [Admin] → Create agency credential "AgCred-1789449946546"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52165]
+Status: FAILED
+Duration: 27949ms
+[2026-09-15T05:26:13.943Z] [ERROR] [W0] [C52165] [object Object]
+────────────────────────────────────────────────────────

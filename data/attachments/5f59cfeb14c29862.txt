@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58111]
+Title: Verify credential date range displays correctly in Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-15T05:29:13.352Z] [INFO] [W1] [C58111] [Admin] → Prepare and assign credential "AgCred-1789450153352" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58111]
+Status: FAILED
+Duration: 36326ms
+[2026-09-15T05:29:49.360Z] [ERROR] [W1] [C58111] [object Object]
+────────────────────────────────────────────────────────
