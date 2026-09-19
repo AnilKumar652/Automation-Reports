@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852435]
+Title: Verify combined filters by date range, creator, active status, topics, and courses refine the category grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:45:55.663Z] [INFO] [W1] [C21852435] [Admin] → Open Training Setup Categories page
+[2026-09-19T05:45:59.206Z] [INFO] [W1] [C21852435] [Admin] ✓ Open Training Setup Categories page (3543ms)
+[2026-09-19T05:45:59.207Z] [INFO] [W1] [C21852435] [Admin] → Create category "Unbranded Beauty"
+[2026-09-19T05:46:03.635Z] [INFO] [W1] [C21852435] [Admin] ✓ Create category "Unbranded Beauty" (4428ms)
+[2026-09-19T05:46:03.635Z] [INFO] [W1] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-09-19T05:46:03.655Z] [INFO] [W1] [C21852435] [Admin] ✓ Categories grid contains records verified (20ms)
+[2026-09-19T05:46:03.656Z] [INFO] [W1] [C21852435] [Admin] → Search categories by name "Unbranded Beauty" (exact match)
+[2026-09-19T05:46:04.494Z] [INFO] [W1] [C21852435] [Admin] ✓ Search categories by name "Unbranded Beauty" (exact match) (838ms)
+[2026-09-19T05:46:04.497Z] [INFO] [W1] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-09-19T05:46:04.514Z] [INFO] [W1] [C21852435] [Admin] ✓ Categories grid contains records verified (17ms)
+[2026-09-19T05:46:04.514Z] [INFO] [W1] [C21852435] [Admin] → Visible Category Names
+[2026-09-19T05:46:04.594Z] [INFO] [W1] [C21852435] [Admin] ✓ Visible Category Names (80ms)
+[2026-09-19T05:46:04.600Z] [INFO] [W1] [C21852435] [Admin] → Change category Is Active filter to "No"

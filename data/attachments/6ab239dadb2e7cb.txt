@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852433]
+Title: Verify Import Categories flow, CSV sample download, column sorting, and pagination controls
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:45:38.584Z] [INFO] [W1] [C21852433] [Admin] → Open Training Setup Categories page
+[2026-09-19T05:45:42.166Z] [INFO] [W1] [C21852433] [Admin] ✓ Open Training Setup Categories page (3582ms)
+[2026-09-19T05:45:42.169Z] [INFO] [W1] [C21852433] [Admin] → Open Import Categories Modal
+[2026-09-19T05:45:45.615Z] [INFO] [W1] [C21852433] [Admin] ✓ Open Import Categories Modal (3446ms)
+[2026-09-19T05:45:45.615Z] [INFO] [W1] [C21852433] [Admin] → Is Import Modal Open
+[2026-09-19T05:45:45.625Z] [INFO] [W1] [C21852433] [Admin] ✓ Is Import Modal Open (10ms)
+[2026-09-19T05:45:45.631Z] [INFO] [W1] [C21852433] [Admin] → Verify role=link[name=/Download sample spreadsheet/i] is visible
+[2026-09-19T05:45:45.642Z] [INFO] [W1] [C21852433] [Admin] ✓ role=link[name=/Download sample spreadsheet/i] is visible (11ms)
+[2026-09-19T05:45:45.643Z] [INFO] [W1] [C21852433] [Admin] → Verify role=link[name=/Download sample spreadsheet/i] is visible
+[2026-09-19T05:45:45.653Z] [INFO] [W1] [C21852433] [Admin] ✓ role=link[name=/Download sample spreadsheet/i] is visible (10ms)
+[2026-09-19T05:45:45.657Z] [INFO] [W1] [C21852433] [Admin] → Attribute
+[2026-09-19T05:45:45.679Z] [INFO] [W1] [C21852433] [Admin] ✓ Attribute (22ms)
+[2026-09-19T05:45:45.683Z] [INFO] [W1] [C21852433] [Admin] → Close Import Categories Modal
+[2026-09-19T05:45:45.833Z] [INFO] [W1] [C21852433] [Admin] ✓ Close Import Categories Modal (150ms)
+[2026-09-19T05:45:45.833Z] [INFO] [W1] [C21852433] [Admin] → Is Import Modal Open
+[2026-09-19T05:45:46.023Z] [INFO] [W1] [C21852433] [Admin] ✓ Is Import Modal Open (190ms)
+[2026-09-19T05:45:46.027Z] [INFO] [W1] [C21852433] [Admin] → Visible Category Names
+[2026-09-19T05:45:46.088Z] [INFO] [W1] [C21852433] [Admin] ✓ Visible Category Names (61ms)
+[2026-09-19T05:45:46.088Z] [INFO] [W1] [C21852433] [Admin] → Sort Categories By Column
+[2026-09-19T05:45:46.273Z] [INFO] [W1] [C21852433] [Admin] ✓ Sort Categories By Column (185ms)
+[2026-09-19T05:45:46.273Z] [INFO] [W1] [C21852433] [Admin] → Visible Category Names
+[2026-09-19T05:45:46.406Z] [INFO] [W1] [C21852433] [Admin] ✓ Visible Category Names (133ms)
+[2026-09-19T05:45:46.407Z] [INFO] [W1] [C21852433] [Admin] → Verify Categories grid contains records
+[2026-09-19T05:45:46.417Z] [INFO] [W1] [C21852433] [Admin] ✓ Categories grid contains records verified (10ms)
+[2026-09-19T05:45:46.418Z] [INFO] [W1] [C21852433] [Admin] → Verify role=button[name="Select page size"i] is visible
+[2026-09-19T05:45:46.443Z] [INFO] [W1] [C21852433] [Admin] ✓ role=button[name="Select page size"i] is visible (25ms)

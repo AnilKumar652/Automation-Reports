@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877542]
+Title: Verify user can add an organization rank
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T04:57:09.527Z] [INFO] [W1] [C5877542] [Admin] → Open Agency Setup Organization page
+[2026-09-19T04:57:14.573Z] [INFO] [W1] [C5877542] [Admin] ✓ Open Agency Setup Organization page (5046ms)
+[2026-09-19T04:57:14.579Z] [INFO] [W1] [C5877542] [Admin] → Is Agency Setup Organization Ready
+[2026-09-19T04:57:15.122Z] [INFO] [W1] [C5877542] [Admin] ✓ Is Agency Setup Organization Ready (543ms)
+[2026-09-19T04:57:15.123Z] [INFO] [W1] [C5877542] [Admin] → Select Organization Rank tab
+[2026-09-19T04:57:20.505Z] [INFO] [W1] [C5877542] [Admin] ✓ Select Organization Rank tab (5382ms)
+[2026-09-19T04:57:20.506Z] [INFO] [W1] [C5877542] [Admin] → Add organization rank "Lieutenant"
+[2026-09-19T04:57:22.577Z] [INFO] [W1] [C5877542] [Admin] ✓ Add organization rank "Lieutenant" (2071ms)
+[2026-09-19T04:57:22.577Z] [INFO] [W1] [C5877542] [Admin] → Organization Row Visible
+[2026-09-19T04:57:22.646Z] [INFO] [W1] [C5877542] [Admin] ✓ Organization Row Visible (69ms)

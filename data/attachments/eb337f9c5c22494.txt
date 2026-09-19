@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58111]
+Title: Verify credential date range displays correctly in Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:13:39.322Z] [INFO] [W0] [C58111] [Admin] → Prepare and assign credential "niches Credential" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58111]
+Status: FAILED
+Duration: 59194ms
+[2026-09-19T05:14:38.130Z] [ERROR] [W0] [C58111] [object Object]
+────────────────────────────────────────────────────────

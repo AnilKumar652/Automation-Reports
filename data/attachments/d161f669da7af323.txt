@@ -1,0 +1,11 @@
+[2026-09-19T04:59:59.255Z] [ERROR] [W1] [C5877543] [Admin] ✗ Wait until Organization row for "Central Research Specialist" is visible (60195ms)
+[2026-09-19T04:59:59.255Z] [ERROR] [W1] [C5877543] Locator: role=gridcell[name="Central Research Specialist"i]
+[2026-09-19T04:59:59.255Z] [ERROR] [W1] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Central Research Specialist"i]') to be visible
+
+[2026-09-19T04:59:59.256Z] [ERROR] [W1] [C5877543] [Admin] ✗ Add organization position "Central Research Specialist" (61366ms)
+[2026-09-19T04:59:59.256Z] [ERROR] [W1] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Central Research Specialist"i]') to be visible
+

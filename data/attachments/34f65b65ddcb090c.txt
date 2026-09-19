@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22682824]
+Title: Verify User can submit Upload External Credential with valid required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:42:06.368Z] [INFO] [W1] [C22682824] [Admin] → Open Agency Credentials page
+[2026-09-19T05:42:08.966Z] [INFO] [W1] [C22682824] [Admin] ✓ Open Agency Credentials page (2598ms)
+[2026-09-19T05:42:08.966Z] [INFO] [W1] [C22682824] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:42:09.055Z] [INFO] [W1] [C22682824] [Admin] ✓ Agency Credentials page is ready (89ms)
+[2026-09-19T05:42:09.061Z] [INFO] [W1] [C22682824] [Admin] → Create agency credential "smart contracts Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22682824]
+Status: FAILED
+Duration: 26812ms
+[2026-09-19T05:42:32.725Z] [ERROR] [W1] [C22682824] [object Object]
+────────────────────────────────────────────────────────

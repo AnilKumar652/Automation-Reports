@@ -1,0 +1,43 @@
+[2026-09-19T05:05:58.319Z] [ERROR] [W0] [C22181795] [Admin] ✗ Click Import Global Credentials button (10038ms)
+[2026-09-19T05:05:58.319Z] [ERROR] [W0] [C22181795] Locator: [data-testid="training-credential-import-global"]
+[2026-09-19T05:05:58.320Z] [ERROR] [W0] [C22181795] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-import-global"]')
+    - locator resolved to <button type="button" data-v-cde139b6="" title="Import Global Credentials" data-testid="training-credential-import-global" class="button is-medium is-text is-icon-only-in-mobile is-icon-only-breakpoint-sm">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+
+[2026-09-19T05:05:58.324Z] [ERROR] [W0] [C22181795] [Admin] ✗ Open Import Global Credentials modal (10043ms)
+[2026-09-19T05:05:58.324Z] [ERROR] [W0] [C22181795] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-import-global"]')
+    - locator resolved to <button type="button" data-v-cde139b6="" title="Import Global Credentials" data-testid="training-credential-import-global" class="button is-medium is-text is-icon-only-in-mobile is-icon-only-breakpoint-sm">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+
+[2026-09-19T05:05:58.324Z] [ERROR] [W0] [C22181795] [Admin] ✗ Import global credential "content Credential" (10043ms)
+[2026-09-19T05:05:58.324Z] [ERROR] [W0] [C22181795] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-import-global"]')
+    - locator resolved to <button type="button" data-v-cde139b6="" title="Import Global Credentials" data-testid="training-credential-import-global" class="button is-medium is-text is-icon-only-in-mobile is-icon-only-breakpoint-sm">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+

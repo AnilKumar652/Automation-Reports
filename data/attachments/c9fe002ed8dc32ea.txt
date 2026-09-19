@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5883872]
+Title: Verify unique credential ID validation
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:19:05.070Z] [INFO] [W0] [C5883872] [Admin] → Open Agency Credentials page
+[2026-09-19T05:19:09.348Z] [INFO] [W0] [C5883872] [Admin] ✓ Open Agency Credentials page (4278ms)
+[2026-09-19T05:19:09.348Z] [INFO] [W0] [C5883872] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:19:18.777Z] [INFO] [W0] [C5883872] [Admin] ✓ Agency Credentials page is ready (9429ms)
+[2026-09-19T05:19:18.784Z] [INFO] [W0] [C5883872] [Admin] → Create agency credential "ROI Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5883872]
+Status: FAILED
+Duration: 28096ms
+[2026-09-19T05:19:32.822Z] [ERROR] [W0] [C5883872] [object Object]
+────────────────────────────────────────────────────────

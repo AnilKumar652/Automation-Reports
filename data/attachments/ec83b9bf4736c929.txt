@@ -1,0 +1,44 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:06:16.792Z] [INFO] [W0] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-09-19T05:06:24.010Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Open Global Credentials page (7219ms)
+[2026-09-19T05:06:24.020Z] [INFO] [W0] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-09-19T05:06:34.364Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (10344ms)
+[2026-09-19T05:06:34.380Z] [INFO] [W0] [C22181795] [Super Admin] → Create global credential "solutions Credential"
+[2026-09-19T05:06:42.835Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Create global credential "solutions Credential" (8455ms)
+[2026-09-19T05:06:42.835Z] [INFO] [W0] [C22181795] [Super Admin] → Is Add Global Credential Modal Open
+[2026-09-19T05:06:43.943Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Is Add Global Credential Modal Open (1108ms)
+[2026-09-19T05:06:43.951Z] [INFO] [W0] [C22181795] [Super Admin] → Search global credentials for "solutions Credential"
+[2026-09-19T05:06:45.680Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Search global credentials for "solutions Credential" (1729ms)
+[2026-09-19T05:06:45.680Z] [INFO] [W0] [C22181795] [Super Admin] → Global Credential Row Visible
+[2026-09-19T05:06:45.759Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Global Credential Row Visible (79ms)
+[2026-09-19T05:06:45.760Z] [INFO] [W0] [C22181795] [Admin] → Open Agency Credentials page
+[2026-09-19T05:06:55.225Z] [INFO] [W0] [C22181795] [Admin] ✓ Open Agency Credentials page (9465ms)
+[2026-09-19T05:06:55.226Z] [INFO] [W0] [C22181795] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:07:12.073Z] [INFO] [W0] [C22181795] [Admin] ✓ Agency Credentials page is ready (16847ms)
+[2026-09-19T05:07:12.078Z] [INFO] [W0] [C22181795] [Admin] → Import global credential "solutions Credential"
+[2026-09-19T05:07:15.390Z] [INFO] [W0] [C22181795] [Admin] ✓ Import global credential "solutions Credential" (3312ms)
+[2026-09-19T05:07:15.391Z] [INFO] [W0] [C22181795] [Admin] → Is Import Global Credentials Modal Open
+[2026-09-19T05:07:15.482Z] [INFO] [W0] [C22181795] [Admin] ✓ Is Import Global Credentials Modal Open (91ms)
+[2026-09-19T05:07:15.488Z] [INFO] [W0] [C22181795] [Admin] → Import Complete Dialog Text
+[2026-09-19T05:07:15.599Z] [INFO] [W0] [C22181795] [Admin] ✓ Import Complete Dialog Text (111ms)
+[2026-09-19T05:07:15.607Z] [INFO] [W0] [C22181795] [Admin] → Dismiss Import Complete dialog
+[2026-09-19T05:07:15.913Z] [INFO] [W0] [C22181795] [Admin] ✓ Dismiss Import Complete dialog (306ms)
+[2026-09-19T05:07:15.913Z] [INFO] [W0] [C22181795] [Admin] → Import Global Credential Result
+[2026-09-19T05:07:16.004Z] [INFO] [W0] [C22181795] [Admin] ✓ Import Global Credential Result (91ms)
+[2026-09-19T05:07:16.014Z] [INFO] [W0] [C22181795] [Admin] → Close Import Global Credentials modal
+[2026-09-19T05:07:17.697Z] [INFO] [W0] [C22181795] [Admin] ✓ Close Import Global Credentials modal (1683ms)
+[2026-09-19T05:07:17.698Z] [INFO] [W0] [C22181795] [Admin] → Is Import Global Credentials Modal Open
+[2026-09-19T05:07:17.759Z] [INFO] [W0] [C22181795] [Admin] ✓ Is Import Global Credentials Modal Open (61ms)
+[2026-09-19T05:07:17.766Z] [INFO] [W0] [C22181795] [Admin] → Search agency credentials for "solutions Credential"
+[2026-09-19T05:07:20.662Z] [INFO] [W0] [C22181795] [Admin] ✓ Search agency credentials for "solutions Credential" (2896ms)
+[2026-09-19T05:07:20.662Z] [INFO] [W0] [C22181795] [Admin] → Agency Credential Row Visible
+[2026-09-19T05:07:20.727Z] [INFO] [W0] [C22181795] [Admin] ✓ Agency Credential Row Visible (65ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181795]
+Status: PASSED
+Duration: 64971ms
+────────────────────────────────────────────────────────

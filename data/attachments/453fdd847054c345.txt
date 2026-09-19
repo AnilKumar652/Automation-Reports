@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:10:40.285Z] [INFO] [W1] [C54657] [Admin] → Open Agency Credentials page
+[2026-09-19T05:10:44.331Z] [INFO] [W1] [C54657] [Admin] ✓ Open Agency Credentials page (4046ms)
+[2026-09-19T05:10:44.331Z] [INFO] [W1] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:10:44.653Z] [INFO] [W1] [C54657] [Admin] ✓ Agency Credentials page is ready (322ms)
+[2026-09-19T05:10:44.671Z] [INFO] [W1] [C54657] [Admin] → Create agency credential "Collier - Koelpin-1"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54657]
+Status: FAILED
+Duration: 27242ms
+[2026-09-19T05:11:06.974Z] [ERROR] [W1] [C54657] [object Object]
+────────────────────────────────────────────────────────

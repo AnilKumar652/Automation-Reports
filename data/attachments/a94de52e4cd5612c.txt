@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22670973]
+Title: Verify filter panel applies filters on My Credentials grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:28:07.362Z] [INFO] [W0] [C22670973] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22670973]
+Status: FAILED
+Duration: 60538ms
+[2026-09-19T05:29:07.628Z] [ERROR] [W0] [C22670973] [object Object]
+────────────────────────────────────────────────────────

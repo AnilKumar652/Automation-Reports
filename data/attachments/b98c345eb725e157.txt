@@ -1,0 +1,25 @@
+[2026-09-19T05:05:15.102Z] [ERROR] [W1] [C22181794] [Admin] ✗ Click Expand import global credentials search input (10030ms)
+[2026-09-19T05:05:15.102Z] [ERROR] [W1] [C22181794] Locator: [data-testid="training_import_global_credentials_list-search-input-expand"]
+[2026-09-19T05:05:15.103Z] [ERROR] [W1] [C22181794] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training_import_global_credentials_list-search-input-expand"]')
+    - locator resolved to <button type="button" data-v-45734e6c="" title="Expand search input" aria-label="Expand search input" data-testid="training_import_global_credentials_list-search-input-expand" class="button is-medium is-text is-icon-only fd-search-input__expand-button fd-search-input__expand-button--medium">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+[2026-09-19T05:05:15.105Z] [ERROR] [W1] [C22181794] [Admin] ✗ Search import global credentials for "convergence License" (10102ms)
+[2026-09-19T05:05:15.105Z] [ERROR] [W1] [C22181794] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training_import_global_credentials_list-search-input-expand"]')
+    - locator resolved to <button type="button" data-v-45734e6c="" title="Expand search input" aria-label="Expand search input" data-testid="training_import_global_credentials_list-search-input-expand" class="button is-medium is-text is-icon-only fd-search-input__expand-button fd-search-input__expand-button--medium">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+[2026-09-19T05:05:15.105Z] [ERROR] [W1] [C22181794] [Admin] ✗ Import global credential "convergence License" (11658ms)
+[2026-09-19T05:05:15.105Z] [ERROR] [W1] [C22181794] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training_import_global_credentials_list-search-input-expand"]')
+    - locator resolved to <button type="button" data-v-45734e6c="" title="Expand search input" aria-label="Expand search input" data-testid="training_import_global_credentials_list-search-input-expand" class="button is-medium is-text is-icon-only fd-search-input__expand-button fd-search-input__expand-button--medium">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+

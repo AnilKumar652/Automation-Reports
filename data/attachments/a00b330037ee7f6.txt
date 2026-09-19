@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58112]
+Title: Verify first edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:14:45.679Z] [INFO] [W1] [C58112] [Admin] → Prepare and assign credential "deliverables Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58112]
+Status: FAILED
+Duration: 59481ms
+[2026-09-19T05:15:44.813Z] [ERROR] [W1] [C58112] [object Object]
+────────────────────────────────────────────────────────

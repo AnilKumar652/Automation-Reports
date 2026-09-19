@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-09-19T05:21:20.067Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-09-19T05:21:25.901Z] [INFO] [W0] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (5834ms)
+[2026-09-19T05:21:25.901Z] [INFO] [W0] [C78340] [Admin] → Create equipment group "Marion County Unit"
+[2026-09-19T05:21:37.114Z] [INFO] [W0] [C78340] [Admin] ✓ Create equipment group "Marion County Unit" (11213ms)
+[2026-09-19T05:21:37.117Z] [INFO] [W0] [C78340] [Admin] → Open Equipment list page
+[2026-09-19T05:21:41.406Z] [INFO] [W0] [C78340] [Admin] ✓ Open Equipment list page (4289ms)
+[2026-09-19T05:21:41.406Z] [INFO] [W0] [C78340] [Admin] → Is Equipment List Ready
+[2026-09-19T05:21:41.491Z] [INFO] [W0] [C78340] [Admin] ✓ Is Equipment List Ready (85ms)
+[2026-09-19T05:21:41.500Z] [INFO] [W0] [C78340] [Admin] → Open new equipment form
+[2026-09-19T05:21:51.127Z] [INFO] [W0] [C78340] [Admin] ✓ Open new equipment form (9627ms)
+[2026-09-19T05:21:51.127Z] [INFO] [W0] [C78340] [Admin] → Is Equipment Create Form Open
+[2026-09-19T05:21:51.671Z] [INFO] [W0] [C78340] [Admin] ✓ Is Equipment Create Form Open (544ms)
+[2026-09-19T05:21:51.678Z] [INFO] [W0] [C78340] [Admin] → Fill equipment form for "Modern Bronze Cheese"
+[2026-09-19T05:21:59.926Z] [INFO] [W0] [C78340] [Admin] ✓ Fill equipment form for "Modern Bronze Cheese" (8248ms)
+[2026-09-19T05:21:59.926Z] [INFO] [W0] [C78340] [Admin] → Open equipment specifications tab
+[2026-09-19T05:22:00.119Z] [INFO] [W0] [C78340] [Admin] ✓ Open equipment specifications tab (193ms)
+[2026-09-19T05:22:00.119Z] [INFO] [W0] [C78340] [Admin] → Is Equipment Specifications Tab Ready
+[2026-09-19T05:22:00.134Z] [INFO] [W0] [C78340] [Admin] ✓ Is Equipment Specifications Tab Ready (15ms)
+[2026-09-19T05:22:00.139Z] [INFO] [W0] [C78340] [Admin] → Submit equipment create form
+[2026-09-19T05:22:01.957Z] [INFO] [W0] [C78340] [Admin] ✓ Submit equipment create form (1818ms)
+[2026-09-19T05:22:01.958Z] [INFO] [W0] [C78340] [Admin] → Search equipment list for "Modern Bronze Cheese"
+[2026-09-19T05:22:04.657Z] [INFO] [W0] [C78340] [Admin] ✓ Search equipment list for "Modern Bronze Cheese" (2699ms)
+[2026-09-19T05:22:04.658Z] [INFO] [W0] [C78340] [Admin] → Equipment Row Visible
+[2026-09-19T05:22:08.979Z] [INFO] [W0] [C78340] [Admin] ✓ Equipment Row Visible (4321ms)

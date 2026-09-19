@@ -1,0 +1,11 @@
+[2026-09-19T04:58:04.738Z] [ERROR] [W0] [C5877540] [Admin] ✗ Wait until Organization row for "Home" is visible (60003ms)
+[2026-09-19T04:58:04.739Z] [ERROR] [W0] [C5877540] Locator: role=gridcell[name="Home"i]
+[2026-09-19T04:58:04.739Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Home"i]') to be visible
+
+[2026-09-19T04:58:04.739Z] [ERROR] [W0] [C5877540] [Admin] ✗ Add organization division "Home" (62181ms)
+[2026-09-19T04:58:04.739Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Home"i]') to be visible
+

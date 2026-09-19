@@ -1,0 +1,10 @@
+[2026-09-19T05:42:32.635Z] [ERROR] [W1] [C22682824] [Admin] ✗ Select first available linked training plan (10007ms)
+[2026-09-19T05:42:32.635Z] [ERROR] [W1] [C22682824] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-09-19T05:42:32.636Z] [ERROR] [W1] [C22682824] [Admin] ✗ Create agency credential "smart contracts Certificate" (23575ms)
+[2026-09-19T05:42:32.636Z] [ERROR] [W1] [C22682824] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T04:59:43.250Z] [INFO] [W0] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-09-19T04:59:46.633Z] [INFO] [W0] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (3383ms)
+[2026-09-19T04:59:46.633Z] [INFO] [W0] [C22779515] [Admin] → Create apparatus group "Clark County Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22779515]
+Status: FAILED
+Duration: 67947ms
+[2026-09-19T05:00:50.947Z] [ERROR] [W0] [C22779515] [object Object]
+────────────────────────────────────────────────────────

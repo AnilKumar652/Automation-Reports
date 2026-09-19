@@ -1,0 +1,10 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C77675]
+Title: Verify user can create a fire station with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:21:46.716Z] [INFO] [W1] [C77675] [Admin] → Open Fire Station list page
+[2026-09-19T05:21:49.981Z] [INFO] [W1] [C77675] [Admin] ✓ Open Fire Station list page (3265ms)
+[2026-09-19T05:21:49.981Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station List Ready
+[2026-09-19T05:21:50.216Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station List Ready (235ms)
+[2026-09-19T05:21:50.222Z] [INFO] [W1] [C77675] [Admin] → Open new fire station form

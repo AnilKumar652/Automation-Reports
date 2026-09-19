@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T04:57:23.758Z] [INFO] [W1] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-09-19T04:57:27.404Z] [INFO] [W1] [C5877543] [Admin] ✓ Open Agency Setup Organization page (3646ms)
+[2026-09-19T04:57:27.408Z] [INFO] [W1] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-09-19T04:57:27.577Z] [INFO] [W1] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (169ms)
+[2026-09-19T04:57:27.578Z] [INFO] [W1] [C5877543] [Admin] → Select Organization Positions tab
+[2026-09-19T04:57:31.927Z] [INFO] [W1] [C5877543] [Admin] ✓ Select Organization Positions tab (4349ms)
+[2026-09-19T04:57:31.927Z] [INFO] [W1] [C5877543] [Admin] → Add organization position "Direct Applications Officer"

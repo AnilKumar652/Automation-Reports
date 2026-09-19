@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C7135673]
+Title: Verify clone action duplicates a credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:20:36.421Z] [INFO] [W1] [C7135673] [Admin] → Open Agency Credentials page
+[2026-09-19T05:20:42.490Z] [INFO] [W1] [C7135673] [Admin] ✓ Open Agency Credentials page (6069ms)
+[2026-09-19T05:20:42.490Z] [INFO] [W1] [C7135673] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:20:50.656Z] [INFO] [W1] [C7135673] [Admin] ✓ Agency Credentials page is ready (8166ms)
+[2026-09-19T05:20:50.660Z] [INFO] [W1] [C7135673] [Admin] → Create agency credential "blockchains Certification"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C7135673]
+Status: FAILED
+Duration: 28703ms
+[2026-09-19T05:21:04.810Z] [ERROR] [W1] [C7135673] [object Object]
+────────────────────────────────────────────────────────

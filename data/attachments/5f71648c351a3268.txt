@@ -1,0 +1,10 @@
+[2026-09-19T05:11:06.838Z] [ERROR] [W1] [C54657] [Admin] ✗ Select first available linked training plan (10009ms)
+[2026-09-19T05:11:06.838Z] [ERROR] [W1] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-09-19T05:11:06.839Z] [ERROR] [W1] [C54657] [Admin] ✗ Create agency credential "Collier - Koelpin-1" (22168ms)
+[2026-09-19T05:11:06.839Z] [ERROR] [W1] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

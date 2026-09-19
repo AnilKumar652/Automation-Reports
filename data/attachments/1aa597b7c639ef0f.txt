@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22670979]
+Title: Verify Download CSV option is available on My Credentials grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:35:12.082Z] [INFO] [W0] [C22670979] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22670979]
+Status: FAILED
+Duration: 60575ms
+[2026-09-19T05:36:12.357Z] [ERROR] [W0] [C22670979] [object Object]
+────────────────────────────────────────────────────────

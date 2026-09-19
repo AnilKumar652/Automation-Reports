@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-09-19T05:00:12.949Z] [INFO] [W1] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-09-19T05:00:16.462Z] [INFO] [W1] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (3513ms)
+[2026-09-19T05:00:16.463Z] [INFO] [W1] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-09-19T05:00:16.650Z] [INFO] [W1] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (187ms)
+[2026-09-19T05:00:16.680Z] [INFO] [W1] [C45556] [Admin] → Create apparatus group "Merseyside Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45556]
+Status: FAILED
+Duration: 68453ms
+[2026-09-19T05:01:21.147Z] [ERROR] [W1] [C45556] [object Object]
+────────────────────────────────────────────────────────

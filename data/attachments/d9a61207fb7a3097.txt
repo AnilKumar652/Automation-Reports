@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22816988]
+Title: Verify new person can be created successfully for Training module
+────────────────────────────────────────────────────────
+[2026-09-19T05:43:35.851Z] [INFO] [W1] [C22816988] [Admin] → Open Create Person form
+[2026-09-19T05:43:43.430Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Create Person form (7578ms)
+[2026-09-19T05:43:43.431Z] [INFO] [W1] [C22816988] [Admin] → Is Create Person Form Open
+[2026-09-19T05:43:43.477Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Create Person Form Open (46ms)
+[2026-09-19T05:43:43.504Z] [INFO] [W1] [C22816988] [Admin] → Fill person form for "Candice Bednar"
+[2026-09-19T05:43:57.855Z] [INFO] [W1] [C22816988] [Admin] ✓ Fill person form for "Candice Bednar" (14351ms)
+[2026-09-19T05:43:57.855Z] [INFO] [W1] [C22816988] [Admin] → Is Person System User Active
+[2026-09-19T05:43:57.882Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Person System User Active (27ms)
+[2026-09-19T05:43:57.889Z] [INFO] [W1] [C22816988] [Admin] → Submit Create Person form
+[2026-09-19T05:44:00.427Z] [INFO] [W1] [C22816988] [Admin] ✓ Submit Create Person form (2538ms)
+[2026-09-19T05:44:00.427Z] [INFO] [W1] [C22816988] [Admin] → Person Created Success Message
+[2026-09-19T05:44:00.715Z] [INFO] [W1] [C22816988] [Admin] ✓ Person Created Success Message (288ms)
+[2026-09-19T05:44:00.718Z] [INFO] [W1] [C22816988] [Admin] → Open Personnel List page
+[2026-09-19T05:44:01.951Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Personnel List page (1233ms)
+[2026-09-19T05:44:01.951Z] [INFO] [W1] [C22816988] [Admin] → Search personnel list for "Candice Bednar"
+[2026-09-19T05:44:05.801Z] [INFO] [W1] [C22816988] [Admin] ✓ Search personnel list for "Candice Bednar" (3850ms)
+[2026-09-19T05:44:05.802Z] [INFO] [W1] [C22816988] [Admin] → Is Personnel List Row Visible
+[2026-09-19T05:44:05.880Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Personnel List Row Visible (78ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22816988]
+Status: PASSED
+Duration: 30527ms
+────────────────────────────────────────────────────────

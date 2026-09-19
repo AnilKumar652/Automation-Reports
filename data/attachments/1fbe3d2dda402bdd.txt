@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58114]
+Title: Verify third edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:15:56.684Z] [INFO] [W1] [C58114] [Admin] → Prepare and assign credential "experiences Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58114]
+Status: FAILED
+Duration: 44608ms
+[2026-09-19T05:16:40.888Z] [ERROR] [W1] [C58114] [object Object]
+────────────────────────────────────────────────────────

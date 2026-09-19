@@ -1,0 +1,10 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22608138]
+Title: Verify eligible e-learning course shows Enroll and enrolls without leaving Plan Details
+────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22608138]
+Status: FAILED
+Duration: 322ms
+[2026-09-19T05:43:17.093Z] [ERROR] [W1] [C22608138] [object Object]
+────────────────────────────────────────────────────────

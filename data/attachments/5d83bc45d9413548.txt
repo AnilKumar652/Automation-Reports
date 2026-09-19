@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5701947]
+Title: Verify filters in Credentials - Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:11:55.619Z] [INFO] [W1] [C5701947] [Admin] → Prepare and assign credential "paradigms License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5701947]
+Status: FAILED
+Duration: 41611ms
+[2026-09-19T05:12:36.860Z] [ERROR] [W1] [C5701947] [object Object]
+────────────────────────────────────────────────────────

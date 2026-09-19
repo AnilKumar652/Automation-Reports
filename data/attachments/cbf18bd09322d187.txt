@@ -1,0 +1,16 @@
+[2026-09-19T05:00:50.871Z] [ERROR] [W0] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "Clark County Unit" is visible (60003ms)
+[2026-09-19T05:00:50.871Z] [ERROR] [W0] [C22779515] Locator: role=cell[name="Clark County Unit"i]
+[2026-09-19T05:00:50.871Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Clark County Unit"i]') to be visible
+
+[2026-09-19T05:00:50.871Z] [ERROR] [W0] [C22779515] [Admin] ✗ Save apparatus group "Clark County Unit" (60154ms)
+[2026-09-19T05:00:50.871Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Clark County Unit"i]') to be visible
+
+[2026-09-19T05:00:50.872Z] [ERROR] [W0] [C22779515] [Admin] ✗ Create apparatus group "Clark County Unit" (64239ms)
+[2026-09-19T05:00:50.872Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Clark County Unit"i]') to be visible
+

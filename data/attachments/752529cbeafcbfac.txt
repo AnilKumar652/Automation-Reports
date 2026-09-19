@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58113]
+Title: Verify second edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:15:40.056Z] [INFO] [W0] [C58113] [Admin] → Prepare and assign credential "channels Credential" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58113]
+Status: FAILED
+Duration: 57533ms
+[2026-09-19T05:16:37.271Z] [ERROR] [W0] [C58113] [object Object]
+────────────────────────────────────────────────────────

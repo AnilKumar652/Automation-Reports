@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181793]
+Title: Verify State / Province is optional when creating a credential from Setup
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:04:00.623Z] [INFO] [W0] [C22181793] [Admin] → Open Agency Credentials page
+[2026-09-19T05:04:04.235Z] [INFO] [W0] [C22181793] [Admin] ✓ Open Agency Credentials page (3612ms)
+[2026-09-19T05:04:04.235Z] [INFO] [W0] [C22181793] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:04:04.729Z] [INFO] [W0] [C22181793] [Admin] ✓ Agency Credentials page is ready (494ms)
+[2026-09-19T05:04:04.761Z] [INFO] [W0] [C22181793] [Admin] → Open Add Credential form
+[2026-09-19T05:04:14.623Z] [INFO] [W0] [C22181793] [Admin] ✓ Open Add Credential form (9862ms)
+[2026-09-19T05:04:14.623Z] [INFO] [W0] [C22181793] [Admin] → State Province Mandatory Indicator
+[2026-09-19T05:04:14.767Z] [INFO] [W0] [C22181793] [Admin] ✓ State Province Mandatory Indicator (144ms)
+[2026-09-19T05:04:14.771Z] [INFO] [W0] [C22181793] [Admin] → Create agency credential "metrics Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181793]
+Status: FAILED
+Duration: 27440ms
+[2026-09-19T05:04:27.595Z] [ERROR] [W0] [C22181793] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54659]
+Title: Verify in-use credential cannot be deleted
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:11:44.428Z] [INFO] [W0] [C54659] [Admin] → Open Agency Credentials page
+[2026-09-19T05:11:47.315Z] [INFO] [W0] [C54659] [Admin] ✓ Open Agency Credentials page (2887ms)
+[2026-09-19T05:11:47.315Z] [INFO] [W0] [C54659] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:11:48.338Z] [INFO] [W0] [C54659] [Admin] ✓ Agency Credentials page is ready (1023ms)
+[2026-09-19T05:11:48.360Z] [INFO] [W0] [C54659] [Admin] → Create agency credential "lifetime value Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54659]
+Status: FAILED
+Duration: 26839ms
+[2026-09-19T05:12:11.117Z] [ERROR] [W0] [C54659] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:11:15.813Z] [INFO] [W1] [C54657] [Admin] → Open Agency Credentials page
+[2026-09-19T05:11:21.600Z] [INFO] [W1] [C54657] [Admin] ✓ Open Agency Credentials page (5787ms)
+[2026-09-19T05:11:21.601Z] [INFO] [W1] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:11:31.388Z] [INFO] [W1] [C54657] [Admin] ✓ Agency Credentials page is ready (9787ms)
+[2026-09-19T05:11:31.402Z] [INFO] [W1] [C54657] [Admin] → Create agency credential "Wehner, Ryan and Hamill-1"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54657]
+Status: FAILED
+Duration: 30352ms
+[2026-09-19T05:11:45.703Z] [ERROR] [W1] [C54657] [object Object]
+────────────────────────────────────────────────────────

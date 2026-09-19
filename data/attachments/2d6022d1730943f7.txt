@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58129]
+Title: Verify personnel removal from Admin Users reflects in Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:18:01.812Z] [INFO] [W1] [C58129] [Admin] → Prepare and assign credential "blockchains Certification" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58129]
+Status: FAILED
+Duration: 50044ms
+[2026-09-19T05:18:51.469Z] [ERROR] [W1] [C58129] [object Object]
+────────────────────────────────────────────────────────

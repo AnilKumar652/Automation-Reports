@@ -1,0 +1,21 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:45:04.469Z] [INFO] [W1] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-09-19T05:45:09.811Z] [INFO] [W1] [C21852431] [Admin] ✓ Open Training Setup Categories page (5342ms)
+[2026-09-19T05:45:09.812Z] [INFO] [W1] [C21852431] [Admin] → Create category "Unbranded Movies"
+[2026-09-19T05:45:18.608Z] [INFO] [W1] [C21852431] [Admin] ✓ Create category "Unbranded Movies" (8796ms)
+[2026-09-19T05:45:18.609Z] [INFO] [W1] [C21852431] [Admin] → Search categories by name "Unbranded Movies" (exact match)
+[2026-09-19T05:45:19.905Z] [INFO] [W1] [C21852431] [Admin] ✓ Search categories by name "Unbranded Movies" (exact match) (1296ms)
+[2026-09-19T05:45:19.905Z] [INFO] [W1] [C21852431] [Admin] → Edit Category
+[2026-09-19T05:45:22.237Z] [INFO] [W1] [C21852431] [Admin] ✓ Edit Category (2332ms)
+[2026-09-19T05:45:22.237Z] [INFO] [W1] [C21852431] [Admin] → Search categories by name "Elegant Books" (exact match)
+[2026-09-19T05:45:23.752Z] [INFO] [W1] [C21852431] [Admin] ✓ Search categories by name "Elegant Books" (exact match) (1515ms)
+[2026-09-19T05:45:23.752Z] [INFO] [W1] [C21852431] [Admin] → Category Row Visible
+[2026-09-19T05:45:23.785Z] [INFO] [W1] [C21852431] [Admin] ✓ Category Row Visible (33ms)
+[2026-09-19T05:45:23.793Z] [INFO] [W1] [C21852431] [Admin] → Open Edit Category Modal
+[2026-09-19T05:45:24.116Z] [INFO] [W1] [C21852431] [Admin] ✓ Open Edit Category Modal (323ms)
+[2026-09-19T05:45:24.117Z] [INFO] [W1] [C21852431] [Admin] → Category Modal Name Value
+[2026-09-19T05:45:24.211Z] [INFO] [W1] [C21852431] [Admin] ✓ Category Modal Name Value (94ms)

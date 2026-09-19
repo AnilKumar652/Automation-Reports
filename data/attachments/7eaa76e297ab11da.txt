@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-09-19T05:01:33.553Z] [INFO] [W1] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-09-19T05:01:45.281Z] [INFO] [W1] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (11728ms)
+[2026-09-19T05:01:45.284Z] [INFO] [W1] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-09-19T05:01:45.322Z] [INFO] [W1] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (38ms)
+[2026-09-19T05:01:45.327Z] [INFO] [W1] [C45556] [Admin] → Create apparatus group "Washington County Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45556]
+Status: FAILED
+Duration: 72683ms
+[2026-09-19T05:02:46.096Z] [ERROR] [W1] [C45556] [object Object]
+────────────────────────────────────────────────────────

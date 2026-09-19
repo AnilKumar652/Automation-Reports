@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C52165]
+Title: Verify duplicate credential name validation on create
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:09:56.981Z] [INFO] [W1] [C52165] [Admin] → Open Agency Credentials page
+[2026-09-19T05:10:02.251Z] [INFO] [W1] [C52165] [Admin] ✓ Open Agency Credentials page (5270ms)
+[2026-09-19T05:10:02.251Z] [INFO] [W1] [C52165] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:10:12.661Z] [INFO] [W1] [C52165] [Admin] ✓ Agency Credentials page is ready (10410ms)
+[2026-09-19T05:10:12.667Z] [INFO] [W1] [C52165] [Admin] → Create agency credential "large language models Certification"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C52165]
+Status: FAILED
+Duration: 32400ms
+[2026-09-19T05:10:28.972Z] [ERROR] [W1] [C52165] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22670975]
+Title: Verify saved views options are available on My Credentials page
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:29:18.553Z] [INFO] [W0] [C22670975] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22670975]
+Status: FAILED
+Duration: 60474ms
+[2026-09-19T05:30:18.768Z] [ERROR] [W0] [C22670975] [object Object]
+────────────────────────────────────────────────────────

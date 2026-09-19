@@ -1,0 +1,10 @@
+[2026-09-19T05:12:41.194Z] [ERROR] [W0] [C54659] [Admin] ✗ Select first available linked training plan (10076ms)
+[2026-09-19T05:12:41.195Z] [ERROR] [W0] [C54659] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-09-19T05:12:41.195Z] [ERROR] [W0] [C54659] [Admin] ✗ Create agency credential "convergence Certificate" (14839ms)
+[2026-09-19T05:12:41.195Z] [ERROR] [W0] [C54659] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

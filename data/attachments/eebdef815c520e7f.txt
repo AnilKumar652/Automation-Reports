@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-09-19T05:02:37.009Z] [INFO] [W0] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-09-19T05:02:40.441Z] [INFO] [W0] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (3432ms)
+[2026-09-19T05:02:40.441Z] [INFO] [W0] [C45059] [Admin] → Is Location Groups List Ready
+[2026-09-19T05:02:40.511Z] [INFO] [W0] [C45059] [Admin] ✓ Is Location Groups List Ready (70ms)
+[2026-09-19T05:02:40.512Z] [INFO] [W0] [C45059] [Admin] → Create location group "Jefferson County Group"
+[2026-09-19T05:02:44.522Z] [INFO] [W0] [C45059] [Admin] ✓ Create location group "Jefferson County Group" (4010ms)
+[2026-09-19T05:02:44.523Z] [INFO] [W0] [C45059] [Admin] → Location Group Created Success Message
+[2026-09-19T05:02:44.541Z] [INFO] [W0] [C45059] [Admin] ✓ Location Group Created Success Message (18ms)
+[2026-09-19T05:02:44.542Z] [INFO] [W0] [C45059] [Admin] → Asset Management Setup Row Visible
+[2026-09-19T05:02:44.561Z] [INFO] [W0] [C45059] [Admin] ✓ Asset Management Setup Row Visible (19ms)

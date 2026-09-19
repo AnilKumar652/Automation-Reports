@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:08:22.153Z] [INFO] [W1] [C52162] [Admin] → Prepare and assign credential "convergence Credential" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C52162]
+Status: FAILED
+Duration: 49993ms
+[2026-09-19T05:09:11.765Z] [ERROR] [W1] [C52162] [object Object]
+────────────────────────────────────────────────────────

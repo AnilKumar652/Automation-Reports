@@ -1,0 +1,19 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-09-19T05:02:27.894Z] [INFO] [W0] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-09-19T05:02:31.240Z] [INFO] [W0] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (3347ms)
+[2026-09-19T05:02:31.240Z] [INFO] [W0] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-09-19T05:02:31.318Z] [INFO] [W0] [C45539] [Admin] ✓ Is Equipment Groups List Ready (78ms)
+[2026-09-19T05:02:31.338Z] [INFO] [W0] [C45539] [Admin] → Create equipment group "Grampian Unit"
+[2026-09-19T05:02:36.166Z] [INFO] [W0] [C45539] [Admin] ✓ Create equipment group "Grampian Unit" (4828ms)
+[2026-09-19T05:02:36.167Z] [INFO] [W0] [C45539] [Admin] → Equipment Group Created Success Message
+[2026-09-19T05:02:36.197Z] [INFO] [W0] [C45539] [Admin] ✓ Equipment Group Created Success Message (30ms)
+[2026-09-19T05:02:36.200Z] [INFO] [W0] [C45539] [Admin] → Asset Management Setup Row Visible
+[2026-09-19T05:02:36.227Z] [INFO] [W0] [C45539] [Admin] ✓ Asset Management Setup Row Visible (28ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45539]
+Status: PASSED
+Duration: 8669ms
+────────────────────────────────────────────────────────

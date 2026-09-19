@@ -1,0 +1,19 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:44:48.534Z] [INFO] [W1] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-09-19T05:44:51.735Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Training Setup Categories page (3201ms)
+[2026-09-19T05:44:51.738Z] [INFO] [W1] [C21852430] [Admin] → Create category "Soft Toys"
+[2026-09-19T05:45:00.610Z] [INFO] [W1] [C21852430] [Admin] ✓ Create category "Soft Toys" (8872ms)
+[2026-09-19T05:45:00.610Z] [INFO] [W1] [C21852430] [Admin] → Search categories by name "Soft Toys" (exact match)
+[2026-09-19T05:45:01.973Z] [INFO] [W1] [C21852430] [Admin] ✓ Search categories by name "Soft Toys" (exact match) (1363ms)
+[2026-09-19T05:45:01.973Z] [INFO] [W1] [C21852430] [Admin] → Category Row Visible
+[2026-09-19T05:45:01.997Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Row Visible (24ms)
+[2026-09-19T05:45:02.004Z] [INFO] [W1] [C21852430] [Admin] → Open Edit Category Modal
+[2026-09-19T05:45:02.633Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Edit Category Modal (629ms)
+[2026-09-19T05:45:02.633Z] [INFO] [W1] [C21852430] [Admin] → Is Edit Category Modal Open
+[2026-09-19T05:45:02.661Z] [INFO] [W1] [C21852430] [Admin] ✓ Is Edit Category Modal Open (28ms)
+[2026-09-19T05:45:02.667Z] [INFO] [W1] [C21852430] [Admin] → Category Modal Name Value
+[2026-09-19T05:45:02.689Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Modal Name Value (22ms)

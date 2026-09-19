@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T04:58:44.816Z] [INFO] [W1] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-09-19T04:58:57.334Z] [INFO] [W1] [C5877543] [Admin] ✓ Open Agency Setup Organization page (12518ms)
+[2026-09-19T04:58:57.337Z] [INFO] [W1] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-09-19T04:58:57.409Z] [INFO] [W1] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (72ms)
+[2026-09-19T04:58:57.412Z] [INFO] [W1] [C5877543] [Admin] → Select Organization Positions tab
+[2026-09-19T04:58:57.890Z] [INFO] [W1] [C5877543] [Admin] ✓ Select Organization Positions tab (478ms)
+[2026-09-19T04:58:57.890Z] [INFO] [W1] [C5877543] [Admin] → Add organization position "Central Research Specialist"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5877543]
+Status: FAILED
+Duration: 74791ms
+[2026-09-19T04:59:59.312Z] [ERROR] [W1] [C5877543] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,125 @@
+[2026-09-19T05:23:02.969Z] [ERROR] [W1] [C77675] [Admin] ✗ Click Apply fire station filters button (10137ms)
+[2026-09-19T05:23:02.970Z] [ERROR] [W1] [C77675] Locator: [data-testid="apply-btn"]
+[2026-09-19T05:23:02.970Z] [ERROR] [W1] [C77675] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="apply-btn"]')
+    - locator resolved to <button data-testid="apply-btn" class="btn btn-primary">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="fd-list-main-container">…</div> intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <img alt="Chat" src="/img/chat/icon.png"/> from <div id="maven-chat-widget">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="fd-list-main-container">…</div> intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    4 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="fd-list-main-container">…</div> intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <img alt="Chat" src="/img/chat/icon.png"/> from <div id="maven-chat-widget">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="fd-list-main-container">…</div> intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="fd-list-main-container">…</div> intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="fd-list-main-container">…</div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+[2026-09-19T05:23:02.970Z] [ERROR] [W1] [C77675] [Admin] ✗ Search fire stations by name "Angieberg Fire Station" (17311ms)
+[2026-09-19T05:23:02.970Z] [ERROR] [W1] [C77675] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="apply-btn"]')
+    - locator resolved to <button data-testid="apply-btn" class="btn btn-primary">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="fd-list-main-container">…</div> intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <img alt="Chat" src="/img/chat/icon.png"/> from <div id="maven-chat-widget">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="fd-list-main-container">…</div> intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    4 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="fd-list-main-container">…</div> intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <img alt="Chat" src="/img/chat/icon.png"/> from <div id="maven-chat-widget">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="fd-list-main-container">…</div> intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="fd-list-main-container">…</div> intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="fd-list-main-container">…</div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+

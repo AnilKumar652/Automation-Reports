@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181794]
+Title: Verify imported Global Credential does not require State / Province at agency level
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:04:43.872Z] [INFO] [W1] [C22181794] [Super Admin] → Open Global Credentials page
+[2026-09-19T05:04:48.883Z] [INFO] [W1] [C22181794] [Super Admin] ✓ Open Global Credentials page (5011ms)
+[2026-09-19T05:04:48.883Z] [INFO] [W1] [C22181794] [Super Admin] → Create global credential "convergence License"
+[2026-09-19T05:05:00.620Z] [INFO] [W1] [C22181794] [Super Admin] ✓ Create global credential "convergence License" (11737ms)
+[2026-09-19T05:05:00.620Z] [INFO] [W1] [C22181794] [Admin] → Open Agency Credentials page
+[2026-09-19T05:05:03.446Z] [INFO] [W1] [C22181794] [Admin] ✓ Open Agency Credentials page (2826ms)
+[2026-09-19T05:05:03.447Z] [INFO] [W1] [C22181794] [Admin] → Import global credential "convergence License"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181794]
+Status: FAILED
+Duration: 31985ms
+[2026-09-19T05:05:18.014Z] [ERROR] [W1] [C22181794] [object Object]
+────────────────────────────────────────────────────────

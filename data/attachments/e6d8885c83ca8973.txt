@@ -1,0 +1,16 @@
+[2026-09-19T05:02:45.907Z] [ERROR] [W1] [C45556] [Admin] ✗ Wait until Asset management setup list row for "Washington County Team" is visible (60027ms)
+[2026-09-19T05:02:45.908Z] [ERROR] [W1] [C45556] Locator: role=cell[name="Washington County Team"i]
+[2026-09-19T05:02:45.908Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Washington County Team"i]') to be visible
+
+[2026-09-19T05:02:45.909Z] [ERROR] [W1] [C45556] [Admin] ✗ Save apparatus group "Washington County Team" (60186ms)
+[2026-09-19T05:02:45.909Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Washington County Team"i]') to be visible
+
+[2026-09-19T05:02:45.909Z] [ERROR] [W1] [C45556] [Admin] ✗ Create apparatus group "Washington County Team" (60582ms)
+[2026-09-19T05:02:45.909Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Washington County Team"i]') to be visible
+

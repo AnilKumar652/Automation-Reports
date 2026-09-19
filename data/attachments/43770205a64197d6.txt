@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:05:19.159Z] [INFO] [W0] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-09-19T05:05:24.185Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Open Global Credentials page (5026ms)
+[2026-09-19T05:05:24.186Z] [INFO] [W0] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-09-19T05:05:25.296Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (1110ms)
+[2026-09-19T05:05:25.317Z] [INFO] [W0] [C22181795] [Super Admin] → Create global credential "content Credential"
+[2026-09-19T05:05:41.919Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Create global credential "content Credential" (16602ms)
+[2026-09-19T05:05:41.920Z] [INFO] [W0] [C22181795] [Super Admin] → Is Add Global Credential Modal Open
+[2026-09-19T05:05:41.931Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Is Add Global Credential Modal Open (12ms)
+[2026-09-19T05:05:41.937Z] [INFO] [W0] [C22181795] [Super Admin] → Search global credentials for "content Credential"
+[2026-09-19T05:05:43.447Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Search global credentials for "content Credential" (1510ms)
+[2026-09-19T05:05:43.447Z] [INFO] [W0] [C22181795] [Super Admin] → Global Credential Row Visible
+[2026-09-19T05:05:43.494Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Global Credential Row Visible (47ms)
+[2026-09-19T05:05:43.502Z] [INFO] [W0] [C22181795] [Admin] → Open Agency Credentials page
+[2026-09-19T05:05:47.924Z] [INFO] [W0] [C22181795] [Admin] ✓ Open Agency Credentials page (4422ms)
+[2026-09-19T05:05:47.924Z] [INFO] [W0] [C22181795] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:05:48.270Z] [INFO] [W0] [C22181795] [Admin] ✓ Agency Credentials page is ready (346ms)
+[2026-09-19T05:05:48.281Z] [INFO] [W0] [C22181795] [Admin] → Import global credential "content Credential"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181795]
+Status: FAILED
+Duration: 40697ms
+[2026-09-19T05:06:03.357Z] [ERROR] [W0] [C22181795] [object Object]
+────────────────────────────────────────────────────────

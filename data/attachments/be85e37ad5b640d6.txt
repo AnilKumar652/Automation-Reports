@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5883872]
+Title: Verify unique credential ID validation
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:18:37.008Z] [INFO] [W0] [C5883872] [Admin] → Open Agency Credentials page
+[2026-09-19T05:18:39.845Z] [INFO] [W0] [C5883872] [Admin] ✓ Open Agency Credentials page (2837ms)
+[2026-09-19T05:18:39.845Z] [INFO] [W0] [C5883872] [Admin] → Verify Agency Credentials page is ready
+[2026-09-19T05:18:40.462Z] [INFO] [W0] [C5883872] [Admin] ✓ Agency Credentials page is ready (617ms)
+[2026-09-19T05:18:40.466Z] [INFO] [W0] [C5883872] [Admin] → Create agency credential "large language models Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5883872]
+Status: FAILED
+Duration: 21100ms
+[2026-09-19T05:18:57.755Z] [ERROR] [W0] [C5883872] [object Object]
+────────────────────────────────────────────────────────

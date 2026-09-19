@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58113]
+Title: Verify second edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-19T05:14:48.618Z] [INFO] [W0] [C58113] [Admin] → Prepare and assign credential "relationships Certification" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58113]
+Status: FAILED
+Duration: 48545ms
+[2026-09-19T05:15:36.514Z] [ERROR] [W0] [C58113] [object Object]
+────────────────────────────────────────────────────────
