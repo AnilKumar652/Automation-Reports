@@ -1,0 +1,21 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T06:13:53.063Z] [INFO] [W1] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-09-26T06:14:06.146Z] [INFO] [W1] [C21852431] [Admin] ✓ Open Training Setup Categories page (13083ms)
+[2026-09-26T06:14:06.146Z] [INFO] [W1] [C21852431] [Admin] → Create category "Unbranded Automotive"
+[2026-09-26T06:14:08.369Z] [INFO] [W1] [C21852431] [Admin] ✓ Create category "Unbranded Automotive" (2223ms)
+[2026-09-26T06:14:08.369Z] [INFO] [W1] [C21852431] [Admin] → Search categories by name "Unbranded Automotive" (exact match)
+[2026-09-26T06:14:09.933Z] [INFO] [W1] [C21852431] [Admin] ✓ Search categories by name "Unbranded Automotive" (exact match) (1564ms)
+[2026-09-26T06:14:09.933Z] [INFO] [W1] [C21852431] [Admin] → Edit Category
+[2026-09-26T06:14:10.978Z] [INFO] [W1] [C21852431] [Admin] ✓ Edit Category (1045ms)
+[2026-09-26T06:14:10.978Z] [INFO] [W1] [C21852431] [Admin] → Search categories by name "Gorgeous Grocery" (exact match)
+[2026-09-26T06:14:12.922Z] [INFO] [W1] [C21852431] [Admin] ✓ Search categories by name "Gorgeous Grocery" (exact match) (1944ms)
+[2026-09-26T06:14:12.922Z] [INFO] [W1] [C21852431] [Admin] → Category Row Visible
+[2026-09-26T06:14:12.938Z] [INFO] [W1] [C21852431] [Admin] ✓ Category Row Visible (16ms)
+[2026-09-26T06:14:12.939Z] [INFO] [W1] [C21852431] [Admin] → Open Edit Category Modal
+[2026-09-26T06:14:13.347Z] [INFO] [W1] [C21852431] [Admin] ✓ Open Edit Category Modal (408ms)
+[2026-09-26T06:14:13.347Z] [INFO] [W1] [C21852431] [Admin] → Category Modal Name Value
+[2026-09-26T06:14:13.385Z] [INFO] [W1] [C21852431] [Admin] ✓ Category Modal Name Value (38ms)

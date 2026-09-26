@@ -1,0 +1,10 @@
+[2026-09-26T05:40:30.625Z] [ERROR] [W1] [C54657] [Admin] ✗ Select first available linked training plan (10047ms)
+[2026-09-26T05:40:30.626Z] [ERROR] [W1] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-09-26T05:40:30.626Z] [ERROR] [W1] [C54657] [Admin] ✗ Create agency credential "Kuhn, Okuneva and Kassulke-1" (13170ms)
+[2026-09-26T05:40:30.626Z] [ERROR] [W1] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

@@ -1,0 +1,4 @@
+[2026-09-26T05:32:32.049Z] [ERROR] [W1] [C22181792] [Admin] ✗ Toggle Credential Autogenerate (10220ms)
+[2026-09-26T05:32:32.049Z] [ERROR] [W1] [C22181792] page.waitForFunction: Timeout 10000ms exceeded.
+[2026-09-26T05:32:32.049Z] [ERROR] [W1] [C22181792] [Admin] ✗ Create agency credential "synergies Certificate" (10856ms)
+[2026-09-26T05:32:32.049Z] [ERROR] [W1] [C22181792] page.waitForFunction: Timeout 10000ms exceeded.

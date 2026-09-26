@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58122]
+Title: Verify credential log can be removed from Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:45:15.858Z] [INFO] [W0] [C58122] [Admin] → Prepare and assign credential "platforms Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58122]
+Status: FAILED
+Duration: 41858ms
+[2026-09-26T05:45:57.405Z] [ERROR] [W0] [C58122] [object Object]
+────────────────────────────────────────────────────────

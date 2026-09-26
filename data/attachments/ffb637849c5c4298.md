@@ -1,0 +1,181 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: personnel-setup/activity-types/C22816991-verify-activity-type-can-be-created-successfully-in-personnel-setup.spec.ts >> Personnel setup activity types >> C22816991: Verify Activity Type can be created successfully in Personnel Setup
+- Location: src/tests/personnel-setup/activity-types/C22816991-verify-activity-type-can-be-created-successfully-in-personnel-setup.spec.ts:16:7
+
+# Error details
+
+```
+TimeoutError: locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=link[name="Add Activity Type"i]') to be visible
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content":
+    - /url: "#main-content"
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - button "Show main sidebar" [ref=e8]:
+          - img [ref=e9]
+        - region "Setup" [ref=e14]:
+          - heading "Setup" [level=2] [ref=e15]
+        - generic:
+          - generic:  
+      - main [ref=e16]
+      - contentinfo [ref=e22]:
+        - text: © 2017-2026 First Due. Powered by
+        - link "LocalityMedia, Inc" [ref=e23] [cursor=pointer]:
+          - /url: https://www.firstdue.com/
+        - text: .
+    - text: 
+  - generic [ref=e25] [cursor=pointer]: 
+  - generic:
+    - button "Chat Close Maven Chat" [ref=e26] [cursor=pointer]:
+      - img "Chat" [ref=e28]
+      - button "Close Maven Chat"
+    - iframe
+```
+
+# Test source
+
+```ts
+  1   | import type { Actor } from '../Actor';
+  2   | import { Interaction } from '../Interaction';
+  3   | import type { Target } from '../Target';
+  4   | import { resolveLocator } from '../Target';
+  5   | import { BrowseTheWeb } from '../abilities/BrowseTheWeb';
+  6   | import { Timeouts } from '@/config';
+  7   | 
+  8   | type SelectorState = 'attached' | 'detached' | 'visible' | 'hidden';
+  9   | 
+  10  | type WaitCondition =
+  11  |   | { type: 'selector'; target: Target | string; state?: SelectorState; timeout?: number }
+  12  |   | { type: 'load'; state?: 'load' | 'domcontentloaded' | 'networkidle' }
+  13  |   | { type: 'url'; pathFragment: string; negate?: boolean; timeout?: number }
+  14  |   | { type: 'urlOrError'; pathFragment: string; errorTarget: Target | string; timeout?: number };
+  15  | 
+  16  | export class Wait extends Interaction {
+  17  |   private constructor(private readonly condition: WaitCondition) {
+  18  |     super();
+  19  |   }
+  20  | 
+  21  |   static until(
+  22  |     target: Target | string,
+  23  |     state: SelectorState = 'visible',
+  24  |     timeout?: number,
+  25  |   ): Wait {
+  26  |     return new Wait({ type: 'selector', target, state, timeout });
+  27  |   }
+  28  | 
+  29  |   static forLoadState(state: 'load' | 'domcontentloaded' | 'networkidle' = 'networkidle'): Wait {
+  30  |     return new Wait({ type: 'load', state });
+  31  |   }
+  32  | 
+  33  |   static untilUrlLeaves(pathFragment: string, timeout?: number): Wait {
+  34  |     return new Wait({ type: 'url', pathFragment, negate: true, timeout });
+  35  |   }
+  36  | 
+  37  |   static untilUrlLeavesOrError(
+  38  |     pathFragment: string,
+  39  |     errorTarget: Target | string,
+  40  |     timeout?: number,
+  41  |   ): Wait {
+  42  |     return new Wait({ type: 'urlOrError', pathFragment, errorTarget, timeout });
+  43  |   }
+  44  | 
+  45  |   describeAction(): string {
+  46  |     switch (this.condition.type) {
+  47  |       case 'selector': {
+  48  |         const state = this.condition.state ?? 'visible';
+  49  |         const timeoutSuffix = this.condition.timeout ? ` within ${this.condition.timeout}ms` : '';
+  50  |         return `Wait until ${Interaction.targetLabel(this.condition.target)} is ${state}${timeoutSuffix}`;
+  51  |       }
+  52  |       case 'load':
+  53  |         return `Wait for load state "${this.condition.state ?? 'networkidle'}"`;
+  54  |       case 'url': {
+  55  |         const timeoutSuffix = this.condition.timeout ? ` within ${this.condition.timeout}ms` : '';
+  56  |         return this.condition.negate
+  57  |           ? `Wait until URL leaves "${this.condition.pathFragment}"${timeoutSuffix}`
+  58  |           : `Wait until URL contains "${this.condition.pathFragment}"${timeoutSuffix}`;
+  59  |       }
+  60  |       case 'urlOrError': {
+  61  |         const timeoutSuffix = this.condition.timeout ? ` within ${this.condition.timeout}ms` : '';
+  62  |         return `Wait until URL leaves "${this.condition.pathFragment}" or login error appears${timeoutSuffix}`;
+  63  |       }
+  64  |     }
+  65  |   }
+  66  | 
+  67  |   describeDebugDetails(): string | undefined {
+  68  |     switch (this.condition.type) {
+  69  |       case 'selector':
+  70  |         return Interaction.locatorDetail(this.condition.target);
+  71  |       case 'urlOrError':
+  72  |         return Interaction.locatorDetail(this.condition.errorTarget);
+  73  |       default:
+  74  |         return undefined;
+  75  |     }
+  76  |   }
+  77  | 
+  78  |   async performAs(actor: Actor): Promise<void> {
+  79  |     const { page } = actor.abilityTo(BrowseTheWeb);
+  80  | 
+  81  |     switch (this.condition.type) {
+  82  |       case 'selector':
+> 83  |         await page.locator(resolveLocator(this.condition.target)).waitFor({
+      |                                                                   ^ TimeoutError: locator.waitFor: Timeout 60000ms exceeded.
+  84  |           state: this.condition.state,
+  85  |           timeout: this.condition.timeout ?? Timeouts.default,
+  86  |         });
+  87  |         break;
+  88  |       case 'load':
+  89  |         await page.waitForLoadState(this.condition.state);
+  90  |         break;
+  91  |       case 'url': {
+  92  |         const { pathFragment, negate, timeout } = this.condition;
+  93  |         await page.waitForURL(
+  94  |           (url) => negate
+  95  |             ? !url.pathname.includes(pathFragment)
+  96  |             : url.pathname.includes(pathFragment),
+  97  |           {
+  98  |             timeout: timeout ?? Timeouts.default,
+  99  |             waitUntil: 'commit',
+  100 |           },
+  101 |         );
+  102 |         break;
+  103 |       }
+  104 |       case 'urlOrError': {
+  105 |         const { pathFragment, errorTarget, timeout } = this.condition;
+  106 |         const resolvedTimeout = timeout ?? Timeouts.default;
+  107 |         const errorLocator = page
+  108 |           .locator(resolveLocator(errorTarget))
+  109 |           .filter({ hasText: /\S/ });
+  110 | 
+  111 |         await Promise.race([
+  112 |           page.waitForURL(
+  113 |             (url) => !url.pathname.includes(pathFragment),
+  114 |             { timeout: resolvedTimeout, waitUntil: 'commit' },
+  115 |           ),
+  116 |           errorLocator.first().waitFor({ state: 'visible', timeout: resolvedTimeout }).then(async () => {
+  117 |             const message = (await errorLocator.first().textContent())?.trim() ?? 'Unknown login error';
+  118 |             throw new Error(`Login failed: ${message}`);
+  119 |           }),
+  120 |         ]);
+  121 |         break;
+  122 |       }
+  123 |     }
+  124 |   }
+  125 | }
+  126 | 
+```

@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T06:14:14.379Z] [INFO] [W1] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-09-26T06:14:28.142Z] [INFO] [W1] [C21852432] [Admin] ✓ Open Training Setup Categories page (13763ms)
+[2026-09-26T06:14:28.154Z] [INFO] [W1] [C21852432] [Admin] → Create category "Wehner Inc Handcrafted Baby"
+[2026-09-26T06:14:29.928Z] [INFO] [W1] [C21852432] [Admin] ✓ Create category "Wehner Inc Handcrafted Baby" (1774ms)
+[2026-09-26T06:14:29.928Z] [INFO] [W1] [C21852432] [Admin] → Create category "Wehner Inc Bespoke Computers"
+[2026-09-26T06:14:31.766Z] [INFO] [W1] [C21852432] [Admin] ✓ Create category "Wehner Inc Bespoke Computers" (1838ms)
+[2026-09-26T06:14:31.766Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-09-26T06:14:31.790Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (24ms)
+[2026-09-26T06:14:31.790Z] [INFO] [W1] [C21852432] [Admin] → Search categories by name "Wehner Inc" (matching results)
+[2026-09-26T06:14:32.718Z] [INFO] [W1] [C21852432] [Admin] ✓ Search categories by name "Wehner Inc" (matching results) (928ms)
+[2026-09-26T06:14:32.718Z] [INFO] [W1] [C21852432] [Admin] → Visible Category Names
+[2026-09-26T06:14:32.783Z] [INFO] [W1] [C21852432] [Admin] ✓ Visible Category Names (65ms)
+[2026-09-26T06:14:32.794Z] [INFO] [W1] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-09-26T06:14:32.960Z] [INFO] [W1] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (166ms)
+[2026-09-26T06:14:32.961Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-09-26T06:14:32.968Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (7ms)
+[2026-09-26T06:14:32.968Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-09-26T06:14:32.973Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (5ms)
+[2026-09-26T06:14:32.973Z] [INFO] [W1] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-09-26T06:14:33.270Z] [INFO] [W1] [C21852432] [Admin] ✓ Toggle Header Row Selection (297ms)
+[2026-09-26T06:14:33.270Z] [INFO] [W1] [C21852432] [Admin] → Selected Category Row Count
+[2026-09-26T06:14:33.313Z] [INFO] [W1] [C21852432] [Admin] ✓ Selected Category Row Count (42ms)
+[2026-09-26T06:14:33.316Z] [INFO] [W1] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-09-26T06:14:33.421Z] [INFO] [W1] [C21852432] [Admin] ✓ Toggle Header Row Selection (105ms)
+[2026-09-26T06:14:33.422Z] [INFO] [W1] [C21852432] [Admin] → Selected Category Row Count
+[2026-09-26T06:14:33.430Z] [INFO] [W1] [C21852432] [Admin] ✓ Selected Category Row Count (8ms)

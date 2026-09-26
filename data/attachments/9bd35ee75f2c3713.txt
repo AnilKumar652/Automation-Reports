@@ -1,0 +1,4 @@
+[2026-09-26T05:48:29.242Z] [ERROR] [W0] [C7135673] [Admin] ✗ Toggle Credential Autogenerate (10284ms)
+[2026-09-26T05:48:29.242Z] [ERROR] [W0] [C7135673] page.waitForFunction: Timeout 10000ms exceeded.
+[2026-09-26T05:48:29.242Z] [ERROR] [W0] [C7135673] [Admin] ✗ Create agency credential "initiatives License" (14871ms)
+[2026-09-26T05:48:29.242Z] [ERROR] [W0] [C7135673] page.waitForFunction: Timeout 10000ms exceeded.

@@ -1,0 +1,19 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T06:13:42.151Z] [INFO] [W1] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-09-26T06:13:48.765Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Training Setup Categories page (6614ms)
+[2026-09-26T06:13:48.773Z] [INFO] [W1] [C21852430] [Admin] → Create category "Recycled Sports"
+[2026-09-26T06:13:50.576Z] [INFO] [W1] [C21852430] [Admin] ✓ Create category "Recycled Sports" (1803ms)
+[2026-09-26T06:13:50.577Z] [INFO] [W1] [C21852430] [Admin] → Search categories by name "Recycled Sports" (exact match)
+[2026-09-26T06:13:51.441Z] [INFO] [W1] [C21852430] [Admin] ✓ Search categories by name "Recycled Sports" (exact match) (864ms)
+[2026-09-26T06:13:51.441Z] [INFO] [W1] [C21852430] [Admin] → Category Row Visible
+[2026-09-26T06:13:51.474Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Row Visible (33ms)
+[2026-09-26T06:13:51.478Z] [INFO] [W1] [C21852430] [Admin] → Open Edit Category Modal
+[2026-09-26T06:13:51.838Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Edit Category Modal (360ms)
+[2026-09-26T06:13:51.838Z] [INFO] [W1] [C21852430] [Admin] → Is Edit Category Modal Open
+[2026-09-26T06:13:51.853Z] [INFO] [W1] [C21852430] [Admin] ✓ Is Edit Category Modal Open (15ms)
+[2026-09-26T06:13:51.857Z] [INFO] [W1] [C21852430] [Admin] → Category Modal Name Value
+[2026-09-26T06:13:51.992Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Modal Name Value (135ms)

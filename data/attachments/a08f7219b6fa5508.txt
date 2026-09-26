@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22682823]
+Title: Verify Progress column displays completion percentage for credentials with requirements
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T06:09:26.454Z] [INFO] [W1] [C22682823] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22682823]
+Status: FAILED
+Duration: 60729ms
+[2026-09-26T06:10:26.910Z] [ERROR] [W1] [C22682823] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22670980]
+Title: Verify pagination and page size controls display on My Credentials grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T06:04:23.888Z] [INFO] [W0] [C22670980] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22670980]
+Status: FAILED
+Duration: 60742ms
+[2026-09-26T06:05:24.358Z] [ERROR] [W0] [C22670980] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,10 @@
+[2026-09-26T05:42:04.409Z] [ERROR] [W0] [C58111] [Admin] ✗ Enable Personnel Record for "halFD@firstduesizeup.com" (32274ms)
+[2026-09-26T05:42:04.409Z] [ERROR] [W0] [C58111] locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('row', { name: /halFD@firstduesizeup.com/i }).first() to be visible
+
+[2026-09-26T05:42:04.409Z] [ERROR] [W0] [C58111] [Admin] ✗ Prepare and assign credential "smart contracts Certificate" to personnel "Ravi Last" (35793ms)
+[2026-09-26T05:42:04.409Z] [ERROR] [W0] [C58111] locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('row', { name: /halFD@firstduesizeup.com/i }).first() to be visible
+

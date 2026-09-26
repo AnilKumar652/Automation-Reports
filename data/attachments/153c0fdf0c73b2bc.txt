@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:35:55.944Z] [INFO] [W0] [C52162] [Admin] → Prepare and assign credential "blockchains Credential" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52162]
+Status: FAILED
+Duration: 43166ms
+[2026-09-26T05:36:38.643Z] [ERROR] [W0] [C52162] [object Object]
+────────────────────────────────────────────────────────

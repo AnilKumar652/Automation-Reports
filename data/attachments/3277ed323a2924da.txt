@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58111]
+Title: Verify credential date range displays correctly in Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:41:28.617Z] [INFO] [W0] [C58111] [Admin] → Prepare and assign credential "smart contracts Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58111]
+Status: FAILED
+Duration: 36278ms
+[2026-09-26T05:42:04.465Z] [ERROR] [W0] [C58111] [object Object]
+────────────────────────────────────────────────────────

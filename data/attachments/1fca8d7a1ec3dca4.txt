@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C10485260]
+Title: Verify autogenerate toggle for same credential type across different clients
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:31:33.114Z] [INFO] [W0] [C10485260] [Admin] → Open Agency Credentials page
+[2026-09-26T05:31:36.344Z] [INFO] [W0] [C10485260] [Admin] ✓ Open Agency Credentials page (3230ms)
+[2026-09-26T05:31:36.344Z] [INFO] [W0] [C10485260] [Admin] → Verify Agency Credentials page is ready
+[2026-09-26T05:31:36.916Z] [INFO] [W0] [C10485260] [Admin] ✓ Agency Credentials page is ready (572ms)
+[2026-09-26T05:31:36.937Z] [INFO] [W0] [C10485260] [Admin] → Create agency credential "large language models Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C10485260]
+Status: FAILED
+Duration: 26167ms
+[2026-09-26T05:31:59.049Z] [ERROR] [W0] [C10485260] [object Object]
+────────────────────────────────────────────────────────

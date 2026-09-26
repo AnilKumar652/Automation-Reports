@@ -1,0 +1,10 @@
+[2026-09-26T05:39:56.244Z] [ERROR] [W1] [C54657] [Admin] ✗ Select first available linked training plan (10011ms)
+[2026-09-26T05:39:56.244Z] [ERROR] [W1] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-09-26T05:39:56.244Z] [ERROR] [W1] [C54657] [Admin] ✗ Create agency credential "Rowe, Harvey and Koss-1" (16724ms)
+[2026-09-26T05:39:56.244Z] [ERROR] [W1] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

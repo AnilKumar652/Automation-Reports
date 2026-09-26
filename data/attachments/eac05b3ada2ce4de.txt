@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-09-26T05:27:41.674Z] [INFO] [W1] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-09-26T05:27:47.776Z] [INFO] [W1] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (6102ms)
+[2026-09-26T05:27:47.777Z] [INFO] [W1] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-09-26T05:27:47.940Z] [INFO] [W1] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (163ms)
+[2026-09-26T05:27:47.973Z] [INFO] [W1] [C45556] [Admin] → Create apparatus group "Wiltshire Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45556]
+Status: FAILED
+Duration: 71409ms
+[2026-09-26T05:28:52.752Z] [ERROR] [W1] [C45556] [object Object]
+────────────────────────────────────────────────────────

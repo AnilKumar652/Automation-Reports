@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:25:38.598Z] [INFO] [W0] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-09-26T05:25:46.274Z] [INFO] [W0] [C5877543] [Admin] ✓ Open Agency Setup Organization page (7676ms)
+[2026-09-26T05:25:46.291Z] [INFO] [W0] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-09-26T05:25:47.424Z] [INFO] [W0] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (1133ms)
+[2026-09-26T05:25:47.451Z] [INFO] [W0] [C5877543] [Admin] → Select Organization Positions tab
+[2026-09-26T05:25:54.691Z] [INFO] [W0] [C5877543] [Admin] ✓ Select Organization Positions tab (7246ms)
+[2026-09-26T05:25:54.691Z] [INFO] [W0] [C5877543] [Admin] → Add organization position "Product Markets Administrator"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877543]
+Status: FAILED
+Duration: 77794ms
+[2026-09-26T05:26:56.103Z] [ERROR] [W0] [C5877543] [object Object]
+────────────────────────────────────────────────────────

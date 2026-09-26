@@ -1,0 +1,29 @@
+[2026-09-26T05:27:22.630Z] [ERROR] [W0] [C5877543] [Admin] ✗ Click Agency Setup Organization section (10688ms)
+[2026-09-26T05:27:22.630Z] [ERROR] [W0] [C5877543] Locator: [data-testid="admin-agency-step2-organization"]
+[2026-09-26T05:27:22.630Z] [ERROR] [W0] [C5877543] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="admin-agency-step2-organization"]')
+    - locator resolved to <div class="form-tab" data-testid="admin-agency-step2-organization" data-churnzero="admin-agency-step2-organization" data-chameleon="admin-agency-step2-organization">…</div>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+
+[2026-09-26T05:27:22.631Z] [ERROR] [W0] [C5877543] [Admin] ✗ Open Agency Setup Organization page (15721ms)
+[2026-09-26T05:27:22.631Z] [ERROR] [W0] [C5877543] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="admin-agency-step2-organization"]')
+    - locator resolved to <div class="form-tab" data-testid="admin-agency-step2-organization" data-churnzero="admin-agency-step2-organization" data-chameleon="admin-agency-step2-organization">…</div>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+

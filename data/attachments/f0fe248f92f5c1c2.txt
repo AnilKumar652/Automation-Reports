@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58122]
+Title: Verify credential log can be removed from Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:44:24.530Z] [INFO] [W0] [C58122] [Admin] → Prepare and assign credential "smart contracts License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58122]
+Status: FAILED
+Duration: 38923ms
+[2026-09-26T05:45:03.074Z] [ERROR] [W0] [C58122] [object Object]
+────────────────────────────────────────────────────────

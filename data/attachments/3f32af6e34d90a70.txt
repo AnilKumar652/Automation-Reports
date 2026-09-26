@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5883872]
+Title: Verify unique credential ID validation
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:46:32.896Z] [INFO] [W0] [C5883872] [Admin] → Open Agency Credentials page
+[2026-09-26T05:46:37.814Z] [INFO] [W0] [C5883872] [Admin] ✓ Open Agency Credentials page (4918ms)
+[2026-09-26T05:46:37.815Z] [INFO] [W0] [C5883872] [Admin] → Verify Agency Credentials page is ready
+[2026-09-26T05:46:43.677Z] [INFO] [W0] [C5883872] [Admin] ✓ Agency Credentials page is ready (5862ms)
+[2026-09-26T05:46:43.686Z] [INFO] [W0] [C5883872] [Admin] → Create agency credential "niches Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5883872]
+Status: FAILED
+Duration: 26767ms
+[2026-09-26T05:46:59.398Z] [ERROR] [W0] [C5883872] [object Object]
+────────────────────────────────────────────────────────

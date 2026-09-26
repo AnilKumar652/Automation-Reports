@@ -1,0 +1,462 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: credentials/C22181796-verify-validation-messages-when-saving-credential-with-empty-mandatory-fields.spec.ts >> Credentials >> @regression C22181796: Verify validation messages when saving a credential with empty mandatory fields
+- Location: src/tests/credentials/C22181796-verify-validation-messages-when-saving-credential-with-empty-mandatory-fields.spec.ts:17:7
+
+# Error details
+
+```
+Error: expect(received).toMatch(expected)
+
+Expected pattern: /Name \*|Character limit: 0\/100/i
+Received string:  "×·····························
+            Please fill the following
+            1. Please set a name for the credential
+2. Please set an ID for the credential
+3. Please select a credential type
+4. Please select a renewal criteria······································
+      OKNoCancel"
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to main content":
+    - /url: "#main-content"
+  - banner
+  - navigation "Primary navigation" [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+  - main "Main content area" [ref=e4]:
+    - main "Main dynamic content area" [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "Show main sidebar" [ref=e9] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e10]
+          - generic [ref=e15]: Credentials
+          - generic [ref=e17]:
+            - button "Import Global Credentials" [ref=e18] [cursor=pointer]: Import Global Credentials
+            - button "Add Credential" [ref=e20] [cursor=pointer]: Add Credential
+        - region "Credentials list" [ref=e22]:
+          - generic [ref=e25]:
+            - search [ref=e28]:
+              - generic [ref=e29]:
+                - generic "More options" [ref=e31]:
+                  - button "Saved Views" [ref=e32] [cursor=pointer]:
+                    - generic [ref=e33]: Saved Views
+                - generic "More options" [ref=e37]:
+                  - button "More options" [ref=e38] [cursor=pointer]
+              - generic [ref=e40]:
+                - button "Filter" [ref=e41] [cursor=pointer]: Filter
+                - generic "More options" [ref=e44]:
+                  - button "Columns" [ref=e45] [cursor=pointer]: Columns
+              - search [ref=e47]:
+                - button "Expand search input" [ref=e48] [cursor=pointer]
+            - treegrid [ref=e53]:
+              - rowgroup [ref=e54]:
+                - row [ref=e55]:
+                  - columnheader [ref=e56]:
+                    - checkbox [ref=e58] [cursor=pointer]
+              - rowgroup [ref=e59]:
+                - row "ID Name Associated Topics Associated Categories Associated Courses State / Province Issuing Authority Completion Type" [ref=e60]:
+                  - columnheader "ID" [ref=e61]:
+                    - generic [ref=e63] [cursor=pointer]: ID
+                  - columnheader "Name" [ref=e64]:
+                    - generic [ref=e66] [cursor=pointer]: Name
+                  - columnheader "Associated Topics" [ref=e67]:
+                    - generic [ref=e69]: Associated Topics
+                  - columnheader "Associated Categories" [ref=e70]:
+                    - generic [ref=e72]: Associated Categories
+                  - columnheader "Associated Courses" [ref=e73]:
+                    - generic [ref=e75]: Associated Courses
+                  - columnheader "State / Province" [ref=e76]:
+                    - generic [ref=e78] [cursor=pointer]: State / Province
+                  - columnheader "Issuing Authority" [ref=e79]:
+                    - generic [ref=e81] [cursor=pointer]: Issuing Authority
+                  - columnheader "Completion Type" [ref=e82]:
+                    - generic [ref=e84] [cursor=pointer]: Completion Type
+              - rowgroup [ref=e85]:
+                - row "Actions" [ref=e86]:
+                  - columnheader "Actions" [ref=e87]:
+                    - button [ref=e88] [cursor=pointer]
+                    - columnheader "Actions" [ref=e90]
+              - generic "Grid body" [ref=e91]:
+                - rowgroup [ref=e92]:
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e93]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e94]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e95] [cursor=pointer]
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e96]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e97]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e98] [cursor=pointer]
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e99]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e100]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e101] [cursor=pointer]
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e102]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e103]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e104] [cursor=pointer]
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e105]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e106]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e107] [cursor=pointer]
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e108]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e109]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e110] [cursor=pointer]
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e111]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e112]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e113] [cursor=pointer]
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e114]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e115]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e116] [cursor=pointer]
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e117]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e118]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e119] [cursor=pointer]
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e120]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e121]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e122] [cursor=pointer]
+                  - row "Press Space to toggle row selection (unchecked)" [ref=e123]:
+                    - gridcell "Press Space to toggle row selection (unchecked)" [ref=e124]:
+                      - checkbox "Press Space to toggle row selection (unchecked)" [ref=e125] [cursor=pointer]
+                - generic "Grid columns" [ref=e126]:
+                  - rowgroup [ref=e127]:
+                    - row "FIR10 AgCred-1789103286165 National Academic Fire Authority Course Requirement" [ref=e128]:
+                      - gridcell "FIR10" [ref=e129]
+                      - gridcell "AgCred-1789103286165" [ref=e130]
+                      - gridcell [ref=e131]
+                      - gridcell [ref=e132]
+                      - gridcell [ref=e133]
+                      - gridcell "National" [ref=e134]
+                      - gridcell "Academic Fire Authority" [ref=e135]
+                      - gridcell "Course Requirement" [ref=e136]
+                    - row "FIR691677 partnerships Certificate National Academic Fire Authority" [ref=e137]:
+                      - gridcell "FIR691677" [ref=e138]
+                      - gridcell "partnerships Certificate" [ref=e139]
+                      - gridcell [ref=e140]
+                      - gridcell [ref=e141]
+                      - gridcell [ref=e142]
+                      - gridcell "National" [ref=e143]
+                      - gridcell "Academic Fire Authority" [ref=e144]
+                      - gridcell [ref=e145]
+                    - row "FIR691654 AutoGlobalCred-1789276907618 National Academic Fire Authority" [ref=e146]:
+                      - gridcell "FIR691654" [ref=e147]
+                      - gridcell "AutoGlobalCred-1789276907618" [ref=e148]
+                      - gridcell [ref=e149]
+                      - gridcell [ref=e150]
+                      - gridcell [ref=e151]
+                      - gridcell "National" [ref=e152]
+                      - gridcell "Academic Fire Authority" [ref=e153]
+                      - gridcell [ref=e154]
+                    - row "FIR4 AutoGlobalCred-1788844158616 National Academic Fire Authority" [ref=e155]:
+                      - gridcell "FIR4" [ref=e156]
+                      - gridcell "AutoGlobalCred-1788844158616" [ref=e157]
+                      - gridcell [ref=e158]
+                      - gridcell [ref=e159]
+                      - gridcell [ref=e160]
+                      - gridcell "National" [ref=e161]
+                      - gridcell "Academic Fire Authority" [ref=e162]
+                      - gridcell [ref=e163]
+                    - row "FIR6 AutoGlobalCred-1788930474263 National Academic Fire Authority" [ref=e164]:
+                      - gridcell "FIR6" [ref=e165]
+                      - gridcell "AutoGlobalCred-1788930474263" [ref=e166]
+                      - gridcell [ref=e167]
+                      - gridcell [ref=e168]
+                      - gridcell [ref=e169]
+                      - gridcell "National" [ref=e170]
+                      - gridcell "Academic Fire Authority" [ref=e171]
+                      - gridcell [ref=e172]
+                    - row "FIR8 AutoGlobalCred-1789017051643 National Academic Fire Authority" [ref=e173]:
+                      - gridcell "FIR8" [ref=e174]
+                      - gridcell "AutoGlobalCred-1789017051643" [ref=e175]
+                      - gridcell [ref=e176]
+                      - gridcell [ref=e177]
+                      - gridcell [ref=e178]
+                      - gridcell "National" [ref=e179]
+                      - gridcell "Academic Fire Authority" [ref=e180]
+                      - gridcell [ref=e181]
+                    - row "FIR329264 AgCred-1789103329264 National Academic Fire Authority Course Requirement" [ref=e182]:
+                      - gridcell "FIR329264" [ref=e183]
+                      - gridcell "AgCred-1789103329264" [ref=e184]
+                      - gridcell [ref=e185]
+                      - gridcell [ref=e186]
+                      - gridcell [ref=e187]
+                      - gridcell "National" [ref=e188]
+                      - gridcell "Academic Fire Authority" [ref=e189]
+                      - gridcell "Course Requirement" [ref=e190]
+                    - row "FIR691656 AutoGlobalCred-1789363691900 National Academic Fire Authority" [ref=e191]:
+                      - gridcell "FIR691656" [ref=e192]
+                      - gridcell "AutoGlobalCred-1789363691900" [ref=e193]
+                      - gridcell [ref=e194]
+                      - gridcell [ref=e195]
+                      - gridcell [ref=e196]
+                      - gridcell "National" [ref=e197]
+                      - gridcell "Academic Fire Authority" [ref=e198]
+                      - gridcell [ref=e199]
+                    - row "FIR691660 AutoGlobalCred-1789535730135 National Academic Fire Authority" [ref=e200]:
+                      - gridcell "FIR691660" [ref=e201]
+                      - gridcell "AutoGlobalCred-1789535730135" [ref=e202]
+                      - gridcell [ref=e203]
+                      - gridcell [ref=e204]
+                      - gridcell [ref=e205]
+                      - gridcell "National" [ref=e206]
+                      - gridcell "Academic Fire Authority" [ref=e207]
+                      - gridcell [ref=e208]
+                    - row "FIR691664 ROI Certificate National Academic Fire Authority" [ref=e209]:
+                      - gridcell "FIR691664" [ref=e210]
+                      - gridcell "ROI Certificate" [ref=e211]
+                      - gridcell [ref=e212]
+                      - gridcell [ref=e213]
+                      - gridcell [ref=e214]
+                      - gridcell "National" [ref=e215]
+                      - gridcell "Academic Fire Authority" [ref=e216]
+                      - gridcell [ref=e217]
+                    - row "FIR691667 ROI Credential National Academic Fire Authority" [ref=e218]:
+                      - gridcell "FIR691667" [ref=e219]
+                      - gridcell "ROI Credential" [ref=e220]
+                      - gridcell [ref=e221]
+                      - gridcell [ref=e222]
+                      - gridcell [ref=e223]
+                      - gridcell "National" [ref=e224]
+                      - gridcell "Academic Fire Authority" [ref=e225]
+                      - gridcell [ref=e226]
+                - rowgroup [ref=e227]:
+                  - row [ref=e228]:
+                    - gridcell [ref=e229]:
+                      - generic [ref=e230]:
+                        - button "Edit" [ref=e231] [cursor=pointer]
+                        - button "Clone" [ref=e233] [cursor=pointer]
+                        - button "Delete" [ref=e235] [cursor=pointer]
+                  - row [ref=e237]:
+                    - gridcell [ref=e238]:
+                      - generic [ref=e239]:
+                        - button "Edit" [ref=e240] [cursor=pointer]
+                        - button "Clone" [ref=e242] [cursor=pointer]
+                        - button "Delete" [ref=e244] [cursor=pointer]
+                  - row [ref=e246]:
+                    - gridcell [ref=e247]:
+                      - generic [ref=e248]:
+                        - button "Edit" [ref=e249] [cursor=pointer]
+                        - button "Clone" [ref=e251] [cursor=pointer]
+                        - button "Delete" [ref=e253] [cursor=pointer]
+                  - row [ref=e255]:
+                    - gridcell [ref=e256]:
+                      - generic [ref=e257]:
+                        - button "Edit" [ref=e258] [cursor=pointer]
+                        - button "Clone" [ref=e260] [cursor=pointer]
+                        - button "Delete" [ref=e262] [cursor=pointer]
+                  - row [ref=e264]:
+                    - gridcell [ref=e265]:
+                      - generic [ref=e266]:
+                        - button "Edit" [ref=e267] [cursor=pointer]
+                        - button "Clone" [ref=e269] [cursor=pointer]
+                        - button "Delete" [ref=e271] [cursor=pointer]
+                  - row [ref=e273]:
+                    - gridcell [ref=e274]:
+                      - generic [ref=e275]:
+                        - button "Edit" [ref=e276] [cursor=pointer]
+                        - button "Clone" [ref=e278] [cursor=pointer]
+                        - button "Delete" [ref=e280] [cursor=pointer]
+                  - row [ref=e282]:
+                    - gridcell [ref=e283]:
+                      - generic [ref=e284]:
+                        - button "Edit" [ref=e285] [cursor=pointer]
+                        - button "Clone" [ref=e287] [cursor=pointer]
+                        - button "Delete" [ref=e289] [cursor=pointer]
+                  - row [ref=e291]:
+                    - gridcell [ref=e292]:
+                      - generic [ref=e293]:
+                        - button "Edit" [ref=e294] [cursor=pointer]
+                        - button "Clone" [ref=e296] [cursor=pointer]
+                        - button "Delete" [ref=e298] [cursor=pointer]
+                  - row [ref=e300]:
+                    - gridcell [ref=e301]:
+                      - generic [ref=e302]:
+                        - button "Edit" [ref=e303] [cursor=pointer]
+                        - button "Clone" [ref=e305] [cursor=pointer]
+                        - button "Delete" [ref=e307] [cursor=pointer]
+                  - row [ref=e309]:
+                    - gridcell [ref=e310]:
+                      - generic [ref=e311]:
+                        - button "Edit" [ref=e312] [cursor=pointer]
+                        - button "Clone" [ref=e314] [cursor=pointer]
+                        - button "Delete" [ref=e316] [cursor=pointer]
+                  - row [ref=e318]:
+                    - gridcell [ref=e319]:
+                      - generic [ref=e320]:
+                        - button "Edit" [ref=e321] [cursor=pointer]
+                        - button "Clone" [ref=e323] [cursor=pointer]
+                        - button "Delete" [ref=e325] [cursor=pointer]
+                - rowgroup
+              - rowgroup
+              - rowgroup
+              - rowgroup
+              - rowgroup
+              - rowgroup
+              - rowgroup
+              - rowgroup
+              - rowgroup
+            - generic [ref=e331]:
+              - generic [ref=e332]: Showing 1 to 20 of 48 records
+              - generic [ref=e333]: Page 1 of 3
+              - generic "More options" [ref=e335]:
+                - button "Select page size" [ref=e336] [cursor=pointer]: "Page size: 20"
+              - button "Download CSV" [ref=e338] [cursor=pointer]
+              - generic [ref=e340]:
+                - button "Go to the previous page" [disabled] [ref=e341]: Previous
+                - button "Go to the next page" [ref=e343] [cursor=pointer]: Next
+  - contentinfo [ref=e345]: © 2026 First Due
+  - generic:
+    - button "Chat Close Maven Chat" [ref=e346] [cursor=pointer]:
+      - img "Chat" [ref=e348]
+      - button "Close Maven Chat"
+    - iframe
+  - generic [ref=e352]:
+    - generic [ref=e354]:
+      - generic [ref=e358]: New Credential
+      - button "Close" [ref=e359] [cursor=pointer]
+    - generic [ref=e362]:
+      - generic [ref=e364]:
+        - strong [ref=e369]: Total Credential Hours
+        - generic [ref=e373]: 00:00
+      - generic [ref=e376]:
+        - generic [ref=e377]:
+          - generic "Name" [ref=e378]
+          - generic [ref=e379]: "*"
+        - textbox "Name" [ref=e383]
+        - generic [ref=e387]: "Character limit: 0/100"
+      - generic [ref=e390]:
+        - generic [ref=e391]:
+          - generic "Credential Type" [ref=e392]
+          - generic [ref=e393]: "*"
+        - generic "Open dropdown" [ref=e395]:
+          - button "Select type" [ref=e399]:
+            - generic [ref=e400]: Select type
+        - generic [ref=e405]: Please select a credential type
+      - generic [ref=e408]:
+        - generic [ref=e409]:
+          - generic "Credential ID" [ref=e410]
+          - generic [ref=e411]: "*"
+          - generic [ref=e412]:
+            - link "Autogenerate" [disabled]:
+              - /url: "#"
+        - textbox "Credential ID" [ref=e416]
+        - generic [ref=e420]: Please set an ID for the credential
+      - generic [ref=e423]:
+        - generic "State/Province" [ref=e425]
+        - generic "Open dropdown" [ref=e427]:
+          - button "Select" [ref=e431]:
+            - generic [ref=e432]: Select
+      - generic [ref=e436]:
+        - generic "Issue Authority" [ref=e438]
+        - generic "Open dropdown" [ref=e440]:
+          - button "Select" [ref=e444]:
+            - generic [ref=e445]: Select
+      - generic [ref=e449]:
+        - generic "Credential Cycle (Optional)" [ref=e451]
+        - spinbutton "Credential Cycle (Optional)" [ref=e455]
+        - generic [ref=e459]: Leave blank if the credential does not expire.
+      - generic [ref=e462]:
+        - generic "Cycle period" [ref=e464]
+        - generic "Open dropdown" [ref=e466]:
+          - button "Select period" [ref=e470]:
+            - generic [ref=e471]: Select period
+      - generic [ref=e474]:
+        - generic [ref=e478]:
+          - generic [ref=e480]: Renewal Criteria
+          - generic [ref=e481]: Select a renewal criteria
+        - generic [ref=e484]:
+          - generic [ref=e486]:
+            - option "Date all completion requirements met Automatically will renew the credential when the user reaches 100% prior to the expiration date" [ref=e488] [cursor=pointer]:
+              - generic [ref=e494]:
+                - generic "Date all completion requirements met" [ref=e495]
+                - generic "Automatically will renew the credential when the user reaches 100% prior to the expiration date" [ref=e496]
+            - option "Date of expiration Automatically will renew the credential on the expiration date, regardless of completion progress" [ref=e498] [cursor=pointer]:
+              - generic [ref=e504]:
+                - generic "Date of expiration" [ref=e505]
+                - generic "Automatically will renew the credential on the expiration date, regardless of completion progress" [ref=e506]
+            - option "Date of expiration with completion Automatically will renew the credential at date of expiration when user reaches 100%" [ref=e508] [cursor=pointer]:
+              - generic [ref=e514]:
+                - generic "Date of expiration with completion" [ref=e515]
+                - generic "Automatically will renew the credential at date of expiration when user reaches 100%" [ref=e516]
+            - option "Do not automatically renew Do not automatically renew, it needs approval" [ref=e518] [cursor=pointer]:
+              - generic [ref=e524]:
+                - generic "Do not automatically renew" [ref=e525]
+                - generic "Do not automatically renew, it needs approval" [ref=e526]
+          - generic [ref=e530]: Please select a renewal criteria
+      - generic [ref=e534]:
+        - generic [ref=e536]:
+          - generic [ref=e538]: Prerequisite needed
+          - generic [ref=e539]: Enable if this credential requires other credentials to be completed first
+        - checkbox [ref=e543]
+      - generic [ref=e550]:
+        - generic [ref=e552]:
+          - generic [ref=e554]: Grace Period
+          - generic [ref=e555]: Grace period for this credential
+        - checkbox [ref=e559]
+      - generic [ref=e567]:
+        - generic [ref=e568]: Allow User Submission
+        - checkbox "Allow User Submission" [ref=e571]
+      - generic [ref=e575]:
+        - generic [ref=e576]:
+          - generic "Credential Completion Type" [ref=e577]
+          - generic [ref=e578]: "*"
+        - generic "Open dropdown" [ref=e580]:
+          - button "Course Requirement" [ref=e584]:
+            - generic [ref=e585]: Course Requirement
+      - generic [ref=e587]:
+        - button "Add Category" [ref=e590] [cursor=pointer]: Add Category
+        - button "Add Topic" [ref=e594] [cursor=pointer]: Add Topic
+        - button "Add Course" [ref=e598] [cursor=pointer]: Add Course
+    - generic [ref=e601]:
+      - button "Cancel" [ref=e602] [cursor=pointer]
+      - button "Save" [active] [ref=e603] [cursor=pointer]: Save
+  - alert [ref=e605]:
+    - generic [ref=e610]:
+      - generic [ref=e611]: Please fill the following
+      - generic [ref=e612]: 1. Please set a name for the credential 2. Please set an ID for the credential 3. Please select a credential type 4. Please select a renewal criteria
+    - text: "!"
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@/fixtures';
+  2  | import { testrailCase } from '@/integrations/testrail';
+  3  | import {
+  4  |   OpenAddAgencyCredentialModalTask,
+  5  |   OpenAgencyCredentialsPageTask,
+  6  |   SubmitBlankAgencyCredentialFormTask,
+  7  | } from '@/modules/credentials/tasks';
+  8  | import {
+  9  |   CredentialValidationDialogTextQuestion,
+  10 |   IsAddAgencyCredentialModalOpenQuestion,
+  11 |   IsAgencyCredentialsPageReadyQuestion,
+  12 | } from '@/modules/credentials/questions';
+  13 | 
+  14 | test.describe('Credentials', () => {
+  15 |   test.setTimeout(120_000);
+  16 | 
+  17 |   test('@regression C22181796: Verify validation messages when saving a credential with empty mandatory fields', async ({ admin }) => {
+  18 |     test.info().annotations.push(testrailCase(22181796));
+  19 | 
+  20 |     await admin.attemptsTo(OpenAgencyCredentialsPageTask.page());
+  21 |     expect(await admin.asks(IsAgencyCredentialsPageReadyQuestion.check())).toBe(true);
+  22 | 
+  23 |     await admin.attemptsTo(OpenAddAgencyCredentialModalTask.form());
+  24 |     await admin.attemptsTo(SubmitBlankAgencyCredentialFormTask.form());
+  25 | 
+  26 |     const validation = await admin.asks(CredentialValidationDialogTextQuestion.displayed());
+  27 |     expect(validation).toMatch(/Please set an ID for the credential/i);
+  28 |     expect(validation).toMatch(/Please select a credential type/i);
+> 29 |     expect(validation).toMatch(/Name \*|Character limit: 0\/100/i);
+     |                        ^ Error: expect(received).toMatch(expected)
+  30 |     expect(await admin.asks(IsAddAgencyCredentialModalOpenQuestion.check())).toBe(true);
+  31 |   });
+  32 | });
+  33 | 
+```

@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58112]
+Title: Verify first edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:43:20.168Z] [INFO] [W1] [C58112] [Admin] → Prepare and assign credential "large language models Certification" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58112]
+Status: FAILED
+Duration: 45800ms
+[2026-09-26T05:44:05.421Z] [ERROR] [W1] [C58112] [object Object]
+────────────────────────────────────────────────────────

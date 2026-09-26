@@ -1,0 +1,16 @@
+[2026-09-26T05:28:44.833Z] [ERROR] [W0] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "Crawford County Team" is visible (60002ms)
+[2026-09-26T05:28:44.833Z] [ERROR] [W0] [C22779515] Locator: role=cell[name="Crawford County Team"i]
+[2026-09-26T05:28:44.833Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Crawford County Team"i]') to be visible
+
+[2026-09-26T05:28:44.833Z] [ERROR] [W0] [C22779515] [Admin] ✗ Save apparatus group "Crawford County Team" (60467ms)
+[2026-09-26T05:28:44.833Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Crawford County Team"i]') to be visible
+
+[2026-09-26T05:28:44.834Z] [ERROR] [W0] [C22779515] [Admin] ✗ Create apparatus group "Crawford County Team" (66710ms)
+[2026-09-26T05:28:44.834Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Crawford County Team"i]') to be visible
+

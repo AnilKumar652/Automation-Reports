@@ -1,0 +1,30 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C7106606]
+Title: Verify credential types
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:47:48.352Z] [INFO] [W1] [C7106606] [Admin] → Open Agency Credentials page
+[2026-09-26T05:47:54.353Z] [INFO] [W1] [C7106606] [Admin] ✓ Open Agency Credentials page (6001ms)
+[2026-09-26T05:47:54.356Z] [INFO] [W1] [C7106606] [Admin] → Verify Agency Credentials page is ready
+[2026-09-26T05:47:54.414Z] [INFO] [W1] [C7106606] [Admin] ✓ Agency Credentials page is ready (58ms)
+[2026-09-26T05:47:54.425Z] [INFO] [W1] [C7106606] [Admin] → Open Add Credential form
+[2026-09-26T05:47:59.148Z] [INFO] [W1] [C7106606] [Admin] ✓ Open Add Credential form (4723ms)
+[2026-09-26T05:47:59.149Z] [INFO] [W1] [C7106606] [Admin] → Credential Type Options
+[2026-09-26T05:47:59.523Z] [INFO] [W1] [C7106606] [Admin] ✓ Credential Type Options (374ms)
+[2026-09-26T05:47:59.540Z] [INFO] [W1] [C7106606] [Admin] → Submit Blank Agency Credential Form
+[2026-09-26T05:47:59.737Z] [INFO] [W1] [C7106606] [Admin] ✓ Submit Blank Agency Credential Form (197ms)
+[2026-09-26T05:47:59.737Z] [INFO] [W1] [C7106606] [Admin] → Credential Validation Dialog Text
+[2026-09-26T05:47:59.759Z] [INFO] [W1] [C7106606] [Admin] ✓ Credential Validation Dialog Text (22ms)
+[2026-09-26T05:47:59.765Z] [INFO] [W1] [C7106606] [Admin] → Dismiss Credential Validation Dialog
+[2026-09-26T05:47:59.817Z] [INFO] [W1] [C7106606] [Admin] ✓ Dismiss Credential Validation Dialog (52ms)
+[2026-09-26T05:47:59.817Z] [INFO] [W1] [C7106606] [Admin] → Close Credential form
+[2026-09-26T05:48:00.056Z] [INFO] [W1] [C7106606] [Admin] ✓ Close Credential form (239ms)
+[2026-09-26T05:48:00.056Z] [INFO] [W1] [C7106606] [Admin] → Open Agency Credentials page
+[2026-09-26T05:48:01.150Z] [INFO] [W1] [C7106606] [Admin] ✓ Open Agency Credentials page (1094ms)
+[2026-09-26T05:48:01.152Z] [INFO] [W1] [C7106606] [Admin] → Create agency credential "ROI Certification"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C7106606]
+Status: FAILED
+Duration: 32626ms
+[2026-09-26T05:48:20.227Z] [ERROR] [W1] [C7106606] [object Object]
+────────────────────────────────────────────────────────

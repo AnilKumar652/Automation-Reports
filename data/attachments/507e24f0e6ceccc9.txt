@@ -1,0 +1,16 @@
+[2026-09-26T05:52:20.511Z] [ERROR] [W0] [C78340] [Admin] ✗ Wait until Asset management setup list row for "Warren County Team" is visible (60053ms)
+[2026-09-26T05:52:20.511Z] [ERROR] [W0] [C78340] Locator: role=cell[name="Warren County Team"i]
+[2026-09-26T05:52:20.511Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Warren County Team"i]') to be visible
+
+[2026-09-26T05:52:20.511Z] [ERROR] [W0] [C78340] [Admin] ✗ Save equipment group "Warren County Team" (60313ms)
+[2026-09-26T05:52:20.511Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Warren County Team"i]') to be visible
+
+[2026-09-26T05:52:20.511Z] [ERROR] [W0] [C78340] [Admin] ✗ Create equipment group "Warren County Team" (61237ms)
+[2026-09-26T05:52:20.512Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Warren County Team"i]') to be visible
+

@@ -1,0 +1,8 @@
+[2026-09-26T05:35:45.587Z] [ERROR] [W0] [C52161] [Admin] ✗ Search personnel list for "Ravi Last" (15233ms)
+[2026-09-26T05:35:45.587Z] [ERROR] [W0] [C52161] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /Expand search input/i })
+    - locator resolved to <button type="button" data-v-45734e6c="" title="Expand search input" aria-label="Expand search input" data-testid="personnel_list-search-input-expand" class="button is-medium is-text is-icon-only fd-search-input__expand-button fd-search-input__expand-button--medium">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+

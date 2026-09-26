@@ -1,0 +1,11 @@
+[2026-09-26T06:08:56.220Z] [ERROR] [W0] [C22682820] [User] ✗ Wait until Upload External Credential button is visible within 60000ms (60019ms)
+[2026-09-26T06:08:56.220Z] [ERROR] [W0] [C22682820] Locator: [data-testid="my-credentials-upload-external"]
+[2026-09-26T06:08:56.220Z] [ERROR] [W0] [C22682820] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="my-credentials-upload-external"]') to be visible
+
+[2026-09-26T06:08:56.220Z] [ERROR] [W0] [C22682820] [User] ✗ Open My Credentials page (60361ms)
+[2026-09-26T06:08:56.220Z] [ERROR] [W0] [C22682820] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="my-credentials-upload-external"]') to be visible
+

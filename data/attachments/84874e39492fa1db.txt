@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:27:31.760Z] [INFO] [W0] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-09-26T05:27:38.124Z] [INFO] [W0] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (6364ms)
+[2026-09-26T05:27:38.124Z] [INFO] [W0] [C22779515] [Admin] → Create apparatus group "Crawford County Team"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22779515]
+Status: FAILED
+Duration: 73665ms
+[2026-09-26T05:28:44.893Z] [ERROR] [W0] [C22779515] [object Object]
+────────────────────────────────────────────────────────

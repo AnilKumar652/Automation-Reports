@@ -1,0 +1,11 @@
+[2026-09-26T05:26:56.047Z] [ERROR] [W0] [C5877543] [Admin] ✗ Wait until Organization row for "Product Markets Administrator" is visible (60010ms)
+[2026-09-26T05:26:56.048Z] [ERROR] [W0] [C5877543] Locator: role=gridcell[name="Product Markets Administrator"i]
+[2026-09-26T05:26:56.048Z] [ERROR] [W0] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Product Markets Administrator"i]') to be visible
+
+[2026-09-26T05:26:56.048Z] [ERROR] [W0] [C5877543] [Admin] ✗ Add organization position "Product Markets Administrator" (61357ms)
+[2026-09-26T05:26:56.048Z] [ERROR] [W0] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Product Markets Administrator"i]') to be visible
+

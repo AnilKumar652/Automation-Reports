@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181792]
+Title: Verify State / Province is optional when creating a regular credential
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:32:08.244Z] [INFO] [W1] [C22181792] [Admin] → Open Agency Credentials page
+[2026-09-26T05:32:12.225Z] [INFO] [W1] [C22181792] [Admin] ✓ Open Agency Credentials page (3981ms)
+[2026-09-26T05:32:12.226Z] [INFO] [W1] [C22181792] [Admin] → Verify Agency Credentials page is ready
+[2026-09-26T05:32:12.435Z] [INFO] [W1] [C22181792] [Admin] ✓ Agency Credentials page is ready (209ms)
+[2026-09-26T05:32:12.438Z] [INFO] [W1] [C22181792] [Admin] → Open Add Credential form
+[2026-09-26T05:32:21.054Z] [INFO] [W1] [C22181792] [Admin] ✓ Open Add Credential form (8616ms)
+[2026-09-26T05:32:21.055Z] [INFO] [W1] [C22181792] [Admin] → State Province Mandatory Indicator
+[2026-09-26T05:32:21.188Z] [INFO] [W1] [C22181792] [Admin] ✓ State Province Mandatory Indicator (133ms)
+[2026-09-26T05:32:21.193Z] [INFO] [W1] [C22181792] [Admin] → Create agency credential "synergies Certificate"

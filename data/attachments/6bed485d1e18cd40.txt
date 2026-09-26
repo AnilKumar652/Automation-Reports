@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5701947]
+Title: Verify filters in Credentials - Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:40:38.964Z] [INFO] [W1] [C5701947] [Admin] → Prepare and assign credential "markets Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5701947]
+Status: FAILED
+Duration: 39168ms
+[2026-09-26T05:41:17.784Z] [ERROR] [W1] [C5701947] [object Object]
+────────────────────────────────────────────────────────

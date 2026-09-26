@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:27:06.910Z] [INFO] [W0] [C5877543] [Admin] → Open Agency Setup Organization page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877543]
+Status: FAILED
+Duration: 16060ms
+[2026-09-26T05:27:22.922Z] [ERROR] [W0] [C5877543] [object Object]
+────────────────────────────────────────────────────────

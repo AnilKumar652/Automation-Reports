@@ -1,0 +1,75 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T06:15:15.273Z] [INFO] [W1] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-09-26T06:15:30.703Z] [INFO] [W1] [C22680549] [Admin] ✓ Open Training Setup Categories page (15430ms)
+[2026-09-26T06:15:30.712Z] [INFO] [W1] [C22680549] [Admin] → Create category "Gorgeous Garden"
+[2026-09-26T06:15:33.150Z] [INFO] [W1] [C22680549] [Admin] ✓ Create category "Gorgeous Garden" (2438ms)
+[2026-09-26T06:15:33.150Z] [INFO] [W1] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-09-26T06:15:33.223Z] [INFO] [W1] [C22680549] [Admin] ✓ Categories grid contains records verified (73ms)
+[2026-09-26T06:15:33.223Z] [INFO] [W1] [C22680549] [Admin] → Open Import Categories Modal
+[2026-09-26T06:15:33.651Z] [INFO] [W1] [C22680549] [Admin] ✓ Open Import Categories Modal (428ms)
+[2026-09-26T06:15:33.651Z] [INFO] [W1] [C22680549] [Admin] → Is Import Modal Open
+[2026-09-26T06:15:33.724Z] [INFO] [W1] [C22680549] [Admin] ✓ Is Import Modal Open (73ms)
+[2026-09-26T06:15:33.745Z] [INFO] [W1] [C22680549] [Admin] → Read Import Categories help text
+[2026-09-26T06:15:33.888Z] [INFO] [W1] [C22680549] [Admin] ✓ Read Import Categories help text (143ms)
+[2026-09-26T06:15:33.893Z] [INFO] [W1] [C22680549] [Admin] → Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/categories-non-csv.txt"
+[2026-09-26T06:15:34.150Z] [INFO] [W1] [C22680549] [Admin] ✓ Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/categories-non-csv.txt" (257ms)
+[2026-09-26T06:15:34.150Z] [INFO] [W1] [C22680549] [Admin] → Read Import Categories validation messages
+[2026-09-26T06:15:34.356Z] [INFO] [W1] [C22680549] [Admin] ✓ Read Import Categories validation messages (206ms)
+[2026-09-26T06:15:34.361Z] [INFO] [W1] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-09-26T06:15:34.420Z] [INFO] [W1] [C22680549] [Admin] ✓ Categories grid contains records verified (59ms)
+[2026-09-26T06:15:34.502Z] [INFO] [W1] [C22680549] [Admin] → Upload categories import file "/tmp/categories-oversized-import.csv"
+[2026-09-26T06:15:34.776Z] [INFO] [W1] [C22680549] [Admin] ✓ Upload categories import file "/tmp/categories-oversized-import.csv" (274ms)
+[2026-09-26T06:15:34.776Z] [INFO] [W1] [C22680549] [Admin] → Read Import Categories validation messages
+[2026-09-26T06:15:35.091Z] [INFO] [W1] [C22680549] [Admin] ✓ Read Import Categories validation messages (315ms)
+[2026-09-26T06:15:35.100Z] [INFO] [W1] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-09-26T06:15:35.476Z] [INFO] [W1] [C22680549] [Admin] ✓ Categories grid contains records verified (376ms)
+[2026-09-26T06:15:35.481Z] [INFO] [W1] [C22680549] [Admin] → Upload categories import file "/tmp/categories-import-1790403330711.csv"
+[2026-09-26T06:15:35.745Z] [INFO] [W1] [C22680549] [Admin] ✓ Upload categories import file "/tmp/categories-import-1790403330711.csv" (264ms)
+[2026-09-26T06:15:35.745Z] [INFO] [W1] [C22680549] [Admin] → Check whether import file "categories-import-1790403330711.csv" is listed in the modal
+[2026-09-26T06:15:35.791Z] [INFO] [W1] [C22680549] [Admin] ✓ Check whether import file "categories-import-1790403330711.csv" is listed in the modal (46ms)
+[2026-09-26T06:15:35.794Z] [INFO] [W1] [C22680549] [Admin] → Submit categories import
+[2026-09-26T06:15:36.230Z] [INFO] [W1] [C22680549] [Admin] ✓ Submit categories import (436ms)
+[2026-09-26T06:15:36.230Z] [INFO] [W1] [C22680549] [Admin] → Determine categories import submit outcome
+[2026-09-26T06:15:36.358Z] [INFO] [W1] [C22680549] [Admin] ✓ Determine categories import submit outcome (128ms)
+[2026-09-26T06:15:36.364Z] [INFO] [W1] [C22680549] [Admin] → Check whether Import duplicate dialog Cancel, Reject, and Update controls are visible
+[2026-09-26T06:15:36.593Z] [INFO] [W1] [C22680549] [Admin] ✓ Check whether Import duplicate dialog Cancel, Reject, and Update controls are visible (229ms)
+[2026-09-26T06:15:36.594Z] [INFO] [W1] [C22680549] [Admin] → Read Import duplicate dialog message
+[2026-09-26T06:15:36.670Z] [INFO] [W1] [C22680549] [Admin] ✓ Read Import duplicate dialog message (75ms)
+[2026-09-26T06:15:36.675Z] [INFO] [W1] [C22680549] [Admin] → Cancel categories import duplicate resolution
+[2026-09-26T06:15:37.050Z] [INFO] [W1] [C22680549] [Admin] ✓ Cancel categories import duplicate resolution (375ms)
+[2026-09-26T06:15:37.050Z] [INFO] [W1] [C22680549] [Admin] → Is Import Duplicate Dialog Open
+[2026-09-26T06:15:37.107Z] [INFO] [W1] [C22680549] [Admin] ✓ Is Import Duplicate Dialog Open (57ms)
+[2026-09-26T06:15:37.110Z] [INFO] [W1] [C22680549] [Admin] → Close Import Categories Modal
+[2026-09-26T06:15:37.257Z] [INFO] [W1] [C22680549] [Admin] ✓ Close Import Categories Modal (147ms)
+[2026-09-26T06:15:37.257Z] [INFO] [W1] [C22680549] [Admin] → Open Import Categories Modal
+[2026-09-26T06:15:37.859Z] [INFO] [W1] [C22680549] [Admin] ✓ Open Import Categories Modal (602ms)
+[2026-09-26T06:15:37.859Z] [INFO] [W1] [C22680549] [Admin] → Upload categories import file "/tmp/categories-import-1790403330711.csv"
+[2026-09-26T06:15:38.158Z] [INFO] [W1] [C22680549] [Admin] ✓ Upload categories import file "/tmp/categories-import-1790403330711.csv" (299ms)
+[2026-09-26T06:15:38.158Z] [INFO] [W1] [C22680549] [Admin] → Submit categories import
+[2026-09-26T06:15:38.597Z] [INFO] [W1] [C22680549] [Admin] ✓ Submit categories import (439ms)
+[2026-09-26T06:15:38.598Z] [INFO] [W1] [C22680549] [Admin] → Determine categories import submit outcome
+[2026-09-26T06:15:38.725Z] [INFO] [W1] [C22680549] [Admin] ✓ Determine categories import submit outcome (127ms)
+[2026-09-26T06:15:38.728Z] [INFO] [W1] [C22680549] [Admin] → Reject duplicated categories import rows
+[2026-09-26T06:15:39.787Z] [INFO] [W1] [C22680549] [Admin] ✓ Reject duplicated categories import rows (1059ms)
+[2026-09-26T06:15:39.787Z] [INFO] [W1] [C22680549] [Admin] → Is Import Duplicate Dialog Open
+[2026-09-26T06:15:39.918Z] [INFO] [W1] [C22680549] [Admin] ✓ Is Import Duplicate Dialog Open (131ms)
+[2026-09-26T06:15:39.930Z] [INFO] [W1] [C22680549] [Admin] → Close Import Categories Modal
+[2026-09-26T06:15:40.063Z] [INFO] [W1] [C22680549] [Admin] ✓ Close Import Categories Modal (133ms)
+[2026-09-26T06:15:40.063Z] [INFO] [W1] [C22680549] [Admin] → Open Import Categories Modal
+[2026-09-26T06:15:40.249Z] [INFO] [W1] [C22680549] [Admin] ✓ Open Import Categories Modal (186ms)
+[2026-09-26T06:15:40.249Z] [INFO] [W1] [C22680549] [Admin] → Upload categories import file "/tmp/categories-import-1790403330711.csv"
+[2026-09-26T06:15:40.518Z] [INFO] [W1] [C22680549] [Admin] ✓ Upload categories import file "/tmp/categories-import-1790403330711.csv" (269ms)
+[2026-09-26T06:15:40.518Z] [INFO] [W1] [C22680549] [Admin] → Submit categories import
+[2026-09-26T06:15:40.673Z] [INFO] [W1] [C22680549] [Admin] ✓ Submit categories import (155ms)
+[2026-09-26T06:15:40.673Z] [INFO] [W1] [C22680549] [Admin] → Determine categories import submit outcome
+[2026-09-26T06:15:40.851Z] [INFO] [W1] [C22680549] [Admin] ✓ Determine categories import submit outcome (178ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22680549]
+Status: FAILED
+Duration: 25954ms
+[2026-09-26T06:15:41.039Z] [ERROR] [W1] [C22680549] [object Object]
+────────────────────────────────────────────────────────

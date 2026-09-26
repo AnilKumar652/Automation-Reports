@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-09-26T05:29:44.788Z] [INFO] [W1] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-09-26T05:29:50.257Z] [INFO] [W1] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (5469ms)
+[2026-09-26T05:29:50.258Z] [INFO] [W1] [C45059] [Admin] → Is Location Groups List Ready
+[2026-09-26T05:29:50.430Z] [INFO] [W1] [C45059] [Admin] ✓ Is Location Groups List Ready (172ms)
+[2026-09-26T05:29:50.465Z] [INFO] [W1] [C45059] [Admin] → Create location group "West Midlands Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45059]
+Status: FAILED
+Duration: 70896ms
+[2026-09-26T05:30:55.331Z] [ERROR] [W1] [C45059] [object Object]
+────────────────────────────────────────────────────────

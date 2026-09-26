@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22670981]
+Title: Verify empty state displays when no credentials match selected status tab
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T06:05:53.965Z] [INFO] [W1] [C22670981] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22670981]
+Status: FAILED
+Duration: 60706ms
+[2026-09-26T06:06:54.379Z] [ERROR] [W1] [C22670981] [object Object]
+────────────────────────────────────────────────────────

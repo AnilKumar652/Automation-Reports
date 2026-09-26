@@ -1,0 +1,10 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22807562]
+Title: Open view course modal for targeted course when clicking Enroll on My Training Plan requirement
+────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22807562]
+Status: FAILED
+Duration: 484ms
+[2026-09-26T06:12:13.652Z] [ERROR] [W1] [C22807562] [object Object]
+────────────────────────────────────────────────────────

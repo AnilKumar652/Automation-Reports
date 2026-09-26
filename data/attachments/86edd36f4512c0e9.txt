@@ -1,0 +1,24 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C15628545]
+Title: Verify user can create a dispatch unit
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:49:18.568Z] [INFO] [W0] [C15628545] [Admin] → Open Dispatch Unit list page
+[2026-09-26T05:49:24.750Z] [INFO] [W0] [C15628545] [Admin] ✓ Open Dispatch Unit list page (6182ms)
+[2026-09-26T05:49:24.752Z] [INFO] [W0] [C15628545] [Admin] → Is Dispatch Unit List Ready
+[2026-09-26T05:49:32.238Z] [INFO] [W0] [C15628545] [Admin] ✓ Is Dispatch Unit List Ready (7486ms)
+[2026-09-26T05:49:32.253Z] [INFO] [W0] [C15628545] [Admin] → Open new dispatch unit form
+[2026-09-26T05:49:33.713Z] [INFO] [W0] [C15628545] [Admin] ✓ Open new dispatch unit form (1460ms)
+[2026-09-26T05:49:33.713Z] [INFO] [W0] [C15628545] [Admin] → Fill dispatch unit form for code "AU302647"
+[2026-09-26T05:49:34.981Z] [INFO] [W0] [C15628545] [Admin] ✓ Fill dispatch unit form for code "AU302647" (1268ms)
+[2026-09-26T05:49:34.982Z] [INFO] [W0] [C15628545] [Admin] → Submit dispatch unit create form
+[2026-09-26T05:49:36.810Z] [INFO] [W0] [C15628545] [Admin] ✓ Submit dispatch unit create form (1828ms)
+[2026-09-26T05:49:36.811Z] [INFO] [W0] [C15628545] [Admin] → Search dispatch units by name "Rescue 91"
+[2026-09-26T05:49:38.937Z] [INFO] [W0] [C15628545] [Admin] ✓ Search dispatch units by name "Rescue 91" (2126ms)
+[2026-09-26T05:49:38.938Z] [INFO] [W0] [C15628545] [Admin] → Dispatch Unit Row Visible
+[2026-09-26T05:49:38.962Z] [INFO] [W0] [C15628545] [Admin] ✓ Dispatch Unit Row Visible (24ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C15628545]
+Status: PASSED
+Duration: 21119ms
+────────────────────────────────────────────────────────

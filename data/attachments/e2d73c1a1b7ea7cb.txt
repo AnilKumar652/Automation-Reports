@@ -1,0 +1,37 @@
+[2026-09-26T05:37:51.728Z] [ERROR] [W0] [C52164] [Admin] ✗ Click Add Credential button (10028ms)
+[2026-09-26T05:37:51.728Z] [ERROR] [W0] [C52164] Locator: [data-testid="training-credential-add"]
+[2026-09-26T05:37:51.728Z] [ERROR] [W0] [C52164] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-add"]')
+    - locator resolved to <button type="button" data-v-6763a4ac="" title="Add Credential" data-testid="training-credential-add" class="button is-medium is-primary is-icon-only-in-mobile is-icon-only-breakpoint-sm">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+[2026-09-26T05:37:51.737Z] [ERROR] [W0] [C52164] [Admin] ✗ Open Add Credential form (10038ms)
+[2026-09-26T05:37:51.737Z] [ERROR] [W0] [C52164] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-add"]')
+    - locator resolved to <button type="button" data-v-6763a4ac="" title="Add Credential" data-testid="training-credential-add" class="button is-medium is-primary is-icon-only-in-mobile is-icon-only-breakpoint-sm">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+[2026-09-26T05:37:51.737Z] [ERROR] [W0] [C52164] [Admin] ✗ Create agency credential "mindshare Certificate" (10045ms)
+[2026-09-26T05:37:51.737Z] [ERROR] [W0] [C52164] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-add"]')
+    - locator resolved to <button type="button" data-v-6763a4ac="" title="Add Credential" data-testid="training-credential-add" class="button is-medium is-primary is-icon-only-in-mobile is-icon-only-breakpoint-sm">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+

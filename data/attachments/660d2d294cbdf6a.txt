@@ -1,0 +1,21 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C77675]
+Title: Verify user can create a fire station with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:50:06.133Z] [INFO] [W1] [C77675] [Admin] → Open Fire Station list page
+[2026-09-26T05:50:08.784Z] [INFO] [W1] [C77675] [Admin] ✓ Open Fire Station list page (2651ms)
+[2026-09-26T05:50:08.784Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station List Ready
+[2026-09-26T05:50:08.836Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station List Ready (52ms)
+[2026-09-26T05:50:08.837Z] [INFO] [W1] [C77675] [Admin] → Open new fire station form
+[2026-09-26T05:50:16.262Z] [INFO] [W1] [C77675] [Admin] ✓ Open new fire station form (7425ms)
+[2026-09-26T05:50:16.262Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station Create Form Open
+[2026-09-26T05:50:16.787Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station Create Form Open (525ms)
+[2026-09-26T05:50:16.791Z] [INFO] [W1] [C77675] [Admin] → Fire Station Create Form Fields Visible
+[2026-09-26T05:50:20.336Z] [INFO] [W1] [C77675] [Admin] ✓ Fire Station Create Form Fields Visible (3545ms)
+[2026-09-26T05:50:20.342Z] [INFO] [W1] [C77675] [Admin] → Create fire station "Lake Rhondahaven Fire Station"
+[2026-09-26T05:50:26.248Z] [INFO] [W1] [C77675] [Admin] ✓ Create fire station "Lake Rhondahaven Fire Station" (5906ms)
+[2026-09-26T05:50:26.249Z] [INFO] [W1] [C77675] [Admin] → Search fire stations by name "Lake Rhondahaven Fire Station"
+[2026-09-26T05:50:33.099Z] [INFO] [W1] [C77675] [Admin] ✓ Search fire stations by name "Lake Rhondahaven Fire Station" (6850ms)
+[2026-09-26T05:50:33.100Z] [INFO] [W1] [C77675] [Admin] → Fire Station Row Visible
+[2026-09-26T05:50:33.122Z] [INFO] [W1] [C77675] [Admin] ✓ Fire Station Row Visible (22ms)

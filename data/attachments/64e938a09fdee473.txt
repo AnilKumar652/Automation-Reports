@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22670976]
+Title: Verify View row action opens credential details page
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:59:39.657Z] [INFO] [W0] [C22670976] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22670976]
+Status: FAILED
+Duration: 60677ms
+[2026-09-26T06:00:40.038Z] [ERROR] [W0] [C22670976] [object Object]
+────────────────────────────────────────────────────────

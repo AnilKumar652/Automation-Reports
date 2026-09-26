@@ -1,0 +1,16 @@
+[2026-09-26T05:30:46.060Z] [ERROR] [W0] [C45539] [Admin] ✗ Wait until Asset management setup list row for "Tayside Group" is visible (60010ms)
+[2026-09-26T05:30:46.060Z] [ERROR] [W0] [C45539] Locator: role=cell[name="Tayside Group"i]
+[2026-09-26T05:30:46.060Z] [ERROR] [W0] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Tayside Group"i]') to be visible
+
+[2026-09-26T05:30:46.061Z] [ERROR] [W0] [C45539] [Admin] ✗ Save equipment group "Tayside Group" (60790ms)
+[2026-09-26T05:30:46.061Z] [ERROR] [W0] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Tayside Group"i]') to be visible
+
+[2026-09-26T05:30:46.061Z] [ERROR] [W0] [C45539] [Admin] ✗ Create equipment group "Tayside Group" (68542ms)
+[2026-09-26T05:30:46.061Z] [ERROR] [W0] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Tayside Group"i]') to be visible
+

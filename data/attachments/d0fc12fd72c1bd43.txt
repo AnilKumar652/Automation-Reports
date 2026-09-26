@@ -1,0 +1,29 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852435]
+Title: Verify combined filters by date range, creator, active status, topics, and courses refine the category grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T06:14:51.346Z] [INFO] [W1] [C21852435] [Admin] → Open Training Setup Categories page
+[2026-09-26T06:14:58.148Z] [INFO] [W1] [C21852435] [Admin] ✓ Open Training Setup Categories page (6802ms)
+[2026-09-26T06:14:58.148Z] [INFO] [W1] [C21852435] [Admin] → Create category "Generic Grocery"
+[2026-09-26T06:14:59.509Z] [INFO] [W1] [C21852435] [Admin] ✓ Create category "Generic Grocery" (1361ms)
+[2026-09-26T06:14:59.509Z] [INFO] [W1] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-09-26T06:14:59.762Z] [INFO] [W1] [C21852435] [Admin] ✓ Categories grid contains records verified (253ms)
+[2026-09-26T06:14:59.763Z] [INFO] [W1] [C21852435] [Admin] → Search categories by name "Generic Grocery" (exact match)
+[2026-09-26T06:15:00.799Z] [INFO] [W1] [C21852435] [Admin] ✓ Search categories by name "Generic Grocery" (exact match) (1036ms)
+[2026-09-26T06:15:00.800Z] [INFO] [W1] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-09-26T06:15:00.817Z] [INFO] [W1] [C21852435] [Admin] ✓ Categories grid contains records verified (17ms)
+[2026-09-26T06:15:00.817Z] [INFO] [W1] [C21852435] [Admin] → Visible Category Names
+[2026-09-26T06:15:00.907Z] [INFO] [W1] [C21852435] [Admin] ✓ Visible Category Names (90ms)
+[2026-09-26T06:15:00.915Z] [INFO] [W1] [C21852435] [Admin] → Change category Is Active filter to "No"
+[2026-09-26T06:15:01.783Z] [INFO] [W1] [C21852435] [Admin] ✓ Change category Is Active filter to "No" (868ms)
+[2026-09-26T06:15:01.784Z] [INFO] [W1] [C21852435] [Admin] → Read the applied Is Active filter value from the filter tag
+[2026-09-26T06:15:01.848Z] [INFO] [W1] [C21852435] [Admin] ✓ Read the applied Is Active filter value from the filter tag (64ms)
+[2026-09-26T06:15:01.851Z] [INFO] [W1] [C21852435] [Admin] → Clear category filters and restore the default grid
+[2026-09-26T06:15:02.258Z] [INFO] [W1] [C21852435] [Admin] ✓ Clear category filters and restore the default grid (406ms)
+[2026-09-26T06:15:02.258Z] [INFO] [W1] [C21852435] [Admin] → Open category filters panel
+[2026-09-26T06:15:02.329Z] [INFO] [W1] [C21852435] [Admin] ✓ Open category filters panel (71ms)
+[2026-09-26T06:15:02.329Z] [INFO] [W1] [C21852435] [Admin] → Category Search Field Value
+[2026-09-26T06:15:02.378Z] [INFO] [W1] [C21852435] [Admin] ✓ Category Search Field Value (49ms)
+[2026-09-26T06:15:02.391Z] [INFO] [W1] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-09-26T06:15:02.820Z] [INFO] [W1] [C21852435] [Admin] ✓ Categories grid contains records verified (429ms)

@@ -1,0 +1,23 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C2796236]
+Title: Create Group with toggle "show on shift board" ON
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T06:12:51.246Z] [INFO] [W1] [C2796236] [Admin] → Open Scheduling Setup Groups page
+[2026-09-26T06:12:57.317Z] [INFO] [W1] [C2796236] [Admin] ✓ Open Scheduling Setup Groups page (6070ms)
+[2026-09-26T06:12:57.317Z] [INFO] [W1] [C2796236] [Admin] → Is Groups Page Ready
+[2026-09-26T06:12:57.372Z] [INFO] [W1] [C2796236] [Admin] ✓ Is Groups Page Ready (55ms)
+[2026-09-26T06:12:57.378Z] [INFO] [W1] [C2796236] [Admin] → Open create group form
+[2026-09-26T06:13:00.043Z] [INFO] [W1] [C2796236] [Admin] ✓ Open create group form (2665ms)
+[2026-09-26T06:13:00.043Z] [INFO] [W1] [C2796236] [Admin] → Fill group form for "Merseyside Unit"
+[2026-09-26T06:13:01.083Z] [INFO] [W1] [C2796236] [Admin] ✓ Fill group form for "Merseyside Unit" (1040ms)
+[2026-09-26T06:13:01.083Z] [INFO] [W1] [C2796236] [Admin] → Group Show On Shift Board Toggle State
+[2026-09-26T06:13:01.140Z] [INFO] [W1] [C2796236] [Admin] ✓ Group Show On Shift Board Toggle State (57ms)
+[2026-09-26T06:13:01.154Z] [INFO] [W1] [C2796236] [Admin] → Ensure group show on shift board toggle is on
+[2026-09-26T06:13:01.183Z] [INFO] [W1] [C2796236] [Admin] ✓ Ensure group show on shift board toggle is on (29ms)
+[2026-09-26T06:13:01.183Z] [INFO] [W1] [C2796236] [Admin] → Save group "Merseyside Unit"
+[2026-09-26T06:13:06.270Z] [INFO] [W1] [C2796236] [Admin] ✓ Save group "Merseyside Unit" (5087ms)
+[2026-09-26T06:13:06.270Z] [INFO] [W1] [C2796236] [Admin] → Group Created Success Message
+[2026-09-26T06:13:06.297Z] [INFO] [W1] [C2796236] [Admin] ✓ Group Created Success Message (27ms)
+[2026-09-26T06:13:06.305Z] [INFO] [W1] [C2796236] [Admin] → Scheduling Setup Row Visible
+[2026-09-26T06:13:06.364Z] [INFO] [W1] [C2796236] [Admin] ✓ Scheduling Setup Row Visible (59ms)

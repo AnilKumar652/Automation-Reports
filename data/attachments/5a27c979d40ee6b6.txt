@@ -1,0 +1,13 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-09-26T05:51:07.585Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-09-26T05:51:19.274Z] [INFO] [W0] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (11689ms)
+[2026-09-26T05:51:19.274Z] [INFO] [W0] [C78340] [Admin] → Create equipment group "Warren County Team"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C78340]
+Status: FAILED
+Duration: 73255ms
+[2026-09-26T05:52:20.571Z] [ERROR] [W0] [C78340] [object Object]
+────────────────────────────────────────────────────────

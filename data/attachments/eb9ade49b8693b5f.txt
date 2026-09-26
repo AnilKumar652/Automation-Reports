@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22816988]
+Title: Verify new person can be created successfully for Training module
+────────────────────────────────────────────────────────
+[2026-09-26T06:12:19.244Z] [INFO] [W1] [C22816988] [Admin] → Open Create Person form
+[2026-09-26T06:12:28.573Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Create Person form (9330ms)
+[2026-09-26T06:12:28.576Z] [INFO] [W1] [C22816988] [Admin] → Is Create Person Form Open
+[2026-09-26T06:12:28.813Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Create Person Form Open (237ms)
+[2026-09-26T06:12:28.843Z] [INFO] [W1] [C22816988] [Admin] → Fill person form for "Christiana Jaskolski"
+[2026-09-26T06:12:36.297Z] [INFO] [W1] [C22816988] [Admin] ✓ Fill person form for "Christiana Jaskolski" (7454ms)
+[2026-09-26T06:12:36.297Z] [INFO] [W1] [C22816988] [Admin] → Is Person System User Active
+[2026-09-26T06:12:36.337Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Person System User Active (40ms)
+[2026-09-26T06:12:36.348Z] [INFO] [W1] [C22816988] [Admin] → Submit Create Person form
+[2026-09-26T06:12:40.963Z] [INFO] [W1] [C22816988] [Admin] ✓ Submit Create Person form (4615ms)
+[2026-09-26T06:12:40.964Z] [INFO] [W1] [C22816988] [Admin] → Person Created Success Message
+[2026-09-26T06:12:41.738Z] [INFO] [W1] [C22816988] [Admin] ✓ Person Created Success Message (774ms)
+[2026-09-26T06:12:41.742Z] [INFO] [W1] [C22816988] [Admin] → Open Personnel List page
+[2026-09-26T06:12:43.576Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Personnel List page (1834ms)
+[2026-09-26T06:12:43.576Z] [INFO] [W1] [C22816988] [Admin] → Search personnel list for "Christiana Jaskolski"
+[2026-09-26T06:12:49.051Z] [INFO] [W1] [C22816988] [Admin] ✓ Search personnel list for "Christiana Jaskolski" (5475ms)
+[2026-09-26T06:12:49.051Z] [INFO] [W1] [C22816988] [Admin] → Is Personnel List Row Visible
+[2026-09-26T06:12:49.116Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Personnel List Row Visible (65ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22816988]
+Status: PASSED
+Duration: 30332ms
+────────────────────────────────────────────────────────

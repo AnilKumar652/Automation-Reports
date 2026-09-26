@@ -1,0 +1,10 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:34:05.717Z] [INFO] [W1] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-09-26T05:34:10.502Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Open Global Credentials page (4785ms)
+[2026-09-26T05:34:10.502Z] [INFO] [W1] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-09-26T05:34:10.669Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (159ms)
+[2026-09-26T05:34:10.670Z] [INFO] [W1] [C22181795] [Super Admin] → Create global credential "channels Certificate"

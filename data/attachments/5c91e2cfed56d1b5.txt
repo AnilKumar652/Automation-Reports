@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:36:45.633Z] [INFO] [W0] [C52162] [Admin] → Prepare and assign credential "niches Credential" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52162]
+Status: FAILED
+Duration: 39136ms
+[2026-09-26T05:37:24.501Z] [ERROR] [W0] [C52162] [object Object]
+────────────────────────────────────────────────────────

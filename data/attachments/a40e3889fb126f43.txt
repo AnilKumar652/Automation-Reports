@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-09-26T05:39:34.789Z] [INFO] [W1] [C54657] [Admin] → Open Agency Credentials page
+[2026-09-26T05:39:39.363Z] [INFO] [W1] [C54657] [Admin] ✓ Open Agency Credentials page (4579ms)
+[2026-09-26T05:39:39.363Z] [INFO] [W1] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-09-26T05:39:39.508Z] [INFO] [W1] [C54657] [Admin] ✓ Agency Credentials page is ready (145ms)
+[2026-09-26T05:39:39.520Z] [INFO] [W1] [C54657] [Admin] → Create agency credential "Rowe, Harvey and Koss-1"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54657]
+Status: FAILED
+Duration: 22238ms
+[2026-09-26T05:39:56.443Z] [ERROR] [W1] [C54657] [object Object]
+────────────────────────────────────────────────────────

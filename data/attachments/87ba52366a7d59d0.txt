@@ -1,0 +1,16 @@
+[2026-09-26T05:28:52.568Z] [ERROR] [W1] [C45556] [Admin] ✗ Wait until Asset management setup list row for "Wiltshire Team" is visible (60006ms)
+[2026-09-26T05:28:52.569Z] [ERROR] [W1] [C45556] Locator: role=cell[name="Wiltshire Team"i]
+[2026-09-26T05:28:52.569Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Wiltshire Team"i]') to be visible
+
+[2026-09-26T05:28:52.569Z] [ERROR] [W1] [C45556] [Admin] ✗ Save apparatus group "Wiltshire Team" (60215ms)
+[2026-09-26T05:28:52.569Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Wiltshire Team"i]') to be visible
+
+[2026-09-26T05:28:52.573Z] [ERROR] [W1] [C45556] [Admin] ✗ Create apparatus group "Wiltshire Team" (64600ms)
+[2026-09-26T05:28:52.573Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Wiltshire Team"i]') to be visible
+
