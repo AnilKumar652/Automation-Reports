@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-10-03T05:46:14.032Z] [INFO] [W1] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-03T05:46:21.483Z] [INFO] [W1] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (7452ms)
+[2026-10-03T05:46:21.485Z] [INFO] [W1] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-10-03T05:46:25.889Z] [INFO] [W1] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (4404ms)
+[2026-10-03T05:46:25.895Z] [INFO] [W1] [C45556] [Admin] → Create apparatus group "Lincolnshire Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45556]
+Status: FAILED
+Duration: 72789ms
+[2026-10-03T05:47:26.558Z] [ERROR] [W1] [C45556] [object Object]
+────────────────────────────────────────────────────────

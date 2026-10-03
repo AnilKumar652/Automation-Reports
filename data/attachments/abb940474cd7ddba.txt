@@ -1,0 +1,16 @@
+[2026-10-03T06:09:13.310Z] [ERROR] [W0] [C78340] [Admin] ✗ Wait until Asset management setup list row for "Gwynedd County Group" is visible (60020ms)
+[2026-10-03T06:09:13.310Z] [ERROR] [W0] [C78340] Locator: role=cell[name="Gwynedd County Group"i]
+[2026-10-03T06:09:13.310Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Gwynedd County Group"i]') to be visible
+
+[2026-10-03T06:09:13.310Z] [ERROR] [W0] [C78340] [Admin] ✗ Save equipment group "Gwynedd County Group" (60345ms)
+[2026-10-03T06:09:13.310Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Gwynedd County Group"i]') to be visible
+
+[2026-10-03T06:09:13.311Z] [ERROR] [W0] [C78340] [Admin] ✗ Create equipment group "Gwynedd County Group" (71565ms)
+[2026-10-03T06:09:13.311Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Gwynedd County Group"i]') to be visible
+

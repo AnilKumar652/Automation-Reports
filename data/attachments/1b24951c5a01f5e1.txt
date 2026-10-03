@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C10485260]
+Title: Verify autogenerate toggle for same credential type across different clients
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:48:27.862Z] [INFO] [W0] [C10485260] [Admin] → Open Agency Credentials page
+[2026-10-03T05:48:30.052Z] [INFO] [W0] [C10485260] [Admin] ✓ Open Agency Credentials page (2190ms)
+[2026-10-03T05:48:30.052Z] [INFO] [W0] [C10485260] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T05:48:30.356Z] [INFO] [W0] [C10485260] [Admin] ✓ Agency Credentials page is ready (304ms)
+[2026-10-03T05:48:30.370Z] [INFO] [W0] [C10485260] [Admin] → Create agency credential "content License"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C10485260]
+Status: FAILED
+Duration: 19393ms
+[2026-10-03T05:48:46.992Z] [ERROR] [W0] [C10485260] [object Object]
+────────────────────────────────────────────────────────

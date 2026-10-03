@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-10-03T05:44:54.558Z] [INFO] [W1] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-03T05:44:57.973Z] [INFO] [W1] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (3415ms)
+[2026-10-03T05:44:57.974Z] [INFO] [W1] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-10-03T05:44:58.026Z] [INFO] [W1] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (52ms)
+[2026-10-03T05:44:58.042Z] [INFO] [W1] [C45556] [Admin] → Create apparatus group "Lawrence County Group"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45556]
+Status: FAILED
+Duration: 68172ms
+[2026-10-03T05:46:02.485Z] [ERROR] [W1] [C45556] [object Object]
+────────────────────────────────────────────────────────

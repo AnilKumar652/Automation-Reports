@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:42:04.322Z] [INFO] [W1] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-10-03T05:42:07.957Z] [INFO] [W1] [C5877543] [Admin] ✓ Open Agency Setup Organization page (3635ms)
+[2026-10-03T05:42:07.958Z] [INFO] [W1] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-10-03T05:42:08.480Z] [INFO] [W1] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (522ms)
+[2026-10-03T05:42:08.481Z] [INFO] [W1] [C5877543] [Admin] → Select Organization Positions tab
+[2026-10-03T05:42:12.633Z] [INFO] [W1] [C5877543] [Admin] ✓ Select Organization Positions tab (4152ms)
+[2026-10-03T05:42:12.633Z] [INFO] [W1] [C5877543] [Admin] → Add organization position "Forward Response Planner"

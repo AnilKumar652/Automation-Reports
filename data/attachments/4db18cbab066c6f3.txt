@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52160]
+Title: Verify credential creation modal displays all configured fields, controls, and default values
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:53:21.573Z] [INFO] [W0] [C52160] [Admin] → Open Agency Credentials page
+[2026-10-03T05:53:25.719Z] [INFO] [W0] [C52160] [Admin] ✓ Open Agency Credentials page (4147ms)
+[2026-10-03T05:53:25.720Z] [INFO] [W0] [C52160] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T05:53:26.841Z] [INFO] [W0] [C52160] [Admin] ✓ Agency Credentials page is ready (1121ms)
+[2026-10-03T05:53:26.860Z] [INFO] [W0] [C52160] [Admin] → Open Add Credential form
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52160]
+Status: FAILED
+Duration: 16224ms
+[2026-10-03T05:53:39.105Z] [ERROR] [W0] [C52160] [object Object]
+────────────────────────────────────────────────────────

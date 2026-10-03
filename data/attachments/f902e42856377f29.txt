@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:42:57.583Z] [INFO] [W0] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-03T05:43:00.972Z] [INFO] [W0] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (3389ms)
+[2026-10-03T05:43:00.973Z] [INFO] [W0] [C22779515] [Admin] → Create apparatus group "East Sussex Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22779515]
+Status: FAILED
+Duration: 64900ms
+[2026-10-03T05:44:02.224Z] [ERROR] [W0] [C22779515] [object Object]
+────────────────────────────────────────────────────────

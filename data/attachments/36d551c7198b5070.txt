@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:57:03.343Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+[2026-10-03T05:57:08.038Z] [INFO] [W0] [C54657] [Admin] ✓ Open Agency Credentials page (4695ms)
+[2026-10-03T05:57:08.039Z] [INFO] [W0] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T05:57:08.290Z] [INFO] [W0] [C54657] [Admin] ✓ Agency Credentials page is ready (251ms)
+[2026-10-03T05:57:08.299Z] [INFO] [W0] [C54657] [Admin] → Create agency credential "Ondricka Inc-1"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 27982ms
+[2026-10-03T05:57:30.714Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

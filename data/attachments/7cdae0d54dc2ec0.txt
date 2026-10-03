@@ -1,0 +1,13 @@
+[2026-10-03T06:35:28.631Z] [ERROR] [W0] [C21852431] [Admin] ✗ Wait until Add Training Category modal heading is hidden (60017ms)
+[2026-10-03T06:35:28.631Z] [ERROR] [W0] [C21852431] Locator: text=Add Training Category
+[2026-10-03T06:35:28.631Z] [ERROR] [W0] [C21852431] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('text=Add Training Category') to be hidden
+    120 × locator resolved to visible <span class="header__container__title-section__title-container__title"> Add Training Category </span>
+
+[2026-10-03T06:35:28.631Z] [ERROR] [W0] [C21852431] [Admin] ✗ Create category "Awesome Tools" (61034ms)
+[2026-10-03T06:35:28.632Z] [ERROR] [W0] [C21852431] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('text=Add Training Category') to be hidden
+    120 × locator resolved to visible <span class="header__container__title-section__title-container__title"> Add Training Category </span>
+

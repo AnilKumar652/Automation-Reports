@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:44:13.971Z] [INFO] [W0] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-03T05:44:25.489Z] [INFO] [W0] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (11518ms)
+[2026-10-03T05:44:25.489Z] [INFO] [W0] [C22779515] [Admin] → Create apparatus group "Kent Group"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22779515]
+Status: FAILED
+Duration: 72340ms
+[2026-10-03T05:45:26.015Z] [ERROR] [W0] [C22779515] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58123]
+Title: Create Qualifier
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:33:11.662Z] [INFO] [W1] [C58123] [Admin] → Open Scheduling Setup Qualifiers page
+[2026-10-03T06:33:15.517Z] [INFO] [W1] [C58123] [Admin] ✓ Open Scheduling Setup Qualifiers page (3855ms)
+[2026-10-03T06:33:15.521Z] [INFO] [W1] [C58123] [Admin] → Is Qualifiers Page Ready
+[2026-10-03T06:33:15.669Z] [INFO] [W1] [C58123] [Admin] ✓ Is Qualifiers Page Ready (148ms)
+[2026-10-03T06:33:15.677Z] [INFO] [W1] [C58123] [Admin] → Create qualifier "Regional Applications"
+[2026-10-03T06:33:32.120Z] [INFO] [W1] [C58123] [Admin] ✓ Create qualifier "Regional Applications" (16443ms)
+[2026-10-03T06:33:32.120Z] [INFO] [W1] [C58123] [Admin] → Qualifier Created Success Message
+[2026-10-03T06:33:32.147Z] [INFO] [W1] [C58123] [Admin] ✓ Qualifier Created Success Message (27ms)
+[2026-10-03T06:33:32.148Z] [INFO] [W1] [C58123] [Admin] → Scheduling Setup Row Visible
+[2026-10-03T06:33:32.170Z] [INFO] [W1] [C58123] [Admin] ✓ Scheduling Setup Row Visible (22ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58123]
+Status: PASSED
+Duration: 20824ms
+────────────────────────────────────────────────────────

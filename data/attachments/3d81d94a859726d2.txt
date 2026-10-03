@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58112]
+Title: Verify first edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:00:56.831Z] [INFO] [W0] [C58112] [Admin] → Prepare and assign credential "infrastructures Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58112]
+Status: FAILED
+Duration: 16188ms
+[2026-10-03T06:01:13.020Z] [ERROR] [W0] [C58112] [object Object]
+────────────────────────────────────────────────────────

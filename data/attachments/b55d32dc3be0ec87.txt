@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58129]
+Title: Verify personnel removal from Admin Users reflects in Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:04:02.304Z] [INFO] [W1] [C58129] [Admin] → Prepare and assign credential "schemas Credential" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58129]
+Status: FAILED
+Duration: 49127ms
+[2026-10-03T06:04:50.884Z] [ERROR] [W1] [C58129] [object Object]
+────────────────────────────────────────────────────────

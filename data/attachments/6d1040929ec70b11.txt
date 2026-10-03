@@ -1,0 +1,16 @@
+[2026-10-03T05:46:47.629Z] [ERROR] [W0] [C45539] [Admin] ✗ Wait until Asset management setup list row for "County Tyrone Group" is visible (60003ms)
+[2026-10-03T05:46:47.629Z] [ERROR] [W0] [C45539] Locator: role=cell[name="County Tyrone Group"i]
+[2026-10-03T05:46:47.629Z] [ERROR] [W0] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Tyrone Group"i]') to be visible
+
+[2026-10-03T05:46:47.630Z] [ERROR] [W0] [C45539] [Admin] ✗ Save equipment group "County Tyrone Group" (60194ms)
+[2026-10-03T05:46:47.630Z] [ERROR] [W0] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Tyrone Group"i]') to be visible
+
+[2026-10-03T05:46:47.630Z] [ERROR] [W0] [C45539] [Admin] ✗ Create equipment group "County Tyrone Group" (64561ms)
+[2026-10-03T05:46:47.630Z] [ERROR] [W0] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Tyrone Group"i]') to be visible
+

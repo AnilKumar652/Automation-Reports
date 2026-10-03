@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52165]
+Title: Verify duplicate credential name validation on create
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:56:19.928Z] [INFO] [W0] [C52165] [Admin] → Open Agency Credentials page
+[2026-10-03T05:56:27.431Z] [INFO] [W0] [C52165] [Admin] ✓ Open Agency Credentials page (7503ms)
+[2026-10-03T05:56:27.432Z] [INFO] [W0] [C52165] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T05:56:37.347Z] [INFO] [W0] [C52165] [Admin] ✓ Agency Credentials page is ready (9915ms)
+[2026-10-03T05:56:37.356Z] [INFO] [W0] [C52165] [Admin] → Create agency credential "applications Credential"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52165]
+Status: FAILED
+Duration: 34519ms
+[2026-10-03T05:56:53.867Z] [ERROR] [W0] [C52165] [object Object]
+────────────────────────────────────────────────────────

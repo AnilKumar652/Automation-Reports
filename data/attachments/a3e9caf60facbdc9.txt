@@ -1,0 +1,10 @@
+[2026-10-03T05:49:27.976Z] [ERROR] [W0] [C10485260] [Admin] ✗ Select first available linked training plan (10057ms)
+[2026-10-03T05:49:27.977Z] [ERROR] [W0] [C10485260] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-10-03T05:49:27.977Z] [ERROR] [W0] [C10485260] [Admin] ✗ Create agency credential "synergies Certificate" (16088ms)
+[2026-10-03T05:49:27.977Z] [ERROR] [W0] [C10485260] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

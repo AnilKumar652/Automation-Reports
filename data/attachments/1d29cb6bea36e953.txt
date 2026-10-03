@@ -1,0 +1,11 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-10-03T06:09:24.742Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C78340]
+Status: FAILED
+Duration: 20753ms
+[2026-10-03T06:09:45.557Z] [ERROR] [W0] [C78340] [object Object]
+────────────────────────────────────────────────────────

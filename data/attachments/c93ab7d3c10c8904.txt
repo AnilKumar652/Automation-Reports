@@ -1,0 +1,11 @@
+[2026-10-03T06:32:59.966Z] [ERROR] [W1] [C58123] [Admin] ✗ Wait until Scheduling setup list row for "Central Configuration" is visible (60003ms)
+[2026-10-03T06:32:59.966Z] [ERROR] [W1] [C58123] Locator: role=cell[name="Central Configuration"i]
+[2026-10-03T06:32:59.966Z] [ERROR] [W1] [C58123] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Central Configuration"i]') to be visible
+
+[2026-10-03T06:32:59.967Z] [ERROR] [W1] [C58123] [Admin] ✗ Create qualifier "Central Configuration" (63676ms)
+[2026-10-03T06:32:59.967Z] [ERROR] [W1] [C58123] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Central Configuration"i]') to be visible
+

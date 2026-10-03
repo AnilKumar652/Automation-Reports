@@ -1,0 +1,16 @@
+[2026-10-03T05:48:48.280Z] [ERROR] [W1] [C45059] [Admin] ✗ Wait until Asset management setup list row for "Fayette County Unit" is visible (60011ms)
+[2026-10-03T05:48:48.281Z] [ERROR] [W1] [C45059] Locator: role=cell[name="Fayette County Unit"i]
+[2026-10-03T05:48:48.281Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Fayette County Unit"i]') to be visible
+
+[2026-10-03T05:48:48.281Z] [ERROR] [W1] [C45059] [Admin] ✗ Save location group "Fayette County Unit" (63627ms)
+[2026-10-03T05:48:48.285Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Fayette County Unit"i]') to be visible
+
+[2026-10-03T05:48:48.285Z] [ERROR] [W1] [C45059] [Admin] ✗ Create location group "Fayette County Unit" (64329ms)
+[2026-10-03T05:48:48.285Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Fayette County Unit"i]') to be visible
+

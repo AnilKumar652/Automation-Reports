@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:34:11.954Z] [INFO] [W0] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-10-03T06:34:27.596Z] [INFO] [W0] [C21852431] [Admin] ✓ Open Training Setup Categories page (15642ms)
+[2026-10-03T06:34:27.597Z] [INFO] [W0] [C21852431] [Admin] → Create category "Awesome Tools"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852431]
+Status: FAILED
+Duration: 77112ms
+[2026-10-03T06:35:28.732Z] [ERROR] [W0] [C21852431] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,16 @@
+[2026-10-03T05:48:14.357Z] [ERROR] [W0] [C45539] [Admin] ✗ Wait until Asset management setup list row for "Douglas County Team" is visible (60049ms)
+[2026-10-03T05:48:14.357Z] [ERROR] [W0] [C45539] Locator: role=cell[name="Douglas County Team"i]
+[2026-10-03T05:48:14.357Z] [ERROR] [W0] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Douglas County Team"i]') to be visible
+
+[2026-10-03T05:48:14.358Z] [ERROR] [W0] [C45539] [Admin] ✗ Save equipment group "Douglas County Team" (60239ms)
+[2026-10-03T05:48:14.358Z] [ERROR] [W0] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Douglas County Team"i]') to be visible
+
+[2026-10-03T05:48:14.358Z] [ERROR] [W0] [C45539] [Admin] ✗ Create equipment group "Douglas County Team" (61297ms)
+[2026-10-03T05:48:14.358Z] [ERROR] [W0] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Douglas County Team"i]') to be visible
+

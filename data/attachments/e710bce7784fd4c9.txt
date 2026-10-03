@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:54:49.042Z] [INFO] [W0] [C52162] [Admin] → Prepare and assign credential "users Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52162]
+Status: FAILED
+Duration: 42417ms
+[2026-10-03T05:55:31.188Z] [ERROR] [W0] [C52162] [object Object]
+────────────────────────────────────────────────────────

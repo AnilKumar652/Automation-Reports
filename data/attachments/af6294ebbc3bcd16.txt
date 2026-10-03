@@ -1,0 +1,17 @@
+[2026-10-03T05:53:36.887Z] [ERROR] [W0] [C52160] [Admin] ✗ Click Add Credential button (10021ms)
+[2026-10-03T05:53:36.891Z] [ERROR] [W0] [C52160] Locator: [data-testid="training-credential-add"]
+[2026-10-03T05:53:36.891Z] [ERROR] [W0] [C52160] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-add"]')
+    - locator resolved to <button type="button" data-v-6763a4ac="" title="Add Credential" data-testid="training-credential-add" class="button is-medium is-primary is-icon-only-in-mobile is-icon-only-breakpoint-sm">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+[2026-10-03T05:53:36.892Z] [ERROR] [W0] [C52160] [Admin] ✗ Open Add Credential form (10032ms)
+[2026-10-03T05:53:36.892Z] [ERROR] [W0] [C52160] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-add"]')
+    - locator resolved to <button type="button" data-v-6763a4ac="" title="Add Credential" data-testid="training-credential-add" class="button is-medium is-primary is-icon-only-in-mobile is-icon-only-breakpoint-sm">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+

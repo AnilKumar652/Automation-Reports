@@ -1,0 +1,22 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:51:37.010Z] [INFO] [W1] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-10-03T05:51:40.274Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Open Global Credentials page (3264ms)
+[2026-10-03T05:51:40.274Z] [INFO] [W1] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-10-03T05:51:40.871Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (597ms)
+[2026-10-03T05:51:40.879Z] [INFO] [W1] [C22181795] [Super Admin] → Create global credential "niches Credential"
+[2026-10-03T05:51:54.045Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Create global credential "niches Credential" (13166ms)
+[2026-10-03T05:51:54.045Z] [INFO] [W1] [C22181795] [Super Admin] → Is Add Global Credential Modal Open
+[2026-10-03T05:51:54.055Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Is Add Global Credential Modal Open (10ms)
+[2026-10-03T05:51:54.057Z] [INFO] [W1] [C22181795] [Super Admin] → Search global credentials for "niches Credential"
+[2026-10-03T05:51:55.057Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Search global credentials for "niches Credential" (1000ms)
+[2026-10-03T05:51:55.057Z] [INFO] [W1] [C22181795] [Super Admin] → Global Credential Row Visible
+[2026-10-03T05:51:55.063Z] [INFO] [W1] [C22181795] [Super Admin] ✓ Global Credential Row Visible (6ms)
+[2026-10-03T05:51:55.064Z] [INFO] [W1] [C22181795] [Admin] → Open Agency Credentials page
+[2026-10-03T05:51:58.066Z] [INFO] [W1] [C22181795] [Admin] ✓ Open Agency Credentials page (3002ms)
+[2026-10-03T05:51:58.066Z] [INFO] [W1] [C22181795] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T05:51:58.565Z] [INFO] [W1] [C22181795] [Admin] ✓ Agency Credentials page is ready (499ms)
+[2026-10-03T05:51:58.576Z] [INFO] [W1] [C22181795] [Admin] → Import global credential "niches Credential"

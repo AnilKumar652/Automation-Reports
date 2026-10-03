@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181792]
+Title: Verify State / Province is optional when creating a regular credential
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:49:47.758Z] [INFO] [W0] [C22181792] [Admin] → Open Agency Credentials page
+[2026-10-03T05:49:49.707Z] [INFO] [W0] [C22181792] [Admin] ✓ Open Agency Credentials page (1949ms)
+[2026-10-03T05:49:49.708Z] [INFO] [W0] [C22181792] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T05:49:49.775Z] [INFO] [W0] [C22181792] [Admin] ✓ Agency Credentials page is ready (67ms)
+[2026-10-03T05:49:49.778Z] [INFO] [W0] [C22181792] [Admin] → Open Add Credential form
+[2026-10-03T05:49:50.987Z] [INFO] [W0] [C22181792] [Admin] ✓ Open Add Credential form (1209ms)
+[2026-10-03T05:49:50.987Z] [INFO] [W0] [C22181792] [Admin] → State Province Mandatory Indicator
+[2026-10-03T05:49:51.016Z] [INFO] [W0] [C22181792] [Admin] ✓ State Province Mandatory Indicator (29ms)
+[2026-10-03T05:49:51.021Z] [INFO] [W0] [C22181792] [Admin] → Create agency credential "supply-chains Certificate"

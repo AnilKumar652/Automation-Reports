@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22682824]
+Title: Verify User can submit Upload External Credential with valid required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:30:18.024Z] [INFO] [W1] [C22682824] [Admin] → Open Agency Credentials page
+[2026-10-03T06:30:21.211Z] [INFO] [W1] [C22682824] [Admin] ✓ Open Agency Credentials page (3188ms)
+[2026-10-03T06:30:21.211Z] [INFO] [W1] [C22682824] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T06:30:26.646Z] [INFO] [W1] [C22682824] [Admin] ✓ Agency Credentials page is ready (5435ms)
+[2026-10-03T06:30:26.650Z] [INFO] [W1] [C22682824] [Admin] → Create agency credential "convergence License"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22682824]
+Status: FAILED
+Duration: 22920ms
+[2026-10-03T06:30:40.490Z] [ERROR] [W1] [C22682824] [object Object]
+────────────────────────────────────────────────────────

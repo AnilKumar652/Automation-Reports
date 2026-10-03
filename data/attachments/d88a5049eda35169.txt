@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877540]
+Title: Verify user can add an organization division
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:39:39.202Z] [INFO] [W0] [C5877540] [Admin] → Open Agency Setup Organization page
+[2026-10-03T05:39:49.100Z] [INFO] [W0] [C5877540] [Admin] ✓ Open Agency Setup Organization page (9898ms)
+[2026-10-03T05:39:49.121Z] [INFO] [W0] [C5877540] [Admin] → Is Agency Setup Organization Ready
+[2026-10-03T05:39:49.566Z] [INFO] [W0] [C5877540] [Admin] ✓ Is Agency Setup Organization Ready (445ms)
+[2026-10-03T05:39:49.595Z] [INFO] [W0] [C5877540] [Admin] → Select Organization Division tab
+[2026-10-03T05:39:58.076Z] [INFO] [W0] [C5877540] [Admin] ✓ Select Organization Division tab (8481ms)
+[2026-10-03T05:39:58.076Z] [INFO] [W0] [C5877540] [Admin] → Add organization division "Baby"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877540]
+Status: FAILED
+Duration: 81285ms
+[2026-10-03T05:41:00.030Z] [ERROR] [W0] [C5877540] [object Object]
+────────────────────────────────────────────────────────

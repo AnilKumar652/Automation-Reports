@@ -1,0 +1,11 @@
+[2026-10-03T05:43:13.938Z] [ERROR] [W1] [C5877543] [Admin] ✗ Wait until Organization row for "Forward Response Planner" is visible (60002ms)
+[2026-10-03T05:43:13.938Z] [ERROR] [W1] [C5877543] Locator: role=gridcell[name="Forward Response Planner"i]
+[2026-10-03T05:43:13.938Z] [ERROR] [W1] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Forward Response Planner"i]') to be visible
+
+[2026-10-03T05:43:13.938Z] [ERROR] [W1] [C5877543] [Admin] ✗ Add organization position "Forward Response Planner" (61305ms)
+[2026-10-03T05:43:13.938Z] [ERROR] [W1] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Forward Response Planner"i]') to be visible
+

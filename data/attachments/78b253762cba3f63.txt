@@ -1,0 +1,16 @@
+[2026-10-03T05:46:02.426Z] [ERROR] [W1] [C45556] [Admin] ✗ Wait until Asset management setup list row for "Lawrence County Group" is visible (60003ms)
+[2026-10-03T05:46:02.426Z] [ERROR] [W1] [C45556] Locator: role=cell[name="Lawrence County Group"i]
+[2026-10-03T05:46:02.426Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Lawrence County Group"i]') to be visible
+
+[2026-10-03T05:46:02.426Z] [ERROR] [W1] [C45556] [Admin] ✗ Save apparatus group "Lawrence County Group" (60292ms)
+[2026-10-03T05:46:02.426Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Lawrence County Group"i]') to be visible
+
+[2026-10-03T05:46:02.427Z] [ERROR] [W1] [C45556] [Admin] ✗ Create apparatus group "Lawrence County Group" (64385ms)
+[2026-10-03T05:46:02.427Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Lawrence County Group"i]') to be visible
+

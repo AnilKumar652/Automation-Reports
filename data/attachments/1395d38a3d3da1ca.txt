@@ -1,0 +1,24 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C77675]
+Title: Verify user can create a fire station with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:09:54.191Z] [INFO] [W1] [C77675] [Admin] → Open Fire Station list page
+[2026-10-03T06:09:59.449Z] [INFO] [W1] [C77675] [Admin] ✓ Open Fire Station list page (5259ms)
+[2026-10-03T06:09:59.451Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station List Ready
+[2026-10-03T06:10:08.075Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station List Ready (8624ms)
+[2026-10-03T06:10:08.081Z] [INFO] [W1] [C77675] [Admin] → Open new fire station form
+[2026-10-03T06:10:12.431Z] [INFO] [W1] [C77675] [Admin] ✓ Open new fire station form (4350ms)
+[2026-10-03T06:10:12.432Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station Create Form Open
+[2026-10-03T06:10:18.617Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station Create Form Open (6185ms)
+[2026-10-03T06:10:18.621Z] [INFO] [W1] [C77675] [Admin] → Fire Station Create Form Fields Visible
+[2026-10-03T06:10:19.613Z] [INFO] [W1] [C77675] [Admin] ✓ Fire Station Create Form Fields Visible (992ms)
+[2026-10-03T06:10:19.614Z] [INFO] [W1] [C77675] [Admin] → Create fire station "Fort Emil Fire Station"
+[2026-10-03T06:10:27.433Z] [INFO] [W1] [C77675] [Admin] ✓ Create fire station "Fort Emil Fire Station" (7819ms)
+[2026-10-03T06:10:27.433Z] [INFO] [W1] [C77675] [Admin] → Search fire stations by name "Fort Emil Fire Station"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C77675]
+Status: FAILED
+Duration: 48555ms
+[2026-10-03T06:10:42.474Z] [ERROR] [W1] [C77675] [object Object]
+────────────────────────────────────────────────────────

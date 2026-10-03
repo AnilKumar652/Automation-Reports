@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54659]
+Title: Verify in-use credential cannot be deleted
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:58:19.074Z] [INFO] [W1] [C54659] [Admin] → Open Agency Credentials page
+[2026-10-03T05:58:23.092Z] [INFO] [W1] [C54659] [Admin] ✓ Open Agency Credentials page (4018ms)
+[2026-10-03T05:58:23.093Z] [INFO] [W1] [C54659] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T05:58:23.201Z] [INFO] [W1] [C54659] [Admin] ✓ Agency Credentials page is ready (108ms)
+[2026-10-03T05:58:23.214Z] [INFO] [W1] [C54659] [Admin] → Create agency credential "infrastructures Credential"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54659]
+Status: FAILED
+Duration: 28629ms
+[2026-10-03T05:58:47.271Z] [ERROR] [W1] [C54659] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-10-03T05:47:40.371Z] [INFO] [W1] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-10-03T05:47:43.806Z] [INFO] [W1] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (3435ms)
+[2026-10-03T05:47:43.806Z] [INFO] [W1] [C45059] [Admin] → Is Location Groups List Ready
+[2026-10-03T05:47:43.939Z] [INFO] [W1] [C45059] [Admin] ✓ Is Location Groups List Ready (133ms)
+[2026-10-03T05:47:43.956Z] [INFO] [W1] [C45059] [Admin] → Create location group "Fayette County Unit"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45059]
+Status: FAILED
+Duration: 68244ms
+[2026-10-03T05:48:48.402Z] [ERROR] [W1] [C45059] [object Object]
+────────────────────────────────────────────────────────

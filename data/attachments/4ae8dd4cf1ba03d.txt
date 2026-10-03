@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C77675]
+Title: Verify user can create a fire station with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:08:15.123Z] [INFO] [W1] [C77675] [Admin] → Open Fire Station list page
+[2026-10-03T06:08:17.711Z] [INFO] [W1] [C77675] [Admin] ✓ Open Fire Station list page (2588ms)
+[2026-10-03T06:08:17.711Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station List Ready
+[2026-10-03T06:08:18.529Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station List Ready (818ms)
+[2026-10-03T06:08:18.530Z] [INFO] [W1] [C77675] [Admin] → Open new fire station form
+[2026-10-03T06:08:21.770Z] [INFO] [W1] [C77675] [Admin] ✓ Open new fire station form (3240ms)
+[2026-10-03T06:08:21.771Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station Create Form Open
+[2026-10-03T06:08:22.955Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station Create Form Open (1184ms)
+[2026-10-03T06:08:22.957Z] [INFO] [W1] [C77675] [Admin] → Fire Station Create Form Fields Visible
+[2026-10-03T06:08:25.716Z] [INFO] [W1] [C77675] [Admin] ✓ Fire Station Create Form Fields Visible (2759ms)
+[2026-10-03T06:08:25.717Z] [INFO] [W1] [C77675] [Admin] → Create fire station "West Derick Fire Station"

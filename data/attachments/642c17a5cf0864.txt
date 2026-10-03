@@ -1,0 +1,19 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:34:01.141Z] [INFO] [W1] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-10-03T06:34:14.499Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Training Setup Categories page (13358ms)
+[2026-10-03T06:34:14.500Z] [INFO] [W1] [C21852430] [Admin] → Create category "Bespoke Sports"
+[2026-10-03T06:34:17.685Z] [INFO] [W1] [C21852430] [Admin] ✓ Create category "Bespoke Sports" (3185ms)
+[2026-10-03T06:34:17.685Z] [INFO] [W1] [C21852430] [Admin] → Search categories by name "Bespoke Sports" (exact match)
+[2026-10-03T06:34:18.925Z] [INFO] [W1] [C21852430] [Admin] ✓ Search categories by name "Bespoke Sports" (exact match) (1240ms)
+[2026-10-03T06:34:18.925Z] [INFO] [W1] [C21852430] [Admin] → Category Row Visible
+[2026-10-03T06:34:18.955Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Row Visible (30ms)
+[2026-10-03T06:34:18.960Z] [INFO] [W1] [C21852430] [Admin] → Open Edit Category Modal
+[2026-10-03T06:34:19.519Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Edit Category Modal (559ms)
+[2026-10-03T06:34:19.520Z] [INFO] [W1] [C21852430] [Admin] → Is Edit Category Modal Open
+[2026-10-03T06:34:19.535Z] [INFO] [W1] [C21852430] [Admin] ✓ Is Edit Category Modal Open (15ms)
+[2026-10-03T06:34:19.538Z] [INFO] [W1] [C21852430] [Admin] → Category Modal Name Value
+[2026-10-03T06:34:19.555Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Modal Name Value (17ms)

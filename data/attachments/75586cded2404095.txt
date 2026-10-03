@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C52164]
+Title: Verify user can edit an existing credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:55:10.973Z] [INFO] [W1] [C52164] [Admin] → Open Agency Credentials page
+[2026-10-03T05:55:12.944Z] [INFO] [W1] [C52164] [Admin] ✓ Open Agency Credentials page (1971ms)
+[2026-10-03T05:55:12.945Z] [INFO] [W1] [C52164] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T05:55:13.346Z] [INFO] [W1] [C52164] [Admin] ✓ Agency Credentials page is ready (401ms)
+[2026-10-03T05:55:13.368Z] [INFO] [W1] [C52164] [Admin] → Create agency credential "blockchains Certification"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C52164]
+Status: FAILED
+Duration: 19456ms
+[2026-10-03T05:55:30.178Z] [ERROR] [W1] [C52164] [object Object]
+────────────────────────────────────────────────────────

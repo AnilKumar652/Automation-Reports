@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58111]
+Title: Verify credential date range displays correctly in Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:59:24.161Z] [INFO] [W1] [C58111] [Admin] → Prepare and assign credential "infrastructures License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58111]
+Status: FAILED
+Duration: 40147ms
+[2026-10-03T06:00:03.978Z] [ERROR] [W1] [C58111] [object Object]
+────────────────────────────────────────────────────────

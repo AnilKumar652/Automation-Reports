@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-10-03T05:45:39.475Z] [INFO] [W0] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-03T05:45:42.870Z] [INFO] [W0] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (3395ms)
+[2026-10-03T05:45:42.876Z] [INFO] [W0] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-10-03T05:45:43.045Z] [INFO] [W0] [C45539] [Admin] ✓ Is Equipment Groups List Ready (169ms)
+[2026-10-03T05:45:43.069Z] [INFO] [W0] [C45539] [Admin] → Create equipment group "County Tyrone Group"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45539]
+Status: FAILED
+Duration: 68459ms
+[2026-10-03T05:46:47.688Z] [ERROR] [W0] [C45539] [object Object]
+────────────────────────────────────────────────────────

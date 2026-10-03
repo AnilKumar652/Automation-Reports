@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877541]
+Title: Verify user can add an organization shift
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:39:39.184Z] [INFO] [W1] [C5877541] [Admin] → Open Agency Setup Organization page
+[2026-10-03T05:39:48.297Z] [INFO] [W1] [C5877541] [Admin] ✓ Open Agency Setup Organization page (9116ms)
+[2026-10-03T05:39:48.328Z] [INFO] [W1] [C5877541] [Admin] → Is Agency Setup Organization Ready
+[2026-10-03T05:39:50.513Z] [INFO] [W1] [C5877541] [Admin] ✓ Is Agency Setup Organization Ready (2185ms)
+[2026-10-03T05:39:50.531Z] [INFO] [W1] [C5877541] [Admin] → Select Organization Shift tab
+[2026-10-03T05:39:58.521Z] [INFO] [W1] [C5877541] [Admin] ✓ Select Organization Shift tab (7990ms)
+[2026-10-03T05:39:58.521Z] [INFO] [W1] [C5877541] [Admin] → Add organization shift "B Shift"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5877541]
+Status: FAILED
+Duration: 83115ms
+[2026-10-03T05:41:01.950Z] [ERROR] [W1] [C5877541] [object Object]
+────────────────────────────────────────────────────────

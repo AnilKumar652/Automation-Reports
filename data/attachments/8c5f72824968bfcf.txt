@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5701947]
+Title: Verify filters in Credentials - Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:59:11.499Z] [INFO] [W0] [C5701947] [Admin] → Prepare and assign credential "convergence Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5701947]
+Status: FAILED
+Duration: 46984ms
+[2026-10-03T05:59:58.219Z] [ERROR] [W0] [C5701947] [object Object]
+────────────────────────────────────────────────────────

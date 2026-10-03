@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-10-03T05:47:01.438Z] [INFO] [W0] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-03T05:47:12.978Z] [INFO] [W0] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (11540ms)
+[2026-10-03T05:47:12.985Z] [INFO] [W0] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-10-03T05:47:13.050Z] [INFO] [W0] [C45539] [Admin] ✓ Is Equipment Groups List Ready (65ms)
+[2026-10-03T05:47:13.061Z] [INFO] [W0] [C45539] [Admin] → Create equipment group "Douglas County Team"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45539]
+Status: FAILED
+Duration: 73231ms
+[2026-10-03T05:48:14.420Z] [ERROR] [W0] [C45539] [object Object]
+────────────────────────────────────────────────────────

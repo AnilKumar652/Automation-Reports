@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22670971]
+Title: Verify My Credentials grid displays all expected columns
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:13:27.567Z] [INFO] [W0] [C22670971] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22670971]
+Status: FAILED
+Duration: 60562ms
+[2026-10-03T06:14:27.879Z] [ERROR] [W0] [C22670971] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58122]
+Title: Verify credential log can be removed from Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:03:05.210Z] [INFO] [W0] [C58122] [Admin] → Prepare and assign credential "convergence License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58122]
+Status: FAILED
+Duration: 44141ms
+[2026-10-03T06:03:48.985Z] [ERROR] [W0] [C58122] [object Object]
+────────────────────────────────────────────────────────

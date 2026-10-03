@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:57:37.714Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+[2026-10-03T05:57:44.294Z] [INFO] [W0] [C54657] [Admin] ✓ Open Agency Credentials page (6580ms)
+[2026-10-03T05:57:44.294Z] [INFO] [W0] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T05:57:53.714Z] [INFO] [W0] [C54657] [Admin] ✓ Agency Credentials page is ready (9420ms)
+[2026-10-03T05:57:53.739Z] [INFO] [W0] [C54657] [Admin] → Create agency credential "Kilback LLC-1"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 33825ms
+[2026-10-03T05:58:11.024Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

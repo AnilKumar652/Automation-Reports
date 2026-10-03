@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:34:20.916Z] [INFO] [W1] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-10-03T06:34:25.680Z] [INFO] [W1] [C21852432] [Admin] ✓ Open Training Setup Categories page (4764ms)
+[2026-10-03T06:34:25.685Z] [INFO] [W1] [C21852432] [Admin] → Create category "Williamson, Haag and Ziemann Rustic Movies"
+[2026-10-03T06:34:32.831Z] [INFO] [W1] [C21852432] [Admin] ✓ Create category "Williamson, Haag and Ziemann Rustic Movies" (7146ms)
+[2026-10-03T06:34:32.832Z] [INFO] [W1] [C21852432] [Admin] → Create category "Williamson, Haag and Ziemann Modern Shoes"
+[2026-10-03T06:34:34.518Z] [INFO] [W1] [C21852432] [Admin] ✓ Create category "Williamson, Haag and Ziemann Modern Shoes" (1686ms)
+[2026-10-03T06:34:34.518Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-03T06:34:34.562Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (44ms)
+[2026-10-03T06:34:34.571Z] [INFO] [W1] [C21852432] [Admin] → Search categories by name "Williamson, Haag and Ziemann" (matching results)
+[2026-10-03T06:34:35.796Z] [INFO] [W1] [C21852432] [Admin] ✓ Search categories by name "Williamson, Haag and Ziemann" (matching results) (1225ms)
+[2026-10-03T06:34:35.796Z] [INFO] [W1] [C21852432] [Admin] → Visible Category Names
+[2026-10-03T06:34:35.900Z] [INFO] [W1] [C21852432] [Admin] ✓ Visible Category Names (104ms)
+[2026-10-03T06:34:35.909Z] [INFO] [W1] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-10-03T06:34:36.113Z] [INFO] [W1] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (204ms)
+[2026-10-03T06:34:36.113Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-03T06:34:36.118Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (5ms)
+[2026-10-03T06:34:36.121Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-03T06:34:36.130Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (9ms)
+[2026-10-03T06:34:36.130Z] [INFO] [W1] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-10-03T06:34:36.360Z] [INFO] [W1] [C21852432] [Admin] ✓ Toggle Header Row Selection (230ms)
+[2026-10-03T06:34:36.360Z] [INFO] [W1] [C21852432] [Admin] → Selected Category Row Count
+[2026-10-03T06:34:36.396Z] [INFO] [W1] [C21852432] [Admin] ✓ Selected Category Row Count (36ms)
+[2026-10-03T06:34:36.400Z] [INFO] [W1] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-10-03T06:34:36.462Z] [INFO] [W1] [C21852432] [Admin] ✓ Toggle Header Row Selection (62ms)
+[2026-10-03T06:34:36.462Z] [INFO] [W1] [C21852432] [Admin] → Selected Category Row Count
+[2026-10-03T06:34:36.501Z] [INFO] [W1] [C21852432] [Admin] ✓ Selected Category Row Count (39ms)

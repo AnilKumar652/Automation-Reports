@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C7135673]
+Title: Verify clone action duplicates a credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:06:22.013Z] [INFO] [W1] [C7135673] [Admin] → Open Agency Credentials page
+[2026-10-03T06:06:24.783Z] [INFO] [W1] [C7135673] [Admin] ✓ Open Agency Credentials page (2770ms)
+[2026-10-03T06:06:24.784Z] [INFO] [W1] [C7135673] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T06:06:24.922Z] [INFO] [W1] [C7135673] [Admin] ✓ Agency Credentials page is ready (138ms)
+[2026-10-03T06:06:24.933Z] [INFO] [W1] [C7135673] [Admin] → Create agency credential "AI Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C7135673]
+Status: FAILED
+Duration: 27336ms
+[2026-10-03T06:06:48.943Z] [ERROR] [W1] [C7135673] [object Object]
+────────────────────────────────────────────────────────

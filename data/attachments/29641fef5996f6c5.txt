@@ -1,0 +1,10 @@
+[2026-10-03T05:58:10.833Z] [ERROR] [W0] [C54657] [Admin] ✗ Select first available linked training plan (10089ms)
+[2026-10-03T05:58:10.834Z] [ERROR] [W0] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-10-03T05:58:10.834Z] [ERROR] [W0] [C54657] [Admin] ✗ Create agency credential "Kilback LLC-1" (17095ms)
+[2026-10-03T05:58:10.834Z] [ERROR] [W0] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

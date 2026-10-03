@@ -1,0 +1,26 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-03T06:35:39.645Z] [INFO] [W0] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-10-03T06:35:48.301Z] [INFO] [W0] [C21852431] [Admin] ✓ Open Training Setup Categories page (8656ms)
+[2026-10-03T06:35:48.303Z] [INFO] [W0] [C21852431] [Admin] → Create category "Unbranded Garden"
+[2026-10-03T06:35:49.562Z] [INFO] [W0] [C21852431] [Admin] ✓ Create category "Unbranded Garden" (1259ms)
+[2026-10-03T06:35:49.563Z] [INFO] [W0] [C21852431] [Admin] → Search categories by name "Unbranded Garden" (exact match)
+[2026-10-03T06:35:50.891Z] [INFO] [W0] [C21852431] [Admin] ✓ Search categories by name "Unbranded Garden" (exact match) (1328ms)
+[2026-10-03T06:35:50.891Z] [INFO] [W0] [C21852431] [Admin] → Edit Category
+[2026-10-03T06:35:51.887Z] [INFO] [W0] [C21852431] [Admin] ✓ Edit Category (996ms)
+[2026-10-03T06:35:51.889Z] [INFO] [W0] [C21852431] [Admin] → Search categories by name "Fresh Tools" (exact match)
+[2026-10-03T06:35:52.871Z] [INFO] [W0] [C21852431] [Admin] ✓ Search categories by name "Fresh Tools" (exact match) (982ms)
+[2026-10-03T06:35:52.871Z] [INFO] [W0] [C21852431] [Admin] → Category Row Visible
+[2026-10-03T06:35:52.895Z] [INFO] [W0] [C21852431] [Admin] ✓ Category Row Visible (24ms)
+[2026-10-03T06:35:52.898Z] [INFO] [W0] [C21852431] [Admin] → Open Edit Category Modal
+[2026-10-03T06:35:53.063Z] [INFO] [W0] [C21852431] [Admin] ✓ Open Edit Category Modal (165ms)
+[2026-10-03T06:35:53.063Z] [INFO] [W0] [C21852431] [Admin] → Category Modal Name Value
+[2026-10-03T06:35:53.112Z] [INFO] [W0] [C21852431] [Admin] ✓ Category Modal Name Value (49ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852431]
+Status: PASSED
+Duration: 13791ms
+────────────────────────────────────────────────────────

@@ -1,0 +1,16 @@
+[2026-10-03T05:45:25.952Z] [ERROR] [W0] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "Kent Group" is visible (60030ms)
+[2026-10-03T05:45:25.953Z] [ERROR] [W0] [C22779515] Locator: role=cell[name="Kent Group"i]
+[2026-10-03T05:45:25.953Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Kent Group"i]') to be visible
+
+[2026-10-03T05:45:25.953Z] [ERROR] [W0] [C22779515] [Admin] ✗ Save apparatus group "Kent Group" (60140ms)
+[2026-10-03T05:45:25.953Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Kent Group"i]') to be visible
+
+[2026-10-03T05:45:25.953Z] [ERROR] [W0] [C22779515] [Admin] ✗ Create apparatus group "Kent Group" (60464ms)
+[2026-10-03T05:45:25.954Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Kent Group"i]') to be visible
+

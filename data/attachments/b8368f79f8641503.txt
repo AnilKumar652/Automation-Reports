@@ -1,0 +1,11 @@
+[2026-10-03T05:42:44.764Z] [ERROR] [W0] [C5877540] [Admin] ✗ Wait until Organization row for "Industrial" is visible (60193ms)
+[2026-10-03T05:42:44.765Z] [ERROR] [W0] [C5877540] Locator: role=gridcell[name="Industrial"i]
+[2026-10-03T05:42:44.765Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Industrial"i]') to be visible
+
+[2026-10-03T05:42:44.765Z] [ERROR] [W0] [C5877540] [Admin] ✗ Add organization division "Industrial" (62491ms)
+[2026-10-03T05:42:44.765Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Industrial"i]') to be visible
+

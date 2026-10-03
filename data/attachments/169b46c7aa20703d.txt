@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C10485260]
+Title: Verify autogenerate toggle for same credential type across different clients
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-03T05:48:54.759Z] [INFO] [W0] [C10485260] [Admin] → Open Agency Credentials page
+[2026-10-03T05:49:11.316Z] [INFO] [W0] [C10485260] [Admin] ✓ Open Agency Credentials page (16557ms)
+[2026-10-03T05:49:11.317Z] [INFO] [W0] [C10485260] [Admin] → Verify Agency Credentials page is ready
+[2026-10-03T05:49:11.876Z] [INFO] [W0] [C10485260] [Admin] ✓ Agency Credentials page is ready (559ms)
+[2026-10-03T05:49:11.889Z] [INFO] [W0] [C10485260] [Admin] → Create agency credential "synergies Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C10485260]
+Status: FAILED
+Duration: 33869ms
+[2026-10-03T05:49:28.034Z] [ERROR] [W0] [C10485260] [object Object]
+────────────────────────────────────────────────────────

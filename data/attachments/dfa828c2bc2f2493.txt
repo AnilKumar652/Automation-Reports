@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22816988]
+Title: Verify new person can be created successfully for Training module
+────────────────────────────────────────────────────────
+[2026-10-03T06:31:06.464Z] [INFO] [W1] [C22816988] [Admin] → Open Create Person form
+[2026-10-03T06:31:10.340Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Create Person form (3877ms)
+[2026-10-03T06:31:10.341Z] [INFO] [W1] [C22816988] [Admin] → Is Create Person Form Open
+[2026-10-03T06:31:10.428Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Create Person Form Open (87ms)
+[2026-10-03T06:31:10.440Z] [INFO] [W1] [C22816988] [Admin] → Fill person form for "Edmund Zulauf"
+[2026-10-03T06:31:23.656Z] [INFO] [W1] [C22816988] [Admin] ✓ Fill person form for "Edmund Zulauf" (13216ms)
+[2026-10-03T06:31:23.657Z] [INFO] [W1] [C22816988] [Admin] → Is Person System User Active
+[2026-10-03T06:31:23.679Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Person System User Active (22ms)
+[2026-10-03T06:31:23.685Z] [INFO] [W1] [C22816988] [Admin] → Submit Create Person form
+[2026-10-03T06:31:26.689Z] [INFO] [W1] [C22816988] [Admin] ✓ Submit Create Person form (3004ms)
+[2026-10-03T06:31:26.690Z] [INFO] [W1] [C22816988] [Admin] → Person Created Success Message
+[2026-10-03T06:31:26.985Z] [INFO] [W1] [C22816988] [Admin] ✓ Person Created Success Message (295ms)
+[2026-10-03T06:31:26.991Z] [INFO] [W1] [C22816988] [Admin] → Open Personnel List page
+[2026-10-03T06:31:29.087Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Personnel List page (2096ms)
+[2026-10-03T06:31:29.088Z] [INFO] [W1] [C22816988] [Admin] → Search personnel list for "Edmund Zulauf"
+[2026-10-03T06:31:35.264Z] [INFO] [W1] [C22816988] [Admin] ✓ Search personnel list for "Edmund Zulauf" (6176ms)
+[2026-10-03T06:31:35.264Z] [INFO] [W1] [C22816988] [Admin] → Is Personnel List Row Visible
+[2026-10-03T06:31:35.307Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Personnel List Row Visible (43ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22816988]
+Status: PASSED
+Duration: 29139ms
+────────────────────────────────────────────────────────

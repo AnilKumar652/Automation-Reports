@@ -1,0 +1,11 @@
+[2026-10-03T06:33:52.472Z] [ERROR] [W0] [C22816991] [Admin] ✗ Wait until Add Activity Type link is visible within 60000ms (61777ms)
+[2026-10-03T06:33:52.472Z] [ERROR] [W0] [C22816991] Locator: role=link[name="Add Activity Type"i]
+[2026-10-03T06:33:52.472Z] [ERROR] [W0] [C22816991] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=link[name="Add Activity Type"i]') to be visible
+
+[2026-10-03T06:33:52.473Z] [ERROR] [W0] [C22816991] [Admin] ✗ Open Personnel Setup Activity Types page (65298ms)
+[2026-10-03T06:33:52.473Z] [ERROR] [W0] [C22816991] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=link[name="Add Activity Type"i]') to be visible
+
