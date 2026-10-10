@@ -1,0 +1,13 @@
+[2026-10-10T07:10:19.698Z] [ERROR] [W1] [C22680549] [Admin] ✗ Wait until Add Training Category modal heading is hidden (60003ms)
+[2026-10-10T07:10:19.698Z] [ERROR] [W1] [C22680549] Locator: text=Add Training Category
+[2026-10-10T07:10:19.698Z] [ERROR] [W1] [C22680549] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('text=Add Training Category') to be hidden
+    122 × locator resolved to visible <span class="header__container__title-section__title-container__title"> Add Training Category </span>
+
+[2026-10-10T07:10:19.698Z] [ERROR] [W1] [C22680549] [Admin] ✗ Create category "Soft Computers" (64202ms)
+[2026-10-10T07:10:19.698Z] [ERROR] [W1] [C22680549] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('text=Add Training Category') to be hidden
+    122 × locator resolved to visible <span class="header__container__title-section__title-container__title"> Add Training Category </span>
+

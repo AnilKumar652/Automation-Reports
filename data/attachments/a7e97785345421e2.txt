@@ -1,0 +1,13 @@
+[2026-10-10T06:29:20.254Z] [ERROR] [W1] [C22181791] [Super Admin] ✗ Wait until Save global credential button is hidden (60003ms)
+[2026-10-10T06:29:20.255Z] [ERROR] [W1] [C22181791] Locator: [data-testid="global-credential-form-save"]
+[2026-10-10T06:29:20.255Z] [ERROR] [W1] [C22181791] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="global-credential-form-save"]') to be hidden
+    122 × locator resolved to visible <button title="Save" type="button" data-v-5340c95d="" data-v-04e629ba="" class="button is-large is-primary" data-testid="global-credential-form-save">…</button>
+
+[2026-10-10T06:29:20.255Z] [ERROR] [W1] [C22181791] [Super Admin] ✗ Create global credential "methodologies Credential" (64724ms)
+[2026-10-10T06:29:20.255Z] [ERROR] [W1] [C22181791] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="global-credential-form-save"]') to be hidden
+    122 × locator resolved to visible <button title="Save" type="button" data-v-5340c95d="" data-v-04e629ba="" class="button is-large is-primary" data-testid="global-credential-form-save">…</button>
+

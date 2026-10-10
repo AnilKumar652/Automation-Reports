@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5701947]
+Title: Verify filters in Credentials - Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:35:39.192Z] [INFO] [W0] [C5701947] [Admin] → Prepare and assign credential "interfaces License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5701947]
+Status: FAILED
+Duration: 34008ms
+[2026-10-10T06:36:12.877Z] [ERROR] [W0] [C5701947] [object Object]
+────────────────────────────────────────────────────────

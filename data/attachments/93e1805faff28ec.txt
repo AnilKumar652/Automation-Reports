@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-10-10T06:25:16.677Z] [INFO] [W0] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-10T06:25:21.989Z] [INFO] [W0] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (5312ms)
+[2026-10-10T06:25:21.990Z] [INFO] [W0] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-10-10T06:25:24.969Z] [INFO] [W0] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (2979ms)
+[2026-10-10T06:25:24.978Z] [INFO] [W0] [C45556] [Admin] → Create apparatus group "Somerset Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45556]
+Status: FAILED
+Duration: 70135ms
+[2026-10-10T06:26:26.607Z] [ERROR] [W0] [C45556] [object Object]
+────────────────────────────────────────────────────────

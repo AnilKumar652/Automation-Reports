@@ -1,0 +1,16 @@
+[2026-10-10T06:24:23.975Z] [ERROR] [W1] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "Bedfordshire Unit" is visible (60014ms)
+[2026-10-10T06:24:23.976Z] [ERROR] [W1] [C22779515] Locator: role=cell[name="Bedfordshire Unit"i]
+[2026-10-10T06:24:23.976Z] [ERROR] [W1] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Bedfordshire Unit"i]') to be visible
+
+[2026-10-10T06:24:23.978Z] [ERROR] [W1] [C22779515] [Admin] ✗ Save apparatus group "Bedfordshire Unit" (60146ms)
+[2026-10-10T06:24:23.978Z] [ERROR] [W1] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Bedfordshire Unit"i]') to be visible
+
+[2026-10-10T06:24:23.978Z] [ERROR] [W1] [C22779515] [Admin] ✗ Create apparatus group "Bedfordshire Unit" (64475ms)
+[2026-10-10T06:24:23.978Z] [ERROR] [W1] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Bedfordshire Unit"i]') to be visible
+

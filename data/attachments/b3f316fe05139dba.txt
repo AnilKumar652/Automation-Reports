@@ -1,0 +1,11 @@
+[2026-10-10T06:19:47.960Z] [ERROR] [W0] [C5877540] [Admin] ✗ Wait until Organization row for "Clothing" is visible (60003ms)
+[2026-10-10T06:19:47.960Z] [ERROR] [W0] [C5877540] Locator: role=gridcell[name="Clothing"i]
+[2026-10-10T06:19:47.960Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Clothing"i]') to be visible
+
+[2026-10-10T06:19:47.960Z] [ERROR] [W0] [C5877540] [Admin] ✗ Add organization division "Clothing" (63535ms)
+[2026-10-10T06:19:47.960Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Clothing"i]') to be visible
+

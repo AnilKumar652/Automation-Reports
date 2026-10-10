@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877541]
+Title: Verify user can add an organization shift
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:20:14.776Z] [INFO] [W1] [C5877541] [Admin] → Open Agency Setup Organization page
+[2026-10-10T06:20:24.751Z] [INFO] [W1] [C5877541] [Admin] ✓ Open Agency Setup Organization page (9975ms)
+[2026-10-10T06:20:24.753Z] [INFO] [W1] [C5877541] [Admin] → Is Agency Setup Organization Ready
+[2026-10-10T06:20:25.574Z] [INFO] [W1] [C5877541] [Admin] ✓ Is Agency Setup Organization Ready (821ms)
+[2026-10-10T06:20:25.580Z] [INFO] [W1] [C5877541] [Admin] → Select Organization Shift tab
+[2026-10-10T06:20:26.004Z] [INFO] [W1] [C5877541] [Admin] ✓ Select Organization Shift tab (424ms)
+[2026-10-10T06:20:26.004Z] [INFO] [W1] [C5877541] [Admin] → Add organization shift "Night Shift"
+[2026-10-10T06:20:27.375Z] [INFO] [W1] [C5877541] [Admin] ✓ Add organization shift "Night Shift" (1371ms)
+[2026-10-10T06:20:27.376Z] [INFO] [W1] [C5877541] [Admin] → Organization Row Visible
+[2026-10-10T06:20:27.494Z] [INFO] [W1] [C5877541] [Admin] ✓ Organization Row Visible (118ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5877541]
+Status: PASSED
+Duration: 13186ms
+────────────────────────────────────────────────────────

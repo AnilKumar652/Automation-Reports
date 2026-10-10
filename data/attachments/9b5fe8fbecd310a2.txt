@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:35:05.932Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+[2026-10-10T06:35:10.201Z] [INFO] [W0] [C54657] [Admin] ✓ Open Agency Credentials page (4269ms)
+[2026-10-10T06:35:10.202Z] [INFO] [W0] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-10-10T06:35:10.362Z] [INFO] [W0] [C54657] [Admin] ✓ Agency Credentials page is ready (160ms)
+[2026-10-10T06:35:10.377Z] [INFO] [W0] [C54657] [Admin] → Create agency credential "Schmeler - Hilpert-1"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 25719ms
+[2026-10-10T06:35:31.398Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

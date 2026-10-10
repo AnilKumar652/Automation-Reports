@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58123]
+Title: Create Qualifier
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T07:06:17.486Z] [INFO] [W1] [C58123] [Admin] → Open Scheduling Setup Qualifiers page
+[2026-10-10T07:06:19.368Z] [INFO] [W1] [C58123] [Admin] ✓ Open Scheduling Setup Qualifiers page (1882ms)
+[2026-10-10T07:06:19.369Z] [INFO] [W1] [C58123] [Admin] → Is Qualifiers Page Ready
+[2026-10-10T07:06:19.416Z] [INFO] [W1] [C58123] [Admin] ✓ Is Qualifiers Page Ready (47ms)
+[2026-10-10T07:06:19.418Z] [INFO] [W1] [C58123] [Admin] → Create qualifier "Product Directives"
+[2026-10-10T07:06:22.820Z] [INFO] [W1] [C58123] [Admin] ✓ Create qualifier "Product Directives" (3402ms)
+[2026-10-10T07:06:22.821Z] [INFO] [W1] [C58123] [Admin] → Qualifier Created Success Message
+[2026-10-10T07:06:23.168Z] [INFO] [W1] [C58123] [Admin] ✓ Qualifier Created Success Message (347ms)
+[2026-10-10T07:06:23.171Z] [INFO] [W1] [C58123] [Admin] → Scheduling Setup Row Visible
+[2026-10-10T07:06:25.619Z] [INFO] [W1] [C58123] [Admin] ✓ Scheduling Setup Row Visible (2448ms)

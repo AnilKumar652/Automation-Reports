@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22670974]
+Title: Verify column visibility can be managed on My Credentials grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:51:45.832Z] [INFO] [W0] [C22670974] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22670974]
+Status: FAILED
+Duration: 60463ms
+[2026-10-10T06:52:46.043Z] [ERROR] [W0] [C22670974] [object Object]
+────────────────────────────────────────────────────────

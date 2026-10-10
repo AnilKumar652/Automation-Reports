@@ -1,0 +1,20 @@
+[2026-10-10T06:36:13.069Z] [ERROR] [W1] [C54659] [Admin] ✗ Create agency credential "interfaces Certificate" (12615ms)
+[2026-10-10T06:36:13.069Z] [ERROR] [W1] [C54659] locator.fill: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="input_certification_id"]')
+    - locator resolved to <input maxlength="9" id="input-form-418" placeholder="Credential ID" data-testid="input_certification_id"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not enabled
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not enabled
+    - retrying fill action
+      - waiting 100ms
+    20 × waiting for element to be visible, enabled and editable
+       - element is not enabled
+     - retrying fill action
+       - waiting 500ms
+

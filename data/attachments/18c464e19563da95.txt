@@ -1,0 +1,16 @@
+[2026-10-10T06:32:31.890Z] [ERROR] [W0] [C22181795] [Admin] ✗ Click Import Global Credentials button (10849ms)
+[2026-10-10T06:32:31.890Z] [ERROR] [W0] [C22181795] Locator: [data-testid="training-credential-import-global"]
+[2026-10-10T06:32:31.890Z] [ERROR] [W0] [C22181795] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-import-global"]')
+
+[2026-10-10T06:32:31.890Z] [ERROR] [W0] [C22181795] [Admin] ✗ Open Import Global Credentials modal (10851ms)
+[2026-10-10T06:32:31.890Z] [ERROR] [W0] [C22181795] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-import-global"]')
+
+[2026-10-10T06:32:31.891Z] [ERROR] [W0] [C22181795] [Admin] ✗ Import global credential "architectures Certification" (10857ms)
+[2026-10-10T06:32:31.891Z] [ERROR] [W0] [C22181795] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training-credential-import-global"]')
+

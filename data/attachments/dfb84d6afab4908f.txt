@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22682824]
+Title: Verify User can submit Upload External Credential with valid required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T07:04:41.024Z] [INFO] [W0] [C22682824] [Admin] → Open Agency Credentials page
+[2026-10-10T07:04:43.323Z] [INFO] [W0] [C22682824] [Admin] ✓ Open Agency Credentials page (2299ms)
+[2026-10-10T07:04:43.323Z] [INFO] [W0] [C22682824] [Admin] → Verify Agency Credentials page is ready
+[2026-10-10T07:04:43.710Z] [INFO] [W0] [C22682824] [Admin] ✓ Agency Credentials page is ready (387ms)
+[2026-10-10T07:04:43.731Z] [INFO] [W0] [C22682824] [Admin] → Create agency credential "niches Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22682824]
+Status: FAILED
+Duration: 22364ms
+[2026-10-10T07:05:02.958Z] [ERROR] [W0] [C22682824] [object Object]
+────────────────────────────────────────────────────────

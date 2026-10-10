@@ -1,0 +1,11 @@
+[2026-10-10T06:21:37.583Z] [ERROR] [W1] [C5877542] [Admin] ✗ Wait until Organization row for "Firefighter" is visible (60007ms)
+[2026-10-10T06:21:37.583Z] [ERROR] [W1] [C5877542] Locator: role=gridcell[name="Firefighter"i]
+[2026-10-10T06:21:37.583Z] [ERROR] [W1] [C5877542] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Firefighter"i]') to be visible
+
+[2026-10-10T06:21:37.583Z] [ERROR] [W1] [C5877542] [Admin] ✗ Add organization rank "Firefighter" (60988ms)
+[2026-10-10T06:21:37.583Z] [ERROR] [W1] [C5877542] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Firefighter"i]') to be visible
+

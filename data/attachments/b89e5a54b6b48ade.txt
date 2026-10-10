@@ -1,0 +1,11 @@
+[2026-10-10T06:20:01.189Z] [ERROR] [W1] [C5877541] [Admin] ✗ Wait until Organization row for "Day Shift" is visible (60007ms)
+[2026-10-10T06:20:01.189Z] [ERROR] [W1] [C5877541] Locator: role=gridcell[name="Day Shift"i]
+[2026-10-10T06:20:01.189Z] [ERROR] [W1] [C5877541] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Day Shift"i]') to be visible
+
+[2026-10-10T06:20:01.189Z] [ERROR] [W1] [C5877541] [Admin] ✗ Add organization shift "Day Shift" (63404ms)
+[2026-10-10T06:20:01.189Z] [ERROR] [W1] [C5877541] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Day Shift"i]') to be visible
+

@@ -1,0 +1,24 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T07:08:15.533Z] [INFO] [W1] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-10-10T07:08:29.854Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Training Setup Categories page (14321ms)
+[2026-10-10T07:08:29.859Z] [INFO] [W1] [C21852430] [Admin] → Create category "Handcrafted Grocery"
+[2026-10-10T07:08:31.596Z] [INFO] [W1] [C21852430] [Admin] ✓ Create category "Handcrafted Grocery" (1737ms)
+[2026-10-10T07:08:31.596Z] [INFO] [W1] [C21852430] [Admin] → Search categories by name "Handcrafted Grocery" (exact match)
+[2026-10-10T07:08:32.897Z] [INFO] [W1] [C21852430] [Admin] ✓ Search categories by name "Handcrafted Grocery" (exact match) (1301ms)
+[2026-10-10T07:08:32.897Z] [INFO] [W1] [C21852430] [Admin] → Category Row Visible
+[2026-10-10T07:08:32.939Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Row Visible (42ms)
+[2026-10-10T07:08:32.953Z] [INFO] [W1] [C21852430] [Admin] → Open Edit Category Modal
+[2026-10-10T07:08:33.352Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Edit Category Modal (399ms)
+[2026-10-10T07:08:33.352Z] [INFO] [W1] [C21852430] [Admin] → Is Edit Category Modal Open
+[2026-10-10T07:08:33.479Z] [INFO] [W1] [C21852430] [Admin] ✓ Is Edit Category Modal Open (127ms)
+[2026-10-10T07:08:33.480Z] [INFO] [W1] [C21852430] [Admin] → Category Modal Name Value
+[2026-10-10T07:08:33.520Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Modal Name Value (40ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C21852430]
+Status: PASSED
+Duration: 18485ms
+────────────────────────────────────────────────────────

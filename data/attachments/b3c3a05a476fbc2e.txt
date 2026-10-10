@@ -1,0 +1,16 @@
+[2026-10-10T06:27:43.362Z] [ERROR] [W0] [C45059] [Admin] ✗ Wait until Asset management setup list row for "County Fermanagh Unit" is visible (60009ms)
+[2026-10-10T06:27:43.362Z] [ERROR] [W0] [C45059] Locator: role=cell[name="County Fermanagh Unit"i]
+[2026-10-10T06:27:43.362Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Fermanagh Unit"i]') to be visible
+
+[2026-10-10T06:27:43.362Z] [ERROR] [W0] [C45059] [Admin] ✗ Save location group "County Fermanagh Unit" (63211ms)
+[2026-10-10T06:27:43.363Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Fermanagh Unit"i]') to be visible
+
+[2026-10-10T06:27:43.363Z] [ERROR] [W0] [C45059] [Admin] ✗ Create location group "County Fermanagh Unit" (63715ms)
+[2026-10-10T06:27:43.363Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Fermanagh Unit"i]') to be visible
+

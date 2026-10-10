@@ -1,0 +1,11 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22816991]
+Title: Verify Activity Type can be created successfully in Personnel Setup
+────────────────────────────────────────────────────────
+[2026-10-10T07:06:56.185Z] [INFO] [W0] [C22816991] [Admin] → Open Personnel Setup Activity Types page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22816991]
+Status: FAILED
+Duration: 66838ms
+[2026-10-10T07:08:02.715Z] [ERROR] [W0] [C22816991] [object Object]
+────────────────────────────────────────────────────────

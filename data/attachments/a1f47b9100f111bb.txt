@@ -1,0 +1,7 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-10-10T06:43:12.899Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-10T06:43:17.373Z] [INFO] [W0] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (4474ms)
+[2026-10-10T06:43:17.374Z] [INFO] [W0] [C78340] [Admin] → Create equipment group "Dorset Team"

@@ -1,0 +1,16 @@
+[2026-10-10T06:27:02.376Z] [ERROR] [W1] [C45539] [Admin] ✗ Wait until Asset management setup list row for "Nottinghamshire Unit" is visible (60042ms)
+[2026-10-10T06:27:02.376Z] [ERROR] [W1] [C45539] Locator: role=cell[name="Nottinghamshire Unit"i]
+[2026-10-10T06:27:02.376Z] [ERROR] [W1] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Nottinghamshire Unit"i]') to be visible
+
+[2026-10-10T06:27:02.376Z] [ERROR] [W1] [C45539] [Admin] ✗ Save equipment group "Nottinghamshire Unit" (60178ms)
+[2026-10-10T06:27:02.376Z] [ERROR] [W1] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Nottinghamshire Unit"i]') to be visible
+
+[2026-10-10T06:27:02.376Z] [ERROR] [W1] [C45539] [Admin] ✗ Create equipment group "Nottinghamshire Unit" (64831ms)
+[2026-10-10T06:27:02.377Z] [ERROR] [W1] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Nottinghamshire Unit"i]') to be visible
+

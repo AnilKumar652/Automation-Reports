@@ -1,0 +1,8 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-10T07:10:26.736Z] [INFO] [W0] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-10-10T07:10:34.342Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Training Setup Categories page (7606ms)
+[2026-10-10T07:10:34.343Z] [INFO] [W0] [C22680549] [Admin] → Create category "Luxurious Kids"

@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:34:40.724Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+[2026-10-10T06:34:45.115Z] [INFO] [W0] [C54657] [Admin] ✓ Open Agency Credentials page (4391ms)
+[2026-10-10T06:34:45.116Z] [INFO] [W0] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-10-10T06:34:46.116Z] [INFO] [W0] [C54657] [Admin] ✓ Agency Credentials page is ready (1000ms)
+[2026-10-10T06:34:46.142Z] [INFO] [W0] [C54657] [Admin] → Create agency credential "Lang-Reinger Group-1"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 19976ms
+[2026-10-10T06:35:00.438Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,19 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C15628545]
+Title: Verify user can create a dispatch unit
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:43:03.252Z] [INFO] [W0] [C15628545] [Admin] → Open Dispatch Unit list page
+[2026-10-10T06:43:04.806Z] [INFO] [W0] [C15628545] [Admin] ✓ Open Dispatch Unit list page (1554ms)
+[2026-10-10T06:43:04.806Z] [INFO] [W0] [C15628545] [Admin] → Is Dispatch Unit List Ready
+[2026-10-10T06:43:05.642Z] [INFO] [W0] [C15628545] [Admin] ✓ Is Dispatch Unit List Ready (836ms)
+[2026-10-10T06:43:05.648Z] [INFO] [W0] [C15628545] [Admin] → Open new dispatch unit form
+[2026-10-10T06:43:06.577Z] [INFO] [W0] [C15628545] [Admin] ✓ Open new dispatch unit form (929ms)
+[2026-10-10T06:43:06.578Z] [INFO] [W0] [C15628545] [Admin] → Fill dispatch unit form for code "AU012185"
+[2026-10-10T06:43:07.355Z] [INFO] [W0] [C15628545] [Admin] ✓ Fill dispatch unit form for code "AU012185" (777ms)
+[2026-10-10T06:43:07.356Z] [INFO] [W0] [C15628545] [Admin] → Submit dispatch unit create form
+[2026-10-10T06:43:08.936Z] [INFO] [W0] [C15628545] [Admin] ✓ Submit dispatch unit create form (1580ms)
+[2026-10-10T06:43:08.936Z] [INFO] [W0] [C15628545] [Admin] → Search dispatch units by name "Quint 94"
+[2026-10-10T06:43:11.152Z] [INFO] [W0] [C15628545] [Admin] ✓ Search dispatch units by name "Quint 94" (2216ms)
+[2026-10-10T06:43:11.153Z] [INFO] [W0] [C15628545] [Admin] → Dispatch Unit Row Visible
+[2026-10-10T06:43:11.198Z] [INFO] [W0] [C15628545] [Admin] ✓ Dispatch Unit Row Visible (45ms)

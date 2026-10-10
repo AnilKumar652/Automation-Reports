@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58114]
+Title: Verify third edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:39:13.764Z] [INFO] [W0] [C58114] [Admin] → Prepare and assign credential "niches Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58114]
+Status: FAILED
+Duration: 38269ms
+[2026-10-10T06:39:51.620Z] [ERROR] [W0] [C58114] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-10-10T06:26:36.878Z] [INFO] [W0] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-10-10T06:26:39.482Z] [INFO] [W0] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (2604ms)
+[2026-10-10T06:26:39.483Z] [INFO] [W0] [C45059] [Admin] → Is Location Groups List Ready
+[2026-10-10T06:26:39.630Z] [INFO] [W0] [C45059] [Admin] ✓ Is Location Groups List Ready (147ms)
+[2026-10-10T06:26:39.648Z] [INFO] [W0] [C45059] [Admin] → Create location group "County Fermanagh Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45059]
+Status: FAILED
+Duration: 66744ms
+[2026-10-10T06:27:43.486Z] [ERROR] [W0] [C45059] [object Object]
+────────────────────────────────────────────────────────

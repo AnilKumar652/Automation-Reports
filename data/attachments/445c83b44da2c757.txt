@@ -1,0 +1,8 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T07:06:47.244Z] [INFO] [W1] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-10-10T07:06:58.800Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Training Setup Categories page (11556ms)
+[2026-10-10T07:06:58.801Z] [INFO] [W1] [C21852430] [Admin] → Create category "Gorgeous Baby"

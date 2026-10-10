@@ -1,0 +1,16 @@
+[2026-10-10T06:45:54.716Z] [ERROR] [W0] [C78340] [Admin] ✗ Wait until Asset management setup list row for "Strathclyde Group" is visible (60055ms)
+[2026-10-10T06:45:54.716Z] [ERROR] [W0] [C78340] Locator: role=cell[name="Strathclyde Group"i]
+[2026-10-10T06:45:54.716Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Strathclyde Group"i]') to be visible
+
+[2026-10-10T06:45:54.716Z] [ERROR] [W0] [C78340] [Admin] ✗ Save equipment group "Strathclyde Group" (60334ms)
+[2026-10-10T06:45:54.716Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Strathclyde Group"i]') to be visible
+
+[2026-10-10T06:45:54.717Z] [ERROR] [W0] [C78340] [Admin] ✗ Create equipment group "Strathclyde Group" (61644ms)
+[2026-10-10T06:45:54.717Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Strathclyde Group"i]') to be visible
+

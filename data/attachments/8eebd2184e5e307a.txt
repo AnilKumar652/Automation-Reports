@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-10-10T06:24:34.493Z] [INFO] [W1] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-10T06:24:37.400Z] [INFO] [W1] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (2907ms)
+[2026-10-10T06:24:37.405Z] [INFO] [W1] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-10-10T06:24:37.445Z] [INFO] [W1] [C45539] [Admin] ✓ Is Equipment Groups List Ready (40ms)
+[2026-10-10T06:24:37.456Z] [INFO] [W1] [C45539] [Admin] → Create equipment group "Tayside Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45539]
+Status: FAILED
+Duration: 67292ms
+[2026-10-10T06:25:41.585Z] [ERROR] [W1] [C45539] [object Object]
+────────────────────────────────────────────────────────

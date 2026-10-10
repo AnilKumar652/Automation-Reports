@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54659]
+Title: Verify in-use credential cannot be deleted
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:35:29.023Z] [INFO] [W1] [C54659] [Admin] → Open Agency Credentials page
+[2026-10-10T06:35:30.910Z] [INFO] [W1] [C54659] [Admin] ✓ Open Agency Credentials page (1887ms)
+[2026-10-10T06:35:30.910Z] [INFO] [W1] [C54659] [Admin] → Verify Agency Credentials page is ready
+[2026-10-10T06:35:31.007Z] [INFO] [W1] [C54659] [Admin] ✓ Agency Credentials page is ready (97ms)
+[2026-10-10T06:35:31.017Z] [INFO] [W1] [C54659] [Admin] → Create agency credential "paradigms Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54659]
+Status: FAILED
+Duration: 21917ms
+[2026-10-10T06:35:50.729Z] [ERROR] [W1] [C54659] [object Object]
+────────────────────────────────────────────────────────

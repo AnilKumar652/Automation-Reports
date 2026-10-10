@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-10-10T06:24:01.310Z] [INFO] [W0] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-10T06:24:04.121Z] [INFO] [W0] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (2811ms)
+[2026-10-10T06:24:04.123Z] [INFO] [W0] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-10-10T06:24:04.276Z] [INFO] [W0] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (153ms)
+[2026-10-10T06:24:04.292Z] [INFO] [W0] [C45556] [Admin] → Create apparatus group "West Midlands Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45556]
+Status: FAILED
+Duration: 66856ms
+[2026-10-10T06:25:07.962Z] [ERROR] [W0] [C45556] [object Object]
+────────────────────────────────────────────────────────

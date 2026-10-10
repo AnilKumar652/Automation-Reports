@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877541]
+Title: Verify user can add an organization shift
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:18:39.267Z] [INFO] [W1] [C5877541] [Admin] → Open Agency Setup Organization page
+[2026-10-10T06:18:56.507Z] [INFO] [W1] [C5877541] [Admin] ✓ Open Agency Setup Organization page (17240ms)
+[2026-10-10T06:18:56.509Z] [INFO] [W1] [C5877541] [Admin] → Is Agency Setup Organization Ready
+[2026-10-10T06:18:56.608Z] [INFO] [W1] [C5877541] [Admin] ✓ Is Agency Setup Organization Ready (99ms)
+[2026-10-10T06:18:56.613Z] [INFO] [W1] [C5877541] [Admin] → Select Organization Shift tab
+[2026-10-10T06:18:57.784Z] [INFO] [W1] [C5877541] [Admin] ✓ Select Organization Shift tab (1171ms)
+[2026-10-10T06:18:57.785Z] [INFO] [W1] [C5877541] [Admin] → Add organization shift "Day Shift"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5877541]
+Status: FAILED
+Duration: 82355ms
+[2026-10-10T06:20:01.323Z] [ERROR] [W1] [C5877541] [object Object]
+────────────────────────────────────────────────────────

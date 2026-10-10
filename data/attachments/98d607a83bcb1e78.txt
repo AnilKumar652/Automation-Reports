@@ -1,0 +1,16 @@
+[2026-10-10T06:44:26.483Z] [ERROR] [W0] [C78340] [Admin] ✗ Wait until Asset management setup list row for "Dorset Team" is visible (60006ms)
+[2026-10-10T06:44:26.483Z] [ERROR] [W0] [C78340] Locator: role=cell[name="Dorset Team"i]
+[2026-10-10T06:44:26.483Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Dorset Team"i]') to be visible
+
+[2026-10-10T06:44:26.483Z] [ERROR] [W0] [C78340] [Admin] ✗ Save equipment group "Dorset Team" (60484ms)
+[2026-10-10T06:44:26.483Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Dorset Team"i]') to be visible
+
+[2026-10-10T06:44:26.483Z] [ERROR] [W0] [C78340] [Admin] ✗ Create equipment group "Dorset Team" (69109ms)
+[2026-10-10T06:44:26.483Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Dorset Team"i]') to be visible
+

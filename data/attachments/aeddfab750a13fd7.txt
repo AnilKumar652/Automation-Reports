@@ -1,0 +1,8 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:22:00.534Z] [INFO] [W1] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-10T06:22:03.232Z] [INFO] [W1] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (2698ms)
+[2026-10-10T06:22:03.232Z] [INFO] [W1] [C22779515] [Admin] → Create apparatus group "Grant County Team"

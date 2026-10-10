@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52164]
+Title: Verify user can edit an existing credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:33:09.256Z] [INFO] [W0] [C52164] [Admin] → Open Agency Credentials page
+[2026-10-10T06:33:15.153Z] [INFO] [W0] [C52164] [Admin] ✓ Open Agency Credentials page (5897ms)
+[2026-10-10T06:33:15.153Z] [INFO] [W0] [C52164] [Admin] → Verify Agency Credentials page is ready
+[2026-10-10T06:33:16.227Z] [INFO] [W0] [C52164] [Admin] ✓ Agency Credentials page is ready (1074ms)
+[2026-10-10T06:33:16.239Z] [INFO] [W0] [C52164] [Admin] → Create agency credential "large language models Credential"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52164]
+Status: FAILED
+Duration: 27733ms
+[2026-10-10T06:33:36.652Z] [ERROR] [W0] [C52164] [object Object]
+────────────────────────────────────────────────────────

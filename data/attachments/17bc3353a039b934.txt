@@ -1,0 +1,16 @@
+[2026-10-10T06:26:26.552Z] [ERROR] [W0] [C45556] [Admin] ✗ Wait until Asset management setup list row for "Somerset Unit" is visible (60026ms)
+[2026-10-10T06:26:26.552Z] [ERROR] [W0] [C45556] Locator: role=cell[name="Somerset Unit"i]
+[2026-10-10T06:26:26.552Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Somerset Unit"i]') to be visible
+
+[2026-10-10T06:26:26.552Z] [ERROR] [W0] [C45556] [Admin] ✗ Save apparatus group "Somerset Unit" (60144ms)
+[2026-10-10T06:26:26.553Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Somerset Unit"i]') to be visible
+
+[2026-10-10T06:26:26.553Z] [ERROR] [W0] [C45556] [Admin] ✗ Create apparatus group "Somerset Unit" (61575ms)
+[2026-10-10T06:26:26.553Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Somerset Unit"i]') to be visible
+

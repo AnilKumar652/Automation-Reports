@@ -1,0 +1,16 @@
+[2026-10-10T07:09:22.268Z] [ERROR] [W0] [C21852435] [Admin] ✗ Click Is Active filter field dropdown trigger (10015ms)
+[2026-10-10T07:09:22.268Z] [ERROR] [W0] [C21852435] Locator: [data-testid="training_setup_category_list-filter-is_active"] >> [title="Open dropdown"]
+[2026-10-10T07:09:22.268Z] [ERROR] [W0] [C21852435] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training_setup_category_list-filter-is_active"]').locator('[title="Open dropdown"]')
+
+[2026-10-10T07:09:22.268Z] [ERROR] [W0] [C21852435] [Admin] ✗ Select "No" in Is Active filter field (10016ms)
+[2026-10-10T07:09:22.268Z] [ERROR] [W0] [C21852435] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training_setup_category_list-filter-is_active"]').locator('[title="Open dropdown"]')
+
+[2026-10-10T07:09:22.269Z] [ERROR] [W0] [C21852435] [Admin] ✗ Change category Is Active filter to "No" (10045ms)
+[2026-10-10T07:09:22.269Z] [ERROR] [W0] [C21852435] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="training_setup_category_list-filter-is_active"]').locator('[title="Open dropdown"]')
+

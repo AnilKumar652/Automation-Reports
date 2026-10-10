@@ -1,0 +1,21 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54133]
+Title: Verify mandatory field validations when saving a credential without required details
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:33:57.088Z] [INFO] [W1] [C54133] [Admin] → Open Agency Credentials page
+[2026-10-10T06:34:00.044Z] [INFO] [W1] [C54133] [Admin] ✓ Open Agency Credentials page (2955ms)
+[2026-10-10T06:34:00.044Z] [INFO] [W1] [C54133] [Admin] → Verify Agency Credentials page is ready
+[2026-10-10T06:34:00.303Z] [INFO] [W1] [C54133] [Admin] ✓ Agency Credentials page is ready (259ms)
+[2026-10-10T06:34:00.310Z] [INFO] [W1] [C54133] [Admin] → Open Add Credential form
+[2026-10-10T06:34:08.167Z] [INFO] [W1] [C54133] [Admin] ✓ Open Add Credential form (7857ms)
+[2026-10-10T06:34:08.168Z] [INFO] [W1] [C54133] [Admin] → Submit Blank Agency Credential Form
+[2026-10-10T06:34:08.647Z] [INFO] [W1] [C54133] [Admin] ✓ Submit Blank Agency Credential Form (479ms)
+[2026-10-10T06:34:08.647Z] [INFO] [W1] [C54133] [Admin] → Credential Validation Dialog Text
+[2026-10-10T06:34:08.684Z] [INFO] [W1] [C54133] [Admin] ✓ Credential Validation Dialog Text (37ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54133]
+Status: FAILED
+Duration: 11880ms
+[2026-10-10T06:34:08.990Z] [ERROR] [W1] [C54133] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852435]
+Title: Verify combined filters by date range, creator, active status, topics, and courses refine the category grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-10T07:08:57.276Z] [INFO] [W0] [C21852435] [Admin] → Open Training Setup Categories page
+[2026-10-10T07:09:07.964Z] [INFO] [W0] [C21852435] [Admin] ✓ Open Training Setup Categories page (10688ms)
+[2026-10-10T07:09:07.965Z] [INFO] [W0] [C21852435] [Admin] → Create category "Generic Games"
+[2026-10-10T07:09:10.832Z] [INFO] [W0] [C21852435] [Admin] ✓ Create category "Generic Games" (2867ms)
+[2026-10-10T07:09:10.832Z] [INFO] [W0] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-10-10T07:09:10.858Z] [INFO] [W0] [C21852435] [Admin] ✓ Categories grid contains records verified (26ms)
+[2026-10-10T07:09:10.869Z] [INFO] [W0] [C21852435] [Admin] → Search categories by name "Generic Games" (exact match)
+[2026-10-10T07:09:12.050Z] [INFO] [W0] [C21852435] [Admin] ✓ Search categories by name "Generic Games" (exact match) (1181ms)
+[2026-10-10T07:09:12.050Z] [INFO] [W0] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-10-10T07:09:12.090Z] [INFO] [W0] [C21852435] [Admin] ✓ Categories grid contains records verified (40ms)
+[2026-10-10T07:09:12.090Z] [INFO] [W0] [C21852435] [Admin] → Visible Category Names
+[2026-10-10T07:09:12.207Z] [INFO] [W0] [C21852435] [Admin] ✓ Visible Category Names (117ms)
+[2026-10-10T07:09:12.224Z] [INFO] [W0] [C21852435] [Admin] → Change category Is Active filter to "No"

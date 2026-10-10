@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C2796236]
+Title: Create Group with toggle "show on shift board" ON
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T07:06:07.616Z] [INFO] [W1] [C2796236] [Admin] → Open Scheduling Setup Groups page
+[2026-10-10T07:06:09.479Z] [INFO] [W1] [C2796236] [Admin] ✓ Open Scheduling Setup Groups page (1863ms)
+[2026-10-10T07:06:09.480Z] [INFO] [W1] [C2796236] [Admin] → Is Groups Page Ready
+[2026-10-10T07:06:09.883Z] [INFO] [W1] [C2796236] [Admin] ✓ Is Groups Page Ready (403ms)
+[2026-10-10T07:06:09.897Z] [INFO] [W1] [C2796236] [Admin] → Open create group form
+[2026-10-10T07:06:11.468Z] [INFO] [W1] [C2796236] [Admin] ✓ Open create group form (1571ms)
+[2026-10-10T07:06:11.469Z] [INFO] [W1] [C2796236] [Admin] → Fill group form for "Grampian Team"
+[2026-10-10T07:06:12.086Z] [INFO] [W1] [C2796236] [Admin] ✓ Fill group form for "Grampian Team" (617ms)
+[2026-10-10T07:06:12.087Z] [INFO] [W1] [C2796236] [Admin] → Group Show On Shift Board Toggle State
+[2026-10-10T07:06:12.172Z] [INFO] [W1] [C2796236] [Admin] ✓ Group Show On Shift Board Toggle State (85ms)
+[2026-10-10T07:06:12.179Z] [INFO] [W1] [C2796236] [Admin] → Ensure group show on shift board toggle is on
+[2026-10-10T07:06:12.234Z] [INFO] [W1] [C2796236] [Admin] ✓ Ensure group show on shift board toggle is on (55ms)
+[2026-10-10T07:06:12.234Z] [INFO] [W1] [C2796236] [Admin] → Save group "Grampian Team"
+[2026-10-10T07:06:16.642Z] [INFO] [W1] [C2796236] [Admin] ✓ Save group "Grampian Team" (4408ms)
+[2026-10-10T07:06:16.644Z] [INFO] [W1] [C2796236] [Admin] → Group Created Success Message
+[2026-10-10T07:06:16.665Z] [INFO] [W1] [C2796236] [Admin] ✓ Group Created Success Message (21ms)
+[2026-10-10T07:06:16.667Z] [INFO] [W1] [C2796236] [Admin] → Scheduling Setup Row Visible
+[2026-10-10T07:06:16.694Z] [INFO] [W1] [C2796236] [Admin] ✓ Scheduling Setup Row Visible (27ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C2796236]
+Status: PASSED
+Duration: 9355ms
+────────────────────────────────────────────────────────

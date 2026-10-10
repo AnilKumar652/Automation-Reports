@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58129]
+Title: Verify personnel removal from Admin Users reflects in Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:39:58.552Z] [INFO] [W0] [C58129] [Admin] → Prepare and assign credential "large language models License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58129]
+Status: FAILED
+Duration: 32173ms
+[2026-10-10T06:40:30.520Z] [ERROR] [W0] [C58129] [object Object]
+────────────────────────────────────────────────────────

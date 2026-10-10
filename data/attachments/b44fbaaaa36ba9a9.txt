@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-10-10T06:25:52.186Z] [INFO] [W1] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-10T06:25:57.429Z] [INFO] [W1] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (5244ms)
+[2026-10-10T06:25:57.429Z] [INFO] [W1] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-10-10T06:25:57.535Z] [INFO] [W1] [C45539] [Admin] ✓ Is Equipment Groups List Ready (106ms)
+[2026-10-10T06:25:57.545Z] [INFO] [W1] [C45539] [Admin] → Create equipment group "Nottinghamshire Unit"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45539]
+Status: FAILED
+Duration: 70491ms
+[2026-10-10T06:27:02.475Z] [ERROR] [W1] [C45539] [object Object]
+────────────────────────────────────────────────────────

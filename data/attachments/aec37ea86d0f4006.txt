@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:31:57.154Z] [INFO] [W0] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-10-10T06:32:00.983Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Open Global Credentials page (3829ms)
+[2026-10-10T06:32:00.989Z] [INFO] [W0] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-10-10T06:32:06.599Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (5610ms)
+[2026-10-10T06:32:06.608Z] [INFO] [W0] [C22181795] [Super Admin] → Create global credential "architectures Certification"
+[2026-10-10T06:32:11.527Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Create global credential "architectures Certification" (4919ms)
+[2026-10-10T06:32:11.527Z] [INFO] [W0] [C22181795] [Super Admin] → Is Add Global Credential Modal Open
+[2026-10-10T06:32:11.606Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Is Add Global Credential Modal Open (79ms)
+[2026-10-10T06:32:11.613Z] [INFO] [W0] [C22181795] [Super Admin] → Search global credentials for "architectures Certification"
+[2026-10-10T06:32:12.824Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Search global credentials for "architectures Certification" (1211ms)
+[2026-10-10T06:32:12.825Z] [INFO] [W0] [C22181795] [Super Admin] → Global Credential Row Visible
+[2026-10-10T06:32:12.850Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Global Credential Row Visible (25ms)
+[2026-10-10T06:32:12.852Z] [INFO] [W0] [C22181795] [Admin] → Open Agency Credentials page
+[2026-10-10T06:32:18.492Z] [INFO] [W0] [C22181795] [Admin] ✓ Open Agency Credentials page (5640ms)
+[2026-10-10T06:32:18.492Z] [INFO] [W0] [C22181795] [Admin] → Verify Agency Credentials page is ready
+[2026-10-10T06:32:21.033Z] [INFO] [W0] [C22181795] [Admin] ✓ Agency Credentials page is ready (2541ms)
+[2026-10-10T06:32:21.034Z] [INFO] [W0] [C22181795] [Admin] → Import global credential "architectures Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181795]
+Status: FAILED
+Duration: 35314ms
+[2026-10-10T06:32:32.132Z] [ERROR] [W0] [C22181795] [object Object]
+────────────────────────────────────────────────────────

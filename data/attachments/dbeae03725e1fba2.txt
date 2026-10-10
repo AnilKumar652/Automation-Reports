@@ -1,0 +1,13 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-10-10T06:44:35.724Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-10T06:44:53.072Z] [INFO] [W0] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (17348ms)
+[2026-10-10T06:44:53.073Z] [INFO] [W0] [C78340] [Admin] → Create equipment group "Strathclyde Group"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C78340]
+Status: FAILED
+Duration: 79291ms
+[2026-10-10T06:45:54.769Z] [ERROR] [W0] [C78340] [object Object]
+────────────────────────────────────────────────────────

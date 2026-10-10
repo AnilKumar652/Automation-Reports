@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58112]
+Title: Verify first edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:37:13.813Z] [INFO] [W0] [C58112] [Admin] → Prepare and assign credential "web services License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58112]
+Status: FAILED
+Duration: 32267ms
+[2026-10-10T06:37:45.865Z] [ERROR] [W0] [C58112] [object Object]
+────────────────────────────────────────────────────────

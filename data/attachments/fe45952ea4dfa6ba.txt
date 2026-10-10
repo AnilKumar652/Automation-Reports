@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:21:23.105Z] [INFO] [W0] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-10-10T06:21:26.115Z] [INFO] [W0] [C5877543] [Admin] ✓ Open Agency Setup Organization page (3010ms)
+[2026-10-10T06:21:26.121Z] [INFO] [W0] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-10-10T06:21:26.396Z] [INFO] [W0] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (275ms)
+[2026-10-10T06:21:26.421Z] [INFO] [W0] [C5877543] [Admin] → Select Organization Positions tab
+[2026-10-10T06:21:30.067Z] [INFO] [W0] [C5877543] [Admin] ✓ Select Organization Positions tab (3646ms)
+[2026-10-10T06:21:30.067Z] [INFO] [W0] [C5877543] [Admin] → Add organization position "Dynamic Branding Specialist"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877543]
+Status: FAILED
+Duration: 67887ms
+[2026-10-10T06:22:30.801Z] [ERROR] [W0] [C5877543] [object Object]
+────────────────────────────────────────────────────────

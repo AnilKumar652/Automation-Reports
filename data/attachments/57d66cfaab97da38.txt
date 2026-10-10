@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:30:04.050Z] [INFO] [W0] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-10-10T06:30:06.060Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Open Global Credentials page (2010ms)
+[2026-10-10T06:30:06.063Z] [INFO] [W0] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-10-10T06:30:06.167Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (104ms)
+[2026-10-10T06:30:06.172Z] [INFO] [W0] [C22181795] [Super Admin] → Create global credential "niches Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181795]
+Status: FAILED
+Duration: 76501ms
+[2026-10-10T06:31:19.899Z] [ERROR] [W0] [C22181795] [object Object]
+────────────────────────────────────────────────────────

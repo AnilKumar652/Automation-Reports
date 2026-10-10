@@ -1,0 +1,8 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-10T07:09:12.736Z] [INFO] [W1] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-10-10T07:09:15.492Z] [INFO] [W1] [C22680549] [Admin] ✓ Open Training Setup Categories page (2756ms)
+[2026-10-10T07:09:15.496Z] [INFO] [W1] [C22680549] [Admin] → Create category "Soft Computers"

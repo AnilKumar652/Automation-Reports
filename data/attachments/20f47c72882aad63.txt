@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-10T06:23:13.838Z] [INFO] [W1] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-10T06:23:19.498Z] [INFO] [W1] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (5660ms)
+[2026-10-10T06:23:19.503Z] [INFO] [W1] [C22779515] [Admin] → Create apparatus group "Bedfordshire Unit"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22779515]
+Status: FAILED
+Duration: 70398ms
+[2026-10-10T06:24:24.024Z] [ERROR] [W1] [C22779515] [object Object]
+────────────────────────────────────────────────────────
