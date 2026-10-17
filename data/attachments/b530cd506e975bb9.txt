@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5883872]
+Title: Verify unique credential ID validation
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:15:54.405Z] [INFO] [W0] [C5883872] [Admin] → Open Agency Credentials page
+[2026-10-17T05:15:56.545Z] [INFO] [W0] [C5883872] [Admin] ✓ Open Agency Credentials page (2140ms)
+[2026-10-17T05:15:56.546Z] [INFO] [W0] [C5883872] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:15:56.604Z] [INFO] [W0] [C5883872] [Admin] ✓ Agency Credentials page is ready (58ms)
+[2026-10-17T05:15:56.607Z] [INFO] [W0] [C5883872] [Admin] → Create agency credential "channels Credential"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5883872]
+Status: FAILED
+Duration: 16010ms
+[2026-10-17T05:16:10.233Z] [ERROR] [W0] [C5883872] [object Object]
+────────────────────────────────────────────────────────

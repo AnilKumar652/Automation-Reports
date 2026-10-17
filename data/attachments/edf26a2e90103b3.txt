@@ -1,0 +1,15 @@
+[2026-10-17T05:07:04.619Z] [ERROR] [W1] [C22181794] [Super Admin] ✗ Wait until Save global credential button is hidden (60033ms)
+[2026-10-17T05:07:04.619Z] [ERROR] [W1] [C22181794] Locator: [data-testid="global-credential-form-save"]
+[2026-10-17T05:07:04.619Z] [ERROR] [W1] [C22181794] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="global-credential-form-save"]') to be hidden
+    3 × locator resolved to visible <button title="Save" type="button" data-v-5340c95d="" data-v-04e629ba="" disabled="disabled" class="button is-large is-primary" data-testid="global-credential-form-save">…</button>
+    119 × locator resolved to visible <button title="Save" type="button" data-v-5340c95d="" data-v-04e629ba="" class="button is-large is-primary" data-testid="global-credential-form-save">…</button>
+
+[2026-10-17T05:07:04.620Z] [ERROR] [W1] [C22181794] [Super Admin] ✗ Create global credential "niches Certificate" (66737ms)
+[2026-10-17T05:07:04.620Z] [ERROR] [W1] [C22181794] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="global-credential-form-save"]') to be hidden
+    3 × locator resolved to visible <button title="Save" type="button" data-v-5340c95d="" data-v-04e629ba="" disabled="disabled" class="button is-large is-primary" data-testid="global-credential-form-save">…</button>
+    119 × locator resolved to visible <button title="Save" type="button" data-v-5340c95d="" data-v-04e629ba="" class="button is-large is-primary" data-testid="global-credential-form-save">…</button>
+

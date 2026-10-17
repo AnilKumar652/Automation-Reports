@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58122]
+Title: Verify credential log can be removed from Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:15:13.925Z] [INFO] [W0] [C58122] [Admin] → Prepare and assign credential "interfaces Certification" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58122]
+Status: FAILED
+Duration: 33315ms
+[2026-10-17T05:15:47.070Z] [ERROR] [W0] [C58122] [object Object]
+────────────────────────────────────────────────────────

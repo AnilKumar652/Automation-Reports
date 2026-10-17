@@ -1,0 +1,16 @@
+[2026-10-17T05:04:18.914Z] [ERROR] [W1] [C45059] [Admin] ✗ Wait until Asset management setup list row for "Humberside Unit" is visible (60024ms)
+[2026-10-17T05:04:18.914Z] [ERROR] [W1] [C45059] Locator: role=cell[name="Humberside Unit"i]
+[2026-10-17T05:04:18.914Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Humberside Unit"i]') to be visible
+
+[2026-10-17T05:04:18.914Z] [ERROR] [W1] [C45059] [Admin] ✗ Save location group "Humberside Unit" (60171ms)
+[2026-10-17T05:04:18.914Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Humberside Unit"i]') to be visible
+
+[2026-10-17T05:04:18.914Z] [ERROR] [W1] [C45059] [Admin] ✗ Create location group "Humberside Unit" (60505ms)
+[2026-10-17T05:04:18.914Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Humberside Unit"i]') to be visible
+

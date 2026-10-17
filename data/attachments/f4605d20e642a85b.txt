@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52165]
+Title: Verify duplicate credential name validation on create
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:09:25.817Z] [INFO] [W0] [C52165] [Admin] → Open Agency Credentials page
+[2026-10-17T05:09:29.971Z] [INFO] [W0] [C52165] [Admin] ✓ Open Agency Credentials page (4154ms)
+[2026-10-17T05:09:29.971Z] [INFO] [W0] [C52165] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:09:30.044Z] [INFO] [W0] [C52165] [Admin] ✓ Agency Credentials page is ready (73ms)
+[2026-10-17T05:09:30.060Z] [INFO] [W0] [C52165] [Admin] → Create agency credential "synergies Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52165]
+Status: FAILED
+Duration: 24193ms
+[2026-10-17T05:09:49.972Z] [ERROR] [W0] [C52165] [object Object]
+────────────────────────────────────────────────────────

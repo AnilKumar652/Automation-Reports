@@ -1,0 +1,13 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-10-17T05:19:35.972Z] [INFO] [W1] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-17T05:19:39.246Z] [INFO] [W1] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (3274ms)
+[2026-10-17T05:19:39.246Z] [INFO] [W1] [C78340] [Admin] → Create equipment group "Logan County Group"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C78340]
+Status: FAILED
+Duration: 72641ms
+[2026-10-17T05:20:48.421Z] [ERROR] [W1] [C78340] [object Object]
+────────────────────────────────────────────────────────

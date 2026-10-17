@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:10:20.204Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+[2026-10-17T05:10:24.068Z] [INFO] [W0] [C54657] [Admin] ✓ Open Agency Credentials page (3864ms)
+[2026-10-17T05:10:24.068Z] [INFO] [W0] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:10:26.100Z] [INFO] [W0] [C54657] [Admin] ✓ Agency Credentials page is ready (2032ms)
+[2026-10-17T05:10:26.109Z] [INFO] [W0] [C54657] [Admin] → Create agency credential "Nienow, Pfannerstill and Feeney-1"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 22176ms
+[2026-10-17T05:10:42.102Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

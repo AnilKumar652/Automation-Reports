@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:08:19.032Z] [INFO] [W0] [C52162] [Admin] → Prepare and assign credential "supply-chains Credential" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52162]
+Status: FAILED
+Duration: 36794ms
+[2026-10-17T05:08:55.616Z] [ERROR] [W0] [C52162] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-10-17T05:00:33.090Z] [INFO] [W1] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-17T05:00:38.382Z] [INFO] [W1] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (5292ms)
+[2026-10-17T05:00:38.383Z] [INFO] [W1] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-10-17T05:00:38.404Z] [INFO] [W1] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (21ms)
+[2026-10-17T05:00:38.412Z] [INFO] [W1] [C45556] [Admin] → Create apparatus group "Derbyshire Unit"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45556]
+Status: FAILED
+Duration: 68904ms
+[2026-10-17T05:01:41.796Z] [ERROR] [W1] [C45556] [object Object]
+────────────────────────────────────────────────────────

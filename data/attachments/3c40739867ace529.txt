@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:43:17.413Z] [INFO] [W1] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-10-17T05:43:26.412Z] [INFO] [W1] [C21852432] [Admin] ✓ Open Training Setup Categories page (8999ms)
+[2026-10-17T05:43:26.426Z] [INFO] [W1] [C21852432] [Admin] → Create category "Jast, Schmitt-Wiegand and Gusikowski Incredible Music"
+[2026-10-17T05:43:27.578Z] [INFO] [W1] [C21852432] [Admin] ✓ Create category "Jast, Schmitt-Wiegand and Gusikowski Incredible Music" (1152ms)
+[2026-10-17T05:43:27.578Z] [INFO] [W1] [C21852432] [Admin] → Create category "Jast, Schmitt-Wiegand and Gusikowski Modern Computers"
+[2026-10-17T05:43:28.344Z] [INFO] [W1] [C21852432] [Admin] ✓ Create category "Jast, Schmitt-Wiegand and Gusikowski Modern Computers" (766ms)
+[2026-10-17T05:43:28.344Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-17T05:43:28.356Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (12ms)
+[2026-10-17T05:43:28.356Z] [INFO] [W1] [C21852432] [Admin] → Search categories by name "Jast, Schmitt-Wiegand and Gusikowski" (matching results)
+[2026-10-17T05:43:29.171Z] [INFO] [W1] [C21852432] [Admin] ✓ Search categories by name "Jast, Schmitt-Wiegand and Gusikowski" (matching results) (815ms)
+[2026-10-17T05:43:29.171Z] [INFO] [W1] [C21852432] [Admin] → Visible Category Names
+[2026-10-17T05:43:29.193Z] [INFO] [W1] [C21852432] [Admin] ✓ Visible Category Names (22ms)
+[2026-10-17T05:43:29.196Z] [INFO] [W1] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-10-17T05:43:29.296Z] [INFO] [W1] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (100ms)
+[2026-10-17T05:43:29.297Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-17T05:43:29.305Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (8ms)
+[2026-10-17T05:43:29.309Z] [INFO] [W1] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-17T05:43:29.315Z] [INFO] [W1] [C21852432] [Admin] ✓ Categories grid contains records verified (6ms)
+[2026-10-17T05:43:29.315Z] [INFO] [W1] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-10-17T05:43:29.538Z] [INFO] [W1] [C21852432] [Admin] ✓ Toggle Header Row Selection (223ms)
+[2026-10-17T05:43:29.539Z] [INFO] [W1] [C21852432] [Admin] → Selected Category Row Count
+[2026-10-17T05:43:29.563Z] [INFO] [W1] [C21852432] [Admin] ✓ Selected Category Row Count (24ms)
+[2026-10-17T05:43:29.567Z] [INFO] [W1] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-10-17T05:43:29.624Z] [INFO] [W1] [C21852432] [Admin] ✓ Toggle Header Row Selection (57ms)
+[2026-10-17T05:43:29.624Z] [INFO] [W1] [C21852432] [Admin] → Selected Category Row Count
+[2026-10-17T05:43:29.634Z] [INFO] [W1] [C21852432] [Admin] ✓ Selected Category Row Count (10ms)

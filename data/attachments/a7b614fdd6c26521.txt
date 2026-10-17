@@ -1,0 +1,16 @@
+[2026-10-17T04:58:47.085Z] [ERROR] [W0] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "County Londonderry Unit" is visible (60002ms)
+[2026-10-17T04:58:47.086Z] [ERROR] [W0] [C22779515] Locator: role=cell[name="County Londonderry Unit"i]
+[2026-10-17T04:58:47.086Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Londonderry Unit"i]') to be visible
+
+[2026-10-17T04:58:47.086Z] [ERROR] [W0] [C22779515] [Admin] ✗ Save apparatus group "County Londonderry Unit" (60166ms)
+[2026-10-17T04:58:47.086Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Londonderry Unit"i]') to be visible
+
+[2026-10-17T04:58:47.086Z] [ERROR] [W0] [C22779515] [Admin] ✗ Create apparatus group "County Londonderry Unit" (63409ms)
+[2026-10-17T04:58:47.086Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Londonderry Unit"i]') to be visible
+

@@ -1,0 +1,7 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-10-17T05:18:17.885Z] [INFO] [W1] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-17T05:18:22.100Z] [INFO] [W1] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (4215ms)
+[2026-10-17T05:18:22.101Z] [INFO] [W1] [C78340] [Admin] → Create equipment group "Tyne and Wear Team"

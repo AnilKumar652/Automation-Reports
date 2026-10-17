@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-10-17T04:59:19.398Z] [INFO] [W1] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-17T04:59:22.793Z] [INFO] [W1] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (3395ms)
+[2026-10-17T04:59:22.793Z] [INFO] [W1] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-10-17T04:59:22.844Z] [INFO] [W1] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (51ms)
+[2026-10-17T04:59:22.850Z] [INFO] [W1] [C45556] [Admin] → Create apparatus group "Polk County Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45556]
+Status: FAILED
+Duration: 66519ms
+[2026-10-17T05:00:25.742Z] [ERROR] [W1] [C45556] [object Object]
+────────────────────────────────────────────────────────

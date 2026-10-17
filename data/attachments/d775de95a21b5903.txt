@@ -1,0 +1,16 @@
+[2026-10-17T05:00:02.471Z] [ERROR] [W0] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "Lee County Group" is visible (60014ms)
+[2026-10-17T05:00:02.472Z] [ERROR] [W0] [C22779515] Locator: role=cell[name="Lee County Group"i]
+[2026-10-17T05:00:02.472Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Lee County Group"i]') to be visible
+
+[2026-10-17T05:00:02.472Z] [ERROR] [W0] [C22779515] [Admin] ✗ Save apparatus group "Lee County Group" (60098ms)
+[2026-10-17T05:00:02.472Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Lee County Group"i]') to be visible
+
+[2026-10-17T05:00:02.472Z] [ERROR] [W0] [C22779515] [Admin] ✗ Create apparatus group "Lee County Group" (64844ms)
+[2026-10-17T05:00:02.472Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Lee County Group"i]') to be visible
+

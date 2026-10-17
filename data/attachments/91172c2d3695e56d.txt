@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58122]
+Title: Verify credential log can be removed from Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:14:32.488Z] [INFO] [W0] [C58122] [Admin] → Prepare and assign credential "markets Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58122]
+Status: FAILED
+Duration: 34263ms
+[2026-10-17T05:15:06.447Z] [ERROR] [W0] [C58122] [object Object]
+────────────────────────────────────────────────────────

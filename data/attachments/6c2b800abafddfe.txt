@@ -1,0 +1,5 @@
+[2026-10-17T05:18:03.820Z] [ERROR] [W0] [C7283439] [Admin] ✗ Toggle Credential Autogenerate (10171ms)
+[2026-10-17T05:18:03.820Z] [ERROR] [W0] [C7283439] locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByRole('link', { name: 'Autogenerate' }) to be visible
+

@@ -1,0 +1,16 @@
+[2026-10-17T05:20:48.382Z] [ERROR] [W1] [C78340] [Admin] ✗ Wait until Asset management setup list row for "Logan County Group" is visible (60029ms)
+[2026-10-17T05:20:48.382Z] [ERROR] [W1] [C78340] Locator: role=cell[name="Logan County Group"i]
+[2026-10-17T05:20:48.382Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Logan County Group"i]') to be visible
+
+[2026-10-17T05:20:48.383Z] [ERROR] [W1] [C78340] [Admin] ✗ Save equipment group "Logan County Group" (60269ms)
+[2026-10-17T05:20:48.383Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Logan County Group"i]') to be visible
+
+[2026-10-17T05:20:48.383Z] [ERROR] [W1] [C78340] [Admin] ✗ Create equipment group "Logan County Group" (69137ms)
+[2026-10-17T05:20:48.383Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Logan County Group"i]') to be visible
+

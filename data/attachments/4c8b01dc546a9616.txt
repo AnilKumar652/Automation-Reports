@@ -1,0 +1,11 @@
+[2026-10-17T04:56:11.260Z] [ERROR] [W0] [C5877540] [Admin] ✗ Wait until Organization row for "Electronics" is visible (60001ms)
+[2026-10-17T04:56:11.261Z] [ERROR] [W0] [C5877540] Locator: role=gridcell[name="Electronics"i]
+[2026-10-17T04:56:11.261Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Electronics"i]') to be visible
+
+[2026-10-17T04:56:11.261Z] [ERROR] [W0] [C5877540] [Admin] ✗ Add organization division "Electronics" (60966ms)
+[2026-10-17T04:56:11.261Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Electronics"i]') to be visible
+

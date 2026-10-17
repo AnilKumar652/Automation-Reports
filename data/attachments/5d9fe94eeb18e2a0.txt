@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58113]
+Title: Verify second edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:13:42.178Z] [INFO] [W0] [C58113] [Admin] → Prepare and assign credential "synergies License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58113]
+Status: FAILED
+Duration: 41190ms
+[2026-10-17T05:14:23.047Z] [ERROR] [W0] [C58113] [object Object]
+────────────────────────────────────────────────────────

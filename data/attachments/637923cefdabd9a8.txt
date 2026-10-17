@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:45:14.812Z] [INFO] [W1] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-10-17T05:45:17.411Z] [INFO] [W1] [C22680549] [Admin] ✓ Open Training Setup Categories page (2599ms)
+[2026-10-17T05:45:17.413Z] [INFO] [W1] [C22680549] [Admin] → Create category "Intelligent Grocery"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22680549]
+Status: FAILED
+Duration: 65645ms
+[2026-10-17T05:46:20.310Z] [ERROR] [W1] [C22680549] [object Object]
+────────────────────────────────────────────────────────

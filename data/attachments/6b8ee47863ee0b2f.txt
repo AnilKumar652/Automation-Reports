@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852435]
+Title: Verify combined filters by date range, creator, active status, topics, and courses refine the category grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:44:01.067Z] [INFO] [W1] [C21852435] [Admin] → Open Training Setup Categories page
+[2026-10-17T05:44:07.531Z] [INFO] [W1] [C21852435] [Admin] ✓ Open Training Setup Categories page (6464ms)
+[2026-10-17T05:44:07.534Z] [INFO] [W1] [C21852435] [Admin] → Create category "Practical Music"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C21852435]
+Status: FAILED
+Duration: 67061ms
+[2026-10-17T05:45:07.948Z] [ERROR] [W1] [C21852435] [object Object]
+────────────────────────────────────────────────────────

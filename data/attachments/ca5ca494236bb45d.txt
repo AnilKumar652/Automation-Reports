@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:09:55.727Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+[2026-10-17T05:09:59.238Z] [INFO] [W0] [C54657] [Admin] ✓ Open Agency Credentials page (3511ms)
+[2026-10-17T05:09:59.239Z] [INFO] [W0] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:10:00.044Z] [INFO] [W0] [C54657] [Admin] ✓ Agency Credentials page is ready (805ms)
+[2026-10-17T05:10:00.061Z] [INFO] [W0] [C54657] [Admin] → Create agency credential "Durgan LLC-1"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 20981ms
+[2026-10-17T05:10:16.534Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

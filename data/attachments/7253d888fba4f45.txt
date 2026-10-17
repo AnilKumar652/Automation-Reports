@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:43:16.779Z] [INFO] [W0] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-10-17T05:43:25.249Z] [INFO] [W0] [C21852431] [Admin] ✓ Open Training Setup Categories page (8470ms)
+[2026-10-17T05:43:25.250Z] [INFO] [W0] [C21852431] [Admin] → Create category "Generic Games"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852431]
+Status: FAILED
+Duration: 69622ms
+[2026-10-17T05:44:26.085Z] [ERROR] [W0] [C21852431] [object Object]
+────────────────────────────────────────────────────────

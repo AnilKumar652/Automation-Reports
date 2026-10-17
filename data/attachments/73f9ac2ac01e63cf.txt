@@ -1,0 +1,21 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C77675]
+Title: Verify user can create a fire station with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:18:24.718Z] [INFO] [W0] [C77675] [Admin] → Open Fire Station list page
+[2026-10-17T05:18:27.711Z] [INFO] [W0] [C77675] [Admin] ✓ Open Fire Station list page (2993ms)
+[2026-10-17T05:18:27.711Z] [INFO] [W0] [C77675] [Admin] → Is Fire Station List Ready
+[2026-10-17T05:18:27.952Z] [INFO] [W0] [C77675] [Admin] ✓ Is Fire Station List Ready (241ms)
+[2026-10-17T05:18:27.960Z] [INFO] [W0] [C77675] [Admin] → Open new fire station form
+[2026-10-17T05:18:29.942Z] [INFO] [W0] [C77675] [Admin] ✓ Open new fire station form (1982ms)
+[2026-10-17T05:18:29.942Z] [INFO] [W0] [C77675] [Admin] → Is Fire Station Create Form Open
+[2026-10-17T05:18:30.315Z] [INFO] [W0] [C77675] [Admin] ✓ Is Fire Station Create Form Open (373ms)
+[2026-10-17T05:18:30.322Z] [INFO] [W0] [C77675] [Admin] → Fire Station Create Form Fields Visible
+[2026-10-17T05:18:31.593Z] [INFO] [W0] [C77675] [Admin] ✓ Fire Station Create Form Fields Visible (1271ms)
+[2026-10-17T05:18:31.594Z] [INFO] [W0] [C77675] [Admin] → Create fire station "Fort Blaketon Fire Station"
+[2026-10-17T05:18:35.977Z] [INFO] [W0] [C77675] [Admin] ✓ Create fire station "Fort Blaketon Fire Station" (4383ms)
+[2026-10-17T05:18:35.977Z] [INFO] [W0] [C77675] [Admin] → Search fire stations by name "Fort Blaketon Fire Station"
+[2026-10-17T05:18:40.181Z] [INFO] [W0] [C77675] [Admin] ✓ Search fire stations by name "Fort Blaketon Fire Station" (4204ms)
+[2026-10-17T05:18:40.182Z] [INFO] [W0] [C77675] [Admin] → Fire Station Row Visible
+[2026-10-17T05:18:40.194Z] [INFO] [W0] [C77675] [Admin] ✓ Fire Station Row Visible (12ms)

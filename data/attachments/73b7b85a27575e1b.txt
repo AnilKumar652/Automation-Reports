@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:46:26.210Z] [INFO] [W0] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-10-17T05:46:32.891Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Training Setup Categories page (6681ms)
+[2026-10-17T05:46:32.893Z] [INFO] [W0] [C22680549] [Admin] → Create category "Oriental Sports"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22680549]
+Status: FAILED
+Duration: 67297ms
+[2026-10-17T05:47:33.296Z] [ERROR] [W0] [C22680549] [object Object]
+────────────────────────────────────────────────────────

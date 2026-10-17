@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-10-17T05:01:23.956Z] [INFO] [W0] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-17T05:01:27.536Z] [INFO] [W0] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (3580ms)
+[2026-10-17T05:01:27.536Z] [INFO] [W0] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-10-17T05:01:29.287Z] [INFO] [W0] [C45539] [Admin] ✓ Is Equipment Groups List Ready (1751ms)
+[2026-10-17T05:01:29.299Z] [INFO] [W0] [C45539] [Admin] → Create equipment group "Wiltshire Group"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45539]
+Status: FAILED
+Duration: 68983ms
+[2026-10-17T05:02:32.756Z] [ERROR] [W0] [C45539] [object Object]
+────────────────────────────────────────────────────────

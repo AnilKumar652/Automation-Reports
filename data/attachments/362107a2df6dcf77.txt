@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852429]
+Title: Validate blank name shows validation when attempting to create a category
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:41:43.040Z] [INFO] [W1] [C21852429] [Admin] → Open Training Setup Categories page
+[2026-10-17T05:41:45.866Z] [INFO] [W1] [C21852429] [Admin] ✓ Open Training Setup Categories page (2826ms)
+[2026-10-17T05:41:45.866Z] [INFO] [W1] [C21852429] [Admin] → Verify Categories grid contains records
+[2026-10-17T05:41:45.875Z] [INFO] [W1] [C21852429] [Admin] ✓ Categories grid contains records verified (9ms)
+[2026-10-17T05:41:45.876Z] [INFO] [W1] [C21852429] [Admin] → Open Add Category Modal
+[2026-10-17T05:41:48.557Z] [INFO] [W1] [C21852429] [Admin] ✓ Open Add Category Modal (2681ms)
+[2026-10-17T05:41:48.558Z] [INFO] [W1] [C21852429] [Admin] → Is Add Category Modal Open
+[2026-10-17T05:41:48.564Z] [INFO] [W1] [C21852429] [Admin] ✓ Is Add Category Modal Open (6ms)
+[2026-10-17T05:41:48.565Z] [INFO] [W1] [C21852429] [Admin] → Category Modal Name Value
+[2026-10-17T05:41:48.574Z] [INFO] [W1] [C21852429] [Admin] ✓ Category Modal Name Value (9ms)
+[2026-10-17T05:41:48.575Z] [INFO] [W1] [C21852429] [Admin] → Submit Blank Category Form
+[2026-10-17T05:41:48.664Z] [INFO] [W1] [C21852429] [Admin] ✓ Submit Blank Category Form (89ms)
+[2026-10-17T05:41:48.664Z] [INFO] [W1] [C21852429] [Admin] → Category Name Validation Error
+[2026-10-17T05:41:48.694Z] [INFO] [W1] [C21852429] [Admin] ✓ Category Name Validation Error (30ms)
+[2026-10-17T05:41:48.700Z] [INFO] [W1] [C21852429] [Admin] → Is Add Category Modal Open
+[2026-10-17T05:41:48.722Z] [INFO] [W1] [C21852429] [Admin] ✓ Is Add Category Modal Open (22ms)
+[2026-10-17T05:41:48.723Z] [INFO] [W1] [C21852429] [Admin] → Cancel Category Modal
+[2026-10-17T05:41:48.861Z] [INFO] [W1] [C21852429] [Admin] ✓ Cancel Category Modal (138ms)
+[2026-10-17T05:41:48.861Z] [INFO] [W1] [C21852429] [Admin] → Is Add Category Modal Open
+[2026-10-17T05:41:48.879Z] [INFO] [W1] [C21852429] [Admin] ✓ Is Add Category Modal Open (18ms)
+[2026-10-17T05:41:48.882Z] [INFO] [W1] [C21852429] [Admin] → Verify Categories grid contains records
+[2026-10-17T05:41:48.889Z] [INFO] [W1] [C21852429] [Admin] ✓ Categories grid contains records verified (7ms)

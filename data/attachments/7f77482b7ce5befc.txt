@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181793]
+Title: Verify State / Province is optional when creating a credential from Setup
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:04:22.579Z] [INFO] [W0] [C22181793] [Admin] → Open Agency Credentials page
+[2026-10-17T05:04:25.765Z] [INFO] [W0] [C22181793] [Admin] ✓ Open Agency Credentials page (3186ms)
+[2026-10-17T05:04:25.765Z] [INFO] [W0] [C22181793] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:04:25.818Z] [INFO] [W0] [C22181793] [Admin] ✓ Agency Credentials page is ready (53ms)
+[2026-10-17T05:04:25.828Z] [INFO] [W0] [C22181793] [Admin] → Open Add Credential form
+[2026-10-17T05:04:31.797Z] [INFO] [W0] [C22181793] [Admin] ✓ Open Add Credential form (5969ms)
+[2026-10-17T05:04:31.799Z] [INFO] [W0] [C22181793] [Admin] → State Province Mandatory Indicator
+[2026-10-17T05:04:31.829Z] [INFO] [W0] [C22181793] [Admin] ✓ State Province Mandatory Indicator (30ms)
+[2026-10-17T05:04:31.835Z] [INFO] [W0] [C22181793] [Admin] → Create agency credential "technologies License"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181793]
+Status: FAILED
+Duration: 20499ms
+[2026-10-17T05:04:42.682Z] [ERROR] [W0] [C22181793] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T04:58:54.143Z] [INFO] [W0] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-17T04:58:57.628Z] [INFO] [W0] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (3485ms)
+[2026-10-17T04:58:57.628Z] [INFO] [W0] [C22779515] [Admin] → Create apparatus group "Lee County Group"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22779515]
+Status: FAILED
+Duration: 68565ms
+[2026-10-17T05:00:02.556Z] [ERROR] [W0] [C22779515] [object Object]
+────────────────────────────────────────────────────────

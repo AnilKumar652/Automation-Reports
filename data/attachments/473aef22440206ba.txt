@@ -1,0 +1,6 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:07:41.724Z] [INFO] [W0] [C52162] [Admin] → Prepare and assign credential "convergence License" to personnel "Ravi Last"

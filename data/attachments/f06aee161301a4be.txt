@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C7135673]
+Title: Verify clone action duplicates a credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:17:38.751Z] [INFO] [W1] [C7135673] [Admin] → Open Agency Credentials page
+[2026-10-17T05:17:43.104Z] [INFO] [W1] [C7135673] [Admin] ✓ Open Agency Credentials page (4353ms)
+[2026-10-17T05:17:43.105Z] [INFO] [W1] [C7135673] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:17:44.499Z] [INFO] [W1] [C7135673] [Admin] ✓ Agency Credentials page is ready (1394ms)
+[2026-10-17T05:17:44.514Z] [INFO] [W1] [C7135673] [Admin] → Create agency credential "communities License"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C7135673]
+Status: FAILED
+Duration: 23397ms
+[2026-10-17T05:18:01.887Z] [ERROR] [W1] [C7135673] [object Object]
+────────────────────────────────────────────────────────

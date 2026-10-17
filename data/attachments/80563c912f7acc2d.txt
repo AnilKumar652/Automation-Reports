@@ -1,0 +1,24 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:43:01.003Z] [INFO] [W1] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-10-17T05:43:12.187Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Training Setup Categories page (11184ms)
+[2026-10-17T05:43:12.188Z] [INFO] [W1] [C21852430] [Admin] → Create category "Unbranded Electronics"
+[2026-10-17T05:43:13.911Z] [INFO] [W1] [C21852430] [Admin] ✓ Create category "Unbranded Electronics" (1723ms)
+[2026-10-17T05:43:13.911Z] [INFO] [W1] [C21852430] [Admin] → Search categories by name "Unbranded Electronics" (exact match)
+[2026-10-17T05:43:14.856Z] [INFO] [W1] [C21852430] [Admin] ✓ Search categories by name "Unbranded Electronics" (exact match) (945ms)
+[2026-10-17T05:43:14.857Z] [INFO] [W1] [C21852430] [Admin] → Category Row Visible
+[2026-10-17T05:43:14.966Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Row Visible (109ms)
+[2026-10-17T05:43:14.974Z] [INFO] [W1] [C21852430] [Admin] → Open Edit Category Modal
+[2026-10-17T05:43:15.347Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Edit Category Modal (373ms)
+[2026-10-17T05:43:15.348Z] [INFO] [W1] [C21852430] [Admin] → Is Edit Category Modal Open
+[2026-10-17T05:43:15.365Z] [INFO] [W1] [C21852430] [Admin] ✓ Is Edit Category Modal Open (17ms)
+[2026-10-17T05:43:15.368Z] [INFO] [W1] [C21852430] [Admin] → Category Modal Name Value
+[2026-10-17T05:43:15.443Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Modal Name Value (75ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C21852430]
+Status: PASSED
+Duration: 14641ms
+────────────────────────────────────────────────────────

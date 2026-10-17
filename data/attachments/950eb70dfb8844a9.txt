@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22816988]
+Title: Verify new person can be created successfully for Training module
+────────────────────────────────────────────────────────
+[2026-10-17T05:40:29.636Z] [INFO] [W0] [C22816988] [Admin] → Open Create Person form
+[2026-10-17T05:40:32.431Z] [INFO] [W0] [C22816988] [Admin] ✓ Open Create Person form (2795ms)
+[2026-10-17T05:40:32.432Z] [INFO] [W0] [C22816988] [Admin] → Is Create Person Form Open
+[2026-10-17T05:40:32.462Z] [INFO] [W0] [C22816988] [Admin] ✓ Is Create Person Form Open (30ms)
+[2026-10-17T05:40:32.465Z] [INFO] [W0] [C22816988] [Admin] → Fill person form for "Martha Luettgen"
+[2026-10-17T05:40:41.353Z] [INFO] [W0] [C22816988] [Admin] ✓ Fill person form for "Martha Luettgen" (8888ms)
+[2026-10-17T05:40:41.353Z] [INFO] [W0] [C22816988] [Admin] → Is Person System User Active
+[2026-10-17T05:40:41.375Z] [INFO] [W0] [C22816988] [Admin] ✓ Is Person System User Active (22ms)
+[2026-10-17T05:40:41.376Z] [INFO] [W0] [C22816988] [Admin] → Submit Create Person form
+[2026-10-17T05:40:44.070Z] [INFO] [W0] [C22816988] [Admin] ✓ Submit Create Person form (2694ms)
+[2026-10-17T05:40:44.070Z] [INFO] [W0] [C22816988] [Admin] → Person Created Success Message
+[2026-10-17T05:40:44.409Z] [INFO] [W0] [C22816988] [Admin] ✓ Person Created Success Message (339ms)
+[2026-10-17T05:40:44.418Z] [INFO] [W0] [C22816988] [Admin] → Open Personnel List page
+[2026-10-17T05:40:45.851Z] [INFO] [W0] [C22816988] [Admin] ✓ Open Personnel List page (1433ms)
+[2026-10-17T05:40:45.851Z] [INFO] [W0] [C22816988] [Admin] → Search personnel list for "Martha Luettgen"
+[2026-10-17T05:40:49.504Z] [INFO] [W0] [C22816988] [Admin] ✓ Search personnel list for "Martha Luettgen" (3653ms)
+[2026-10-17T05:40:49.504Z] [INFO] [W0] [C22816988] [Admin] → Is Personnel List Row Visible
+[2026-10-17T05:40:49.525Z] [INFO] [W0] [C22816988] [Admin] ✓ Is Personnel List Row Visible (21ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22816988]
+Status: PASSED
+Duration: 20116ms
+────────────────────────────────────────────────────────

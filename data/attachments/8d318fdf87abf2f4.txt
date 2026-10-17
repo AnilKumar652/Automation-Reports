@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181793]
+Title: Verify State / Province is optional when creating a credential from Setup
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:04:45.647Z] [INFO] [W0] [C22181793] [Admin] → Open Agency Credentials page
+[2026-10-17T05:04:48.159Z] [INFO] [W0] [C22181793] [Admin] ✓ Open Agency Credentials page (2512ms)
+[2026-10-17T05:04:48.159Z] [INFO] [W0] [C22181793] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:04:48.246Z] [INFO] [W0] [C22181793] [Admin] ✓ Agency Credentials page is ready (87ms)
+[2026-10-17T05:04:48.253Z] [INFO] [W0] [C22181793] [Admin] → Open Add Credential form
+[2026-10-17T05:04:52.038Z] [INFO] [W0] [C22181793] [Admin] ✓ Open Add Credential form (3785ms)
+[2026-10-17T05:04:52.038Z] [INFO] [W0] [C22181793] [Admin] → State Province Mandatory Indicator
+[2026-10-17T05:04:52.049Z] [INFO] [W0] [C22181793] [Admin] ✓ State Province Mandatory Indicator (11ms)
+[2026-10-17T05:04:52.050Z] [INFO] [W0] [C22181793] [Admin] → Create agency credential "large language models Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181793]
+Status: FAILED
+Duration: 18763ms
+[2026-10-17T05:05:04.060Z] [ERROR] [W0] [C22181793] [object Object]
+────────────────────────────────────────────────────────

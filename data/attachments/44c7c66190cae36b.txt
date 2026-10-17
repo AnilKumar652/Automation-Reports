@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C7135673]
+Title: Verify clone action duplicates a credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:17:14.996Z] [INFO] [W1] [C7135673] [Admin] → Open Agency Credentials page
+[2026-10-17T05:17:19.198Z] [INFO] [W1] [C7135673] [Admin] ✓ Open Agency Credentials page (4202ms)
+[2026-10-17T05:17:19.199Z] [INFO] [W1] [C7135673] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:17:19.348Z] [INFO] [W1] [C7135673] [Admin] ✓ Agency Credentials page is ready (149ms)
+[2026-10-17T05:17:19.365Z] [INFO] [W1] [C7135673] [Admin] → Create agency credential "niches License"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C7135673]
+Status: FAILED
+Duration: 21744ms
+[2026-10-17T05:17:36.470Z] [ERROR] [W1] [C7135673] [object Object]
+────────────────────────────────────────────────────────

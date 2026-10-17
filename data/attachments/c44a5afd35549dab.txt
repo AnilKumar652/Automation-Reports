@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5701947]
+Title: Verify filters in Credentials - Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:10:50.333Z] [INFO] [W1] [C5701947] [Admin] → Prepare and assign credential "interfaces Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5701947]
+Status: FAILED
+Duration: 33421ms
+[2026-10-17T05:11:23.343Z] [ERROR] [W1] [C5701947] [object Object]
+────────────────────────────────────────────────────────

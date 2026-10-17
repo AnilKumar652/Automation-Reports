@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5911763]
+Title: Verify filters in Training > Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:16:45.486Z] [INFO] [W1] [C5911763] [Admin] → Open Agency Credentials page
+[2026-10-17T05:16:51.280Z] [INFO] [W1] [C5911763] [Admin] ✓ Open Agency Credentials page (5794ms)
+[2026-10-17T05:16:51.281Z] [INFO] [W1] [C5911763] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:16:56.830Z] [INFO] [W1] [C5911763] [Admin] ✓ Agency Credentials page is ready (5549ms)
+[2026-10-17T05:16:56.838Z] [INFO] [W1] [C5911763] [Admin] → Create agency credential "smart contracts License"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5911763]
+Status: FAILED
+Duration: 23996ms
+[2026-10-17T05:17:09.204Z] [ERROR] [W1] [C5911763] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58111]
+Title: Verify credential date range displays correctly in Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:11:31.142Z] [INFO] [W0] [C58111] [Admin] → Prepare and assign credential "models Certification" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58111]
+Status: FAILED
+Duration: 34288ms
+[2026-10-17T05:12:05.086Z] [ERROR] [W0] [C58111] [object Object]
+────────────────────────────────────────────────────────

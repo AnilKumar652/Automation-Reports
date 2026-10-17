@@ -1,0 +1,16 @@
+[2026-10-17T05:02:54.879Z] [ERROR] [W1] [C45059] [Admin] ✗ Wait until Asset management setup list row for "Hampshire Group" is visible (60001ms)
+[2026-10-17T05:02:54.879Z] [ERROR] [W1] [C45059] Locator: role=cell[name="Hampshire Group"i]
+[2026-10-17T05:02:54.880Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Hampshire Group"i]') to be visible
+
+[2026-10-17T05:02:54.880Z] [ERROR] [W1] [C45059] [Admin] ✗ Save location group "Hampshire Group" (60132ms)
+[2026-10-17T05:02:54.880Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Hampshire Group"i]') to be visible
+
+[2026-10-17T05:02:54.880Z] [ERROR] [W1] [C45059] [Admin] ✗ Create location group "Hampshire Group" (60532ms)
+[2026-10-17T05:02:54.880Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Hampshire Group"i]') to be visible
+

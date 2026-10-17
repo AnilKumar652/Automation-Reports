@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C10485260]
+Title: Verify autogenerate toggle for same credential type across different clients
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:02:40.344Z] [INFO] [W0] [C10485260] [Admin] → Open Agency Credentials page
+[2026-10-17T05:02:42.707Z] [INFO] [W0] [C10485260] [Admin] ✓ Open Agency Credentials page (2363ms)
+[2026-10-17T05:02:42.708Z] [INFO] [W0] [C10485260] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:02:42.812Z] [INFO] [W0] [C10485260] [Admin] ✓ Agency Credentials page is ready (104ms)
+[2026-10-17T05:02:42.820Z] [INFO] [W0] [C10485260] [Admin] → Create agency credential "blockchains Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C10485260]
+Status: FAILED
+Duration: 16261ms
+[2026-10-17T05:02:56.433Z] [ERROR] [W0] [C10485260] [object Object]
+────────────────────────────────────────────────────────

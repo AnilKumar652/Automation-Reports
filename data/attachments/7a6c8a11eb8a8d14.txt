@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181794]
+Title: Verify imported Global Credential does not require State / Province at agency level
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:04:32.058Z] [INFO] [W1] [C22181794] [Super Admin] → Open Global Credentials page
+[2026-10-17T05:04:34.552Z] [INFO] [W1] [C22181794] [Super Admin] ✓ Open Global Credentials page (2494ms)
+[2026-10-17T05:04:34.552Z] [INFO] [W1] [C22181794] [Super Admin] → Create global credential "mindshare Credential"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181794]
+Status: FAILED
+Duration: 68074ms
+[2026-10-17T05:05:39.590Z] [ERROR] [W1] [C22181794] [object Object]
+────────────────────────────────────────────────────────

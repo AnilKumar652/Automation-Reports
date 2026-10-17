@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:44:32.727Z] [INFO] [W0] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-10-17T05:44:35.595Z] [INFO] [W0] [C21852431] [Admin] ✓ Open Training Setup Categories page (2868ms)
+[2026-10-17T05:44:35.596Z] [INFO] [W0] [C21852431] [Admin] → Create category "Electronic Health"
+[2026-10-17T05:44:39.721Z] [INFO] [W0] [C21852431] [Admin] ✓ Create category "Electronic Health" (4125ms)
+[2026-10-17T05:44:39.722Z] [INFO] [W0] [C21852431] [Admin] → Search categories by name "Electronic Health" (exact match)
+[2026-10-17T05:44:40.620Z] [INFO] [W0] [C21852431] [Admin] ✓ Search categories by name "Electronic Health" (exact match) (898ms)
+[2026-10-17T05:44:40.621Z] [INFO] [W0] [C21852431] [Admin] → Edit Category
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852431]
+Status: FAILED
+Duration: 68550ms
+[2026-10-17T05:45:41.087Z] [ERROR] [W0] [C21852431] [object Object]
+────────────────────────────────────────────────────────

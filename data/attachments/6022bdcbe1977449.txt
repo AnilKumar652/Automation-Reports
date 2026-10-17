@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-10-17T05:03:05.938Z] [INFO] [W1] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-10-17T05:03:18.375Z] [INFO] [W1] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (12437ms)
+[2026-10-17T05:03:18.375Z] [INFO] [W1] [C45059] [Admin] → Is Location Groups List Ready
+[2026-10-17T05:03:18.403Z] [INFO] [W1] [C45059] [Admin] ✓ Is Location Groups List Ready (28ms)
+[2026-10-17T05:03:18.409Z] [INFO] [W1] [C45059] [Admin] → Create location group "Humberside Unit"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45059]
+Status: FAILED
+Duration: 73477ms
+[2026-10-17T05:04:18.994Z] [ERROR] [W1] [C45059] [object Object]
+────────────────────────────────────────────────────────

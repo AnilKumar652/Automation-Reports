@@ -1,0 +1,22 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C7283439]
+Title: Verify autogenerate toggle for credential ID during credential creation
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:17:45.349Z] [INFO] [W0] [C7283439] [Admin] → Open Agency Credentials page
+[2026-10-17T05:17:47.735Z] [INFO] [W0] [C7283439] [Admin] ✓ Open Agency Credentials page (2386ms)
+[2026-10-17T05:17:47.736Z] [INFO] [W0] [C7283439] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:17:47.813Z] [INFO] [W0] [C7283439] [Admin] ✓ Agency Credentials page is ready (77ms)
+[2026-10-17T05:17:47.823Z] [INFO] [W0] [C7283439] [Admin] → Open Add Credential form
+[2026-10-17T05:17:53.103Z] [INFO] [W0] [C7283439] [Admin] ✓ Open Add Credential form (5280ms)
+[2026-10-17T05:17:53.104Z] [INFO] [W0] [C7283439] [Admin] → Autogenerate Toggle State
+[2026-10-17T05:17:53.198Z] [INFO] [W0] [C7283439] [Admin] ✓ Autogenerate Toggle State (94ms)
+[2026-10-17T05:17:53.201Z] [INFO] [W0] [C7283439] [Admin] → Select "Fire (FIR)" from "Select type" dropdown
+[2026-10-17T05:17:53.648Z] [INFO] [W0] [C7283439] [Admin] ✓ Select "Fire (FIR)" from "Select type" dropdown (447ms)
+[2026-10-17T05:17:53.649Z] [INFO] [W0] [C7283439] [Admin] → Toggle Credential Autogenerate
+────────────────────────────────────────────────────────
+TEST END | [W0] [C7283439]
+Status: FAILED
+Duration: 18773ms
+[2026-10-17T05:18:04.225Z] [ERROR] [W0] [C7283439] [object Object]
+────────────────────────────────────────────────────────

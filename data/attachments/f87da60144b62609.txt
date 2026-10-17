@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C52164]
+Title: Verify user can edit an existing credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:09:02.466Z] [INFO] [W1] [C52164] [Admin] → Open Agency Credentials page
+[2026-10-17T05:09:06.384Z] [INFO] [W1] [C52164] [Admin] ✓ Open Agency Credentials page (3918ms)
+[2026-10-17T05:09:06.384Z] [INFO] [W1] [C52164] [Admin] → Verify Agency Credentials page is ready
+[2026-10-17T05:09:07.087Z] [INFO] [W1] [C52164] [Admin] ✓ Agency Credentials page is ready (703ms)
+[2026-10-17T05:09:07.123Z] [INFO] [W1] [C52164] [Admin] → Create agency credential "mindshare Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C52164]
+Status: FAILED
+Duration: 23910ms
+[2026-10-17T05:09:26.039Z] [ERROR] [W1] [C52164] [object Object]
+────────────────────────────────────────────────────────

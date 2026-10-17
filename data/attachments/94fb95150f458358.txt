@@ -1,0 +1,16 @@
+[2026-10-17T05:19:28.045Z] [ERROR] [W1] [C78340] [Admin] ✗ Wait until Asset management setup list row for "Tyne and Wear Team" is visible (60002ms)
+[2026-10-17T05:19:28.045Z] [ERROR] [W1] [C78340] Locator: role=cell[name="Tyne and Wear Team"i]
+[2026-10-17T05:19:28.045Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Tyne and Wear Team"i]') to be visible
+
+[2026-10-17T05:19:28.045Z] [ERROR] [W1] [C78340] [Admin] ✗ Save equipment group "Tyne and Wear Team" (60162ms)
+[2026-10-17T05:19:28.045Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Tyne and Wear Team"i]') to be visible
+
+[2026-10-17T05:19:28.046Z] [ERROR] [W1] [C78340] [Admin] ✗ Create equipment group "Tyne and Wear Team" (65945ms)
+[2026-10-17T05:19:28.046Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Tyne and Wear Team"i]') to be visible
+

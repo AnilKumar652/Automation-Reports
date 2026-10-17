@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852435]
+Title: Verify combined filters by date range, creator, active status, topics, and courses refine the category grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-17T05:43:42.458Z] [INFO] [W1] [C21852435] [Admin] → Open Training Setup Categories page
+[2026-10-17T05:43:44.933Z] [INFO] [W1] [C21852435] [Admin] ✓ Open Training Setup Categories page (2475ms)
+[2026-10-17T05:43:44.934Z] [INFO] [W1] [C21852435] [Admin] → Create category "Frozen Automotive"
+[2026-10-17T05:43:48.228Z] [INFO] [W1] [C21852435] [Admin] ✓ Create category "Frozen Automotive" (3294ms)
+[2026-10-17T05:43:48.228Z] [INFO] [W1] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-10-17T05:43:48.254Z] [INFO] [W1] [C21852435] [Admin] ✓ Categories grid contains records verified (26ms)
+[2026-10-17T05:43:48.254Z] [INFO] [W1] [C21852435] [Admin] → Search categories by name "Frozen Automotive" (exact match)
+[2026-10-17T05:43:49.197Z] [INFO] [W1] [C21852435] [Admin] ✓ Search categories by name "Frozen Automotive" (exact match) (943ms)
+[2026-10-17T05:43:49.197Z] [INFO] [W1] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-10-17T05:43:49.212Z] [INFO] [W1] [C21852435] [Admin] ✓ Categories grid contains records verified (15ms)
+[2026-10-17T05:43:49.212Z] [INFO] [W1] [C21852435] [Admin] → Visible Category Names
+[2026-10-17T05:43:49.254Z] [INFO] [W1] [C21852435] [Admin] ✓ Visible Category Names (42ms)
+[2026-10-17T05:43:49.256Z] [INFO] [W1] [C21852435] [Admin] → Change category Is Active filter to "No"
