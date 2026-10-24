@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-10-24T05:03:39.354Z] [INFO] [W1] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-24T05:03:43.154Z] [INFO] [W1] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (3800ms)
+[2026-10-24T05:03:43.155Z] [INFO] [W1] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-10-24T05:03:43.170Z] [INFO] [W1] [C45539] [Admin] ✓ Is Equipment Groups List Ready (15ms)
+[2026-10-24T05:03:43.174Z] [INFO] [W1] [C45539] [Admin] → Create equipment group "Warwickshire Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45539]
+Status: FAILED
+Duration: 66919ms
+[2026-10-24T05:04:46.006Z] [ERROR] [W1] [C45539] [object Object]
+────────────────────────────────────────────────────────

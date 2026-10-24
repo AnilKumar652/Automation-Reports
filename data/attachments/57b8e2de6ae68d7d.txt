@@ -1,0 +1,13 @@
+[2026-10-24T05:51:56.094Z] [ERROR] [W1] [C21852431] [Admin] ✗ Wait until Edit Training Category modal heading is hidden (60005ms)
+[2026-10-24T05:51:56.094Z] [ERROR] [W1] [C21852431] Locator: text=Edit Training Category
+[2026-10-24T05:51:56.094Z] [ERROR] [W1] [C21852431] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('text=Edit Training Category') to be hidden
+    122 × locator resolved to visible <span class="header__container__title-section__title-container__title"> Edit Training Category </span>
+
+[2026-10-24T05:51:56.095Z] [ERROR] [W1] [C21852431] [Admin] ✗ Edit Category (60514ms)
+[2026-10-24T05:51:56.095Z] [ERROR] [W1] [C21852431] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('text=Edit Training Category') to be hidden
+    122 × locator resolved to visible <span class="header__container__title-section__title-container__title"> Edit Training Category </span>
+

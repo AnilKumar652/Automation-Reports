@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:14:55.758Z] [INFO] [W1] [C54657] [Admin] → Open Agency Credentials page
+[2026-10-24T05:14:58.754Z] [INFO] [W1] [C54657] [Admin] ✓ Open Agency Credentials page (2996ms)
+[2026-10-24T05:14:58.755Z] [INFO] [W1] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-10-24T05:14:58.778Z] [INFO] [W1] [C54657] [Admin] ✓ Agency Credentials page is ready (23ms)
+[2026-10-24T05:14:58.783Z] [INFO] [W1] [C54657] [Admin] → Create agency credential "Kuhlman and Sons-1"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54657]
+Status: FAILED
+Duration: 21006ms
+[2026-10-24T05:15:16.034Z] [ERROR] [W1] [C54657] [object Object]
+────────────────────────────────────────────────────────

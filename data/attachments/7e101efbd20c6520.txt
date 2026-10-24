@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877540]
+Title: Verify user can add an organization division
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T04:57:36.095Z] [INFO] [W0] [C5877540] [Admin] → Open Agency Setup Organization page
+[2026-10-24T04:57:44.073Z] [INFO] [W0] [C5877540] [Admin] ✓ Open Agency Setup Organization page (7978ms)
+[2026-10-24T04:57:44.096Z] [INFO] [W0] [C5877540] [Admin] → Is Agency Setup Organization Ready
+[2026-10-24T04:57:48.323Z] [INFO] [W0] [C5877540] [Admin] ✓ Is Agency Setup Organization Ready (4227ms)
+[2026-10-24T04:57:48.333Z] [INFO] [W0] [C5877540] [Admin] → Select Organization Division tab
+[2026-10-24T04:57:48.706Z] [INFO] [W0] [C5877540] [Admin] ✓ Select Organization Division tab (373ms)
+[2026-10-24T04:57:48.707Z] [INFO] [W0] [C5877540] [Admin] → Add organization division "Health"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877540]
+Status: FAILED
+Duration: 74670ms
+[2026-10-24T04:58:50.347Z] [ERROR] [W0] [C5877540] [object Object]
+────────────────────────────────────────────────────────

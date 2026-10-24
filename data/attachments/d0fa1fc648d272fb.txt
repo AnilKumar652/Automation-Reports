@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877540]
+Title: Verify user can add an organization division
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T04:59:02.532Z] [INFO] [W0] [C5877540] [Admin] → Open Agency Setup Organization page
+[2026-10-24T04:59:17.690Z] [INFO] [W0] [C5877540] [Admin] ✓ Open Agency Setup Organization page (15159ms)
+[2026-10-24T04:59:17.695Z] [INFO] [W0] [C5877540] [Admin] → Is Agency Setup Organization Ready
+[2026-10-24T04:59:17.946Z] [INFO] [W0] [C5877540] [Admin] ✓ Is Agency Setup Organization Ready (251ms)
+[2026-10-24T04:59:17.962Z] [INFO] [W0] [C5877540] [Admin] → Select Organization Division tab
+[2026-10-24T04:59:18.331Z] [INFO] [W0] [C5877540] [Admin] ✓ Select Organization Division tab (369ms)
+[2026-10-24T04:59:18.331Z] [INFO] [W0] [C5877540] [Admin] → Add organization division "Movies"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877540]
+Status: FAILED
+Duration: 78135ms
+[2026-10-24T05:00:20.090Z] [ERROR] [W0] [C5877540] [object Object]
+────────────────────────────────────────────────────────

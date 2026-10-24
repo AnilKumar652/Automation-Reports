@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58123]
+Title: Create Qualifier
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:48:43.049Z] [INFO] [W0] [C58123] [Admin] → Open Scheduling Setup Qualifiers page
+[2026-10-24T05:48:46.460Z] [INFO] [W0] [C58123] [Admin] ✓ Open Scheduling Setup Qualifiers page (3411ms)
+[2026-10-24T05:48:46.460Z] [INFO] [W0] [C58123] [Admin] → Is Qualifiers Page Ready
+[2026-10-24T05:48:46.519Z] [INFO] [W0] [C58123] [Admin] ✓ Is Qualifiers Page Ready (59ms)
+[2026-10-24T05:48:46.520Z] [INFO] [W0] [C58123] [Admin] → Create qualifier "Direct Accountability"
+[2026-10-24T05:48:49.264Z] [INFO] [W0] [C58123] [Admin] ✓ Create qualifier "Direct Accountability" (2744ms)
+[2026-10-24T05:48:49.264Z] [INFO] [W0] [C58123] [Admin] → Qualifier Created Success Message
+[2026-10-24T05:48:49.380Z] [INFO] [W0] [C58123] [Admin] ✓ Qualifier Created Success Message (116ms)
+[2026-10-24T05:48:49.381Z] [INFO] [W0] [C58123] [Admin] → Scheduling Setup Row Visible
+[2026-10-24T05:48:50.738Z] [INFO] [W0] [C58123] [Admin] ✓ Scheduling Setup Row Visible (1357ms)

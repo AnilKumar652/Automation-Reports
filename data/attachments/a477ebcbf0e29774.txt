@@ -1,0 +1,32 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852429]
+Title: Validate blank name shows validation when attempting to create a category
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:49:43.909Z] [INFO] [W0] [C21852429] [Admin] → Open Training Setup Categories page
+[2026-10-24T05:49:49.563Z] [INFO] [W0] [C21852429] [Admin] ✓ Open Training Setup Categories page (5654ms)
+[2026-10-24T05:49:49.564Z] [INFO] [W0] [C21852429] [Admin] → Verify Categories grid contains records
+[2026-10-24T05:49:49.858Z] [INFO] [W0] [C21852429] [Admin] ✓ Categories grid contains records verified (294ms)
+[2026-10-24T05:49:49.858Z] [INFO] [W0] [C21852429] [Admin] → Open Add Category Modal
+[2026-10-24T05:49:50.121Z] [INFO] [W0] [C21852429] [Admin] ✓ Open Add Category Modal (263ms)
+[2026-10-24T05:49:50.121Z] [INFO] [W0] [C21852429] [Admin] → Is Add Category Modal Open
+[2026-10-24T05:49:50.149Z] [INFO] [W0] [C21852429] [Admin] ✓ Is Add Category Modal Open (28ms)
+[2026-10-24T05:49:50.176Z] [INFO] [W0] [C21852429] [Admin] → Category Modal Name Value
+[2026-10-24T05:49:50.193Z] [INFO] [W0] [C21852429] [Admin] ✓ Category Modal Name Value (17ms)
+[2026-10-24T05:49:50.201Z] [INFO] [W0] [C21852429] [Admin] → Submit Blank Category Form
+[2026-10-24T05:49:50.375Z] [INFO] [W0] [C21852429] [Admin] ✓ Submit Blank Category Form (174ms)
+[2026-10-24T05:49:50.376Z] [INFO] [W0] [C21852429] [Admin] → Category Name Validation Error
+[2026-10-24T05:49:50.399Z] [INFO] [W0] [C21852429] [Admin] ✓ Category Name Validation Error (23ms)
+[2026-10-24T05:49:50.403Z] [INFO] [W0] [C21852429] [Admin] → Is Add Category Modal Open
+[2026-10-24T05:49:50.436Z] [INFO] [W0] [C21852429] [Admin] ✓ Is Add Category Modal Open (33ms)
+[2026-10-24T05:49:50.441Z] [INFO] [W0] [C21852429] [Admin] → Cancel Category Modal
+[2026-10-24T05:49:50.664Z] [INFO] [W0] [C21852429] [Admin] ✓ Cancel Category Modal (223ms)
+[2026-10-24T05:49:50.665Z] [INFO] [W0] [C21852429] [Admin] → Is Add Category Modal Open
+[2026-10-24T05:49:50.671Z] [INFO] [W0] [C21852429] [Admin] ✓ Is Add Category Modal Open (6ms)
+[2026-10-24T05:49:50.672Z] [INFO] [W0] [C21852429] [Admin] → Verify Categories grid contains records
+[2026-10-24T05:49:50.677Z] [INFO] [W0] [C21852429] [Admin] ✓ Categories grid contains records verified (5ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852429]
+Status: PASSED
+Duration: 7064ms
+────────────────────────────────────────────────────────

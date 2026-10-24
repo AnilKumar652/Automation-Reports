@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-10-24T05:04:34.563Z] [INFO] [W0] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-24T05:04:39.570Z] [INFO] [W0] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (5008ms)
+[2026-10-24T05:04:39.571Z] [INFO] [W0] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-10-24T05:04:39.703Z] [INFO] [W0] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (132ms)
+[2026-10-24T05:04:39.710Z] [INFO] [W0] [C45556] [Admin] → Create apparatus group "East Sussex Team"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45556]
+Status: FAILED
+Duration: 68668ms
+[2026-10-24T05:05:42.968Z] [ERROR] [W0] [C45556] [object Object]
+────────────────────────────────────────────────────────

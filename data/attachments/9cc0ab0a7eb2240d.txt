@@ -1,0 +1,11 @@
+[2026-10-24T05:00:32.888Z] [ERROR] [W1] [C5877542] [Admin] ✗ Wait until Organization row for "Paramedic" is visible (60054ms)
+[2026-10-24T05:00:32.888Z] [ERROR] [W1] [C5877542] Locator: role=gridcell[name="Paramedic"i]
+[2026-10-24T05:00:32.888Z] [ERROR] [W1] [C5877542] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Paramedic"i]') to be visible
+
+[2026-10-24T05:00:32.889Z] [ERROR] [W1] [C5877542] [Admin] ✗ Add organization rank "Paramedic" (61420ms)
+[2026-10-24T05:00:32.889Z] [ERROR] [W1] [C5877542] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Paramedic"i]') to be visible
+

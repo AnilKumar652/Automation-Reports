@@ -1,0 +1,7 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-10-24T05:24:04.260Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-24T05:24:07.751Z] [INFO] [W0] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (3491ms)
+[2026-10-24T05:24:07.751Z] [INFO] [W0] [C78340] [Admin] → Create equipment group "Wayne County Group"

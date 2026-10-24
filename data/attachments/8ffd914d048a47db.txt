@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:50:47.811Z] [INFO] [W1] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-10-24T05:50:53.548Z] [INFO] [W1] [C21852431] [Admin] ✓ Open Training Setup Categories page (5737ms)
+[2026-10-24T05:50:53.549Z] [INFO] [W1] [C21852431] [Admin] → Create category "Frozen Home"
+[2026-10-24T05:50:54.792Z] [INFO] [W1] [C21852431] [Admin] ✓ Create category "Frozen Home" (1243ms)
+[2026-10-24T05:50:54.792Z] [INFO] [W1] [C21852431] [Admin] → Search categories by name "Frozen Home" (exact match)
+[2026-10-24T05:50:55.580Z] [INFO] [W1] [C21852431] [Admin] ✓ Search categories by name "Frozen Home" (exact match) (788ms)
+[2026-10-24T05:50:55.581Z] [INFO] [W1] [C21852431] [Admin] → Edit Category
+────────────────────────────────────────────────────────
+TEST END | [W1] [C21852431]
+Status: FAILED
+Duration: 68569ms
+[2026-10-24T05:51:56.151Z] [ERROR] [W1] [C21852431] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-10-24T05:03:23.231Z] [INFO] [W0] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-24T05:03:26.685Z] [INFO] [W0] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (3454ms)
+[2026-10-24T05:03:26.688Z] [INFO] [W0] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-10-24T05:03:26.749Z] [INFO] [W0] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (61ms)
+[2026-10-24T05:03:26.764Z] [INFO] [W0] [C45556] [Admin] → Create apparatus group "Pike County Team"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45556]
+Status: FAILED
+Duration: 67070ms
+[2026-10-24T05:04:30.034Z] [ERROR] [W0] [C45556] [object Object]
+────────────────────────────────────────────────────────

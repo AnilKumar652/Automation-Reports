@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58113]
+Title: Verify second edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:18:30.501Z] [INFO] [W0] [C58113] [Admin] → Prepare and assign credential "metrics Credential" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58113]
+Status: FAILED
+Duration: 33025ms
+[2026-10-24T05:19:03.309Z] [ERROR] [W0] [C58113] [object Object]
+────────────────────────────────────────────────────────

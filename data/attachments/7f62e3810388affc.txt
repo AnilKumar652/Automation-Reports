@@ -1,0 +1,16 @@
+[2026-10-24T05:05:42.900Z] [ERROR] [W0] [C45556] [Admin] ✗ Wait until Asset management setup list row for "East Sussex Team" is visible (60019ms)
+[2026-10-24T05:05:42.901Z] [ERROR] [W0] [C45556] Locator: role=cell[name="East Sussex Team"i]
+[2026-10-24T05:05:42.901Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="East Sussex Team"i]') to be visible
+
+[2026-10-24T05:05:42.901Z] [ERROR] [W0] [C45556] [Admin] ✗ Save apparatus group "East Sussex Team" (60173ms)
+[2026-10-24T05:05:42.901Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="East Sussex Team"i]') to be visible
+
+[2026-10-24T05:05:42.901Z] [ERROR] [W0] [C45556] [Admin] ✗ Create apparatus group "East Sussex Team" (63191ms)
+[2026-10-24T05:05:42.901Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="East Sussex Team"i]') to be visible
+

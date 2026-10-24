@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22682824]
+Title: Verify User can submit Upload External Credential with valid required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:47:55.939Z] [INFO] [W0] [C22682824] [Admin] → Open Agency Credentials page
+[2026-10-24T05:48:01.781Z] [INFO] [W0] [C22682824] [Admin] ✓ Open Agency Credentials page (5842ms)
+[2026-10-24T05:48:01.781Z] [INFO] [W0] [C22682824] [Admin] → Verify Agency Credentials page is ready
+[2026-10-24T05:48:06.527Z] [INFO] [W0] [C22682824] [Admin] ✓ Agency Credentials page is ready (4746ms)
+[2026-10-24T05:48:06.532Z] [INFO] [W0] [C22682824] [Admin] → Create agency credential "ROI License"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22682824]
+Status: FAILED
+Duration: 28565ms
+[2026-10-24T05:48:23.191Z] [ERROR] [W0] [C22682824] [object Object]
+────────────────────────────────────────────────────────

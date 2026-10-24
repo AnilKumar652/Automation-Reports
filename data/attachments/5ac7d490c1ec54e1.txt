@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58122]
+Title: Verify credential log can be removed from Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:20:45.420Z] [INFO] [W0] [C58122] [Admin] → Prepare and assign credential "partnerships Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58122]
+Status: FAILED
+Duration: 35009ms
+[2026-10-24T05:21:19.851Z] [ERROR] [W0] [C58122] [object Object]
+────────────────────────────────────────────────────────

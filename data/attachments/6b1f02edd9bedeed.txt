@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-10-24T05:07:18.792Z] [INFO] [W0] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-10-24T05:07:25.640Z] [INFO] [W0] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (6848ms)
+[2026-10-24T05:07:25.642Z] [INFO] [W0] [C45059] [Admin] → Is Location Groups List Ready
+[2026-10-24T05:07:25.706Z] [INFO] [W0] [C45059] [Admin] ✓ Is Location Groups List Ready (64ms)
+[2026-10-24T05:07:25.724Z] [INFO] [W0] [C45059] [Admin] → Create location group "Polk County Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45059]
+Status: FAILED
+Duration: 74704ms
+[2026-10-24T05:08:33.022Z] [ERROR] [W0] [C45059] [object Object]
+────────────────────────────────────────────────────────

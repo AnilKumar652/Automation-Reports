@@ -1,0 +1,13 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-10-24T05:25:26.210Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-24T05:25:31.168Z] [INFO] [W0] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (4958ms)
+[2026-10-24T05:25:31.168Z] [INFO] [W0] [C78340] [Admin] → Create equipment group "Somerset Group"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C78340]
+Status: FAILED
+Duration: 71272ms
+[2026-10-24T05:26:37.224Z] [ERROR] [W0] [C78340] [object Object]
+────────────────────────────────────────────────────────

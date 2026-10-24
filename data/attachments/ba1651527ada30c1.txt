@@ -1,0 +1,43 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:54:18.148Z] [INFO] [W0] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-10-24T05:54:22.869Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Training Setup Categories page (4721ms)
+[2026-10-24T05:54:22.878Z] [INFO] [W0] [C22680549] [Admin] → Create category "Unbranded Sports"
+[2026-10-24T05:54:26.083Z] [INFO] [W0] [C22680549] [Admin] ✓ Create category "Unbranded Sports" (3205ms)
+[2026-10-24T05:54:26.083Z] [INFO] [W0] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-10-24T05:54:26.463Z] [INFO] [W0] [C22680549] [Admin] ✓ Categories grid contains records verified (380ms)
+[2026-10-24T05:54:26.464Z] [INFO] [W0] [C22680549] [Admin] → Open Import Categories Modal
+[2026-10-24T05:54:26.588Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Import Categories Modal (124ms)
+[2026-10-24T05:54:26.589Z] [INFO] [W0] [C22680549] [Admin] → Is Import Modal Open
+[2026-10-24T05:54:26.622Z] [INFO] [W0] [C22680549] [Admin] ✓ Is Import Modal Open (33ms)
+[2026-10-24T05:54:26.627Z] [INFO] [W0] [C22680549] [Admin] → Read Import Categories help text
+[2026-10-24T05:54:26.667Z] [INFO] [W0] [C22680549] [Admin] ✓ Read Import Categories help text (40ms)
+[2026-10-24T05:54:26.669Z] [INFO] [W0] [C22680549] [Admin] → Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/categories-non-csv.txt"
+[2026-10-24T05:54:26.748Z] [INFO] [W0] [C22680549] [Admin] ✓ Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/categories-non-csv.txt" (79ms)
+[2026-10-24T05:54:26.748Z] [INFO] [W0] [C22680549] [Admin] → Read Import Categories validation messages
+[2026-10-24T05:54:26.817Z] [INFO] [W0] [C22680549] [Admin] ✓ Read Import Categories validation messages (69ms)
+[2026-10-24T05:54:26.819Z] [INFO] [W0] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-10-24T05:54:26.833Z] [INFO] [W0] [C22680549] [Admin] ✓ Categories grid contains records verified (14ms)
+[2026-10-24T05:54:26.853Z] [INFO] [W0] [C22680549] [Admin] → Upload categories import file "/tmp/categories-oversized-import.csv"
+[2026-10-24T05:54:26.926Z] [INFO] [W0] [C22680549] [Admin] ✓ Upload categories import file "/tmp/categories-oversized-import.csv" (73ms)
+[2026-10-24T05:54:26.926Z] [INFO] [W0] [C22680549] [Admin] → Read Import Categories validation messages
+[2026-10-24T05:54:27.060Z] [INFO] [W0] [C22680549] [Admin] ✓ Read Import Categories validation messages (134ms)
+[2026-10-24T05:54:27.061Z] [INFO] [W0] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-10-24T05:54:27.080Z] [INFO] [W0] [C22680549] [Admin] ✓ Categories grid contains records verified (19ms)
+[2026-10-24T05:54:27.081Z] [INFO] [W0] [C22680549] [Admin] → Upload categories import file "/tmp/categories-import-1792821262878.csv"
+[2026-10-24T05:54:27.328Z] [INFO] [W0] [C22680549] [Admin] ✓ Upload categories import file "/tmp/categories-import-1792821262878.csv" (247ms)
+[2026-10-24T05:54:27.329Z] [INFO] [W0] [C22680549] [Admin] → Check whether import file "categories-import-1792821262878.csv" is listed in the modal
+[2026-10-24T05:54:27.381Z] [INFO] [W0] [C22680549] [Admin] ✓ Check whether import file "categories-import-1792821262878.csv" is listed in the modal (52ms)
+[2026-10-24T05:54:27.384Z] [INFO] [W0] [C22680549] [Admin] → Submit categories import
+[2026-10-24T05:54:27.470Z] [INFO] [W0] [C22680549] [Admin] ✓ Submit categories import (86ms)
+[2026-10-24T05:54:27.470Z] [INFO] [W0] [C22680549] [Admin] → Determine categories import submit outcome
+[2026-10-24T05:54:27.586Z] [INFO] [W0] [C22680549] [Admin] ✓ Determine categories import submit outcome (116ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22680549]
+Status: FAILED
+Duration: 9771ms
+[2026-10-24T05:54:27.796Z] [ERROR] [W0] [C22680549] [object Object]
+────────────────────────────────────────────────────────

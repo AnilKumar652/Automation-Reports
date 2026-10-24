@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877542]
+Title: Verify user can add an organization rank
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T04:57:52.801Z] [INFO] [W1] [C5877542] [Admin] → Open Agency Setup Organization page
+[2026-10-24T04:57:56.729Z] [INFO] [W1] [C5877542] [Admin] ✓ Open Agency Setup Organization page (3928ms)
+[2026-10-24T04:57:56.730Z] [INFO] [W1] [C5877542] [Admin] → Is Agency Setup Organization Ready
+[2026-10-24T04:57:57.000Z] [INFO] [W1] [C5877542] [Admin] ✓ Is Agency Setup Organization Ready (270ms)
+[2026-10-24T04:57:57.001Z] [INFO] [W1] [C5877542] [Admin] → Select Organization Rank tab
+[2026-10-24T04:57:57.275Z] [INFO] [W1] [C5877542] [Admin] ✓ Select Organization Rank tab (274ms)
+[2026-10-24T04:57:57.275Z] [INFO] [W1] [C5877542] [Admin] → Add organization rank "Engineer"

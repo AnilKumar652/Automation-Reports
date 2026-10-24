@@ -1,0 +1,4 @@
+[2026-10-24T05:13:45.571Z] [ERROR] [W1] [C52164] [Admin] ✗ Toggle Credential Autogenerate (10212ms)
+[2026-10-24T05:13:45.571Z] [ERROR] [W1] [C52164] page.waitForFunction: Timeout 10000ms exceeded.
+[2026-10-24T05:13:45.572Z] [ERROR] [W1] [C52164] [Admin] ✗ Create agency credential "platforms License" (13615ms)
+[2026-10-24T05:13:45.572Z] [ERROR] [W1] [C52164] page.waitForFunction: Timeout 10000ms exceeded.

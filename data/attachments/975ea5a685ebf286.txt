@@ -1,0 +1,8 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:49:51.200Z] [INFO] [W0] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-10-24T05:49:56.781Z] [INFO] [W0] [C21852430] [Admin] ✓ Open Training Setup Categories page (5581ms)
+[2026-10-24T05:49:56.782Z] [INFO] [W0] [C21852430] [Admin] → Create category "Rustic Home"

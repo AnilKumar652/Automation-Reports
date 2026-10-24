@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:52:28.208Z] [INFO] [W0] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-10-24T05:52:34.268Z] [INFO] [W0] [C21852432] [Admin] ✓ Open Training Setup Categories page (6060ms)
+[2026-10-24T05:52:34.272Z] [INFO] [W0] [C21852432] [Admin] → Create category "Stroman Group Bespoke Clothing"
+[2026-10-24T05:52:35.073Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Stroman Group Bespoke Clothing" (801ms)
+[2026-10-24T05:52:35.073Z] [INFO] [W0] [C21852432] [Admin] → Create category "Stroman Group Awesome Computers"
+[2026-10-24T05:52:35.941Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Stroman Group Awesome Computers" (868ms)
+[2026-10-24T05:52:35.941Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-24T05:52:35.981Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (40ms)
+[2026-10-24T05:52:35.982Z] [INFO] [W0] [C21852432] [Admin] → Search categories by name "Stroman Group" (matching results)
+[2026-10-24T05:52:37.125Z] [INFO] [W0] [C21852432] [Admin] ✓ Search categories by name "Stroman Group" (matching results) (1143ms)
+[2026-10-24T05:52:37.125Z] [INFO] [W0] [C21852432] [Admin] → Visible Category Names
+[2026-10-24T05:52:37.156Z] [INFO] [W0] [C21852432] [Admin] ✓ Visible Category Names (31ms)
+[2026-10-24T05:52:37.163Z] [INFO] [W0] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-10-24T05:52:37.220Z] [INFO] [W0] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (57ms)
+[2026-10-24T05:52:37.220Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-24T05:52:37.227Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (7ms)
+[2026-10-24T05:52:37.228Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-24T05:52:37.237Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (9ms)
+[2026-10-24T05:52:37.237Z] [INFO] [W0] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-10-24T05:52:37.729Z] [INFO] [W0] [C21852432] [Admin] ✓ Toggle Header Row Selection (492ms)
+[2026-10-24T05:52:37.729Z] [INFO] [W0] [C21852432] [Admin] → Selected Category Row Count
+[2026-10-24T05:52:37.744Z] [INFO] [W0] [C21852432] [Admin] ✓ Selected Category Row Count (15ms)
+[2026-10-24T05:52:37.748Z] [INFO] [W0] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-10-24T05:52:37.800Z] [INFO] [W0] [C21852432] [Admin] ✓ Toggle Header Row Selection (52ms)
+[2026-10-24T05:52:37.800Z] [INFO] [W0] [C21852432] [Admin] → Selected Category Row Count
+[2026-10-24T05:52:37.806Z] [INFO] [W0] [C21852432] [Admin] ✓ Selected Category Row Count (6ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852432]
+Status: PASSED
+Duration: 9905ms
+────────────────────────────────────────────────────────

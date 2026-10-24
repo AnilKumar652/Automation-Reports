@@ -1,0 +1,5 @@
+[2026-10-24T05:49:11.103Z] [ERROR] [W0] [C21852428] [Admin] ✗ Verify left navigation menu links (10096ms)
+[2026-10-24T05:49:11.103Z] [ERROR] [W0] [C21852428] locator.evaluate: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('role=menuitem[name="Training Import"i]')
+

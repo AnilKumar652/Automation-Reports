@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181792]
+Title: Verify State / Province is optional when creating a regular credential
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:07:24.874Z] [INFO] [W1] [C22181792] [Admin] → Open Agency Credentials page
+[2026-10-24T05:07:29.197Z] [INFO] [W1] [C22181792] [Admin] ✓ Open Agency Credentials page (4323ms)
+[2026-10-24T05:07:29.197Z] [INFO] [W1] [C22181792] [Admin] → Verify Agency Credentials page is ready
+[2026-10-24T05:07:29.260Z] [INFO] [W1] [C22181792] [Admin] ✓ Agency Credentials page is ready (63ms)
+[2026-10-24T05:07:29.261Z] [INFO] [W1] [C22181792] [Admin] → Open Add Credential form
+[2026-10-24T05:07:33.989Z] [INFO] [W1] [C22181792] [Admin] ✓ Open Add Credential form (4728ms)
+[2026-10-24T05:07:33.989Z] [INFO] [W1] [C22181792] [Admin] → State Province Mandatory Indicator
+[2026-10-24T05:07:34.039Z] [INFO] [W1] [C22181792] [Admin] ✓ State Province Mandatory Indicator (50ms)
+[2026-10-24T05:07:34.044Z] [INFO] [W1] [C22181792] [Admin] → Create agency credential "schemas Certification"

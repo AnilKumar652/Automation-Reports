@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22816988]
+Title: Verify new person can be created successfully for Training module
+────────────────────────────────────────────────────────
+[2026-10-24T05:47:48.277Z] [INFO] [W1] [C22816988] [Admin] → Open Create Person form
+[2026-10-24T05:47:55.012Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Create Person form (6735ms)
+[2026-10-24T05:47:55.021Z] [INFO] [W1] [C22816988] [Admin] → Is Create Person Form Open
+[2026-10-24T05:47:55.115Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Create Person Form Open (94ms)
+[2026-10-24T05:47:55.129Z] [INFO] [W1] [C22816988] [Admin] → Fill person form for "Abel Olson"
+[2026-10-24T05:48:05.402Z] [INFO] [W1] [C22816988] [Admin] ✓ Fill person form for "Abel Olson" (10273ms)
+[2026-10-24T05:48:05.402Z] [INFO] [W1] [C22816988] [Admin] → Is Person System User Active
+[2026-10-24T05:48:05.430Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Person System User Active (28ms)
+[2026-10-24T05:48:05.435Z] [INFO] [W1] [C22816988] [Admin] → Submit Create Person form
+[2026-10-24T05:48:09.302Z] [INFO] [W1] [C22816988] [Admin] ✓ Submit Create Person form (3867ms)
+[2026-10-24T05:48:09.303Z] [INFO] [W1] [C22816988] [Admin] → Person Created Success Message
+[2026-10-24T05:48:09.566Z] [INFO] [W1] [C22816988] [Admin] ✓ Person Created Success Message (263ms)
+[2026-10-24T05:48:09.573Z] [INFO] [W1] [C22816988] [Admin] → Open Personnel List page
+[2026-10-24T05:48:11.158Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Personnel List page (1585ms)
+[2026-10-24T05:48:11.158Z] [INFO] [W1] [C22816988] [Admin] → Search personnel list for "Abel Olson"
+[2026-10-24T05:48:14.652Z] [INFO] [W1] [C22816988] [Admin] ✓ Search personnel list for "Abel Olson" (3494ms)
+[2026-10-24T05:48:14.653Z] [INFO] [W1] [C22816988] [Admin] → Is Personnel List Row Visible
+[2026-10-24T05:48:14.670Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Personnel List Row Visible (17ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22816988]
+Status: PASSED
+Duration: 26907ms
+────────────────────────────────────────────────────────

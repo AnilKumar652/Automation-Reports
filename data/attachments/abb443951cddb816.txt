@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:51:08.251Z] [INFO] [W0] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-10-24T05:51:15.149Z] [INFO] [W0] [C21852430] [Admin] ✓ Open Training Setup Categories page (6898ms)
+[2026-10-24T05:51:15.150Z] [INFO] [W0] [C21852430] [Admin] → Create category "Sleek Jewelry"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852430]
+Status: FAILED
+Duration: 68031ms
+[2026-10-24T05:52:16.033Z] [ERROR] [W0] [C21852430] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181793]
+Title: Verify State / Province is optional when creating a credential from Setup
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:08:37.105Z] [INFO] [W1] [C22181793] [Admin] → Open Agency Credentials page
+[2026-10-24T05:08:42.910Z] [INFO] [W1] [C22181793] [Admin] ✓ Open Agency Credentials page (5805ms)
+[2026-10-24T05:08:42.911Z] [INFO] [W1] [C22181793] [Admin] → Verify Agency Credentials page is ready
+[2026-10-24T05:08:45.441Z] [INFO] [W1] [C22181793] [Admin] ✓ Agency Credentials page is ready (2530ms)
+[2026-10-24T05:08:45.459Z] [INFO] [W1] [C22181793] [Admin] → Open Add Credential form
+[2026-10-24T05:08:49.778Z] [INFO] [W1] [C22181793] [Admin] ✓ Open Add Credential form (4319ms)
+[2026-10-24T05:08:49.778Z] [INFO] [W1] [C22181793] [Admin] → State Province Mandatory Indicator
+[2026-10-24T05:08:49.858Z] [INFO] [W1] [C22181793] [Admin] ✓ State Province Mandatory Indicator (80ms)
+[2026-10-24T05:08:49.862Z] [INFO] [W1] [C22181793] [Admin] → Create agency credential "e-commerce Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181793]
+Status: FAILED
+Duration: 27097ms
+[2026-10-24T05:09:03.893Z] [ERROR] [W1] [C22181793] [object Object]
+────────────────────────────────────────────────────────

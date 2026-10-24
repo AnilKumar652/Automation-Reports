@@ -1,0 +1,16 @@
+[2026-10-24T05:08:32.851Z] [ERROR] [W0] [C45059] [Admin] ✗ Wait until Asset management setup list row for "Polk County Unit" is visible (60049ms)
+[2026-10-24T05:08:32.851Z] [ERROR] [W0] [C45059] Locator: role=cell[name="Polk County Unit"i]
+[2026-10-24T05:08:32.851Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Polk County Unit"i]') to be visible
+
+[2026-10-24T05:08:32.852Z] [ERROR] [W0] [C45059] [Admin] ✗ Save location group "Polk County Unit" (60299ms)
+[2026-10-24T05:08:32.852Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Polk County Unit"i]') to be visible
+
+[2026-10-24T05:08:32.852Z] [ERROR] [W0] [C45059] [Admin] ✗ Create location group "Polk County Unit" (67128ms)
+[2026-10-24T05:08:32.852Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Polk County Unit"i]') to be visible
+

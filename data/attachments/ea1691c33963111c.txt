@@ -1,0 +1,26 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C77675]
+Title: Verify user can create a fire station with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:24:15.886Z] [INFO] [W1] [C77675] [Admin] → Open Fire Station list page
+[2026-10-24T05:24:18.695Z] [INFO] [W1] [C77675] [Admin] ✓ Open Fire Station list page (2810ms)
+[2026-10-24T05:24:18.695Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station List Ready
+[2026-10-24T05:24:18.719Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station List Ready (24ms)
+[2026-10-24T05:24:18.722Z] [INFO] [W1] [C77675] [Admin] → Open new fire station form
+[2026-10-24T05:24:20.327Z] [INFO] [W1] [C77675] [Admin] ✓ Open new fire station form (1605ms)
+[2026-10-24T05:24:20.327Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station Create Form Open
+[2026-10-24T05:24:21.278Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station Create Form Open (951ms)
+[2026-10-24T05:24:21.281Z] [INFO] [W1] [C77675] [Admin] → Fire Station Create Form Fields Visible
+[2026-10-24T05:24:22.066Z] [INFO] [W1] [C77675] [Admin] ✓ Fire Station Create Form Fields Visible (785ms)
+[2026-10-24T05:24:22.067Z] [INFO] [W1] [C77675] [Admin] → Create fire station "Karleyfield Fire Station"
+[2026-10-24T05:24:27.741Z] [INFO] [W1] [C77675] [Admin] ✓ Create fire station "Karleyfield Fire Station" (5674ms)
+[2026-10-24T05:24:27.741Z] [INFO] [W1] [C77675] [Admin] → Search fire stations by name "Karleyfield Fire Station"
+[2026-10-24T05:24:31.821Z] [INFO] [W1] [C77675] [Admin] ✓ Search fire stations by name "Karleyfield Fire Station" (4080ms)
+[2026-10-24T05:24:31.821Z] [INFO] [W1] [C77675] [Admin] → Fire Station Row Visible
+[2026-10-24T05:24:31.832Z] [INFO] [W1] [C77675] [Admin] ✓ Fire Station Row Visible (11ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C77675]
+Status: PASSED
+Duration: 16227ms
+────────────────────────────────────────────────────────

@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:02:21.167Z] [INFO] [W1] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-24T05:02:25.933Z] [INFO] [W1] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (4766ms)
+[2026-10-24T05:02:25.933Z] [INFO] [W1] [C22779515] [Admin] → Create apparatus group "Highlands and Islands Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22779515]
+Status: FAILED
+Duration: 68118ms
+[2026-10-24T05:03:29.100Z] [ERROR] [W1] [C22779515] [object Object]
+────────────────────────────────────────────────────────

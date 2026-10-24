@@ -1,0 +1,16 @@
+[2026-10-24T05:02:00.111Z] [ERROR] [W1] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "Union County Group" is visible (60006ms)
+[2026-10-24T05:02:00.111Z] [ERROR] [W1] [C22779515] Locator: role=cell[name="Union County Group"i]
+[2026-10-24T05:02:00.112Z] [ERROR] [W1] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Union County Group"i]') to be visible
+
+[2026-10-24T05:02:00.112Z] [ERROR] [W1] [C22779515] [Admin] ✗ Save apparatus group "Union County Group" (60290ms)
+[2026-10-24T05:02:00.112Z] [ERROR] [W1] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Union County Group"i]') to be visible
+
+[2026-10-24T05:02:00.112Z] [ERROR] [W1] [C22779515] [Admin] ✗ Create apparatus group "Union County Group" (62616ms)
+[2026-10-24T05:02:00.115Z] [ERROR] [W1] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Union County Group"i]') to be visible
+

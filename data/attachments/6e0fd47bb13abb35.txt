@@ -1,0 +1,16 @@
+[2026-10-24T05:06:59.460Z] [ERROR] [W0] [C45059] [Admin] ✗ Wait until Asset management setup list row for "Henry County Unit" is visible (60015ms)
+[2026-10-24T05:06:59.461Z] [ERROR] [W0] [C45059] Locator: role=cell[name="Henry County Unit"i]
+[2026-10-24T05:06:59.461Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Henry County Unit"i]') to be visible
+
+[2026-10-24T05:06:59.461Z] [ERROR] [W0] [C45059] [Admin] ✗ Save location group "Henry County Unit" (60266ms)
+[2026-10-24T05:06:59.461Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Henry County Unit"i]') to be visible
+
+[2026-10-24T05:06:59.461Z] [ERROR] [W0] [C45059] [Admin] ✗ Create location group "Henry County Unit" (60523ms)
+[2026-10-24T05:06:59.462Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Henry County Unit"i]') to be visible
+

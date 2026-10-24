@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:01:58.217Z] [INFO] [W0] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-10-24T05:02:12.551Z] [INFO] [W0] [C5877543] [Admin] ✓ Open Agency Setup Organization page (14334ms)
+[2026-10-24T05:02:12.553Z] [INFO] [W0] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-10-24T05:02:12.706Z] [INFO] [W0] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (153ms)
+[2026-10-24T05:02:12.711Z] [INFO] [W0] [C5877543] [Admin] → Select Organization Positions tab
+[2026-10-24T05:02:13.652Z] [INFO] [W0] [C5877543] [Admin] ✓ Select Organization Positions tab (941ms)
+[2026-10-24T05:02:13.652Z] [INFO] [W0] [C5877543] [Admin] → Add organization position "Global Brand Liaison"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877543]
+Status: FAILED
+Duration: 77771ms
+[2026-10-24T05:03:15.684Z] [ERROR] [W0] [C5877543] [object Object]
+────────────────────────────────────────────────────────

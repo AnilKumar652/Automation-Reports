@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181794]
+Title: Verify imported Global Credential does not require State / Province at agency level
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:08:55.390Z] [INFO] [W0] [C22181794] [Super Admin] → Open Global Credentials page
+[2026-10-24T05:08:58.240Z] [INFO] [W0] [C22181794] [Super Admin] ✓ Open Global Credentials page (2850ms)
+[2026-10-24T05:08:58.240Z] [INFO] [W0] [C22181794] [Super Admin] → Create global credential "models Credential"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181794]
+Status: FAILED
+Duration: 70255ms
+[2026-10-24T05:10:05.178Z] [ERROR] [W0] [C22181794] [object Object]
+────────────────────────────────────────────────────────

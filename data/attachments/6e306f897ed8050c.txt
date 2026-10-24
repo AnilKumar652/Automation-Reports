@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-10-24T05:05:55.378Z] [INFO] [W0] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-10-24T05:05:58.922Z] [INFO] [W0] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (3544ms)
+[2026-10-24T05:05:58.923Z] [INFO] [W0] [C45059] [Admin] → Is Location Groups List Ready
+[2026-10-24T05:05:58.933Z] [INFO] [W0] [C45059] [Admin] ✓ Is Location Groups List Ready (10ms)
+[2026-10-24T05:05:58.938Z] [INFO] [W0] [C45059] [Admin] → Create location group "Henry County Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45059]
+Status: FAILED
+Duration: 64360ms
+[2026-10-24T05:06:59.564Z] [ERROR] [W0] [C45059] [object Object]
+────────────────────────────────────────────────────────

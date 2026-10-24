@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181794]
+Title: Verify imported Global Credential does not require State / Province at agency level
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:10:15.975Z] [INFO] [W0] [C22181794] [Super Admin] → Open Global Credentials page
+[2026-10-24T05:10:21.514Z] [INFO] [W0] [C22181794] [Super Admin] ✓ Open Global Credentials page (5539ms)
+[2026-10-24T05:10:21.515Z] [INFO] [W0] [C22181794] [Super Admin] → Create global credential "synergies Certificate"
+[2026-10-24T05:10:42.169Z] [INFO] [W0] [C22181794] [Super Admin] ✓ Create global credential "synergies Certificate" (20655ms)
+[2026-10-24T05:10:42.169Z] [INFO] [W0] [C22181794] [Admin] → Open Agency Credentials page
+[2026-10-24T05:10:49.829Z] [INFO] [W0] [C22181794] [Admin] ✓ Open Agency Credentials page (7660ms)
+[2026-10-24T05:10:49.830Z] [INFO] [W0] [C22181794] [Admin] → Import global credential "synergies Certificate"
+[2026-10-24T05:10:56.977Z] [INFO] [W0] [C22181794] [Admin] ✓ Import global credential "synergies Certificate" (7147ms)
+[2026-10-24T05:10:56.977Z] [INFO] [W0] [C22181794] [Admin] → Dismiss Import Complete dialog
+[2026-10-24T05:10:57.238Z] [INFO] [W0] [C22181794] [Admin] ✓ Dismiss Import Complete dialog (261ms)
+[2026-10-24T05:10:57.239Z] [INFO] [W0] [C22181794] [Admin] → Close Import Global Credentials modal
+[2026-10-24T05:10:57.492Z] [INFO] [W0] [C22181794] [Admin] ✓ Close Import Global Credentials modal (253ms)
+[2026-10-24T05:10:57.492Z] [INFO] [W0] [C22181794] [Admin] → Search agency credentials for "synergies Certificate"
+[2026-10-24T05:11:00.278Z] [INFO] [W0] [C22181794] [Admin] ✓ Search agency credentials for "synergies Certificate" (2786ms)
+[2026-10-24T05:11:00.279Z] [INFO] [W0] [C22181794] [Admin] → Agency Credential Row Visible
+[2026-10-24T05:11:00.316Z] [INFO] [W0] [C22181794] [Admin] ✓ Agency Credential Row Visible (37ms)
+[2026-10-24T05:11:00.324Z] [INFO] [W0] [C22181794] [Admin] → Open Edit Agency Credential Modal
+[2026-10-24T05:11:00.532Z] [INFO] [W0] [C22181794] [Admin] ✓ Open Edit Agency Credential Modal (208ms)
+[2026-10-24T05:11:00.532Z] [INFO] [W0] [C22181794] [Admin] → Is Edit Agency Credential Modal Open
+[2026-10-24T05:11:00.580Z] [INFO] [W0] [C22181794] [Admin] ✓ Is Edit Agency Credential Modal Open (48ms)
+[2026-10-24T05:11:00.584Z] [INFO] [W0] [C22181794] [Admin] → State Province Mandatory Indicator
+[2026-10-24T05:11:00.604Z] [INFO] [W0] [C22181794] [Admin] ✓ State Province Mandatory Indicator (19ms)
+[2026-10-24T05:11:00.606Z] [INFO] [W0] [C22181794] [Admin] → Close Credential form
+[2026-10-24T05:11:00.788Z] [INFO] [W0] [C22181794] [Admin] ✓ Close Credential form (182ms)
+[2026-10-24T05:11:00.788Z] [INFO] [W0] [C22181794] [Admin] → Is Edit Agency Credential Modal Open
+[2026-10-24T05:11:00.816Z] [INFO] [W0] [C22181794] [Admin] ✓ Is Edit Agency Credential Modal Open (28ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181794]
+Status: PASSED
+Duration: 45402ms
+────────────────────────────────────────────────────────

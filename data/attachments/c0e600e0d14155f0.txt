@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54656]
+Title: Verify single unused credential can be deleted
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:15:19.984Z] [INFO] [W0] [C54656] [Admin] → Open Agency Credentials page
+[2026-10-24T05:15:25.129Z] [INFO] [W0] [C54656] [Admin] ✓ Open Agency Credentials page (5146ms)
+[2026-10-24T05:15:25.131Z] [INFO] [W0] [C54656] [Admin] → Verify Agency Credentials page is ready
+[2026-10-24T05:15:26.267Z] [INFO] [W0] [C54656] [Admin] ✓ Agency Credentials page is ready (1136ms)
+[2026-10-24T05:15:26.281Z] [INFO] [W0] [C54656] [Admin] → Create agency credential "partnerships License"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54656]
+Status: FAILED
+Duration: 26848ms
+[2026-10-24T05:15:46.394Z] [ERROR] [W0] [C54656] [object Object]
+────────────────────────────────────────────────────────

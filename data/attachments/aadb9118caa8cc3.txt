@@ -1,0 +1,10 @@
+[2026-10-24T05:06:56.218Z] [ERROR] [W1] [C10485260] [Admin] ✗ Toggle Credential Autogenerate (10280ms)
+[2026-10-24T05:06:56.219Z] [ERROR] [W1] [C10485260] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByRole('link', { name: 'Autogenerate' })
+
+[2026-10-24T05:06:56.219Z] [ERROR] [W1] [C10485260] [Admin] ✗ Create agency credential "supply-chains Certification" (11444ms)
+[2026-10-24T05:06:56.219Z] [ERROR] [W1] [C10485260] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByRole('link', { name: 'Autogenerate' })
+

@@ -1,0 +1,11 @@
+[2026-10-24T05:03:15.627Z] [ERROR] [W0] [C5877543] [Admin] ✗ Wait until Organization row for "Global Brand Liaison" is visible (60090ms)
+[2026-10-24T05:03:15.628Z] [ERROR] [W0] [C5877543] Locator: role=gridcell[name="Global Brand Liaison"i]
+[2026-10-24T05:03:15.628Z] [ERROR] [W0] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Global Brand Liaison"i]') to be visible
+
+[2026-10-24T05:03:15.630Z] [ERROR] [W0] [C5877543] [Admin] ✗ Add organization position "Global Brand Liaison" (61978ms)
+[2026-10-24T05:03:15.630Z] [ERROR] [W0] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Global Brand Liaison"i]') to be visible
+

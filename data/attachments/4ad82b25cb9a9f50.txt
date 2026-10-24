@@ -1,0 +1,36 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C7283439]
+Title: Verify autogenerate toggle for credential ID during credential creation
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:23:42.217Z] [INFO] [W0] [C7283439] [Admin] → Open Agency Credentials page
+[2026-10-24T05:23:46.246Z] [INFO] [W0] [C7283439] [Admin] ✓ Open Agency Credentials page (4029ms)
+[2026-10-24T05:23:46.246Z] [INFO] [W0] [C7283439] [Admin] → Verify Agency Credentials page is ready
+[2026-10-24T05:23:47.169Z] [INFO] [W0] [C7283439] [Admin] ✓ Agency Credentials page is ready (923ms)
+[2026-10-24T05:23:47.202Z] [INFO] [W0] [C7283439] [Admin] → Open Add Credential form
+[2026-10-24T05:23:51.951Z] [INFO] [W0] [C7283439] [Admin] ✓ Open Add Credential form (4749ms)
+[2026-10-24T05:23:51.951Z] [INFO] [W0] [C7283439] [Admin] → Autogenerate Toggle State
+[2026-10-24T05:23:52.014Z] [INFO] [W0] [C7283439] [Admin] ✓ Autogenerate Toggle State (63ms)
+[2026-10-24T05:23:52.019Z] [INFO] [W0] [C7283439] [Admin] → Select "Fire (FIR)" from "Select type" dropdown
+[2026-10-24T05:23:52.703Z] [INFO] [W0] [C7283439] [Admin] ✓ Select "Fire (FIR)" from "Select type" dropdown (684ms)
+[2026-10-24T05:23:52.703Z] [INFO] [W0] [C7283439] [Admin] → Toggle Credential Autogenerate
+[2026-10-24T05:23:53.140Z] [INFO] [W0] [C7283439] [Admin] ✓ Toggle Credential Autogenerate (437ms)
+[2026-10-24T05:23:53.140Z] [INFO] [W0] [C7283439] [Admin] → Autogenerate Toggle State
+[2026-10-24T05:23:53.183Z] [INFO] [W0] [C7283439] [Admin] ✓ Autogenerate Toggle State (43ms)
+[2026-10-24T05:23:53.192Z] [INFO] [W0] [C7283439] [Admin] → Toggle Credential Autogenerate
+[2026-10-24T05:23:53.431Z] [INFO] [W0] [C7283439] [Admin] ✓ Toggle Credential Autogenerate (239ms)
+[2026-10-24T05:23:53.431Z] [INFO] [W0] [C7283439] [Admin] → Autogenerate Toggle State
+[2026-10-24T05:23:53.476Z] [INFO] [W0] [C7283439] [Admin] ✓ Autogenerate Toggle State (45ms)
+[2026-10-24T05:23:53.483Z] [INFO] [W0] [C7283439] [Admin] → Fill Credential ID field with ""
+[2026-10-24T05:23:53.626Z] [INFO] [W0] [C7283439] [Admin] ✓ Fill Credential ID field with "" (143ms)
+[2026-10-24T05:23:53.626Z] [INFO] [W0] [C7283439] [Admin] → Submit Blank Agency Credential Form
+[2026-10-24T05:23:53.988Z] [INFO] [W0] [C7283439] [Admin] ✓ Submit Blank Agency Credential Form (362ms)
+[2026-10-24T05:23:53.988Z] [INFO] [W0] [C7283439] [Admin] → Credential Validation Dialog Text
+[2026-10-24T05:23:54.038Z] [INFO] [W0] [C7283439] [Admin] ✓ Credential Validation Dialog Text (50ms)
+[2026-10-24T05:23:54.039Z] [INFO] [W0] [C7283439] [Admin] → Dismiss Credential Validation Dialog
+[2026-10-24T05:23:54.096Z] [INFO] [W0] [C7283439] [Admin] ✓ Dismiss Credential Validation Dialog (57ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C7283439]
+Status: PASSED
+Duration: 12255ms
+────────────────────────────────────────────────────────

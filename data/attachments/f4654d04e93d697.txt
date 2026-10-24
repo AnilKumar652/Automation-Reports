@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54659]
+Title: Verify in-use credential cannot be deleted
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:15:54.164Z] [INFO] [W0] [C54659] [Admin] → Open Agency Credentials page
+[2026-10-24T05:15:58.123Z] [INFO] [W0] [C54659] [Admin] ✓ Open Agency Credentials page (3959ms)
+[2026-10-24T05:15:58.124Z] [INFO] [W0] [C54659] [Admin] → Verify Agency Credentials page is ready
+[2026-10-24T05:15:58.336Z] [INFO] [W0] [C54659] [Admin] ✓ Agency Credentials page is ready (212ms)
+[2026-10-24T05:15:58.352Z] [INFO] [W0] [C54659] [Admin] → Create agency credential "smart contracts License"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54659]
+Status: FAILED
+Duration: 22855ms
+[2026-10-24T05:16:16.597Z] [ERROR] [W0] [C54659] [object Object]
+────────────────────────────────────────────────────────

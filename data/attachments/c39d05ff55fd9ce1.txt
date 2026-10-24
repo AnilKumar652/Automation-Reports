@@ -1,0 +1,32 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181791]
+Title: Verify State / Province is mandatory for Global Credentials when TRN-1853 is enabled
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:07:03.019Z] [INFO] [W1] [C22181791] [Super Admin] → Open Global Credentials page
+[2026-10-24T05:07:08.382Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Open Global Credentials page (5365ms)
+[2026-10-24T05:07:08.383Z] [INFO] [W1] [C22181791] [Super Admin] → Is Global Credentials Page Ready
+[2026-10-24T05:07:09.184Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Is Global Credentials Page Ready (801ms)
+[2026-10-24T05:07:09.209Z] [INFO] [W1] [C22181791] [Super Admin] → Open Add Global Credential form
+[2026-10-24T05:07:15.053Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Open Add Global Credential form (5844ms)
+[2026-10-24T05:07:15.054Z] [INFO] [W1] [C22181791] [Super Admin] → Submit Global Credential Without State
+[2026-10-24T05:07:16.759Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Submit Global Credential Without State (1705ms)
+[2026-10-24T05:07:16.759Z] [INFO] [W1] [C22181791] [Super Admin] → Credential Validation Dialog Text
+[2026-10-24T05:07:16.794Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Credential Validation Dialog Text (35ms)
+[2026-10-24T05:07:16.801Z] [INFO] [W1] [C22181791] [Super Admin] → Dismiss Credential Validation Dialog
+[2026-10-24T05:07:16.847Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Dismiss Credential Validation Dialog (46ms)
+[2026-10-24T05:07:16.847Z] [INFO] [W1] [C22181791] [Super Admin] → Close Global Credential form
+[2026-10-24T05:07:17.244Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Close Global Credential form (397ms)
+[2026-10-24T05:07:17.244Z] [INFO] [W1] [C22181791] [Super Admin] → Create global credential "ROI License"
+[2026-10-24T05:07:22.013Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Create global credential "ROI License" (4769ms)
+[2026-10-24T05:07:22.014Z] [INFO] [W1] [C22181791] [Super Admin] → Is Add Global Credential Modal Open
+[2026-10-24T05:07:22.028Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Is Add Global Credential Modal Open (14ms)
+[2026-10-24T05:07:22.034Z] [INFO] [W1] [C22181791] [Super Admin] → Search global credentials for "ROI License"
+[2026-10-24T05:07:23.142Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Search global credentials for "ROI License" (1108ms)
+[2026-10-24T05:07:23.142Z] [INFO] [W1] [C22181791] [Super Admin] → Global Credential Row Visible
+[2026-10-24T05:07:23.189Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Global Credential Row Visible (47ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181791]
+Status: PASSED
+Duration: 20792ms
+────────────────────────────────────────────────────────

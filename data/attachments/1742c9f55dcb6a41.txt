@@ -1,0 +1,6 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:12:14.041Z] [INFO] [W0] [C52162] [Admin] → Prepare and assign credential "platforms Credential" to personnel "Ravi Last"

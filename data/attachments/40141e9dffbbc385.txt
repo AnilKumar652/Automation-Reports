@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:15:22.305Z] [INFO] [W1] [C54657] [Admin] → Open Agency Credentials page
+[2026-10-24T05:15:28.216Z] [INFO] [W1] [C54657] [Admin] ✓ Open Agency Credentials page (5911ms)
+[2026-10-24T05:15:28.217Z] [INFO] [W1] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-10-24T05:15:34.976Z] [INFO] [W1] [C54657] [Admin] ✓ Agency Credentials page is ready (6759ms)
+[2026-10-24T05:15:35.001Z] [INFO] [W1] [C54657] [Admin] → Create agency credential "Fay Group-1"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54657]
+Status: FAILED
+Duration: 27402ms
+[2026-10-24T05:15:49.250Z] [ERROR] [W1] [C54657] [object Object]
+────────────────────────────────────────────────────────

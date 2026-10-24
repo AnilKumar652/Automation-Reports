@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22670970]
+Title: Verify status tabs filter credentials on My Credentials page
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:26:57.752Z] [INFO] [W0] [C22670970] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22670970]
+Status: FAILED
+Duration: 61169ms
+[2026-10-24T05:27:58.255Z] [ERROR] [W0] [C22670970] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22670978]
+Title: Validate required field errors display on Upload External Credential submission
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-24T05:38:17.885Z] [INFO] [W0] [C22670978] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22670978]
+Status: FAILED
+Duration: 61093ms
+[2026-10-24T05:39:18.442Z] [ERROR] [W0] [C22670978] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,11 @@
+[2026-10-24T05:00:20.028Z] [ERROR] [W0] [C5877540] [Admin] ✗ Wait until Organization row for "Movies" is visible (60478ms)
+[2026-10-24T05:00:20.028Z] [ERROR] [W0] [C5877540] Locator: role=gridcell[name="Movies"i]
+[2026-10-24T05:00:20.028Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Movies"i]') to be visible
+
+[2026-10-24T05:00:20.028Z] [ERROR] [W0] [C5877540] [Admin] ✗ Add organization division "Movies" (61697ms)
+[2026-10-24T05:00:20.028Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Movies"i]') to be visible
+
