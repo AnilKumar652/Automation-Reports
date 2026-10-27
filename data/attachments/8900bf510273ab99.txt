@@ -1,0 +1,11 @@
+[2026-10-27T05:37:04.880Z] [ERROR] [W1] [C5877543] [Admin] ✗ Wait until Organization row for "Lead Tactics Specialist" is visible (60003ms)
+[2026-10-27T05:37:04.880Z] [ERROR] [W1] [C5877543] Locator: role=gridcell[name="Lead Tactics Specialist"i]
+[2026-10-27T05:37:04.880Z] [ERROR] [W1] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Lead Tactics Specialist"i]') to be visible
+
+[2026-10-27T05:37:04.881Z] [ERROR] [W1] [C5877543] [Admin] ✗ Add organization position "Lead Tactics Specialist" (62315ms)
+[2026-10-27T05:37:04.881Z] [ERROR] [W1] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Lead Tactics Specialist"i]') to be visible
+

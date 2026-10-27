@@ -1,0 +1,16 @@
+[2026-10-27T05:40:51.631Z] [ERROR] [W1] [C45556] [Admin] ✗ Wait until Asset management setup list row for "Logan County Team" is visible (60022ms)
+[2026-10-27T05:40:51.631Z] [ERROR] [W1] [C45556] Locator: role=cell[name="Logan County Team"i]
+[2026-10-27T05:40:51.631Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Logan County Team"i]') to be visible
+
+[2026-10-27T05:40:51.631Z] [ERROR] [W1] [C45556] [Admin] ✗ Save apparatus group "Logan County Team" (60155ms)
+[2026-10-27T05:40:51.631Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Logan County Team"i]') to be visible
+
+[2026-10-27T05:40:51.632Z] [ERROR] [W1] [C45556] [Admin] ✗ Create apparatus group "Logan County Team" (62630ms)
+[2026-10-27T05:40:51.632Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Logan County Team"i]') to be visible
+

@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181792]
+Title: Verify State / Province is optional when creating a regular credential
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:42:54.077Z] [INFO] [W0] [C22181792] [Admin] → Open Agency Credentials page
+[2026-10-27T05:42:56.115Z] [INFO] [W0] [C22181792] [Admin] ✓ Open Agency Credentials page (2038ms)
+[2026-10-27T05:42:56.116Z] [INFO] [W0] [C22181792] [Admin] → Verify Agency Credentials page is ready
+[2026-10-27T05:42:56.154Z] [INFO] [W0] [C22181792] [Admin] ✓ Agency Credentials page is ready (38ms)
+[2026-10-27T05:42:56.155Z] [INFO] [W0] [C22181792] [Admin] → Open Add Credential form
+[2026-10-27T05:42:57.041Z] [INFO] [W0] [C22181792] [Admin] ✓ Open Add Credential form (886ms)
+[2026-10-27T05:42:57.042Z] [INFO] [W0] [C22181792] [Admin] → State Province Mandatory Indicator
+[2026-10-27T05:42:57.226Z] [INFO] [W0] [C22181792] [Admin] ✓ State Province Mandatory Indicator (184ms)
+[2026-10-27T05:42:57.237Z] [INFO] [W0] [C22181792] [Admin] → Create agency credential "smart contracts License"

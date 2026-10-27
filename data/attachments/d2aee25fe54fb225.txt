@@ -1,0 +1,16 @@
+[2026-10-27T05:39:15.844Z] [ERROR] [W0] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "Jefferson County Unit" is visible (60023ms)
+[2026-10-27T05:39:15.844Z] [ERROR] [W0] [C22779515] Locator: role=cell[name="Jefferson County Unit"i]
+[2026-10-27T05:39:15.844Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Jefferson County Unit"i]') to be visible
+
+[2026-10-27T05:39:15.844Z] [ERROR] [W0] [C22779515] [Admin] ✗ Save apparatus group "Jefferson County Unit" (62084ms)
+[2026-10-27T05:39:15.845Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Jefferson County Unit"i]') to be visible
+
+[2026-10-27T05:39:15.845Z] [ERROR] [W0] [C22779515] [Admin] ✗ Create apparatus group "Jefferson County Unit" (62396ms)
+[2026-10-27T05:39:15.845Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Jefferson County Unit"i]') to be visible
+

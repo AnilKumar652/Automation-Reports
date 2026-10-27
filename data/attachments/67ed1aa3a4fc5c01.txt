@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181794]
+Title: Verify imported Global Credential does not require State / Province at agency level
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:43:43.938Z] [INFO] [W1] [C22181794] [Super Admin] → Open Global Credentials page
+[2026-10-27T05:43:47.471Z] [INFO] [W1] [C22181794] [Super Admin] ✓ Open Global Credentials page (3532ms)
+[2026-10-27T05:43:47.471Z] [INFO] [W1] [C22181794] [Super Admin] → Create global credential "partnerships Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181794]
+Status: FAILED
+Duration: 69527ms
+[2026-10-27T05:44:52.674Z] [ERROR] [W1] [C22181794] [object Object]
+────────────────────────────────────────────────────────

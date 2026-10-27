@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852428]
+Title: Verify Training setup Categories page renders filters, grid, toolbar, and vertical setup navigation
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T06:20:47.424Z] [INFO] [W0] [C21852428] [Admin] → Open Training Setup Categories page
+[2026-10-27T06:20:49.970Z] [INFO] [W0] [C21852428] [Admin] ✓ Open Training Setup Categories page (2546ms)
+[2026-10-27T06:20:49.971Z] [INFO] [W0] [C21852428] [Admin] → Verify Categories page loaded successfully
+[2026-10-27T06:20:50.034Z] [INFO] [W0] [C21852428] [Admin] ✓ Categories page loaded successfully verified (63ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852428]
+Status: FAILED
+Duration: 2846ms
+[2026-10-27T06:20:50.630Z] [ERROR] [W0] [C21852428] [object Object]
+────────────────────────────────────────────────────────

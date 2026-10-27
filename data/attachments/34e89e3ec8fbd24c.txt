@@ -1,0 +1,16 @@
+[2026-10-27T05:42:05.117Z] [ERROR] [W1] [C45059] [Admin] ✗ Wait until Asset management setup list row for "Staffordshire Team" is visible (60003ms)
+[2026-10-27T05:42:05.117Z] [ERROR] [W1] [C45059] Locator: role=cell[name="Staffordshire Team"i]
+[2026-10-27T05:42:05.117Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Staffordshire Team"i]') to be visible
+
+[2026-10-27T05:42:05.117Z] [ERROR] [W1] [C45059] [Admin] ✗ Save location group "Staffordshire Team" (60136ms)
+[2026-10-27T05:42:05.117Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Staffordshire Team"i]') to be visible
+
+[2026-10-27T05:42:05.117Z] [ERROR] [W1] [C45059] [Admin] ✗ Create location group "Staffordshire Team" (60342ms)
+[2026-10-27T05:42:05.118Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Staffordshire Team"i]') to be visible
+

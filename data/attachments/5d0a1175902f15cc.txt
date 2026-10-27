@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22816988]
+Title: Verify new person can be created successfully for Training module
+────────────────────────────────────────────────────────
+[2026-10-27T06:18:34.416Z] [INFO] [W1] [C22816988] [Admin] → Open Create Person form
+[2026-10-27T06:18:39.711Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Create Person form (5295ms)
+[2026-10-27T06:18:39.712Z] [INFO] [W1] [C22816988] [Admin] → Is Create Person Form Open
+[2026-10-27T06:18:39.721Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Create Person Form Open (9ms)
+[2026-10-27T06:18:39.725Z] [INFO] [W1] [C22816988] [Admin] → Fill person form for "Furman Lubowitz"
+[2026-10-27T06:18:47.946Z] [INFO] [W1] [C22816988] [Admin] ✓ Fill person form for "Furman Lubowitz" (8221ms)
+[2026-10-27T06:18:47.947Z] [INFO] [W1] [C22816988] [Admin] → Is Person System User Active
+[2026-10-27T06:18:47.965Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Person System User Active (18ms)
+[2026-10-27T06:18:47.968Z] [INFO] [W1] [C22816988] [Admin] → Submit Create Person form
+[2026-10-27T06:18:51.488Z] [INFO] [W1] [C22816988] [Admin] ✓ Submit Create Person form (3520ms)
+[2026-10-27T06:18:51.489Z] [INFO] [W1] [C22816988] [Admin] → Person Created Success Message
+[2026-10-27T06:18:51.692Z] [INFO] [W1] [C22816988] [Admin] ✓ Person Created Success Message (203ms)
+[2026-10-27T06:18:51.696Z] [INFO] [W1] [C22816988] [Admin] → Open Personnel List page
+[2026-10-27T06:18:52.875Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Personnel List page (1179ms)
+[2026-10-27T06:18:52.876Z] [INFO] [W1] [C22816988] [Admin] → Search personnel list for "Furman Lubowitz"
+[2026-10-27T06:18:56.086Z] [INFO] [W1] [C22816988] [Admin] ✓ Search personnel list for "Furman Lubowitz" (3210ms)
+[2026-10-27T06:18:56.086Z] [INFO] [W1] [C22816988] [Admin] → Is Personnel List Row Visible
+[2026-10-27T06:18:56.096Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Personnel List Row Visible (10ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22816988]
+Status: PASSED
+Duration: 22103ms
+────────────────────────────────────────────────────────

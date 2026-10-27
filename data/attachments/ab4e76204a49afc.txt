@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58114]
+Title: Verify third edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:53:31.737Z] [INFO] [W0] [C58114] [Admin] → Prepare and assign credential "content Certification" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58114]
+Status: FAILED
+Duration: 33254ms
+[2026-10-27T05:54:04.746Z] [ERROR] [W0] [C58114] [object Object]
+────────────────────────────────────────────────────────

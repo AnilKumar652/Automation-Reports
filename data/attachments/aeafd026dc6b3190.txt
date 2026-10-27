@@ -1,0 +1,10 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58123]
+Title: Create Qualifier
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T06:19:20.528Z] [INFO] [W0] [C58123] [Admin] → Open Scheduling Setup Qualifiers page
+[2026-10-27T06:19:23.241Z] [INFO] [W0] [C58123] [Admin] ✓ Open Scheduling Setup Qualifiers page (2713ms)
+[2026-10-27T06:19:23.241Z] [INFO] [W0] [C58123] [Admin] → Is Qualifiers Page Ready
+[2026-10-27T06:19:23.259Z] [INFO] [W0] [C58123] [Admin] ✓ Is Qualifiers Page Ready (18ms)
+[2026-10-27T06:19:23.262Z] [INFO] [W0] [C58123] [Admin] → Create qualifier "District Data"

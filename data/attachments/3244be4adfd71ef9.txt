@@ -1,0 +1,11 @@
+[2026-10-27T05:35:24.581Z] [ERROR] [W0] [C5877540] [Admin] ✗ Wait until Organization row for "Sports" is visible (60009ms)
+[2026-10-27T05:35:24.581Z] [ERROR] [W0] [C5877540] Locator: role=gridcell[name="Sports"i]
+[2026-10-27T05:35:24.582Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Sports"i]') to be visible
+
+[2026-10-27T05:35:24.582Z] [ERROR] [W0] [C5877540] [Admin] ✗ Add organization division "Sports" (63291ms)
+[2026-10-27T05:35:24.582Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Sports"i]') to be visible
+

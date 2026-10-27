@@ -1,0 +1,26 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T06:21:24.970Z] [INFO] [W1] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-10-27T06:21:29.910Z] [INFO] [W1] [C21852431] [Admin] ✓ Open Training Setup Categories page (4940ms)
+[2026-10-27T06:21:29.911Z] [INFO] [W1] [C21852431] [Admin] → Create category "Luxurious Garden"
+[2026-10-27T06:21:35.353Z] [INFO] [W1] [C21852431] [Admin] ✓ Create category "Luxurious Garden" (5442ms)
+[2026-10-27T06:21:35.353Z] [INFO] [W1] [C21852431] [Admin] → Search categories by name "Luxurious Garden" (exact match)
+[2026-10-27T06:21:36.421Z] [INFO] [W1] [C21852431] [Admin] ✓ Search categories by name "Luxurious Garden" (exact match) (1068ms)
+[2026-10-27T06:21:36.421Z] [INFO] [W1] [C21852431] [Admin] → Edit Category
+[2026-10-27T06:21:37.292Z] [INFO] [W1] [C21852431] [Admin] ✓ Edit Category (871ms)
+[2026-10-27T06:21:37.292Z] [INFO] [W1] [C21852431] [Admin] → Search categories by name "Gorgeous Computers" (exact match)
+[2026-10-27T06:21:38.294Z] [INFO] [W1] [C21852431] [Admin] ✓ Search categories by name "Gorgeous Computers" (exact match) (1002ms)
+[2026-10-27T06:21:38.294Z] [INFO] [W1] [C21852431] [Admin] → Category Row Visible
+[2026-10-27T06:21:38.314Z] [INFO] [W1] [C21852431] [Admin] ✓ Category Row Visible (20ms)
+[2026-10-27T06:21:38.327Z] [INFO] [W1] [C21852431] [Admin] → Open Edit Category Modal
+[2026-10-27T06:21:38.654Z] [INFO] [W1] [C21852431] [Admin] ✓ Open Edit Category Modal (327ms)
+[2026-10-27T06:21:38.656Z] [INFO] [W1] [C21852431] [Admin] → Category Modal Name Value
+[2026-10-27T06:21:38.815Z] [INFO] [W1] [C21852431] [Admin] ✓ Category Modal Name Value (159ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C21852431]
+Status: PASSED
+Duration: 14209ms
+────────────────────────────────────────────────────────

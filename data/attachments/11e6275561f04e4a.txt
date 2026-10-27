@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-10-27T05:42:15.819Z] [INFO] [W1] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-10-27T05:42:23.133Z] [INFO] [W1] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (7314ms)
+[2026-10-27T05:42:23.136Z] [INFO] [W1] [C45059] [Admin] → Is Location Groups List Ready
+[2026-10-27T05:42:26.762Z] [INFO] [W1] [C45059] [Admin] ✓ Is Location Groups List Ready (3626ms)
+[2026-10-27T05:42:26.781Z] [INFO] [W1] [C45059] [Admin] → Create location group "Mid Glamorgan Group"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45059]
+Status: FAILED
+Duration: 71866ms
+[2026-10-27T05:43:27.346Z] [ERROR] [W1] [C45059] [object Object]
+────────────────────────────────────────────────────────

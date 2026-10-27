@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:49:50.260Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+[2026-10-27T05:49:53.046Z] [INFO] [W0] [C54657] [Admin] ✓ Open Agency Credentials page (2786ms)
+[2026-10-27T05:49:53.046Z] [INFO] [W0] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-10-27T05:49:53.068Z] [INFO] [W0] [C54657] [Admin] ✓ Agency Credentials page is ready (22ms)
+[2026-10-27T05:49:53.071Z] [INFO] [W0] [C54657] [Admin] → Create agency credential "Leuschke, Balistreri and Orn-1"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 22342ms
+[2026-10-27T05:50:12.362Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

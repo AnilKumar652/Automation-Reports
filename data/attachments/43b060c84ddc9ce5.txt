@@ -1,0 +1,7 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-10-27T05:57:07.399Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-27T05:57:11.299Z] [INFO] [W0] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (3900ms)
+[2026-10-27T05:57:11.300Z] [INFO] [W0] [C78340] [Admin] → Create equipment group "Powys Group"

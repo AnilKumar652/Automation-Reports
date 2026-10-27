@@ -1,0 +1,13 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-10-27T05:58:24.619Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-27T05:58:28.648Z] [INFO] [W0] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (4028ms)
+[2026-10-27T05:58:28.649Z] [INFO] [W0] [C78340] [Admin] → Create equipment group "Henry County Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C78340]
+Status: FAILED
+Duration: 67517ms
+[2026-10-27T05:59:31.909Z] [ERROR] [W0] [C78340] [object Object]
+────────────────────────────────────────────────────────

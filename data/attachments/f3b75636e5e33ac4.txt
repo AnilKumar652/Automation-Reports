@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C52164]
+Title: Verify user can edit an existing credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:48:23.873Z] [INFO] [W1] [C52164] [Admin] → Open Agency Credentials page
+[2026-10-27T05:48:26.685Z] [INFO] [W1] [C52164] [Admin] ✓ Open Agency Credentials page (2812ms)
+[2026-10-27T05:48:26.685Z] [INFO] [W1] [C52164] [Admin] → Verify Agency Credentials page is ready
+[2026-10-27T05:48:26.841Z] [INFO] [W1] [C52164] [Admin] ✓ Agency Credentials page is ready (156ms)
+[2026-10-27T05:48:26.848Z] [INFO] [W1] [C52164] [Admin] → Create agency credential "niches Credential"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C52164]
+Status: FAILED
+Duration: 20723ms
+[2026-10-27T05:48:44.361Z] [ERROR] [W1] [C52164] [object Object]
+────────────────────────────────────────────────────────

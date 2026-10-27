@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:47:52.312Z] [INFO] [W0] [C52162] [Admin] → Prepare and assign credential "architectures License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52162]
+Status: FAILED
+Duration: 36732ms
+[2026-10-27T05:48:28.872Z] [ERROR] [W0] [C52162] [object Object]
+────────────────────────────────────────────────────────

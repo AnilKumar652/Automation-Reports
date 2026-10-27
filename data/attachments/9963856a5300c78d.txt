@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181793]
+Title: Verify State / Province is optional when creating a credential from Setup
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:43:38.229Z] [INFO] [W0] [C22181793] [Admin] → Open Agency Credentials page
+[2026-10-27T05:43:41.337Z] [INFO] [W0] [C22181793] [Admin] ✓ Open Agency Credentials page (3108ms)
+[2026-10-27T05:43:41.341Z] [INFO] [W0] [C22181793] [Admin] → Verify Agency Credentials page is ready
+[2026-10-27T05:43:41.458Z] [INFO] [W0] [C22181793] [Admin] ✓ Agency Credentials page is ready (117ms)
+[2026-10-27T05:43:41.466Z] [INFO] [W0] [C22181793] [Admin] → Open Add Credential form
+[2026-10-27T05:43:45.156Z] [INFO] [W0] [C22181793] [Admin] ✓ Open Add Credential form (3690ms)
+[2026-10-27T05:43:45.156Z] [INFO] [W0] [C22181793] [Admin] → State Province Mandatory Indicator
+[2026-10-27T05:43:45.212Z] [INFO] [W0] [C22181793] [Admin] ✓ State Province Mandatory Indicator (56ms)
+[2026-10-27T05:43:45.215Z] [INFO] [W0] [C22181793] [Admin] → Create agency credential "deliverables Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181793]
+Status: FAILED
+Duration: 18496ms
+[2026-10-27T05:43:56.255Z] [ERROR] [W0] [C22181793] [object Object]
+────────────────────────────────────────────────────────

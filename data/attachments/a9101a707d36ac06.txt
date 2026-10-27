@@ -1,0 +1,31 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-27T06:21:29.381Z] [INFO] [W0] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-10-27T06:21:33.797Z] [INFO] [W0] [C21852432] [Admin] ✓ Open Training Setup Categories page (4416ms)
+[2026-10-27T06:21:33.807Z] [INFO] [W0] [C21852432] [Admin] → Create category "Hills - Windler Unbranded Movies"
+[2026-10-27T06:21:39.267Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Hills - Windler Unbranded Movies" (5460ms)
+[2026-10-27T06:21:39.268Z] [INFO] [W0] [C21852432] [Admin] → Create category "Hills - Windler Ergonomic Movies"
+[2026-10-27T06:21:40.575Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Hills - Windler Ergonomic Movies" (1307ms)
+[2026-10-27T06:21:40.575Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-27T06:21:40.590Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (15ms)
+[2026-10-27T06:21:40.590Z] [INFO] [W0] [C21852432] [Admin] → Search categories by name "Hills - Windler" (matching results)
+[2026-10-27T06:21:41.875Z] [INFO] [W0] [C21852432] [Admin] ✓ Search categories by name "Hills - Windler" (matching results) (1285ms)
+[2026-10-27T06:21:41.875Z] [INFO] [W0] [C21852432] [Admin] → Visible Category Names
+[2026-10-27T06:21:41.981Z] [INFO] [W0] [C21852432] [Admin] ✓ Visible Category Names (106ms)
+[2026-10-27T06:21:41.993Z] [INFO] [W0] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-10-27T06:21:42.106Z] [INFO] [W0] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (113ms)
+[2026-10-27T06:21:42.106Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-27T06:21:42.115Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (9ms)
+[2026-10-27T06:21:42.116Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-10-27T06:21:42.127Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (11ms)
+[2026-10-27T06:21:42.128Z] [INFO] [W0] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-10-27T06:21:42.464Z] [INFO] [W0] [C21852432] [Admin] ✓ Toggle Header Row Selection (336ms)
+[2026-10-27T06:21:42.466Z] [INFO] [W0] [C21852432] [Admin] → Selected Category Row Count
+[2026-10-27T06:21:42.503Z] [INFO] [W0] [C21852432] [Admin] ✓ Selected Category Row Count (37ms)
+[2026-10-27T06:21:42.508Z] [INFO] [W0] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-10-27T06:21:42.577Z] [INFO] [W0] [C21852432] [Admin] ✓ Toggle Header Row Selection (69ms)
+[2026-10-27T06:21:42.577Z] [INFO] [W0] [C21852432] [Admin] → Selected Category Row Count
+[2026-10-27T06:21:42.624Z] [INFO] [W0] [C21852432] [Admin] ✓ Selected Category Row Count (47ms)

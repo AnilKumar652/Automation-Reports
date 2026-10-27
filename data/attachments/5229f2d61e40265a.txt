@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:49:26.841Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+[2026-10-27T05:49:30.437Z] [INFO] [W0] [C54657] [Admin] ✓ Open Agency Credentials page (3596ms)
+[2026-10-27T05:49:30.437Z] [INFO] [W0] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-10-27T05:49:30.523Z] [INFO] [W0] [C54657] [Admin] ✓ Agency Credentials page is ready (86ms)
+[2026-10-27T05:49:30.535Z] [INFO] [W0] [C54657] [Admin] → Create agency credential "Becker LLC-1"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 20764ms
+[2026-10-27T05:49:47.410Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:45:52.469Z] [INFO] [W0] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-10-27T05:45:55.436Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Open Global Credentials page (2967ms)
+[2026-10-27T05:45:55.436Z] [INFO] [W0] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-10-27T05:45:55.457Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (21ms)
+[2026-10-27T05:45:55.460Z] [INFO] [W0] [C22181795] [Super Admin] → Create global credential "functionalities Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181795]
+Status: FAILED
+Duration: 69223ms
+[2026-10-27T05:47:01.363Z] [ERROR] [W0] [C22181795] [object Object]
+────────────────────────────────────────────────────────

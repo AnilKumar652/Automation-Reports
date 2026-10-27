@@ -1,0 +1,505 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: training-setup/categories/C21852428-verify-training-setup-categories-page-renders-filters-grid-toolbar-and-vertical-setup-navigation.spec.ts >> Training setup categories >> @smoke @regression C21852428: Verify Training setup Categories page renders filters, grid, toolbar, and vertical setup navigation
+- Location: src/tests/training-setup/categories/C21852428-verify-training-setup-categories-page-renders-filters-grid-toolbar-and-vertical-setup-navigation.spec.ts:21:7
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content":
+    - /url: "#main-content"
+  - banner
+  - navigation "Primary navigation" [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+  - main "Main content area" [ref=e4]:
+    - main "Main dynamic content area" [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "Show main sidebar" [ref=e9] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e10]
+          - button "Collapse section menu" [ref=e15] [cursor=pointer]
+          - generic [ref=e17]: Training Setup
+        - generic [ref=e20]:
+          - complementary [ref=e21]:
+            - menu [ref=e25]:
+              - menuitem "Settings" [ref=e26]:
+                - generic [ref=e31]: Settings
+              - menuitem "Notifications" [ref=e32]:
+                - generic [ref=e37]: Notifications
+              - menuitem "Categories" [ref=e38]:
+                - generic [ref=e43]: Categories
+              - menuitem "Topics" [ref=e44]:
+                - generic [ref=e49]: Topics
+              - menuitem "List Configuration" [ref=e50]:
+                - generic [ref=e55]: List Configuration
+              - menuitem "Standards" [ref=e56]:
+                - generic [ref=e61]: Standards
+              - menuitem "Field Management" [ref=e62]:
+                - generic [ref=e67]: Field Management
+              - menuitem "Training Import" [ref=e68]:
+                - generic [ref=e73]: Training Import
+              - menuitem "Instructor Management" [ref=e74]:
+                - generic [ref=e79]: Instructor Management
+              - menuitem "Import CTC" [ref=e80]:
+                - generic [ref=e85]: Import CTC
+          - generic [ref=e89]:
+            - generic [ref=e91]:
+              - generic [ref=e95]: Categories
+              - button "Import Categories" [ref=e96] [cursor=pointer]: Import Categories
+              - button "Add Category" [ref=e98] [cursor=pointer]: Add Category
+            - generic [ref=e102]:
+              - search [ref=e105]:
+                - generic [ref=e106]:
+                  - button "Filter" [ref=e107] [cursor=pointer]: Filter
+                  - generic "More options" [ref=e110]:
+                    - button "Columns" [ref=e111] [cursor=pointer]: Columns
+                - search [ref=e113]:
+                  - button "Expand search input" [ref=e114] [cursor=pointer]
+              - treegrid [ref=e119]:
+                - rowgroup [ref=e120]:
+                  - row [ref=e121]:
+                    - columnheader [ref=e122]:
+                      - checkbox [ref=e124] [cursor=pointer]
+                - rowgroup [ref=e125]:
+                  - row "Name Created At Created By Associated Topics Associated Courses Show tooltip" [ref=e126]:
+                    - columnheader "Name" [ref=e127]:
+                      - generic [ref=e129] [cursor=pointer]: Name
+                    - columnheader "Created At" [ref=e130]:
+                      - generic [ref=e132] [cursor=pointer]: Created At
+                    - columnheader "Created By" [ref=e133]:
+                      - generic [ref=e135] [cursor=pointer]: Created By
+                    - columnheader "Associated Topics" [ref=e136]:
+                      - generic [ref=e138]: Associated Topics
+                    - columnheader "Associated Courses Show tooltip" [ref=e139]:
+                      - generic [ref=e141]:
+                        - columnheader "Associated Courses" [ref=e142]
+                        - button "Show tooltip" [ref=e144]
+                - rowgroup [ref=e146]:
+                  - row "Actions" [ref=e147]:
+                    - columnheader "Actions" [ref=e148]:
+                      - button [ref=e149] [cursor=pointer]
+                      - columnheader "Actions" [ref=e151]
+                - generic "Grid body" [ref=e152]:
+                  - rowgroup [ref=e153]:
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e154]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e155]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e156] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e157]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e158]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e159] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e160]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e161]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e162] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e163]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e164]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e165] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e166]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e167]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e168] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e169]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e170]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e171] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e172]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e173]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e174] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e175]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e176]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e177] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e178]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e179]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e180] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e181]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e182]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e183] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e184]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e185]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e186] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e187]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e188]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e189] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e190]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e191]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e192] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e193]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e194]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e195] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e196]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e197]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e198] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e199]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e200]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e201] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e202]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e203]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e204] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e205]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e206]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e207] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e208]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e209]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e210] [cursor=pointer]
+                    - row "Press Space to toggle row selection (unchecked)" [ref=e211]:
+                      - gridcell "Press Space to toggle row selection (unchecked)" [ref=e212]:
+                        - checkbox "Press Space to toggle row selection (unchecked)" [ref=e213] [cursor=pointer]
+                  - generic "Grid columns" [ref=e214]:
+                    - rowgroup [ref=e215]:
+                      - row "A1 - Copy 09/04/2026 A1" [ref=e216]:
+                        - gridcell "A1 - Copy" [ref=e217]
+                        - gridcell "09/04/2026" [ref=e218]
+                        - gridcell [ref=e219]
+                        - gridcell [ref=e220]
+                        - gridcell "A1" [ref=e221]
+                      - row "AutoCat-1788514314138 09/04/2026 Mark Bark C" [ref=e222]:
+                        - gridcell "AutoCat-1788514314138" [ref=e223]
+                        - gridcell "09/04/2026" [ref=e224]
+                        - gridcell "Mark Bark" [ref=e225]
+                        - gridcell [ref=e226]
+                        - gridcell "C" [ref=e227]
+                      - row "AutoCat-1788514449796 09/04/2026 Mark Bark TOP ALL" [ref=e228]:
+                        - gridcell "AutoCat-1788514449796" [ref=e229]
+                        - gridcell "09/04/2026" [ref=e230]
+                        - gridcell "Mark Bark" [ref=e231]
+                        - gridcell "TOP" [ref=e232]
+                        - gridcell "ALL" [ref=e233]
+                      - row "AutoCat-1788587265808 09/05/2026 Mark Bark" [ref=e234]:
+                        - gridcell "AutoCat-1788587265808" [ref=e235]
+                        - gridcell "09/05/2026" [ref=e236]
+                        - gridcell "Mark Bark" [ref=e237]
+                        - gridcell [ref=e238]
+                        - gridcell [ref=e239]
+                      - row "AutoCat-1788587275816 09/05/2026 Mark Bark" [ref=e240]:
+                        - gridcell "AutoCat-1788587275816" [ref=e241]
+                        - gridcell "09/05/2026" [ref=e242]
+                        - gridcell "Mark Bark" [ref=e243]
+                        - gridcell [ref=e244]
+                        - gridcell [ref=e245]
+                      - row "AutoCat-1788674128507 09/06/2026 Mark Bark" [ref=e246]:
+                        - gridcell "AutoCat-1788674128507" [ref=e247]
+                        - gridcell "09/06/2026" [ref=e248]
+                        - gridcell "Mark Bark" [ref=e249]
+                        - gridcell [ref=e250]
+                        - gridcell [ref=e251]
+                      - row "AutoCat-1788674138858 09/06/2026 Mark Bark" [ref=e252]:
+                        - gridcell "AutoCat-1788674138858" [ref=e253]
+                        - gridcell "09/06/2026" [ref=e254]
+                        - gridcell "Mark Bark" [ref=e255]
+                        - gridcell [ref=e256]
+                        - gridcell [ref=e257]
+                      - row "AutoCat-1788760906980 09/07/2026 Mark Bark" [ref=e258]:
+                        - gridcell "AutoCat-1788760906980" [ref=e259]
+                        - gridcell "09/07/2026" [ref=e260]
+                        - gridcell "Mark Bark" [ref=e261]
+                        - gridcell [ref=e262]
+                        - gridcell [ref=e263]
+                      - row "AutoCat-1788760931336 09/07/2026 Mark Bark" [ref=e264]:
+                        - gridcell "AutoCat-1788760931336" [ref=e265]
+                        - gridcell "09/07/2026" [ref=e266]
+                        - gridcell "Mark Bark" [ref=e267]
+                        - gridcell [ref=e268]
+                        - gridcell [ref=e269]
+                      - row "AutoCat-1788792733626 09/07/2026 Mark Bark" [ref=e270]:
+                        - gridcell "AutoCat-1788792733626" [ref=e271]
+                        - gridcell "09/07/2026" [ref=e272]
+                        - gridcell "Mark Bark" [ref=e273]
+                        - gridcell [ref=e274]
+                        - gridcell [ref=e275]
+                      - row "AutoCat-1788792739650 09/07/2026 Mark Bark" [ref=e276]:
+                        - gridcell "AutoCat-1788792739650" [ref=e277]
+                        - gridcell "09/07/2026" [ref=e278]
+                        - gridcell "Mark Bark" [ref=e279]
+                        - gridcell [ref=e280]
+                        - gridcell [ref=e281]
+                      - row "AutoCat-1788846164382 09/08/2026 Mark Bark" [ref=e282]:
+                        - gridcell "AutoCat-1788846164382" [ref=e283]
+                        - gridcell "09/08/2026" [ref=e284]
+                        - gridcell "Mark Bark" [ref=e285]
+                        - gridcell [ref=e286]
+                        - gridcell [ref=e287]
+                      - row "AutoCat-1788846177826 09/08/2026 Mark Bark" [ref=e288]:
+                        - gridcell "AutoCat-1788846177826" [ref=e289]
+                        - gridcell "09/08/2026" [ref=e290]
+                        - gridcell "Mark Bark" [ref=e291]
+                        - gridcell [ref=e292]
+                        - gridcell [ref=e293]
+                      - row "AutoCat-1788932459196 09/09/2026 Mark Bark" [ref=e294]:
+                        - gridcell "AutoCat-1788932459196" [ref=e295]
+                        - gridcell "09/09/2026" [ref=e296]
+                        - gridcell "Mark Bark" [ref=e297]
+                        - gridcell [ref=e298]
+                        - gridcell [ref=e299]
+                      - row "AutoCat-1788932469255 09/09/2026 Mark Bark" [ref=e300]:
+                        - gridcell "AutoCat-1788932469255" [ref=e301]
+                        - gridcell "09/09/2026" [ref=e302]
+                        - gridcell "Mark Bark" [ref=e303]
+                        - gridcell [ref=e304]
+                        - gridcell [ref=e305]
+                      - row "AutoCat-1789019017402 09/10/2026 Mark Bark" [ref=e306]:
+                        - gridcell "AutoCat-1789019017402" [ref=e307]
+                        - gridcell "09/10/2026" [ref=e308]
+                        - gridcell "Mark Bark" [ref=e309]
+                        - gridcell [ref=e310]
+                        - gridcell [ref=e311]
+                      - row "AutoCat-1789019028040 09/10/2026 Mark Bark" [ref=e312]:
+                        - gridcell "AutoCat-1789019028040" [ref=e313]
+                        - gridcell "09/10/2026" [ref=e314]
+                        - gridcell "Mark Bark" [ref=e315]
+                        - gridcell [ref=e316]
+                        - gridcell [ref=e317]
+                      - row "AutoCat-1789105649135 09/11/2026 Mark Bark" [ref=e318]:
+                        - gridcell "AutoCat-1789105649135" [ref=e319]
+                        - gridcell "09/11/2026" [ref=e320]
+                        - gridcell "Mark Bark" [ref=e321]
+                        - gridcell [ref=e322]
+                        - gridcell [ref=e323]
+                      - row "AutoCat-1789105654247 09/11/2026 Mark Bark" [ref=e324]:
+                        - gridcell "AutoCat-1789105654247" [ref=e325]
+                        - gridcell "09/11/2026" [ref=e326]
+                        - gridcell "Mark Bark" [ref=e327]
+                        - gridcell [ref=e328]
+                        - gridcell [ref=e329]
+                      - row "AutoCat-1789191212283 09/12/2026 Mark Bark" [ref=e330]:
+                        - gridcell "AutoCat-1789191212283" [ref=e331]
+                        - gridcell "09/12/2026" [ref=e332]
+                        - gridcell "Mark Bark" [ref=e333]
+                        - gridcell [ref=e334]
+                        - gridcell [ref=e335]
+                  - rowgroup [ref=e336]:
+                    - row [ref=e337]:
+                      - gridcell [ref=e338]:
+                        - generic [ref=e339]:
+                          - button "Edit" [ref=e340] [cursor=pointer]
+                          - button "Deactivate" [ref=e342] [cursor=pointer]
+                          - button "Delete" [ref=e344] [cursor=pointer]
+                    - row [ref=e346]:
+                      - gridcell [ref=e347]:
+                        - generic [ref=e348]:
+                          - button "Edit" [ref=e349] [cursor=pointer]
+                          - button "Activate" [ref=e351] [cursor=pointer]
+                          - button "Delete" [ref=e353] [cursor=pointer]
+                    - row [ref=e355]:
+                      - gridcell [ref=e356]:
+                        - generic [ref=e357]:
+                          - button "Edit" [ref=e358] [cursor=pointer]
+                          - button "Deactivate" [ref=e360] [cursor=pointer]
+                          - button "Delete" [ref=e362] [cursor=pointer]
+                    - row [ref=e364]:
+                      - gridcell [ref=e365]:
+                        - generic [ref=e366]:
+                          - button "Edit" [ref=e367] [cursor=pointer]
+                          - button "Deactivate" [ref=e369] [cursor=pointer]
+                          - button "Delete" [ref=e371] [cursor=pointer]
+                    - row [ref=e373]:
+                      - gridcell [ref=e374]:
+                        - generic [ref=e375]:
+                          - button "Edit" [ref=e376] [cursor=pointer]
+                          - button "Deactivate" [ref=e378] [cursor=pointer]
+                          - button "Delete" [ref=e380] [cursor=pointer]
+                    - row [ref=e382]:
+                      - gridcell [ref=e383]:
+                        - generic [ref=e384]:
+                          - button "Edit" [ref=e385] [cursor=pointer]
+                          - button "Deactivate" [ref=e387] [cursor=pointer]
+                          - button "Delete" [ref=e389] [cursor=pointer]
+                    - row [ref=e391]:
+                      - gridcell [ref=e392]:
+                        - generic [ref=e393]:
+                          - button "Edit" [ref=e394] [cursor=pointer]
+                          - button "Deactivate" [ref=e396] [cursor=pointer]
+                          - button "Delete" [ref=e398] [cursor=pointer]
+                    - row [ref=e400]:
+                      - gridcell [ref=e401]:
+                        - generic [ref=e402]:
+                          - button "Edit" [ref=e403] [cursor=pointer]
+                          - button "Deactivate" [ref=e405] [cursor=pointer]
+                          - button "Delete" [ref=e407] [cursor=pointer]
+                    - row [ref=e409]:
+                      - gridcell [ref=e410]:
+                        - generic [ref=e411]:
+                          - button "Edit" [ref=e412] [cursor=pointer]
+                          - button "Deactivate" [ref=e414] [cursor=pointer]
+                          - button "Delete" [ref=e416] [cursor=pointer]
+                    - row [ref=e418]:
+                      - gridcell [ref=e419]:
+                        - generic [ref=e420]:
+                          - button "Edit" [ref=e421] [cursor=pointer]
+                          - button "Deactivate" [ref=e423] [cursor=pointer]
+                          - button "Delete" [ref=e425] [cursor=pointer]
+                    - row [ref=e427]:
+                      - gridcell [ref=e428]:
+                        - generic [ref=e429]:
+                          - button "Edit" [ref=e430] [cursor=pointer]
+                          - button "Deactivate" [ref=e432] [cursor=pointer]
+                          - button "Delete" [ref=e434] [cursor=pointer]
+                    - row [ref=e436]:
+                      - gridcell [ref=e437]:
+                        - generic [ref=e438]:
+                          - button "Edit" [ref=e439] [cursor=pointer]
+                          - button "Deactivate" [ref=e441] [cursor=pointer]
+                          - button "Delete" [ref=e443] [cursor=pointer]
+                    - row [ref=e445]:
+                      - gridcell [ref=e446]:
+                        - generic [ref=e447]:
+                          - button "Edit" [ref=e448] [cursor=pointer]
+                          - button "Deactivate" [ref=e450] [cursor=pointer]
+                          - button "Delete" [ref=e452] [cursor=pointer]
+                    - row [ref=e454]:
+                      - gridcell [ref=e455]:
+                        - generic [ref=e456]:
+                          - button "Edit" [ref=e457] [cursor=pointer]
+                          - button "Deactivate" [ref=e459] [cursor=pointer]
+                          - button "Delete" [ref=e461] [cursor=pointer]
+                    - row [ref=e463]:
+                      - gridcell [ref=e464]:
+                        - generic [ref=e465]:
+                          - button "Edit" [ref=e466] [cursor=pointer]
+                          - button "Deactivate" [ref=e468] [cursor=pointer]
+                          - button "Delete" [ref=e470] [cursor=pointer]
+                    - row [ref=e472]:
+                      - gridcell [ref=e473]:
+                        - generic [ref=e474]:
+                          - button "Edit" [ref=e475] [cursor=pointer]
+                          - button "Deactivate" [ref=e477] [cursor=pointer]
+                          - button "Delete" [ref=e479] [cursor=pointer]
+                    - row [ref=e481]:
+                      - gridcell [ref=e482]:
+                        - generic [ref=e483]:
+                          - button "Edit" [ref=e484] [cursor=pointer]
+                          - button "Deactivate" [ref=e486] [cursor=pointer]
+                          - button "Delete" [ref=e488] [cursor=pointer]
+                    - row [ref=e490]:
+                      - gridcell [ref=e491]:
+                        - generic [ref=e492]:
+                          - button "Edit" [ref=e493] [cursor=pointer]
+                          - button "Deactivate" [ref=e495] [cursor=pointer]
+                          - button "Delete" [ref=e497] [cursor=pointer]
+                    - row [ref=e499]:
+                      - gridcell [ref=e500]:
+                        - generic [ref=e501]:
+                          - button "Edit" [ref=e502] [cursor=pointer]
+                          - button "Deactivate" [ref=e504] [cursor=pointer]
+                          - button "Delete" [ref=e506] [cursor=pointer]
+                    - row [ref=e508]:
+                      - gridcell [ref=e509]:
+                        - generic [ref=e510]:
+                          - button "Edit" [ref=e511] [cursor=pointer]
+                          - button "Deactivate" [ref=e513] [cursor=pointer]
+                          - button "Delete" [ref=e515] [cursor=pointer]
+                  - rowgroup
+                - rowgroup
+                - rowgroup
+                - rowgroup
+                - rowgroup
+                - rowgroup
+                - rowgroup
+                - rowgroup
+                - rowgroup
+              - generic [ref=e523]:
+                - generic [ref=e524]: Showing 1 to 20 of 320 records
+                - generic [ref=e525]: Page 1 of 16
+                - generic "More options" [ref=e527]:
+                  - button "Select page size" [ref=e528] [cursor=pointer]: "Page size: 20"
+                - generic [ref=e530]:
+                  - button "Go to the previous page" [disabled] [ref=e531]: Previous
+                  - button "Go to the next page" [ref=e533] [cursor=pointer]: Next
+  - contentinfo [ref=e535]: © 2026 First Due
+  - generic:
+    - button "Chat Close Maven Chat" [ref=e536] [cursor=pointer]:
+      - img "Chat" [ref=e538]
+      - button "Close Maven Chat"
+    - iframe
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@/fixtures';
+  2  | import { testrailCase } from '@/integrations/testrail';
+  3  | import { CurrentUrl, IsVisible } from '@/framework/questions';
+  4  | import { Routes } from '@/config';
+  5  | import { HoverAssociatedCoursesHelpTask, OpenCategoriesPageTask } from '@/modules/training-setup/tasks';
+  6  | import {
+  7  |   AssociatedCoursesHelpVisibleQuestion,
+  8  |   CategoryRowCountQuestion,
+  9  |   IsCategoriesPageReadyQuestion,
+  10 |   TrainingSetupNavLinksQuestion,
+  11 | } from '@/modules/training-setup/questions';
+  12 | import { CategoriesTargets } from '@/modules/training-setup/targets';
+  13 | 
+  14 | test.describe('Training setup categories', () => {
+  15 |   test.setTimeout(120_000);
+  16 | 
+  17 |   test.beforeEach(async ({ admin }) => {
+  18 |     await admin.attemptsTo(OpenCategoriesPageTask.page());
+  19 |   });
+  20 | 
+  21 |   test('@smoke @regression C21852428: Verify Training setup Categories page renders filters, grid, toolbar, and vertical setup navigation', async ({
+  22 |     admin,
+  23 |   }) => {
+  24 |     test.info().annotations.push(testrailCase(21852428));
+  25 | 
+> 26 |     expect(await admin.asks(IsCategoriesPageReadyQuestion.check())).toBe(true);
+     |                                                                     ^ Error: expect(received).toBe(expected) // Object.is equality
+  27 | 
+  28 |     const currentUrl = await admin.asks(CurrentUrl.value());
+  29 |     expect(currentUrl).toContain(Routes.trainingSetupCategories);
+  30 | 
+  31 |     const navLinks = await admin.asks(TrainingSetupNavLinksQuestion.listed());
+  32 |     const expectedLinks = [
+  33 |       'Settings',
+  34 |       'Notifications',
+  35 |       'Categories',
+  36 |       'Topics',
+  37 |       'List Configuration',
+  38 |       'Standards',
+  39 |       'Field Management',
+  40 |       'Training Import',
+  41 |       'Instructor Management',
+  42 |       'Import CTC',
+  43 |     ];
+  44 | 
+  45 |     expect(navLinks.map((link) => link.name)).toEqual(expectedLinks);
+  46 |     for (const link of navLinks) {
+  47 |       if (!link.href) {
+  48 |         continue;
+  49 |       }
+  50 | 
+  51 |       if (link.name === 'Import CTC') {
+  52 |         expect(link.href).toMatch(/import|ctc/i);
+  53 |       } else {
+  54 |         expect(link.href).toMatch(/\/training(-v2)?\/setup\//);
+  55 |       }
+  56 |     }
+  57 | 
+  58 |     expect(await admin.asks(IsVisible.of(CategoriesTargets.ADD_CATEGORY_BUTTON))).toBe(true);
+  59 |     expect(await admin.asks(IsVisible.of(CategoriesTargets.IMPORT_CATEGORIES_BUTTON))).toBe(true);
+  60 |     expect(await admin.asks(CategoryRowCountQuestion.onPage())).toBeGreaterThan(0);
+  61 | 
+  62 |     expect(await admin.asks(IsVisible.of(CategoriesTargets.ASSOCIATED_COURSES_HELP_ICON))).toBe(true);
+  63 | 
+  64 |     await admin.attemptsTo(HoverAssociatedCoursesHelpTask.icon());
+  65 |     expect(
+  66 |       await admin.asks(IsVisible.of(CategoriesTargets.TOOLTIP))
+  67 |         || await admin.asks(AssociatedCoursesHelpVisibleQuestion.check()),
+  68 |     ).toBe(true);
+  69 |   });
+  70 | });
+  71 | 
+```

@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-10-27T05:39:25.923Z] [INFO] [W0] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-27T05:39:29.047Z] [INFO] [W0] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (3124ms)
+[2026-10-27T05:39:29.047Z] [INFO] [W0] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-10-27T05:39:29.078Z] [INFO] [W0] [C45539] [Admin] ✓ Is Equipment Groups List Ready (31ms)
+[2026-10-27T05:39:29.086Z] [INFO] [W0] [C45539] [Admin] → Create equipment group "Washington County Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45539]
+Status: FAILED
+Duration: 63621ms
+[2026-10-27T05:40:29.326Z] [ERROR] [W0] [C45539] [object Object]
+────────────────────────────────────────────────────────

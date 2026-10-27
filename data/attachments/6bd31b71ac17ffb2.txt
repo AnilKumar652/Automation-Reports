@@ -1,0 +1,37 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-27T06:22:06.117Z] [INFO] [W1] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-10-27T06:22:11.521Z] [INFO] [W1] [C22680549] [Admin] ✓ Open Training Setup Categories page (5404ms)
+[2026-10-27T06:22:11.523Z] [INFO] [W1] [C22680549] [Admin] → Create category "Electronic Kids"
+[2026-10-27T06:22:12.359Z] [INFO] [W1] [C22680549] [Admin] ✓ Create category "Electronic Kids" (836ms)
+[2026-10-27T06:22:12.359Z] [INFO] [W1] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-10-27T06:22:12.401Z] [INFO] [W1] [C22680549] [Admin] ✓ Categories grid contains records verified (42ms)
+[2026-10-27T06:22:12.401Z] [INFO] [W1] [C22680549] [Admin] → Open Import Categories Modal
+[2026-10-27T06:22:12.676Z] [INFO] [W1] [C22680549] [Admin] ✓ Open Import Categories Modal (275ms)
+[2026-10-27T06:22:12.676Z] [INFO] [W1] [C22680549] [Admin] → Is Import Modal Open
+[2026-10-27T06:22:12.696Z] [INFO] [W1] [C22680549] [Admin] ✓ Is Import Modal Open (20ms)
+[2026-10-27T06:22:12.697Z] [INFO] [W1] [C22680549] [Admin] → Read Import Categories help text
+[2026-10-27T06:22:12.726Z] [INFO] [W1] [C22680549] [Admin] ✓ Read Import Categories help text (29ms)
+[2026-10-27T06:22:12.727Z] [INFO] [W1] [C22680549] [Admin] → Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/categories-non-csv.txt"
+[2026-10-27T06:22:12.812Z] [INFO] [W1] [C22680549] [Admin] ✓ Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/categories-non-csv.txt" (85ms)
+[2026-10-27T06:22:12.812Z] [INFO] [W1] [C22680549] [Admin] → Read Import Categories validation messages
+[2026-10-27T06:22:12.856Z] [INFO] [W1] [C22680549] [Admin] ✓ Read Import Categories validation messages (44ms)
+[2026-10-27T06:22:12.857Z] [INFO] [W1] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-10-27T06:22:12.869Z] [INFO] [W1] [C22680549] [Admin] ✓ Categories grid contains records verified (12ms)
+[2026-10-27T06:22:13.372Z] [INFO] [W1] [C22680549] [Admin] → Upload categories import file "/tmp/categories-oversized-import.csv"
+[2026-10-27T06:22:13.454Z] [INFO] [W1] [C22680549] [Admin] ✓ Upload categories import file "/tmp/categories-oversized-import.csv" (82ms)
+[2026-10-27T06:22:13.454Z] [INFO] [W1] [C22680549] [Admin] → Read Import Categories validation messages
+[2026-10-27T06:22:13.679Z] [INFO] [W1] [C22680549] [Admin] ✓ Read Import Categories validation messages (225ms)
+[2026-10-27T06:22:13.679Z] [INFO] [W1] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-10-27T06:22:13.690Z] [INFO] [W1] [C22680549] [Admin] ✓ Categories grid contains records verified (11ms)
+[2026-10-27T06:22:13.690Z] [INFO] [W1] [C22680549] [Admin] → Upload categories import file "/tmp/categories-import-1793082131523.csv"
+[2026-10-27T06:22:13.793Z] [INFO] [W1] [C22680549] [Admin] ✓ Upload categories import file "/tmp/categories-import-1793082131523.csv" (103ms)
+[2026-10-27T06:22:13.793Z] [INFO] [W1] [C22680549] [Admin] → Check whether import file "categories-import-1793082131523.csv" is listed in the modal
+[2026-10-27T06:22:13.820Z] [INFO] [W1] [C22680549] [Admin] ✓ Check whether import file "categories-import-1793082131523.csv" is listed in the modal (27ms)
+[2026-10-27T06:22:13.820Z] [INFO] [W1] [C22680549] [Admin] → Submit categories import
+[2026-10-27T06:22:13.900Z] [INFO] [W1] [C22680549] [Admin] ✓ Submit categories import (80ms)
+[2026-10-27T06:22:13.900Z] [INFO] [W1] [C22680549] [Admin] → Determine categories import submit outcome
+[2026-10-27T06:22:13.956Z] [INFO] [W1] [C22680549] [Admin] ✓ Determine categories import submit outcome (56ms)

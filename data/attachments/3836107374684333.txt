@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:37:13.848Z] [INFO] [W1] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-10-27T05:37:18.644Z] [INFO] [W1] [C5877543] [Admin] ✓ Open Agency Setup Organization page (4796ms)
+[2026-10-27T05:37:18.646Z] [INFO] [W1] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-10-27T05:37:18.792Z] [INFO] [W1] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (146ms)
+[2026-10-27T05:37:18.802Z] [INFO] [W1] [C5877543] [Admin] → Select Organization Positions tab
+[2026-10-27T05:37:21.189Z] [INFO] [W1] [C5877543] [Admin] ✓ Select Organization Positions tab (2387ms)
+[2026-10-27T05:37:21.189Z] [INFO] [W1] [C5877543] [Admin] → Add organization position "Lead Quality Engineer"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5877543]
+Status: FAILED
+Duration: 68490ms
+[2026-10-27T05:38:22.099Z] [ERROR] [W1] [C5877543] [object Object]
+────────────────────────────────────────────────────────

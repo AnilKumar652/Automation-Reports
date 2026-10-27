@@ -1,0 +1,19 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T06:21:17.961Z] [INFO] [W0] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-10-27T06:21:22.731Z] [INFO] [W0] [C21852430] [Admin] ✓ Open Training Setup Categories page (4770ms)
+[2026-10-27T06:21:22.732Z] [INFO] [W0] [C21852430] [Admin] → Create category "Incredible Computers"
+[2026-10-27T06:21:26.505Z] [INFO] [W0] [C21852430] [Admin] ✓ Create category "Incredible Computers" (3773ms)
+[2026-10-27T06:21:26.505Z] [INFO] [W0] [C21852430] [Admin] → Search categories by name "Incredible Computers" (exact match)
+[2026-10-27T06:21:27.878Z] [INFO] [W0] [C21852430] [Admin] ✓ Search categories by name "Incredible Computers" (exact match) (1373ms)
+[2026-10-27T06:21:27.878Z] [INFO] [W0] [C21852430] [Admin] → Category Row Visible
+[2026-10-27T06:21:27.899Z] [INFO] [W0] [C21852430] [Admin] ✓ Category Row Visible (21ms)
+[2026-10-27T06:21:27.901Z] [INFO] [W0] [C21852430] [Admin] → Open Edit Category Modal
+[2026-10-27T06:21:28.240Z] [INFO] [W0] [C21852430] [Admin] ✓ Open Edit Category Modal (339ms)
+[2026-10-27T06:21:28.240Z] [INFO] [W0] [C21852430] [Admin] → Is Edit Category Modal Open
+[2026-10-27T06:21:28.275Z] [INFO] [W0] [C21852430] [Admin] ✓ Is Edit Category Modal Open (35ms)
+[2026-10-27T06:21:28.276Z] [INFO] [W0] [C21852430] [Admin] → Category Modal Name Value
+[2026-10-27T06:21:28.397Z] [INFO] [W0] [C21852430] [Admin] ✓ Category Modal Name Value (121ms)

@@ -1,0 +1,16 @@
+[2026-10-27T05:58:16.076Z] [ERROR] [W0] [C78340] [Admin] ✗ Wait until Asset management setup list row for "Powys Group" is visible (60005ms)
+[2026-10-27T05:58:16.076Z] [ERROR] [W0] [C78340] Locator: role=cell[name="Powys Group"i]
+[2026-10-27T05:58:16.076Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Powys Group"i]') to be visible
+
+[2026-10-27T05:58:16.076Z] [ERROR] [W0] [C78340] [Admin] ✗ Save equipment group "Powys Group" (60177ms)
+[2026-10-27T05:58:16.076Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Powys Group"i]') to be visible
+
+[2026-10-27T05:58:16.076Z] [ERROR] [W0] [C78340] [Admin] ✗ Create equipment group "Powys Group" (64776ms)
+[2026-10-27T05:58:16.076Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Powys Group"i]') to be visible
+

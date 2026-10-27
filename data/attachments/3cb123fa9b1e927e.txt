@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5701947]
+Title: Verify filters in Credentials - Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:50:56.457Z] [INFO] [W0] [C5701947] [Admin] → Prepare and assign credential "users Certification" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5701947]
+Status: FAILED
+Duration: 33584ms
+[2026-10-27T05:51:29.572Z] [ERROR] [W0] [C5701947] [object Object]
+────────────────────────────────────────────────────────

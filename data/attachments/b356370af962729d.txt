@@ -1,0 +1,15 @@
+[2026-10-27T05:44:52.565Z] [ERROR] [W1] [C22181794] [Super Admin] ✗ Wait until Save global credential button is hidden (60005ms)
+[2026-10-27T05:44:52.566Z] [ERROR] [W1] [C22181794] Locator: [data-testid="global-credential-form-save"]
+[2026-10-27T05:44:52.566Z] [ERROR] [W1] [C22181794] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="global-credential-form-save"]') to be hidden
+    2 × locator resolved to visible <button title="Save" type="button" data-v-5340c95d="" data-v-04e629ba="" disabled="disabled" class="button is-large is-primary" data-testid="global-credential-form-save">…</button>
+    120 × locator resolved to visible <button title="Save" type="button" data-v-5340c95d="" data-v-04e629ba="" class="button is-large is-primary" data-testid="global-credential-form-save">…</button>
+
+[2026-10-27T05:44:52.566Z] [ERROR] [W1] [C22181794] [Super Admin] ✗ Create global credential "partnerships Certificate" (65095ms)
+[2026-10-27T05:44:52.567Z] [ERROR] [W1] [C22181794] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="global-credential-form-save"]') to be hidden
+    2 × locator resolved to visible <button title="Save" type="button" data-v-5340c95d="" data-v-04e629ba="" disabled="disabled" class="button is-large is-primary" data-testid="global-credential-form-save">…</button>
+    120 × locator resolved to visible <button title="Save" type="button" data-v-5340c95d="" data-v-04e629ba="" class="button is-large is-primary" data-testid="global-credential-form-save">…</button>
+

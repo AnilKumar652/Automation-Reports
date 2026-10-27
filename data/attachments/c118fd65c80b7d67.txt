@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58123]
+Title: Create Qualifier
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T06:20:33.930Z] [INFO] [W0] [C58123] [Admin] → Open Scheduling Setup Qualifiers page
+[2026-10-27T06:20:37.544Z] [INFO] [W0] [C58123] [Admin] ✓ Open Scheduling Setup Qualifiers page (3614ms)
+[2026-10-27T06:20:37.545Z] [INFO] [W0] [C58123] [Admin] → Is Qualifiers Page Ready
+[2026-10-27T06:20:37.601Z] [INFO] [W0] [C58123] [Admin] ✓ Is Qualifiers Page Ready (56ms)
+[2026-10-27T06:20:37.605Z] [INFO] [W0] [C58123] [Admin] → Create qualifier "Dynamic Paradigm"
+[2026-10-27T06:20:43.005Z] [INFO] [W0] [C58123] [Admin] ✓ Create qualifier "Dynamic Paradigm" (5400ms)
+[2026-10-27T06:20:43.005Z] [INFO] [W0] [C58123] [Admin] → Qualifier Created Success Message
+[2026-10-27T06:20:43.082Z] [INFO] [W0] [C58123] [Admin] ✓ Qualifier Created Success Message (76ms)
+[2026-10-27T06:20:43.082Z] [INFO] [W0] [C58123] [Admin] → Scheduling Setup Row Visible
+[2026-10-27T06:20:43.157Z] [INFO] [W0] [C58123] [Admin] ✓ Scheduling Setup Row Visible (75ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58123]
+Status: PASSED
+Duration: 9521ms
+────────────────────────────────────────────────────────

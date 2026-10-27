@@ -1,0 +1,29 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C7283439]
+Title: Verify autogenerate toggle for credential ID during credential creation
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:56:45.388Z] [INFO] [W0] [C7283439] [Admin] → Open Agency Credentials page
+[2026-10-27T05:56:47.593Z] [INFO] [W0] [C7283439] [Admin] ✓ Open Agency Credentials page (2205ms)
+[2026-10-27T05:56:47.593Z] [INFO] [W0] [C7283439] [Admin] → Verify Agency Credentials page is ready
+[2026-10-27T05:56:47.619Z] [INFO] [W0] [C7283439] [Admin] ✓ Agency Credentials page is ready (26ms)
+[2026-10-27T05:56:47.626Z] [INFO] [W0] [C7283439] [Admin] → Open Add Credential form
+[2026-10-27T05:56:48.032Z] [INFO] [W0] [C7283439] [Admin] ✓ Open Add Credential form (406ms)
+[2026-10-27T05:56:48.032Z] [INFO] [W0] [C7283439] [Admin] → Autogenerate Toggle State
+[2026-10-27T05:56:48.427Z] [INFO] [W0] [C7283439] [Admin] ✓ Autogenerate Toggle State (395ms)
+[2026-10-27T05:56:48.434Z] [INFO] [W0] [C7283439] [Admin] → Select "Fire (FIR)" from "Select type" dropdown
+[2026-10-27T05:56:50.283Z] [INFO] [W0] [C7283439] [Admin] ✓ Select "Fire (FIR)" from "Select type" dropdown (1849ms)
+[2026-10-27T05:56:50.284Z] [INFO] [W0] [C7283439] [Admin] → Toggle Credential Autogenerate
+[2026-10-27T05:56:50.563Z] [INFO] [W0] [C7283439] [Admin] ✓ Toggle Credential Autogenerate (279ms)
+[2026-10-27T05:56:50.563Z] [INFO] [W0] [C7283439] [Admin] → Autogenerate Toggle State
+[2026-10-27T05:56:50.581Z] [INFO] [W0] [C7283439] [Admin] ✓ Autogenerate Toggle State (18ms)
+[2026-10-27T05:56:50.583Z] [INFO] [W0] [C7283439] [Admin] → Toggle Credential Autogenerate
+[2026-10-27T05:56:50.626Z] [INFO] [W0] [C7283439] [Admin] ✓ Toggle Credential Autogenerate (43ms)
+[2026-10-27T05:56:50.626Z] [INFO] [W0] [C7283439] [Admin] → Autogenerate Toggle State
+[2026-10-27T05:56:50.668Z] [INFO] [W0] [C7283439] [Admin] ✓ Autogenerate Toggle State (42ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C7283439]
+Status: FAILED
+Duration: 5544ms
+[2026-10-27T05:56:50.733Z] [ERROR] [W0] [C7283439] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-10-27T05:40:38.729Z] [INFO] [W0] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-10-27T05:40:42.835Z] [INFO] [W0] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (4106ms)
+[2026-10-27T05:40:42.836Z] [INFO] [W0] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-10-27T05:40:42.869Z] [INFO] [W0] [C45539] [Admin] ✓ Is Equipment Groups List Ready (33ms)
+[2026-10-27T05:40:42.875Z] [INFO] [W0] [C45539] [Admin] → Create equipment group "Cumbria Group"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45539]
+Status: FAILED
+Duration: 67119ms
+[2026-10-27T05:41:45.674Z] [ERROR] [W0] [C45539] [object Object]
+────────────────────────────────────────────────────────

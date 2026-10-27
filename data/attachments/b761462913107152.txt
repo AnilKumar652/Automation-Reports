@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877540]
+Title: Verify user can add an organization division
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:35:32.901Z] [INFO] [W0] [C5877540] [Admin] → Open Agency Setup Organization page
+[2026-10-27T05:35:44.787Z] [INFO] [W0] [C5877540] [Admin] ✓ Open Agency Setup Organization page (11886ms)
+[2026-10-27T05:35:44.791Z] [INFO] [W0] [C5877540] [Admin] → Is Agency Setup Organization Ready
+[2026-10-27T05:35:45.002Z] [INFO] [W0] [C5877540] [Admin] ✓ Is Agency Setup Organization Ready (211ms)
+[2026-10-27T05:35:45.008Z] [INFO] [W0] [C5877540] [Admin] → Select Organization Division tab
+[2026-10-27T05:35:45.180Z] [INFO] [W0] [C5877540] [Admin] ✓ Select Organization Division tab (172ms)
+[2026-10-27T05:35:45.180Z] [INFO] [W0] [C5877540] [Admin] → Add organization division "Jewelry"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877540]
+Status: FAILED
+Duration: 73862ms
+[2026-10-27T05:36:46.432Z] [ERROR] [W0] [C5877540] [object Object]
+────────────────────────────────────────────────────────

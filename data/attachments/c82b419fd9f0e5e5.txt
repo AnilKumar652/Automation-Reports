@@ -1,0 +1,4 @@
+[2026-10-27T05:43:09.183Z] [ERROR] [W0] [C22181792] [Admin] ✗ Toggle Credential Autogenerate (10220ms)
+[2026-10-27T05:43:09.183Z] [ERROR] [W0] [C22181792] page.waitForFunction: Timeout 10000ms exceeded.
+[2026-10-27T05:43:09.183Z] [ERROR] [W0] [C22181792] [Admin] ✗ Create agency credential "smart contracts License" (11946ms)
+[2026-10-27T05:43:09.183Z] [ERROR] [W0] [C22181792] page.waitForFunction: Timeout 10000ms exceeded.

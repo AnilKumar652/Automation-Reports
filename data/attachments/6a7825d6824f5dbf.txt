@@ -1,0 +1,11 @@
+[2026-10-27T06:20:24.776Z] [ERROR] [W0] [C58123] [Admin] ✗ Wait until Scheduling setup list row for "District Data" is visible (60002ms)
+[2026-10-27T06:20:24.776Z] [ERROR] [W0] [C58123] Locator: role=cell[name="District Data"i]
+[2026-10-27T06:20:24.776Z] [ERROR] [W0] [C58123] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="District Data"i]') to be visible
+
+[2026-10-27T06:20:24.776Z] [ERROR] [W0] [C58123] [Admin] ✗ Create qualifier "District Data" (61514ms)
+[2026-10-27T06:20:24.776Z] [ERROR] [W0] [C58123] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="District Data"i]') to be visible
+

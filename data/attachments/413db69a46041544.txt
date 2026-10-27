@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:35:58.898Z] [INFO] [W1] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-10-27T05:36:02.149Z] [INFO] [W1] [C5877543] [Admin] ✓ Open Agency Setup Organization page (3251ms)
+[2026-10-27T05:36:02.156Z] [INFO] [W1] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-10-27T05:36:02.284Z] [INFO] [W1] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (128ms)
+[2026-10-27T05:36:02.290Z] [INFO] [W1] [C5877543] [Admin] → Select Organization Positions tab
+[2026-10-27T05:36:02.565Z] [INFO] [W1] [C5877543] [Admin] ✓ Select Organization Positions tab (275ms)
+[2026-10-27T05:36:02.566Z] [INFO] [W1] [C5877543] [Admin] → Add organization position "Lead Tactics Specialist"

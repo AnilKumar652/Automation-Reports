@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:36:56.152Z] [INFO] [W0] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-27T05:36:58.996Z] [INFO] [W0] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (2844ms)
+[2026-10-27T05:36:58.996Z] [INFO] [W0] [C22779515] [Admin] → Create apparatus group "Tyne and Wear Team"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22779515]
+Status: FAILED
+Duration: 63370ms
+[2026-10-27T05:37:59.315Z] [ERROR] [W0] [C22779515] [object Object]
+────────────────────────────────────────────────────────

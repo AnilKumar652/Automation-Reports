@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-10-27T05:38:09.242Z] [INFO] [W0] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-10-27T05:38:13.449Z] [INFO] [W0] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (4207ms)
+[2026-10-27T05:38:13.449Z] [INFO] [W0] [C22779515] [Admin] → Create apparatus group "Jefferson County Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22779515]
+Status: FAILED
+Duration: 66851ms
+[2026-10-27T05:39:15.891Z] [ERROR] [W0] [C22779515] [object Object]
+────────────────────────────────────────────────────────
