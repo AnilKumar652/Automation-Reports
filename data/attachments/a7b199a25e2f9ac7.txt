@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-11-07T06:35:29.896Z] [INFO] [W1] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-11-07T06:35:32.525Z] [INFO] [W1] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (2629ms)
+[2026-11-07T06:35:32.525Z] [INFO] [W1] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-11-07T06:35:32.604Z] [INFO] [W1] [C45539] [Admin] ✓ Is Equipment Groups List Ready (79ms)
+[2026-11-07T06:35:32.612Z] [INFO] [W1] [C45539] [Admin] → Create equipment group "Polk County Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45539]
+Status: FAILED
+Duration: 64129ms
+[2026-11-07T06:36:33.808Z] [ERROR] [W1] [C45539] [object Object]
+────────────────────────────────────────────────────────

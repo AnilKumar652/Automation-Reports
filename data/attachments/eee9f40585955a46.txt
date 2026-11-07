@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58112]
+Title: Verify first edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:50:26.853Z] [INFO] [W1] [C58112] [Admin] → Prepare and assign credential "paradigms Certification" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58112]
+Status: FAILED
+Duration: 33251ms
+[2026-11-07T06:50:59.949Z] [ERROR] [W1] [C58112] [object Object]
+────────────────────────────────────────────────────────

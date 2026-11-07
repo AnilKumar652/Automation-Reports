@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T07:20:22.165Z] [INFO] [W0] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-11-07T07:20:28.117Z] [INFO] [W0] [C21852432] [Admin] ✓ Open Training Setup Categories page (5952ms)
+[2026-11-07T07:20:28.119Z] [INFO] [W0] [C21852432] [Admin] → Create category "Leuschke, O'Hara-Hudson and Wuckert-Jaskolski Small Automotive"
+[2026-11-07T07:20:28.832Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Leuschke, O'Hara-Hudson and Wuckert-Jaskolski Small Automotive" (713ms)
+[2026-11-07T07:20:28.832Z] [INFO] [W0] [C21852432] [Admin] → Create category "Leuschke, O'Hara-Hudson and Wuckert-Jaskolski Generic Clothing"
+[2026-11-07T07:20:29.652Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Leuschke, O'Hara-Hudson and Wuckert-Jaskolski Generic Clothing" (820ms)
+[2026-11-07T07:20:29.652Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-07T07:20:29.696Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (44ms)
+[2026-11-07T07:20:29.696Z] [INFO] [W0] [C21852432] [Admin] → Search categories by name "Leuschke, O'Hara-Hudson and Wuckert-Jaskolski" (matching results)
+[2026-11-07T07:20:30.888Z] [INFO] [W0] [C21852432] [Admin] ✓ Search categories by name "Leuschke, O'Hara-Hudson and Wuckert-Jaskolski" (matching results) (1192ms)
+[2026-11-07T07:20:30.889Z] [INFO] [W0] [C21852432] [Admin] → Visible Category Names
+[2026-11-07T07:20:30.901Z] [INFO] [W0] [C21852432] [Admin] ✓ Visible Category Names (12ms)
+[2026-11-07T07:20:30.905Z] [INFO] [W0] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-11-07T07:20:30.982Z] [INFO] [W0] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (77ms)
+[2026-11-07T07:20:30.982Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-07T07:20:31.000Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (18ms)
+[2026-11-07T07:20:31.001Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-07T07:20:31.013Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (12ms)
+[2026-11-07T07:20:31.013Z] [INFO] [W0] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-11-07T07:20:31.337Z] [INFO] [W0] [C21852432] [Admin] ✓ Toggle Header Row Selection (324ms)
+[2026-11-07T07:20:31.337Z] [INFO] [W0] [C21852432] [Admin] → Selected Category Row Count
+[2026-11-07T07:20:31.358Z] [INFO] [W0] [C21852432] [Admin] ✓ Selected Category Row Count (21ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852432]
+Status: FAILED
+Duration: 9443ms
+[2026-11-07T07:20:31.422Z] [ERROR] [W0] [C21852432] [object Object]
+────────────────────────────────────────────────────────

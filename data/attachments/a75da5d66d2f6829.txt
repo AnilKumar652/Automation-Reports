@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54656]
+Title: Verify single unused credential can be deleted
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:47:56.664Z] [INFO] [W0] [C54656] [Admin] → Open Agency Credentials page
+[2026-11-07T06:47:59.107Z] [INFO] [W0] [C54656] [Admin] ✓ Open Agency Credentials page (2443ms)
+[2026-11-07T06:47:59.110Z] [INFO] [W0] [C54656] [Admin] → Verify Agency Credentials page is ready
+[2026-11-07T06:47:59.157Z] [INFO] [W0] [C54656] [Admin] ✓ Agency Credentials page is ready (47ms)
+[2026-11-07T06:47:59.161Z] [INFO] [W0] [C54656] [Admin] → Create agency credential "methodologies Credential"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54656]
+Status: FAILED
+Duration: 18028ms
+[2026-11-07T06:48:14.502Z] [ERROR] [W0] [C54656] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C7135673]
+Title: Verify clone action duplicates a credential successfully
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:54:20.554Z] [INFO] [W0] [C7135673] [Admin] → Open Agency Credentials page
+[2026-11-07T06:54:24.533Z] [INFO] [W0] [C7135673] [Admin] ✓ Open Agency Credentials page (3980ms)
+[2026-11-07T06:54:24.533Z] [INFO] [W0] [C7135673] [Admin] → Verify Agency Credentials page is ready
+[2026-11-07T06:54:24.780Z] [INFO] [W0] [C7135673] [Admin] ✓ Agency Credentials page is ready (247ms)
+[2026-11-07T06:54:24.799Z] [INFO] [W0] [C7135673] [Admin] → Create agency credential "channels Credential"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C7135673]
+Status: FAILED
+Duration: 18695ms
+[2026-11-07T06:54:38.986Z] [ERROR] [W0] [C7135673] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,16 @@
+[2026-11-07T06:37:57.316Z] [ERROR] [W1] [C45539] [Admin] ✗ Wait until Asset management setup list row for "Johnson County Team" is visible (60058ms)
+[2026-11-07T06:37:57.326Z] [ERROR] [W1] [C45539] Locator: role=cell[name="Johnson County Team"i]
+[2026-11-07T06:37:57.326Z] [ERROR] [W1] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Johnson County Team"i]') to be visible
+
+[2026-11-07T06:37:57.326Z] [ERROR] [W1] [C45539] [Admin] ✗ Save equipment group "Johnson County Team" (60146ms)
+[2026-11-07T06:37:57.326Z] [ERROR] [W1] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Johnson County Team"i]') to be visible
+
+[2026-11-07T06:37:57.326Z] [ERROR] [W1] [C45539] [Admin] ✗ Create equipment group "Johnson County Team" (62969ms)
+[2026-11-07T06:37:57.326Z] [ERROR] [W1] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Johnson County Team"i]') to be visible
+

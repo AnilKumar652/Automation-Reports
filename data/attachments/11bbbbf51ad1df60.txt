@@ -1,0 +1,11 @@
+[2026-11-07T07:21:29.051Z] [ERROR] [W0] [C21852434] [Admin] ✗ Click First row checkbox (10022ms)
+[2026-11-07T07:21:29.052Z] [ERROR] [W0] [C21852434] Locator: role=treegrid >> [aria-label="Grid body"i] >> role=checkbox >> nth=0
+[2026-11-07T07:21:29.052Z] [ERROR] [W0] [C21852434] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('role=treegrid').locator('[aria-label="Grid body"i]').locator('role=checkbox').first()
+
+[2026-11-07T07:21:29.052Z] [ERROR] [W0] [C21852434] [Admin] ✗ Select First Category Row (10023ms)
+[2026-11-07T07:21:29.052Z] [ERROR] [W0] [C21852434] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('role=treegrid').locator('[aria-label="Grid body"i]').locator('role=checkbox').first()
+

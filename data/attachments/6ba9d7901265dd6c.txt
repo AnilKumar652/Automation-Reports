@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:32:45.676Z] [INFO] [W1] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-11-07T06:32:48.419Z] [INFO] [W1] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (2743ms)
+[2026-11-07T06:32:48.420Z] [INFO] [W1] [C22779515] [Admin] → Create apparatus group "Northamptonshire Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22779515]
+Status: FAILED
+Duration: 65171ms
+[2026-11-07T06:33:50.650Z] [ERROR] [W1] [C22779515] [object Object]
+────────────────────────────────────────────────────────

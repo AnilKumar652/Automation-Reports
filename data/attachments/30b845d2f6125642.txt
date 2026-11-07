@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58122]
+Title: Verify credential log can be removed from Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:51:33.854Z] [INFO] [W0] [C58122] [Admin] → Prepare and assign credential "metrics License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58122]
+Status: FAILED
+Duration: 32107ms
+[2026-11-07T06:52:05.726Z] [ERROR] [W0] [C58122] [object Object]
+────────────────────────────────────────────────────────

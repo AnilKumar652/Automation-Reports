@@ -1,0 +1,4 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22697079]
+Title: Verify a completed course credits the mapped Course List Requirement Area
+────────────────────────────────────────────────────────

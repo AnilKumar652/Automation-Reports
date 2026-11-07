@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5701947]
+Title: Verify filters in Credentials - Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:49:09.727Z] [INFO] [W1] [C5701947] [Admin] → Prepare and assign credential "mindshare Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5701947]
+Status: FAILED
+Duration: 33491ms
+[2026-11-07T06:49:43.127Z] [ERROR] [W1] [C5701947] [object Object]
+────────────────────────────────────────────────────────

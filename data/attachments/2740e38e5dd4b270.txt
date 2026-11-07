@@ -1,0 +1,8 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T07:19:32.828Z] [INFO] [W1] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-11-07T07:19:35.194Z] [INFO] [W1] [C21852431] [Admin] ✓ Open Training Setup Categories page (2366ms)
+[2026-11-07T07:19:35.194Z] [INFO] [W1] [C21852431] [Admin] → Create category "Generic Industrial"

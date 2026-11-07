@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:48:07.409Z] [INFO] [W1] [C54657] [Admin] → Open Agency Credentials page
+[2026-11-07T06:48:09.979Z] [INFO] [W1] [C54657] [Admin] ✓ Open Agency Credentials page (2570ms)
+[2026-11-07T06:48:09.980Z] [INFO] [W1] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-11-07T06:48:10.137Z] [INFO] [W1] [C54657] [Admin] ✓ Agency Credentials page is ready (157ms)
+[2026-11-07T06:48:10.143Z] [INFO] [W1] [C54657] [Admin] → Create agency credential "Luettgen LLC-1"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54657]
+Status: FAILED
+Duration: 18237ms
+[2026-11-07T06:48:25.520Z] [ERROR] [W1] [C54657] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,22 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C77675]
+Title: Verify user can create a fire station with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:55:13.788Z] [INFO] [W0] [C77675] [Admin] → Open Fire Station list page
+[2026-11-07T06:55:15.735Z] [INFO] [W0] [C77675] [Admin] ✓ Open Fire Station list page (1947ms)
+[2026-11-07T06:55:15.736Z] [INFO] [W0] [C77675] [Admin] → Is Fire Station List Ready
+[2026-11-07T06:55:15.773Z] [INFO] [W0] [C77675] [Admin] ✓ Is Fire Station List Ready (37ms)
+[2026-11-07T06:55:15.777Z] [INFO] [W0] [C77675] [Admin] → Open new fire station form
+[2026-11-07T06:55:17.031Z] [INFO] [W0] [C77675] [Admin] ✓ Open new fire station form (1254ms)
+[2026-11-07T06:55:17.031Z] [INFO] [W0] [C77675] [Admin] → Is Fire Station Create Form Open
+[2026-11-07T06:55:17.888Z] [INFO] [W0] [C77675] [Admin] ✓ Is Fire Station Create Form Open (857ms)
+[2026-11-07T06:55:17.893Z] [INFO] [W0] [C77675] [Admin] → Fire Station Create Form Fields Visible
+[2026-11-07T06:55:18.688Z] [INFO] [W0] [C77675] [Admin] ✓ Fire Station Create Form Fields Visible (795ms)
+[2026-11-07T06:55:18.689Z] [INFO] [W0] [C77675] [Admin] → Create fire station "Lake Dallin Fire Station"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C77675]
+Status: FAILED
+Duration: 68757ms
+[2026-11-07T06:56:22.484Z] [ERROR] [W0] [C77675] [object Object]
+────────────────────────────────────────────────────────

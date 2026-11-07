@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58129]
+Title: Verify personnel removal from Admin Users reflects in Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:53:01.600Z] [INFO] [W1] [C58129] [Admin] → Prepare and assign credential "infrastructures Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58129]
+Status: FAILED
+Duration: 33102ms
+[2026-11-07T06:53:34.609Z] [ERROR] [W1] [C58129] [object Object]
+────────────────────────────────────────────────────────

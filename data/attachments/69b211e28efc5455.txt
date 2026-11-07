@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-11-07T06:37:53.872Z] [INFO] [W0] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-11-07T06:37:56.390Z] [INFO] [W0] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (2519ms)
+[2026-11-07T06:37:56.391Z] [INFO] [W0] [C45059] [Admin] → Is Location Groups List Ready
+[2026-11-07T06:37:56.407Z] [INFO] [W0] [C45059] [Admin] ✓ Is Location Groups List Ready (16ms)
+[2026-11-07T06:37:56.418Z] [INFO] [W0] [C45059] [Admin] → Create location group "County Antrim Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45059]
+Status: FAILED
+Duration: 63344ms
+[2026-11-07T06:38:56.973Z] [ERROR] [W0] [C45059] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5701947]
+Title: Verify filters in Credentials - Personnel
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:48:29.842Z] [INFO] [W1] [C5701947] [Admin] → Prepare and assign credential "lifetime value Credential" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5701947]
+Status: FAILED
+Duration: 32196ms
+[2026-11-07T06:49:01.828Z] [ERROR] [W1] [C5701947] [object Object]
+────────────────────────────────────────────────────────

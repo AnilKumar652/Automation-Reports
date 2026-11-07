@@ -1,0 +1,26 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181791]
+Title: Verify State / Province is mandatory for Global Credentials when TRN-1853 is enabled
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:38:47.335Z] [INFO] [W1] [C22181791] [Super Admin] → Open Global Credentials page
+[2026-11-07T06:38:49.505Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Open Global Credentials page (2170ms)
+[2026-11-07T06:38:49.506Z] [INFO] [W1] [C22181791] [Super Admin] → Is Global Credentials Page Ready
+[2026-11-07T06:38:49.520Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Is Global Credentials Page Ready (14ms)
+[2026-11-07T06:38:49.523Z] [INFO] [W1] [C22181791] [Super Admin] → Open Add Global Credential form
+[2026-11-07T06:38:50.187Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Open Add Global Credential form (664ms)
+[2026-11-07T06:38:50.187Z] [INFO] [W1] [C22181791] [Super Admin] → Submit Global Credential Without State
+[2026-11-07T06:38:53.062Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Submit Global Credential Without State (2875ms)
+[2026-11-07T06:38:53.062Z] [INFO] [W1] [C22181791] [Super Admin] → Credential Validation Dialog Text
+[2026-11-07T06:38:53.076Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Credential Validation Dialog Text (14ms)
+[2026-11-07T06:38:53.080Z] [INFO] [W1] [C22181791] [Super Admin] → Dismiss Credential Validation Dialog
+[2026-11-07T06:38:53.106Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Dismiss Credential Validation Dialog (26ms)
+[2026-11-07T06:38:53.106Z] [INFO] [W1] [C22181791] [Super Admin] → Close Global Credential form
+[2026-11-07T06:38:53.251Z] [INFO] [W1] [C22181791] [Super Admin] ✓ Close Global Credential form (145ms)
+[2026-11-07T06:38:53.251Z] [INFO] [W1] [C22181791] [Super Admin] → Create global credential "synergies License"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181791]
+Status: FAILED
+Duration: 68244ms
+[2026-11-07T06:39:55.368Z] [ERROR] [W1] [C22181791] [object Object]
+────────────────────────────────────────────────────────

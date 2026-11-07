@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58129]
+Title: Verify personnel removal from Admin Users reflects in Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:52:22.995Z] [INFO] [W1] [C58129] [Admin] → Prepare and assign credential "applications License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58129]
+Status: FAILED
+Duration: 32190ms
+[2026-11-07T06:52:55.147Z] [ERROR] [W1] [C58129] [object Object]
+────────────────────────────────────────────────────────

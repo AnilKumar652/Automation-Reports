@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181794]
+Title: Verify imported Global Credential does not require State / Province at agency level
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:42:59.303Z] [INFO] [W1] [C22181794] [Super Admin] → Open Global Credentials page
+[2026-11-07T06:43:04.370Z] [INFO] [W1] [C22181794] [Super Admin] ✓ Open Global Credentials page (5067ms)
+[2026-11-07T06:43:04.370Z] [INFO] [W1] [C22181794] [Super Admin] → Create global credential "ROI Certification"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181794]
+Status: FAILED
+Duration: 77858ms
+[2026-11-07T06:44:16.426Z] [ERROR] [W1] [C22181794] [object Object]
+────────────────────────────────────────────────────────

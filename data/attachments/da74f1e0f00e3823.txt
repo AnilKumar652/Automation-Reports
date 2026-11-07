@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45539]
+Title: Create/Edit Equipment Groups
+────────────────────────────────────────────────────────
+[2026-11-07T06:36:50.284Z] [INFO] [W1] [C45539] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-11-07T06:36:54.288Z] [INFO] [W1] [C45539] [Admin] ✓ Open Asset Management Setup Equipment Groups page (4004ms)
+[2026-11-07T06:36:54.289Z] [INFO] [W1] [C45539] [Admin] → Is Equipment Groups List Ready
+[2026-11-07T06:36:54.350Z] [INFO] [W1] [C45539] [Admin] ✓ Is Equipment Groups List Ready (61ms)
+[2026-11-07T06:36:54.357Z] [INFO] [W1] [C45539] [Admin] → Create equipment group "Johnson County Team"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45539]
+Status: FAILED
+Duration: 67331ms
+[2026-11-07T06:37:57.498Z] [ERROR] [W1] [C45539] [object Object]
+────────────────────────────────────────────────────────

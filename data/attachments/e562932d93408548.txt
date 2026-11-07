@@ -1,0 +1,16 @@
+[2026-11-07T06:37:43.853Z] [ERROR] [W0] [C45556] [Admin] ✗ Wait until Asset management setup list row for "Cheshire Unit" is visible (60020ms)
+[2026-11-07T06:37:43.853Z] [ERROR] [W0] [C45556] Locator: role=cell[name="Cheshire Unit"i]
+[2026-11-07T06:37:43.853Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Cheshire Unit"i]') to be visible
+
+[2026-11-07T06:37:43.853Z] [ERROR] [W0] [C45556] [Admin] ✗ Save apparatus group "Cheshire Unit" (60189ms)
+[2026-11-07T06:37:43.857Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Cheshire Unit"i]') to be visible
+
+[2026-11-07T06:37:43.857Z] [ERROR] [W0] [C45556] [Admin] ✗ Create apparatus group "Cheshire Unit" (60811ms)
+[2026-11-07T06:37:43.858Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Cheshire Unit"i]') to be visible
+

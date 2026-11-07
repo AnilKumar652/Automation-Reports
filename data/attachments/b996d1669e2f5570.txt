@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-11-07T06:39:06.628Z] [INFO] [W0] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-11-07T06:39:10.568Z] [INFO] [W0] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (3940ms)
+[2026-11-07T06:39:10.569Z] [INFO] [W0] [C45059] [Admin] → Is Location Groups List Ready
+[2026-11-07T06:39:10.625Z] [INFO] [W0] [C45059] [Admin] ✓ Is Location Groups List Ready (56ms)
+[2026-11-07T06:39:10.638Z] [INFO] [W0] [C45059] [Admin] → Create location group "Grant County Group"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45059]
+Status: FAILED
+Duration: 66891ms
+[2026-11-07T06:40:13.378Z] [ERROR] [W0] [C45059] [object Object]
+────────────────────────────────────────────────────────

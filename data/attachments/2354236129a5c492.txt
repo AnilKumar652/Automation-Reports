@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T07:20:13.178Z] [INFO] [W0] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-11-07T07:20:15.563Z] [INFO] [W0] [C21852432] [Admin] ✓ Open Training Setup Categories page (2385ms)
+[2026-11-07T07:20:15.567Z] [INFO] [W0] [C21852432] [Admin] → Create category "Greenfelder Group Fresh Outdoors"
+[2026-11-07T07:20:18.273Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Greenfelder Group Fresh Outdoors" (2706ms)
+[2026-11-07T07:20:18.275Z] [INFO] [W0] [C21852432] [Admin] → Create category "Greenfelder Group Awesome Clothing"
+[2026-11-07T07:20:19.015Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Greenfelder Group Awesome Clothing" (740ms)
+[2026-11-07T07:20:19.015Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-07T07:20:19.052Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (37ms)
+[2026-11-07T07:20:19.052Z] [INFO] [W0] [C21852432] [Admin] → Search categories by name "Greenfelder Group" (matching results)
+[2026-11-07T07:20:20.170Z] [INFO] [W0] [C21852432] [Admin] ✓ Search categories by name "Greenfelder Group" (matching results) (1118ms)
+[2026-11-07T07:20:20.171Z] [INFO] [W0] [C21852432] [Admin] → Visible Category Names
+[2026-11-07T07:20:20.243Z] [INFO] [W0] [C21852432] [Admin] ✓ Visible Category Names (72ms)
+[2026-11-07T07:20:20.250Z] [INFO] [W0] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-11-07T07:20:20.339Z] [INFO] [W0] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (89ms)
+[2026-11-07T07:20:20.339Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-07T07:20:20.347Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (8ms)
+[2026-11-07T07:20:20.350Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-07T07:20:20.358Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (8ms)
+[2026-11-07T07:20:20.359Z] [INFO] [W0] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-11-07T07:20:20.666Z] [INFO] [W0] [C21852432] [Admin] ✓ Toggle Header Row Selection (307ms)
+[2026-11-07T07:20:20.666Z] [INFO] [W0] [C21852432] [Admin] → Selected Category Row Count
+[2026-11-07T07:20:20.673Z] [INFO] [W0] [C21852432] [Admin] ✓ Selected Category Row Count (6ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852432]
+Status: FAILED
+Duration: 7757ms
+[2026-11-07T07:20:20.746Z] [ERROR] [W0] [C21852432] [object Object]
+────────────────────────────────────────────────────────

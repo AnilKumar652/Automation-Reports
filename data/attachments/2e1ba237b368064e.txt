@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-11-07T06:35:13.774Z] [INFO] [W0] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-11-07T06:35:18.945Z] [INFO] [W0] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (5171ms)
+[2026-11-07T06:35:18.950Z] [INFO] [W0] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-11-07T06:35:19.144Z] [INFO] [W0] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (194ms)
+[2026-11-07T06:35:19.164Z] [INFO] [W0] [C45556] [Admin] → Create apparatus group "Tyne and Wear Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45556]
+Status: FAILED
+Duration: 70101ms
+[2026-11-07T06:36:23.656Z] [ERROR] [W0] [C45556] [object Object]
+────────────────────────────────────────────────────────

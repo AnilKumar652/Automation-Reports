@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T07:21:35.637Z] [INFO] [W0] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-11-07T07:21:45.540Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Training Setup Categories page (9903ms)
+[2026-11-07T07:21:45.542Z] [INFO] [W0] [C22680549] [Admin] → Create category "Frozen Toys"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22680549]
+Status: FAILED
+Duration: 71410ms
+[2026-11-07T07:22:46.578Z] [ERROR] [W0] [C22680549] [object Object]
+────────────────────────────────────────────────────────

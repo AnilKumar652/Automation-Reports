@@ -1,0 +1,7 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-11-07T06:55:03.136Z] [INFO] [W1] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-11-07T06:55:05.478Z] [INFO] [W1] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (2342ms)
+[2026-11-07T06:55:05.478Z] [INFO] [W1] [C78340] [Admin] → Create equipment group "Marion County Unit"

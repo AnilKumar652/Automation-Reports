@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:41:19.313Z] [INFO] [W0] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-11-07T06:41:21.551Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Open Global Credentials page (2238ms)
+[2026-11-07T06:41:21.552Z] [INFO] [W0] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-11-07T06:41:21.568Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (16ms)
+[2026-11-07T06:41:21.571Z] [INFO] [W0] [C22181795] [Super Admin] → Create global credential "mindshare Credential"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181795]
+Status: FAILED
+Duration: 68133ms
+[2026-11-07T06:42:27.249Z] [ERROR] [W0] [C22181795] [object Object]
+────────────────────────────────────────────────────────

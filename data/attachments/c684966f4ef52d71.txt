@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5911763]
+Title: Verify filters in Training > Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:53:31.476Z] [INFO] [W0] [C5911763] [Admin] → Open Agency Credentials page
+[2026-11-07T06:53:33.490Z] [INFO] [W0] [C5911763] [Admin] ✓ Open Agency Credentials page (2014ms)
+[2026-11-07T06:53:33.491Z] [INFO] [W0] [C5911763] [Admin] → Verify Agency Credentials page is ready
+[2026-11-07T06:53:33.525Z] [INFO] [W0] [C5911763] [Admin] ✓ Agency Credentials page is ready (34ms)
+[2026-11-07T06:53:33.528Z] [INFO] [W0] [C5911763] [Admin] → Create agency credential "convergence License"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5911763]
+Status: FAILED
+Duration: 18814ms
+[2026-11-07T06:53:50.124Z] [ERROR] [W0] [C5911763] [object Object]
+────────────────────────────────────────────────────────

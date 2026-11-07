@@ -1,0 +1,13 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-11-07T06:56:17.966Z] [INFO] [W1] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-11-07T06:56:22.029Z] [INFO] [W1] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (4064ms)
+[2026-11-07T06:56:22.030Z] [INFO] [W1] [C78340] [Admin] → Create equipment group "County Antrim Group"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C78340]
+Status: FAILED
+Duration: 70203ms
+[2026-11-07T06:57:27.963Z] [ERROR] [W1] [C78340] [object Object]
+────────────────────────────────────────────────────────

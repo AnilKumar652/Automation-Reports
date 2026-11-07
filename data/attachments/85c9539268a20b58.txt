@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54656]
+Title: Verify single unused credential can be deleted
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:47:37.353Z] [INFO] [W0] [C54656] [Admin] → Open Agency Credentials page
+[2026-11-07T06:47:39.377Z] [INFO] [W0] [C54656] [Admin] ✓ Open Agency Credentials page (2024ms)
+[2026-11-07T06:47:39.378Z] [INFO] [W0] [C54656] [Admin] → Verify Agency Credentials page is ready
+[2026-11-07T06:47:39.396Z] [INFO] [W0] [C54656] [Admin] ✓ Agency Credentials page is ready (18ms)
+[2026-11-07T06:47:39.399Z] [INFO] [W0] [C54656] [Admin] → Create agency credential "synergies Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54656]
+Status: FAILED
+Duration: 16581ms
+[2026-11-07T06:47:53.759Z] [ERROR] [W0] [C54656] [object Object]
+────────────────────────────────────────────────────────

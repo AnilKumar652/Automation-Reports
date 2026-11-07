@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877540]
+Title: Verify user can add an organization division
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:29:43.544Z] [INFO] [W0] [C5877540] [Admin] → Open Agency Setup Organization page
+[2026-11-07T06:29:50.233Z] [INFO] [W0] [C5877540] [Admin] ✓ Open Agency Setup Organization page (6689ms)
+[2026-11-07T06:29:50.241Z] [INFO] [W0] [C5877540] [Admin] → Is Agency Setup Organization Ready
+[2026-11-07T06:29:50.453Z] [INFO] [W0] [C5877540] [Admin] ✓ Is Agency Setup Organization Ready (212ms)
+[2026-11-07T06:29:50.469Z] [INFO] [W0] [C5877540] [Admin] → Select Organization Division tab
+[2026-11-07T06:29:53.396Z] [INFO] [W0] [C5877540] [Admin] ✓ Select Organization Division tab (2927ms)
+[2026-11-07T06:29:53.397Z] [INFO] [W0] [C5877540] [Admin] → Add organization division "Garden"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877540]
+Status: FAILED
+Duration: 72162ms
+[2026-11-07T06:30:55.401Z] [ERROR] [W0] [C5877540] [object Object]
+────────────────────────────────────────────────────────

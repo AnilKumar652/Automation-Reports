@@ -1,0 +1,28 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C2796236]
+Title: Create Group with toggle "show on shift board" ON
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T07:18:38.780Z] [INFO] [W1] [C2796236] [Admin] → Open Scheduling Setup Groups page
+[2026-11-07T07:18:40.911Z] [INFO] [W1] [C2796236] [Admin] ✓ Open Scheduling Setup Groups page (2131ms)
+[2026-11-07T07:18:40.911Z] [INFO] [W1] [C2796236] [Admin] → Is Groups Page Ready
+[2026-11-07T07:18:40.958Z] [INFO] [W1] [C2796236] [Admin] ✓ Is Groups Page Ready (47ms)
+[2026-11-07T07:18:40.965Z] [INFO] [W1] [C2796236] [Admin] → Open create group form
+[2026-11-07T07:18:42.157Z] [INFO] [W1] [C2796236] [Admin] ✓ Open create group form (1192ms)
+[2026-11-07T07:18:42.158Z] [INFO] [W1] [C2796236] [Admin] → Fill group form for "Polk County Unit"
+[2026-11-07T07:18:42.320Z] [INFO] [W1] [C2796236] [Admin] ✓ Fill group form for "Polk County Unit" (162ms)
+[2026-11-07T07:18:42.320Z] [INFO] [W1] [C2796236] [Admin] → Group Show On Shift Board Toggle State
+[2026-11-07T07:18:42.354Z] [INFO] [W1] [C2796236] [Admin] ✓ Group Show On Shift Board Toggle State (34ms)
+[2026-11-07T07:18:42.358Z] [INFO] [W1] [C2796236] [Admin] → Ensure group show on shift board toggle is on
+[2026-11-07T07:18:42.391Z] [INFO] [W1] [C2796236] [Admin] ✓ Ensure group show on shift board toggle is on (33ms)
+[2026-11-07T07:18:42.391Z] [INFO] [W1] [C2796236] [Admin] → Save group "Polk County Unit"
+[2026-11-07T07:18:44.286Z] [INFO] [W1] [C2796236] [Admin] ✓ Save group "Polk County Unit" (1895ms)
+[2026-11-07T07:18:44.286Z] [INFO] [W1] [C2796236] [Admin] → Group Created Success Message
+[2026-11-07T07:18:44.334Z] [INFO] [W1] [C2796236] [Admin] ✓ Group Created Success Message (48ms)
+[2026-11-07T07:18:44.335Z] [INFO] [W1] [C2796236] [Admin] → Scheduling Setup Row Visible
+[2026-11-07T07:18:44.356Z] [INFO] [W1] [C2796236] [Admin] ✓ Scheduling Setup Row Visible (21ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C2796236]
+Status: PASSED
+Duration: 5838ms
+────────────────────────────────────────────────────────

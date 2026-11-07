@@ -1,0 +1,11 @@
+[2026-11-07T06:32:18.649Z] [ERROR] [W0] [C5877540] [Admin] ✗ Wait until Organization row for "Automotive" is visible (60325ms)
+[2026-11-07T06:32:18.650Z] [ERROR] [W0] [C5877540] Locator: role=gridcell[name="Automotive"i]
+[2026-11-07T06:32:18.650Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Automotive"i]') to be visible
+
+[2026-11-07T06:32:18.650Z] [ERROR] [W0] [C5877540] [Admin] ✗ Add organization division "Automotive" (61389ms)
+[2026-11-07T06:32:18.650Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Automotive"i]') to be visible
+

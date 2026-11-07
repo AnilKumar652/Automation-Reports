@@ -1,0 +1,10 @@
+[2026-11-07T06:55:10.141Z] [ERROR] [W0] [C7135673] [Admin] ✗ Select first available linked training plan (10048ms)
+[2026-11-07T06:55:10.141Z] [ERROR] [W0] [C7135673] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-11-07T06:55:10.142Z] [ERROR] [W0] [C7135673] [Admin] ✗ Create agency credential "blockchains Certification" (15318ms)
+[2026-11-07T06:55:10.142Z] [ERROR] [W0] [C7135673] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181792]
+Title: Verify State / Province is optional when creating a regular credential
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:40:43.741Z] [INFO] [W1] [C22181792] [Admin] → Open Agency Credentials page
+[2026-11-07T06:40:46.184Z] [INFO] [W1] [C22181792] [Admin] ✓ Open Agency Credentials page (2443ms)
+[2026-11-07T06:40:46.184Z] [INFO] [W1] [C22181792] [Admin] → Verify Agency Credentials page is ready
+[2026-11-07T06:40:46.233Z] [INFO] [W1] [C22181792] [Admin] ✓ Agency Credentials page is ready (49ms)
+[2026-11-07T06:40:46.237Z] [INFO] [W1] [C22181792] [Admin] → Open Add Credential form
+[2026-11-07T06:40:47.333Z] [INFO] [W1] [C22181792] [Admin] ✓ Open Add Credential form (1096ms)
+[2026-11-07T06:40:47.334Z] [INFO] [W1] [C22181792] [Admin] → State Province Mandatory Indicator
+[2026-11-07T06:40:50.778Z] [INFO] [W1] [C22181792] [Admin] ✓ State Province Mandatory Indicator (3444ms)
+[2026-11-07T06:40:50.781Z] [INFO] [W1] [C22181792] [Admin] → Create agency credential "ROI Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181792]
+Status: FAILED
+Duration: 20688ms
+[2026-11-07T06:41:04.186Z] [ERROR] [W1] [C22181792] [object Object]
+────────────────────────────────────────────────────────

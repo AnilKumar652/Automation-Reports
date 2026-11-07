@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181793]
+Title: Verify State / Province is optional when creating a credential from Setup
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:40:32.176Z] [INFO] [W0] [C22181793] [Admin] → Open Agency Credentials page
+[2026-11-07T06:40:34.188Z] [INFO] [W0] [C22181793] [Admin] ✓ Open Agency Credentials page (2012ms)
+[2026-11-07T06:40:34.188Z] [INFO] [W0] [C22181793] [Admin] → Verify Agency Credentials page is ready
+[2026-11-07T06:40:34.211Z] [INFO] [W0] [C22181793] [Admin] ✓ Agency Credentials page is ready (23ms)
+[2026-11-07T06:40:34.214Z] [INFO] [W0] [C22181793] [Admin] → Open Add Credential form
+[2026-11-07T06:40:34.863Z] [INFO] [W0] [C22181793] [Admin] ✓ Open Add Credential form (650ms)
+[2026-11-07T06:40:34.863Z] [INFO] [W0] [C22181793] [Admin] → State Province Mandatory Indicator
+[2026-11-07T06:40:34.929Z] [INFO] [W0] [C22181793] [Admin] ✓ State Province Mandatory Indicator (66ms)
+[2026-11-07T06:40:34.937Z] [INFO] [W0] [C22181793] [Admin] → Create agency credential "paradigms Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181793]
+Status: FAILED
+Duration: 16331ms
+[2026-11-07T06:40:48.323Z] [ERROR] [W0] [C22181793] [object Object]
+────────────────────────────────────────────────────────

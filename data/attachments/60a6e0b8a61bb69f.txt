@@ -1,0 +1,5 @@
+[2026-11-07T07:17:44.649Z] [ERROR] [W1] [C22816988] [Admin] ✗ Search personnel list for "Rozella Will-Senger" (31170ms)
+[2026-11-07T07:17:44.649Z] [ERROR] [W1] [C22816988] locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for getByRole('row', { name: /(?=.*Rozella)(?=.*Will-Senger).*/i }).first() to be visible
+

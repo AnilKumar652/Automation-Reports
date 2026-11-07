@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-11-07T06:36:32.428Z] [INFO] [W0] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-11-07T06:36:38.894Z] [INFO] [W0] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (6465ms)
+[2026-11-07T06:36:38.902Z] [INFO] [W0] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-11-07T06:36:43.033Z] [INFO] [W0] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (4131ms)
+[2026-11-07T06:36:43.046Z] [INFO] [W0] [C45556] [Admin] → Create apparatus group "Cheshire Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45556]
+Status: FAILED
+Duration: 71676ms
+[2026-11-07T06:37:43.910Z] [ERROR] [W0] [C45556] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,10 @@
+[2026-11-07T06:38:23.937Z] [ERROR] [W1] [C10485260] [Admin] ✗ Toggle Credential Autogenerate (10161ms)
+[2026-11-07T06:38:23.937Z] [ERROR] [W1] [C10485260] locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByRole('link', { name: 'Autogenerate' }) to be visible
+
+[2026-11-07T06:38:23.937Z] [ERROR] [W1] [C10485260] [Admin] ✗ Create agency credential "functionalities Certification" (12904ms)
+[2026-11-07T06:38:23.937Z] [ERROR] [W1] [C10485260] locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByRole('link', { name: 'Autogenerate' }) to be visible
+

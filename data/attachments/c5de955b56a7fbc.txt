@@ -1,0 +1,10 @@
+[2026-11-07T06:48:25.355Z] [ERROR] [W1] [C54657] [Admin] ✗ Select first available linked training plan (10074ms)
+[2026-11-07T06:48:25.355Z] [ERROR] [W1] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-11-07T06:48:25.355Z] [ERROR] [W1] [C54657] [Admin] ✗ Create agency credential "Luettgen LLC-1" (15212ms)
+[2026-11-07T06:48:25.357Z] [ERROR] [W1] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

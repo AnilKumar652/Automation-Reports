@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181794]
+Title: Verify imported Global Credential does not require State / Province at agency level
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-07T06:41:08.051Z] [INFO] [W1] [C22181794] [Super Admin] → Open Global Credentials page
+[2026-11-07T06:41:10.350Z] [INFO] [W1] [C22181794] [Super Admin] ✓ Open Global Credentials page (2299ms)
+[2026-11-07T06:41:10.350Z] [INFO] [W1] [C22181794] [Super Admin] → Create global credential "e-commerce License"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181794]
+Status: FAILED
+Duration: 70293ms
+[2026-11-07T06:42:17.972Z] [ERROR] [W1] [C22181794] [object Object]
+────────────────────────────────────────────────────────

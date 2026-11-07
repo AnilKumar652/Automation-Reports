@@ -1,0 +1,16 @@
+[2026-11-07T06:57:27.913Z] [ERROR] [W1] [C78340] [Admin] ✗ Wait until Asset management setup list row for "County Antrim Group" is visible (60032ms)
+[2026-11-07T06:57:27.913Z] [ERROR] [W1] [C78340] Locator: role=cell[name="County Antrim Group"i]
+[2026-11-07T06:57:27.914Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Antrim Group"i]') to be visible
+
+[2026-11-07T06:57:27.914Z] [ERROR] [W1] [C78340] [Admin] ✗ Save equipment group "County Antrim Group" (60261ms)
+[2026-11-07T06:57:27.914Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Antrim Group"i]') to be visible
+
+[2026-11-07T06:57:27.914Z] [ERROR] [W1] [C78340] [Admin] ✗ Create equipment group "County Antrim Group" (65884ms)
+[2026-11-07T06:57:27.914Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Antrim Group"i]') to be visible
+

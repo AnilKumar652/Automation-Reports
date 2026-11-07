@@ -1,0 +1,11 @@
+[2026-11-07T06:56:22.276Z] [ERROR] [W0] [C77675] [Admin] ✗ Wait until Fire station list region is visible within 60000ms (60012ms)
+[2026-11-07T06:56:22.277Z] [ERROR] [W0] [C77675] Locator: [data-testid="fire_station_list"]
+[2026-11-07T06:56:22.277Z] [ERROR] [W0] [C77675] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="fire_station_list"]') to be visible
+
+[2026-11-07T06:56:22.277Z] [ERROR] [W0] [C77675] [Admin] ✗ Create fire station "Lake Dallin Fire Station" (63588ms)
+[2026-11-07T06:56:22.277Z] [ERROR] [W0] [C77675] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="fire_station_list"]') to be visible
+

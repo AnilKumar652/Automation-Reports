@@ -1,0 +1,25 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22816988]
+Title: Verify new person can be created successfully for Training module
+────────────────────────────────────────────────────────
+[2026-11-07T07:17:47.884Z] [INFO] [W1] [C22816988] [Admin] → Open Create Person form
+[2026-11-07T07:17:52.490Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Create Person form (4606ms)
+[2026-11-07T07:17:52.490Z] [INFO] [W1] [C22816988] [Admin] → Is Create Person Form Open
+[2026-11-07T07:17:52.503Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Create Person Form Open (13ms)
+[2026-11-07T07:17:52.507Z] [INFO] [W1] [C22816988] [Admin] → Fill person form for "Laura Hoeger"
+[2026-11-07T07:17:58.870Z] [INFO] [W1] [C22816988] [Admin] ✓ Fill person form for "Laura Hoeger" (6363ms)
+[2026-11-07T07:17:58.871Z] [INFO] [W1] [C22816988] [Admin] → Is Person System User Active
+[2026-11-07T07:17:58.898Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Person System User Active (27ms)
+[2026-11-07T07:17:58.899Z] [INFO] [W1] [C22816988] [Admin] → Submit Create Person form
+[2026-11-07T07:18:01.754Z] [INFO] [W1] [C22816988] [Admin] ✓ Submit Create Person form (2855ms)
+[2026-11-07T07:18:01.754Z] [INFO] [W1] [C22816988] [Admin] → Person Created Success Message
+[2026-11-07T07:18:01.791Z] [INFO] [W1] [C22816988] [Admin] ✓ Person Created Success Message (37ms)
+[2026-11-07T07:18:01.792Z] [INFO] [W1] [C22816988] [Admin] → Open Personnel List page
+[2026-11-07T07:18:03.200Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Personnel List page (1408ms)
+[2026-11-07T07:18:03.200Z] [INFO] [W1] [C22816988] [Admin] → Search personnel list for "Laura Hoeger"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22816988]
+Status: FAILED
+Duration: 47623ms
+[2026-11-07T07:18:35.192Z] [ERROR] [W1] [C22816988] [object Object]
+────────────────────────────────────────────────────────

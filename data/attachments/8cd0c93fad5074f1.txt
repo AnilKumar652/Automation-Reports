@@ -1,0 +1,16 @@
+[2026-11-07T06:40:13.248Z] [ERROR] [W0] [C45059] [Admin] ✗ Wait until Asset management setup list row for "Grant County Group" is visible (60035ms)
+[2026-11-07T06:40:13.248Z] [ERROR] [W0] [C45059] Locator: role=cell[name="Grant County Group"i]
+[2026-11-07T06:40:13.248Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Grant County Group"i]') to be visible
+
+[2026-11-07T06:40:13.248Z] [ERROR] [W0] [C45059] [Admin] ✗ Save location group "Grant County Group" (60182ms)
+[2026-11-07T06:40:13.248Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Grant County Group"i]') to be visible
+
+[2026-11-07T06:40:13.257Z] [ERROR] [W0] [C45059] [Admin] ✗ Create location group "Grant County Group" (62619ms)
+[2026-11-07T06:40:13.257Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Grant County Group"i]') to be visible
+
