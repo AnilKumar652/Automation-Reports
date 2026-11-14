@@ -1,0 +1,16 @@
+[2026-11-14T07:03:31.735Z] [ERROR] [W1] [C45556] [Admin] ✗ Wait until Asset management setup list row for "Clwyd Unit" is visible (60012ms)
+[2026-11-14T07:03:31.735Z] [ERROR] [W1] [C45556] Locator: role=cell[name="Clwyd Unit"i]
+[2026-11-14T07:03:31.735Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Clwyd Unit"i]') to be visible
+
+[2026-11-14T07:03:31.736Z] [ERROR] [W1] [C45556] [Admin] ✗ Save apparatus group "Clwyd Unit" (60090ms)
+[2026-11-14T07:03:31.736Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Clwyd Unit"i]') to be visible
+
+[2026-11-14T07:03:31.736Z] [ERROR] [W1] [C45556] [Admin] ✗ Create apparatus group "Clwyd Unit" (60447ms)
+[2026-11-14T07:03:31.736Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Clwyd Unit"i]') to be visible
+

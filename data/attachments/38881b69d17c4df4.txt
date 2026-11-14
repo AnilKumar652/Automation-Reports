@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5911763]
+Title: Verify filters in Training > Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:19:52.582Z] [INFO] [W1] [C5911763] [Admin] → Open Agency Credentials page
+[2026-11-14T07:19:55.256Z] [INFO] [W1] [C5911763] [Admin] ✓ Open Agency Credentials page (2674ms)
+[2026-11-14T07:19:55.256Z] [INFO] [W1] [C5911763] [Admin] → Verify Agency Credentials page is ready
+[2026-11-14T07:19:55.291Z] [INFO] [W1] [C5911763] [Admin] ✓ Agency Credentials page is ready (35ms)
+[2026-11-14T07:19:55.307Z] [INFO] [W1] [C5911763] [Admin] → Create agency credential "metrics Credential"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5911763]
+Status: FAILED
+Duration: 14577ms
+[2026-11-14T07:20:06.892Z] [ERROR] [W1] [C5911763] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,10 @@
+[2026-11-14T07:18:18.254Z] [ERROR] [W1] [C58122] [Admin] ✗ Enable Personnel Record for "halFD@firstduesizeup.com" (30524ms)
+[2026-11-14T07:18:18.254Z] [ERROR] [W1] [C58122] locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('row', { name: /halFD@firstduesizeup.com/i }).first() to be visible
+
+[2026-11-14T07:18:18.255Z] [ERROR] [W1] [C58122] [Admin] ✗ Prepare and assign credential "applications Certificate" to personnel "Ravi Last" (32918ms)
+[2026-11-14T07:18:18.255Z] [ERROR] [W1] [C58122] locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('row', { name: /halFD@firstduesizeup.com/i }).first() to be visible
+

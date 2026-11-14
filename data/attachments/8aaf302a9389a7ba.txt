@@ -1,0 +1,19 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C15628545]
+Title: Verify user can create a dispatch unit
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:21:26.919Z] [INFO] [W0] [C15628545] [Admin] → Open Dispatch Unit list page
+[2026-11-14T07:21:29.385Z] [INFO] [W0] [C15628545] [Admin] ✓ Open Dispatch Unit list page (2466ms)
+[2026-11-14T07:21:29.386Z] [INFO] [W0] [C15628545] [Admin] → Is Dispatch Unit List Ready
+[2026-11-14T07:21:29.599Z] [INFO] [W0] [C15628545] [Admin] ✓ Is Dispatch Unit List Ready (213ms)
+[2026-11-14T07:21:29.602Z] [INFO] [W0] [C15628545] [Admin] → Open new dispatch unit form
+[2026-11-14T07:21:30.271Z] [INFO] [W0] [C15628545] [Admin] ✓ Open new dispatch unit form (669ms)
+[2026-11-14T07:21:30.271Z] [INFO] [W0] [C15628545] [Admin] → Fill dispatch unit form for code "AU423003"
+[2026-11-14T07:21:30.848Z] [INFO] [W0] [C15628545] [Admin] ✓ Fill dispatch unit form for code "AU423003" (577ms)
+[2026-11-14T07:21:30.848Z] [INFO] [W0] [C15628545] [Admin] → Submit dispatch unit create form
+[2026-11-14T07:21:32.255Z] [INFO] [W0] [C15628545] [Admin] ✓ Submit dispatch unit create form (1407ms)
+[2026-11-14T07:21:32.256Z] [INFO] [W0] [C15628545] [Admin] → Search dispatch units by name "Engine 85"
+[2026-11-14T07:21:33.449Z] [INFO] [W0] [C15628545] [Admin] ✓ Search dispatch units by name "Engine 85" (1193ms)
+[2026-11-14T07:21:33.449Z] [INFO] [W0] [C15628545] [Admin] → Dispatch Unit Row Visible
+[2026-11-14T07:21:33.468Z] [INFO] [W0] [C15628545] [Admin] ✓ Dispatch Unit Row Visible (19ms)

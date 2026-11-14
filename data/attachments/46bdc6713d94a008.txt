@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-11-14T07:01:09.428Z] [INFO] [W1] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-11-14T07:01:12.824Z] [INFO] [W1] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (3396ms)
+[2026-11-14T07:01:12.825Z] [INFO] [W1] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-11-14T07:01:12.881Z] [INFO] [W1] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (56ms)
+[2026-11-14T07:01:12.887Z] [INFO] [W1] [C45556] [Admin] → Create apparatus group "Northumberland Group"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45556]
+Status: FAILED
+Duration: 64250ms
+[2026-11-14T07:02:13.425Z] [ERROR] [W1] [C45556] [object Object]
+────────────────────────────────────────────────────────

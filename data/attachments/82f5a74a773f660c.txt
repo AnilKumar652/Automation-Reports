@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852434]
+Title: Verify deactivate, delete confirmation cancel, and bulk delete affordance on category rows
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:47:55.019Z] [INFO] [W0] [C21852434] [Admin] → Open Training Setup Categories page
+[2026-11-14T07:48:02.312Z] [INFO] [W0] [C21852434] [Admin] ✓ Open Training Setup Categories page (7293ms)
+[2026-11-14T07:48:02.313Z] [INFO] [W0] [C21852434] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:48:02.331Z] [INFO] [W0] [C21852434] [Admin] ✓ Categories grid contains records verified (18ms)
+[2026-11-14T07:48:02.331Z] [INFO] [W0] [C21852434] [Admin] → Open First Row Delete Dialog
+[2026-11-14T07:48:02.604Z] [INFO] [W0] [C21852434] [Admin] ✓ Open First Row Delete Dialog (273ms)
+[2026-11-14T07:48:02.604Z] [INFO] [W0] [C21852434] [Admin] → Is Delete Category Modal Open
+[2026-11-14T07:48:02.630Z] [INFO] [W0] [C21852434] [Admin] ✓ Is Delete Category Modal Open (26ms)
+[2026-11-14T07:48:02.639Z] [INFO] [W0] [C21852434] [Admin] → Cancel Delete Category Dialog
+[2026-11-14T07:48:02.820Z] [INFO] [W0] [C21852434] [Admin] ✓ Cancel Delete Category Dialog (181ms)
+[2026-11-14T07:48:02.821Z] [INFO] [W0] [C21852434] [Admin] → Is Delete Category Modal Open
+[2026-11-14T07:48:02.877Z] [INFO] [W0] [C21852434] [Admin] ✓ Is Delete Category Modal Open (56ms)
+[2026-11-14T07:48:02.884Z] [INFO] [W0] [C21852434] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:48:02.903Z] [INFO] [W0] [C21852434] [Admin] ✓ Categories grid contains records verified (19ms)
+[2026-11-14T07:48:02.913Z] [INFO] [W0] [C21852434] [Admin] → Select First Category Row

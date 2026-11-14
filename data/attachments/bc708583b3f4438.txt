@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181795]
+Title: Verify Global Credential can be imported successfully from Super Admin to Agency Credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:08:33.444Z] [INFO] [W0] [C22181795] [Super Admin] → Open Global Credentials page
+[2026-11-14T07:08:39.697Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Open Global Credentials page (6253ms)
+[2026-11-14T07:08:39.702Z] [INFO] [W0] [C22181795] [Super Admin] → Is Global Credentials Page Ready
+[2026-11-14T07:08:39.927Z] [INFO] [W0] [C22181795] [Super Admin] ✓ Is Global Credentials Page Ready (225ms)
+[2026-11-14T07:08:39.943Z] [INFO] [W0] [C22181795] [Super Admin] → Create global credential "paradigms Certification"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181795]
+Status: FAILED
+Duration: 74465ms
+[2026-11-14T07:09:47.268Z] [ERROR] [W0] [C22181795] [object Object]
+────────────────────────────────────────────────────────

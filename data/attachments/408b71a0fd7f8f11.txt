@@ -1,0 +1,24 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852435]
+Title: Verify combined filters by date range, creator, active status, topics, and courses refine the category grid
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:48:37.554Z] [INFO] [W0] [C21852435] [Admin] → Open Training Setup Categories page
+[2026-11-14T07:48:41.912Z] [INFO] [W0] [C21852435] [Admin] ✓ Open Training Setup Categories page (4358ms)
+[2026-11-14T07:48:41.913Z] [INFO] [W0] [C21852435] [Admin] → Create category "Generic Home"
+[2026-11-14T07:48:43.118Z] [INFO] [W0] [C21852435] [Admin] ✓ Create category "Generic Home" (1205ms)
+[2026-11-14T07:48:43.119Z] [INFO] [W0] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:48:43.140Z] [INFO] [W0] [C21852435] [Admin] ✓ Categories grid contains records verified (21ms)
+[2026-11-14T07:48:43.141Z] [INFO] [W0] [C21852435] [Admin] → Search categories by name "Generic Home" (exact match)
+[2026-11-14T07:48:44.097Z] [INFO] [W0] [C21852435] [Admin] ✓ Search categories by name "Generic Home" (exact match) (956ms)
+[2026-11-14T07:48:44.097Z] [INFO] [W0] [C21852435] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:48:44.116Z] [INFO] [W0] [C21852435] [Admin] ✓ Categories grid contains records verified (19ms)
+[2026-11-14T07:48:44.119Z] [INFO] [W0] [C21852435] [Admin] → Visible Category Names
+[2026-11-14T07:48:44.198Z] [INFO] [W0] [C21852435] [Admin] ✓ Visible Category Names (79ms)
+[2026-11-14T07:48:44.223Z] [INFO] [W0] [C21852435] [Admin] → Change category Is Active filter to "No"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852435]
+Status: FAILED
+Duration: 17046ms
+[2026-11-14T07:48:54.318Z] [ERROR] [W0] [C21852435] [object Object]
+────────────────────────────────────────────────────────

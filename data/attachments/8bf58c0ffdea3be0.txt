@@ -1,0 +1,19 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:46:31.014Z] [INFO] [W1] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-11-14T07:46:34.915Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Training Setup Categories page (3901ms)
+[2026-11-14T07:46:34.916Z] [INFO] [W1] [C21852430] [Admin] → Create category "Incredible Health"
+[2026-11-14T07:46:36.196Z] [INFO] [W1] [C21852430] [Admin] ✓ Create category "Incredible Health" (1280ms)
+[2026-11-14T07:46:36.197Z] [INFO] [W1] [C21852430] [Admin] → Search categories by name "Incredible Health" (exact match)
+[2026-11-14T07:46:37.635Z] [INFO] [W1] [C21852430] [Admin] ✓ Search categories by name "Incredible Health" (exact match) (1438ms)
+[2026-11-14T07:46:37.635Z] [INFO] [W1] [C21852430] [Admin] → Category Row Visible
+[2026-11-14T07:46:37.642Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Row Visible (7ms)
+[2026-11-14T07:46:37.643Z] [INFO] [W1] [C21852430] [Admin] → Open Edit Category Modal
+[2026-11-14T07:46:37.904Z] [INFO] [W1] [C21852430] [Admin] ✓ Open Edit Category Modal (261ms)
+[2026-11-14T07:46:37.904Z] [INFO] [W1] [C21852430] [Admin] → Is Edit Category Modal Open
+[2026-11-14T07:46:37.910Z] [INFO] [W1] [C21852430] [Admin] ✓ Is Edit Category Modal Open (6ms)
+[2026-11-14T07:46:37.910Z] [INFO] [W1] [C21852430] [Admin] → Category Modal Name Value
+[2026-11-14T07:46:37.991Z] [INFO] [W1] [C21852430] [Admin] ✓ Category Modal Name Value (81ms)

@@ -1,0 +1,11 @@
+[2026-11-14T07:09:07.891Z] [ERROR] [W1] [C22181794] [Admin] ✗ Click Import global credential checkbox for technologies License (10020ms)
+[2026-11-14T07:09:07.892Z] [ERROR] [W1] [C22181794] Locator: [data-testid="import-global-credentials-table"] [aria-label="Grid body"i] >> role=checkbox >> nth=0
+[2026-11-14T07:09:07.892Z] [ERROR] [W1] [C22181794] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="import-global-credentials-table"] [aria-label="Grid body"i]').locator('role=checkbox').first()
+
+[2026-11-14T07:09:07.892Z] [ERROR] [W1] [C22181794] [Admin] ✗ Import global credential "technologies License" (11801ms)
+[2026-11-14T07:09:07.892Z] [ERROR] [W1] [C22181794] locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="import-global-credentials-table"] [aria-label="Grid body"i]').locator('role=checkbox').first()
+

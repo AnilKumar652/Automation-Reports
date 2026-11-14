@@ -1,0 +1,26 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181791]
+Title: Verify State / Province is mandatory for Global Credentials when TRN-1853 is enabled
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:07:01.869Z] [INFO] [W0] [C22181791] [Super Admin] → Open Global Credentials page
+[2026-11-14T07:07:05.935Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Open Global Credentials page (4066ms)
+[2026-11-14T07:07:05.935Z] [INFO] [W0] [C22181791] [Super Admin] → Is Global Credentials Page Ready
+[2026-11-14T07:07:06.141Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Is Global Credentials Page Ready (206ms)
+[2026-11-14T07:07:06.145Z] [INFO] [W0] [C22181791] [Super Admin] → Open Add Global Credential form
+[2026-11-14T07:07:07.503Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Open Add Global Credential form (1358ms)
+[2026-11-14T07:07:07.504Z] [INFO] [W0] [C22181791] [Super Admin] → Submit Global Credential Without State
+[2026-11-14T07:07:08.819Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Submit Global Credential Without State (1315ms)
+[2026-11-14T07:07:08.819Z] [INFO] [W0] [C22181791] [Super Admin] → Credential Validation Dialog Text
+[2026-11-14T07:07:08.895Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Credential Validation Dialog Text (76ms)
+[2026-11-14T07:07:08.899Z] [INFO] [W0] [C22181791] [Super Admin] → Dismiss Credential Validation Dialog
+[2026-11-14T07:07:08.993Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Dismiss Credential Validation Dialog (94ms)
+[2026-11-14T07:07:08.993Z] [INFO] [W0] [C22181791] [Super Admin] → Close Global Credential form
+[2026-11-14T07:07:09.122Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Close Global Credential form (129ms)
+[2026-11-14T07:07:09.123Z] [INFO] [W0] [C22181791] [Super Admin] → Create global credential "users Credential"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181791]
+Status: FAILED
+Duration: 71680ms
+[2026-11-14T07:08:13.066Z] [ERROR] [W0] [C22181791] [object Object]
+────────────────────────────────────────────────────────

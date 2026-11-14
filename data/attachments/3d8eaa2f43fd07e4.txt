@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T06:58:30.812Z] [INFO] [W1] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-11-14T06:58:34.828Z] [INFO] [W1] [C5877543] [Admin] ✓ Open Agency Setup Organization page (4016ms)
+[2026-11-14T06:58:34.834Z] [INFO] [W1] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-11-14T06:58:35.067Z] [INFO] [W1] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (233ms)
+[2026-11-14T06:58:35.068Z] [INFO] [W1] [C5877543] [Admin] → Select Organization Positions tab
+[2026-11-14T06:58:35.521Z] [INFO] [W1] [C5877543] [Admin] ✓ Select Organization Positions tab (453ms)
+[2026-11-14T06:58:35.521Z] [INFO] [W1] [C5877543] [Admin] → Add organization position "International Assurance Supervisor"

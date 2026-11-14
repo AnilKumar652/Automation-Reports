@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58123]
+Title: Create Qualifier
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:46:07.631Z] [INFO] [W1] [C58123] [Admin] → Open Scheduling Setup Qualifiers page
+[2026-11-14T07:46:13.076Z] [INFO] [W1] [C58123] [Admin] ✓ Open Scheduling Setup Qualifiers page (5445ms)
+[2026-11-14T07:46:13.076Z] [INFO] [W1] [C58123] [Admin] → Is Qualifiers Page Ready
+[2026-11-14T07:46:13.143Z] [INFO] [W1] [C58123] [Admin] ✓ Is Qualifiers Page Ready (67ms)
+[2026-11-14T07:46:13.160Z] [INFO] [W1] [C58123] [Admin] → Create qualifier "Regional Intranet"
+[2026-11-14T07:46:15.385Z] [INFO] [W1] [C58123] [Admin] ✓ Create qualifier "Regional Intranet" (2225ms)
+[2026-11-14T07:46:15.385Z] [INFO] [W1] [C58123] [Admin] → Qualifier Created Success Message
+[2026-11-14T07:46:15.404Z] [INFO] [W1] [C58123] [Admin] ✓ Qualifier Created Success Message (19ms)
+[2026-11-14T07:46:15.405Z] [INFO] [W1] [C58123] [Admin] → Scheduling Setup Row Visible
+[2026-11-14T07:46:15.426Z] [INFO] [W1] [C58123] [Admin] ✓ Scheduling Setup Row Visible (21ms)

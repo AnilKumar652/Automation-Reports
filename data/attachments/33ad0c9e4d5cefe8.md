@@ -1,0 +1,446 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: credentials/C54659-verify-in-use-credential-cannot-be-deleted.spec.ts >> Credentials >> @smoke @regression C54659: Verify in-use credential cannot be deleted
+- Location: src/tests/credentials/C54659-verify-in-use-credential-cannot-be-deleted.spec.ts:20:7
+
+# Error details
+
+```
+TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link:
+    - /url: "#main-content"
+    - text: Skip to main content
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e8]
+        - generic [ref=e13]: Credentials
+        - generic [ref=e15]:
+          - button [ref=e16] [cursor=pointer]: Import Global Credentials
+          - button [ref=e18] [cursor=pointer]: Add Credential
+      - region [ref=e20]:
+        - generic [ref=e23]:
+          - search [ref=e26]:
+            - generic [ref=e27]:
+              - button [ref=e30] [cursor=pointer]:
+                - generic [ref=e31]: Saved Views
+              - button [ref=e36] [cursor=pointer]
+            - generic [ref=e38]:
+              - button [ref=e39] [cursor=pointer]: Filter
+              - button [ref=e43] [cursor=pointer]: Columns
+            - search [ref=e45]:
+              - button [ref=e46] [cursor=pointer]
+          - treegrid [ref=e51]:
+            - rowgroup [ref=e52]:
+              - row [ref=e53]:
+                - columnheader [ref=e54]:
+                  - checkbox [ref=e56] [cursor=pointer]
+                  - generic [ref=e57]: Select
+            - rowgroup [ref=e58]:
+              - row [ref=e59]:
+                - columnheader [ref=e60]:
+                  - generic [ref=e62] [cursor=pointer]: ID
+                - columnheader [ref=e63]:
+                  - generic [ref=e65] [cursor=pointer]: Name
+                - columnheader [ref=e66]:
+                  - generic [ref=e68]: Associated Topics
+                - columnheader [ref=e69]:
+                  - generic [ref=e71]: Associated Categories
+                - columnheader [ref=e72]:
+                  - generic [ref=e74]: Associated Courses
+                - columnheader [ref=e75]:
+                  - generic [ref=e77] [cursor=pointer]: State / Province
+                - columnheader [ref=e78]:
+                  - generic [ref=e80] [cursor=pointer]: Issuing Authority
+                - columnheader [ref=e81]:
+                  - generic [ref=e83] [cursor=pointer]: Completion Type
+            - rowgroup [ref=e84]:
+              - row [ref=e85]:
+                - columnheader [ref=e86]:
+                  - button [ref=e87] [cursor=pointer]
+                  - generic [ref=e89]: Actions
+            - rowgroup [ref=e90]:
+              - row [ref=e91]:
+                - gridcell [ref=e92]:
+                  - checkbox [ref=e93] [cursor=pointer]
+              - row [ref=e94]:
+                - gridcell [ref=e95]:
+                  - checkbox [ref=e96] [cursor=pointer]
+              - row [ref=e97]:
+                - gridcell [ref=e98]:
+                  - checkbox [ref=e99] [cursor=pointer]
+              - row [ref=e100]:
+                - gridcell [ref=e101]:
+                  - checkbox [ref=e102] [cursor=pointer]
+              - row [ref=e103]:
+                - gridcell [ref=e104]:
+                  - checkbox [ref=e105] [cursor=pointer]
+              - row [ref=e106]:
+                - gridcell [ref=e107]:
+                  - checkbox [ref=e108] [cursor=pointer]
+              - row [ref=e109]:
+                - gridcell [ref=e110]:
+                  - checkbox [ref=e111] [cursor=pointer]
+              - row [ref=e112]:
+                - gridcell [ref=e113]:
+                  - checkbox [ref=e114] [cursor=pointer]
+              - row [ref=e115]:
+                - gridcell [ref=e116]:
+                  - checkbox [ref=e117] [cursor=pointer]
+              - row [ref=e118]:
+                - gridcell [ref=e119]:
+                  - checkbox [ref=e120] [cursor=pointer]
+              - row [ref=e121]:
+                - gridcell [ref=e122]:
+                  - checkbox [ref=e123] [cursor=pointer]
+            - rowgroup [ref=e124]:
+              - row [ref=e125]:
+                - gridcell [ref=e126]: FIR10
+                - gridcell [ref=e127]: AgCred-1789103286165
+                - gridcell [ref=e128]
+                - gridcell [ref=e129]
+                - gridcell [ref=e130]
+                - gridcell [ref=e131]: National
+                - gridcell [ref=e132]: Academic Fire Authority
+                - gridcell [ref=e133]: Course Requirement
+              - row [ref=e134]:
+                - gridcell [ref=e135]: FIR691677
+                - gridcell [ref=e136]: partnerships Certificate
+                - gridcell [ref=e137]
+                - gridcell [ref=e138]
+                - gridcell [ref=e139]
+                - gridcell [ref=e140]: National
+                - gridcell [ref=e141]: Academic Fire Authority
+                - gridcell [ref=e142]
+              - row [ref=e143]:
+                - gridcell [ref=e144]: FIR691654
+                - gridcell [ref=e145]: AutoGlobalCred-1789276907618
+                - gridcell [ref=e146]
+                - gridcell [ref=e147]
+                - gridcell [ref=e148]
+                - gridcell [ref=e149]: National
+                - gridcell [ref=e150]: Academic Fire Authority
+                - gridcell [ref=e151]
+              - row [ref=e152]:
+                - gridcell [ref=e153]: FIR4
+                - gridcell [ref=e154]: AutoGlobalCred-1788844158616
+                - gridcell [ref=e155]
+                - gridcell [ref=e156]
+                - gridcell [ref=e157]
+                - gridcell [ref=e158]: National
+                - gridcell [ref=e159]: Academic Fire Authority
+                - gridcell [ref=e160]
+              - row [ref=e161]:
+                - gridcell [ref=e162]: FIR6
+                - gridcell [ref=e163]: AutoGlobalCred-1788930474263
+                - gridcell [ref=e164]
+                - gridcell [ref=e165]
+                - gridcell [ref=e166]
+                - gridcell [ref=e167]: National
+                - gridcell [ref=e168]: Academic Fire Authority
+                - gridcell [ref=e169]
+              - row [ref=e170]:
+                - gridcell [ref=e171]: FIR8
+                - gridcell [ref=e172]: AutoGlobalCred-1789017051643
+                - gridcell [ref=e173]
+                - gridcell [ref=e174]
+                - gridcell [ref=e175]
+                - gridcell [ref=e176]: National
+                - gridcell [ref=e177]: Academic Fire Authority
+                - gridcell [ref=e178]
+              - row [ref=e179]:
+                - gridcell [ref=e180]: FIR329264
+                - gridcell [ref=e181]: AgCred-1789103329264
+                - gridcell [ref=e182]
+                - gridcell [ref=e183]
+                - gridcell [ref=e184]
+                - gridcell [ref=e185]: National
+                - gridcell [ref=e186]: Academic Fire Authority
+                - gridcell [ref=e187]: Course Requirement
+              - row [ref=e188]:
+                - gridcell [ref=e189]: FIR691656
+                - gridcell [ref=e190]: AutoGlobalCred-1789363691900
+                - gridcell [ref=e191]
+                - gridcell [ref=e192]
+                - gridcell [ref=e193]
+                - gridcell [ref=e194]: National
+                - gridcell [ref=e195]: Academic Fire Authority
+                - gridcell [ref=e196]
+              - row [ref=e197]:
+                - gridcell [ref=e198]: FIR691660
+                - gridcell [ref=e199]: AutoGlobalCred-1789535730135
+                - gridcell [ref=e200]
+                - gridcell [ref=e201]
+                - gridcell [ref=e202]
+                - gridcell [ref=e203]: National
+                - gridcell [ref=e204]: Academic Fire Authority
+                - gridcell [ref=e205]
+              - row [ref=e206]:
+                - gridcell [ref=e207]: FIR691664
+                - gridcell [ref=e208]: ROI Certificate
+                - gridcell [ref=e209]
+                - gridcell [ref=e210]
+                - gridcell [ref=e211]
+                - gridcell [ref=e212]: National
+                - gridcell [ref=e213]: Academic Fire Authority
+                - gridcell [ref=e214]
+              - row [ref=e215]:
+                - gridcell [ref=e216]: FIR691667
+                - gridcell [ref=e217]: ROI Credential
+                - gridcell [ref=e218]
+                - gridcell [ref=e219]
+                - gridcell [ref=e220]
+                - gridcell [ref=e221]: National
+                - gridcell [ref=e222]: Academic Fire Authority
+                - gridcell [ref=e223]
+            - rowgroup [ref=e224]:
+              - row [ref=e225]:
+                - gridcell [ref=e226]:
+                  - generic [ref=e227]:
+                    - button [ref=e228] [cursor=pointer]
+                    - button [ref=e230] [cursor=pointer]
+                    - button [ref=e232] [cursor=pointer]
+              - row [ref=e234]:
+                - gridcell [ref=e235]:
+                  - generic [ref=e236]:
+                    - button [ref=e237] [cursor=pointer]
+                    - button [ref=e239] [cursor=pointer]
+                    - button [ref=e241] [cursor=pointer]
+              - row [ref=e243]:
+                - gridcell [ref=e244]:
+                  - generic [ref=e245]:
+                    - button [ref=e246] [cursor=pointer]
+                    - button [ref=e248] [cursor=pointer]
+                    - button [ref=e250] [cursor=pointer]
+              - row [ref=e252]:
+                - gridcell [ref=e253]:
+                  - generic [ref=e254]:
+                    - button [ref=e255] [cursor=pointer]
+                    - button [ref=e257] [cursor=pointer]
+                    - button [ref=e259] [cursor=pointer]
+              - row [ref=e261]:
+                - gridcell [ref=e262]:
+                  - generic [ref=e263]:
+                    - button [ref=e264] [cursor=pointer]
+                    - button [ref=e266] [cursor=pointer]
+                    - button [ref=e268] [cursor=pointer]
+              - row [ref=e270]:
+                - gridcell [ref=e271]:
+                  - generic [ref=e272]:
+                    - button [ref=e273] [cursor=pointer]
+                    - button [ref=e275] [cursor=pointer]
+                    - button [ref=e277] [cursor=pointer]
+              - row [ref=e279]:
+                - gridcell [ref=e280]:
+                  - generic [ref=e281]:
+                    - button [ref=e282] [cursor=pointer]
+                    - button [ref=e284] [cursor=pointer]
+                    - button [ref=e286] [cursor=pointer]
+              - row [ref=e288]:
+                - gridcell [ref=e289]:
+                  - generic [ref=e290]:
+                    - button [ref=e291] [cursor=pointer]
+                    - button [ref=e293] [cursor=pointer]
+                    - button [ref=e295] [cursor=pointer]
+              - row [ref=e297]:
+                - gridcell [ref=e298]:
+                  - generic [ref=e299]:
+                    - button [ref=e300] [cursor=pointer]
+                    - button [ref=e302] [cursor=pointer]
+                    - button [ref=e304] [cursor=pointer]
+              - row [ref=e306]:
+                - gridcell [ref=e307]:
+                  - generic [ref=e308]:
+                    - button [ref=e309] [cursor=pointer]
+                    - button [ref=e311] [cursor=pointer]
+                    - button [ref=e313] [cursor=pointer]
+              - row [ref=e315]:
+                - gridcell [ref=e316]:
+                  - generic [ref=e317]:
+                    - button [ref=e318] [cursor=pointer]
+                    - button [ref=e320] [cursor=pointer]
+                    - button [ref=e322] [cursor=pointer]
+            - rowgroup
+          - generic [ref=e328]:
+            - generic [ref=e329]: Showing 1 to 20 of 82 records
+            - generic [ref=e330]: Page 1 of 5
+            - button [ref=e333] [cursor=pointer]: "Page size: 20"
+            - button [ref=e335] [cursor=pointer]
+            - generic [ref=e337]:
+              - button [disabled] [ref=e338]: Previous
+              - button [ref=e340] [cursor=pointer]: Next
+  - contentinfo [ref=e342]: © 2026 First Due
+  - dialog "New Credential" [ref=e344]:
+    - generic [ref=e346]:
+      - generic [ref=e348]:
+        - heading "New Credential" [level=2] [ref=e352]
+        - button "Close" [ref=e353] [cursor=pointer]
+      - generic [ref=e356]:
+        - generic [ref=e358]:
+          - strong [ref=e363]: Total Credential Hours
+          - generic [ref=e367]: 00:00
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - generic "Name" [ref=e372]
+            - generic [ref=e373]: "*"
+          - textbox "Name" [ref=e377]: lifetime value Certification
+          - generic [ref=e381]: "Character limit: 28/100"
+        - generic [ref=e384]:
+          - generic [ref=e385]:
+            - generic "Credential Type" [ref=e386]
+            - generic [ref=e387]: "*"
+          - generic "Open dropdown" [ref=e389]:
+            - button "Fire (FIR)" [ref=e393]:
+              - generic [ref=e394]: Fire (FIR)
+        - generic [ref=e398]:
+          - generic [ref=e399]:
+            - generic "Credential ID" [ref=e400]
+            - generic [ref=e401]: "*"
+            - link "Autogenerate" [ref=e403] [cursor=pointer]:
+              - /url: "#"
+          - textbox "Credential ID" [ref=e407]: FIR127579
+        - generic [ref=e410]:
+          - generic "State/Province" [ref=e412]
+          - generic "Open dropdown" [ref=e414]:
+            - button "National" [ref=e418]:
+              - generic [ref=e419]: National
+        - generic [ref=e423]:
+          - generic "Issue Authority" [ref=e425]
+          - generic "Open dropdown" [ref=e427]:
+            - button "Academic Fire Authority" [ref=e431]:
+              - generic [ref=e432]: Academic Fire Authority
+        - generic [ref=e436]:
+          - generic "Credential Cycle (Optional)" [ref=e438]
+          - spinbutton "Credential Cycle (Optional)" [ref=e442]: "1"
+          - generic [ref=e446]: Leave blank if the credential does not expire.
+        - generic [ref=e449]:
+          - generic "Cycle period" [ref=e451]
+          - generic "Open dropdown" [ref=e453]:
+            - button "Year(s)" [ref=e457]:
+              - generic [ref=e458]: Year(s)
+        - generic [ref=e461]:
+          - generic [ref=e465]:
+            - heading "Renewal Criteria" [level=2] [ref=e467]
+            - generic [ref=e468]: Select a renewal criteria
+          - generic [ref=e473]:
+            - option "Date all completion requirements met Automatically will renew the credential when the user reaches 100% prior to the expiration date" [ref=e475] [cursor=pointer]:
+              - generic [ref=e481]:
+                - generic "Date all completion requirements met" [ref=e482]
+                - generic "Automatically will renew the credential when the user reaches 100% prior to the expiration date" [ref=e483]
+            - option "Date of expiration Automatically will renew the credential on the expiration date, regardless of completion progress" [ref=e485] [cursor=pointer]:
+              - generic [ref=e491]:
+                - generic "Date of expiration" [ref=e492]
+                - generic "Automatically will renew the credential on the expiration date, regardless of completion progress" [ref=e493]
+            - option "Date of expiration with completion Automatically will renew the credential at date of expiration when user reaches 100%" [ref=e495] [cursor=pointer]:
+              - generic [ref=e501]:
+                - generic "Date of expiration with completion" [ref=e502]
+                - generic "Automatically will renew the credential at date of expiration when user reaches 100%" [ref=e503]
+            - option "Do not automatically renew / expire For lifetime credentials or credentials tracked outside First Due. First Due will not automatically renew or expire them." [active] [selected] [ref=e505] [cursor=pointer]:
+              - generic [ref=e511]:
+                - generic "Do not automatically renew / expire" [ref=e512]
+                - generic "For lifetime credentials or credentials tracked outside First Due. First Due will not automatically renew or expire them." [ref=e513]
+        - generic [ref=e517]:
+          - generic [ref=e519]:
+            - heading "Prerequisite needed" [level=2] [ref=e521]
+            - generic [ref=e522]: Enable if this credential requires other credentials to be completed first
+          - checkbox "Toggle" [ref=e526]
+        - generic [ref=e533]:
+          - generic [ref=e535]:
+            - heading "Grace Period" [level=2] [ref=e537]
+            - generic [ref=e538]: Grace period for this credential
+          - checkbox "Toggle" [ref=e542]
+        - generic [ref=e550]:
+          - generic [ref=e551]: Allow User Submission
+          - checkbox "Allow User Submission" [ref=e554]
+        - generic [ref=e558]:
+          - generic "Credential Completion Type" [ref=e560]
+          - generic "Open dropdown" [ref=e562]:
+            - button "Open dropdown" [ref=e566]
+      - generic [ref=e570]:
+        - button "Cancel" [ref=e571] [cursor=pointer]
+        - button "Save" [ref=e572] [cursor=pointer]: Save
+```
+
+# Test source
+
+```ts
+  1  | import type { Actor } from '@/framework';
+  2  | import { Task } from '@/framework';
+  3  | import { BrowseTheWeb } from '@/framework/abilities/BrowseTheWeb';
+  4  | import { CredentialsTargets } from '../targets';
+  5  | 
+  6  | function isSelectableTrainingPlanOption(label: string): boolean {
+  7  |   const normalized = label.trim().toLowerCase();
+  8  |   return Boolean(
+  9  |     normalized
+  10 |     && normalized !== 'clear'
+  11 |     && normalized !== '--'
+  12 |     && !normalized.startsWith('select'),
+  13 |   );
+  14 | }
+  15 | 
+  16 | export class SelectAgencyCredentialLinkedTrainingPlanTask extends Task {
+  17 |   private constructor(private readonly planName?: string) {
+  18 |     super();
+  19 |   }
+  20 | 
+  21 |   static firstAvailable(): SelectAgencyCredentialLinkedTrainingPlanTask {
+  22 |     return new SelectAgencyCredentialLinkedTrainingPlanTask();
+  23 |   }
+  24 | 
+  25 |   static named(planName: string): SelectAgencyCredentialLinkedTrainingPlanTask {
+  26 |     return new SelectAgencyCredentialLinkedTrainingPlanTask(planName);
+  27 |   }
+  28 | 
+  29 |   describeAction(): string {
+  30 |     return this.planName
+  31 |       ? `Select linked training plan "${this.planName}"`
+  32 |       : 'Select first available linked training plan';
+  33 |   }
+  34 | 
+  35 |   async performAs(actor: Actor): Promise<void> {
+  36 |     const { page } = actor.abilityTo(BrowseTheWeb);
+  37 |     const linkedPlan = page.locator(CredentialsTargets.AGENCY_FORM_LINKED_TRAINING_PLAN.locatedBy());
+> 38 |     await linkedPlan.scrollIntoViewIfNeeded();
+     |                      ^ TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+  39 |     await linkedPlan.getByRole('button').first().click();
+  40 | 
+  41 |     if (this.planName) {
+  42 |       await page.getByRole('menuitem', { name: this.planName, exact: true }).first().click();
+  43 |       return;
+  44 |     }
+  45 | 
+  46 |     const menuitems = page.getByRole('menuitem');
+  47 |     await menuitems.first().waitFor({ state: 'visible', timeout: 10_000 });
+  48 |     const count = await menuitems.count();
+  49 | 
+  50 |     for (let index = 0; index < count; index += 1) {
+  51 |       const label = (await menuitems.nth(index).innerText()).trim();
+  52 |       if (isSelectableTrainingPlanOption(label)) {
+  53 |         await menuitems.nth(index).click();
+  54 |         return;
+  55 |       }
+  56 |     }
+  57 | 
+  58 |     throw new Error('No linked training plan options available in credential form');
+  59 |   }
+  60 | }
+  61 | 
+```

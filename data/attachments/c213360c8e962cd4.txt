@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:46:38.549Z] [INFO] [W1] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-11-14T07:46:42.503Z] [INFO] [W1] [C21852431] [Admin] ✓ Open Training Setup Categories page (3954ms)
+[2026-11-14T07:46:42.504Z] [INFO] [W1] [C21852431] [Admin] → Create category "Sleek Books"
+[2026-11-14T07:46:43.247Z] [INFO] [W1] [C21852431] [Admin] ✓ Create category "Sleek Books" (743ms)
+[2026-11-14T07:46:43.247Z] [INFO] [W1] [C21852431] [Admin] → Search categories by name "Sleek Books" (exact match)
+[2026-11-14T07:46:44.927Z] [INFO] [W1] [C21852431] [Admin] ✓ Search categories by name "Sleek Books" (exact match) (1680ms)
+[2026-11-14T07:46:44.927Z] [INFO] [W1] [C21852431] [Admin] → Edit Category

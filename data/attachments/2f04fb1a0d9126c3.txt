@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-11-14T07:03:45.649Z] [INFO] [W1] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-11-14T07:03:49.031Z] [INFO] [W1] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (3382ms)
+[2026-11-14T07:03:49.038Z] [INFO] [W1] [C45059] [Admin] → Is Location Groups List Ready
+[2026-11-14T07:03:49.084Z] [INFO] [W1] [C45059] [Admin] ✓ Is Location Groups List Ready (46ms)
+[2026-11-14T07:03:49.095Z] [INFO] [W1] [C45059] [Admin] → Create location group "South Yorkshire Unit"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C45059]
+Status: FAILED
+Duration: 64158ms
+[2026-11-14T07:04:49.560Z] [ERROR] [W1] [C45059] [object Object]
+────────────────────────────────────────────────────────

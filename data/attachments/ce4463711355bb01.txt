@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22682820]
+Title: Verify search with no matching credentials displays empty state
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:38:46.566Z] [INFO] [W0] [C22682820] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22682820]
+Status: FAILED
+Duration: 60945ms
+[2026-11-14T07:39:47.045Z] [ERROR] [W0] [C22682820] [object Object]
+────────────────────────────────────────────────────────

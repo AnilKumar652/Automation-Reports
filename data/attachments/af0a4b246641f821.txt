@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C52162]
+Title: Verify credential status in Personnel matches Training Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:11:31.438Z] [INFO] [W1] [C52162] [Admin] → Prepare and assign credential "smart contracts Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C52162]
+Status: FAILED
+Duration: 34399ms
+[2026-11-14T07:12:05.710Z] [ERROR] [W1] [C52162] [object Object]
+────────────────────────────────────────────────────────

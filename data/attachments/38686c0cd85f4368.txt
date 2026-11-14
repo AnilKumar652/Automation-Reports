@@ -1,0 +1,29 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:49:24.834Z] [INFO] [W0] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-11-14T07:49:31.634Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Training Setup Categories page (6800ms)
+[2026-11-14T07:49:31.637Z] [INFO] [W0] [C22680549] [Admin] → Create category "Electronic Beauty"
+[2026-11-14T07:49:32.715Z] [INFO] [W0] [C22680549] [Admin] ✓ Create category "Electronic Beauty" (1078ms)
+[2026-11-14T07:49:32.715Z] [INFO] [W0] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:49:33.086Z] [INFO] [W0] [C22680549] [Admin] ✓ Categories grid contains records verified (371ms)
+[2026-11-14T07:49:33.087Z] [INFO] [W0] [C22680549] [Admin] → Open Import Categories Modal
+[2026-11-14T07:49:33.226Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Import Categories Modal (139ms)
+[2026-11-14T07:49:33.227Z] [INFO] [W0] [C22680549] [Admin] → Is Import Modal Open
+[2026-11-14T07:49:33.262Z] [INFO] [W0] [C22680549] [Admin] ✓ Is Import Modal Open (35ms)
+[2026-11-14T07:49:33.268Z] [INFO] [W0] [C22680549] [Admin] → Read Import Categories help text
+[2026-11-14T07:49:33.307Z] [INFO] [W0] [C22680549] [Admin] ✓ Read Import Categories help text (39ms)
+[2026-11-14T07:49:33.309Z] [INFO] [W0] [C22680549] [Admin] → Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/categories-non-csv.txt"
+[2026-11-14T07:49:33.389Z] [INFO] [W0] [C22680549] [Admin] ✓ Upload categories import file "/home/runner/work/playwright-screenplay/playwright-screenplay/test-assets/training-setup/categories-non-csv.txt" (80ms)
+[2026-11-14T07:49:33.390Z] [INFO] [W0] [C22680549] [Admin] → Read Import Categories validation messages
+[2026-11-14T07:49:33.477Z] [INFO] [W0] [C22680549] [Admin] ✓ Read Import Categories validation messages (87ms)
+[2026-11-14T07:49:33.478Z] [INFO] [W0] [C22680549] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:49:33.490Z] [INFO] [W0] [C22680549] [Admin] ✓ Categories grid contains records verified (12ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22680549]
+Status: FAILED
+Duration: 9325ms
+[2026-11-14T07:49:33.560Z] [ERROR] [W0] [C22680549] [object Object]
+────────────────────────────────────────────────────────

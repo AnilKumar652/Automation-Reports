@@ -1,0 +1,7 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-11-14T07:21:34.173Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-11-14T07:21:37.450Z] [INFO] [W0] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (3277ms)
+[2026-11-14T07:21:37.450Z] [INFO] [W0] [C78340] [Admin] → Create equipment group "County Armagh Unit"

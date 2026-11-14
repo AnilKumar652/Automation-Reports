@@ -1,0 +1,16 @@
+[2026-11-14T07:02:13.365Z] [ERROR] [W1] [C45556] [Admin] ✗ Wait until Asset management setup list row for "Northumberland Group" is visible (60007ms)
+[2026-11-14T07:02:13.365Z] [ERROR] [W1] [C45556] Locator: role=cell[name="Northumberland Group"i]
+[2026-11-14T07:02:13.365Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Northumberland Group"i]') to be visible
+
+[2026-11-14T07:02:13.365Z] [ERROR] [W1] [C45556] [Admin] ✗ Save apparatus group "Northumberland Group" (60110ms)
+[2026-11-14T07:02:13.365Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Northumberland Group"i]') to be visible
+
+[2026-11-14T07:02:13.366Z] [ERROR] [W1] [C45556] [Admin] ✗ Create apparatus group "Northumberland Group" (60479ms)
+[2026-11-14T07:02:13.366Z] [ERROR] [W1] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Northumberland Group"i]') to be visible
+

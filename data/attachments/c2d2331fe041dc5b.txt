@@ -1,0 +1,21 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181796]
+Title: Verify validation messages when saving a credential with empty mandatory fields
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:09:14.876Z] [INFO] [W1] [C22181796] [Admin] → Open Agency Credentials page
+[2026-11-14T07:09:17.474Z] [INFO] [W1] [C22181796] [Admin] ✓ Open Agency Credentials page (2598ms)
+[2026-11-14T07:09:17.474Z] [INFO] [W1] [C22181796] [Admin] → Verify Agency Credentials page is ready
+[2026-11-14T07:09:17.556Z] [INFO] [W1] [C22181796] [Admin] ✓ Agency Credentials page is ready (82ms)
+[2026-11-14T07:09:17.561Z] [INFO] [W1] [C22181796] [Admin] → Open Add Credential form
+[2026-11-14T07:09:18.469Z] [INFO] [W1] [C22181796] [Admin] ✓ Open Add Credential form (908ms)
+[2026-11-14T07:09:18.469Z] [INFO] [W1] [C22181796] [Admin] → Submit Blank Agency Credential Form
+[2026-11-14T07:09:18.601Z] [INFO] [W1] [C22181796] [Admin] ✓ Submit Blank Agency Credential Form (132ms)
+[2026-11-14T07:09:18.602Z] [INFO] [W1] [C22181796] [Admin] → Credential Validation Dialog Text
+[2026-11-14T07:09:18.630Z] [INFO] [W1] [C22181796] [Admin] ✓ Credential Validation Dialog Text (28ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181796]
+Status: FAILED
+Duration: 4086ms
+[2026-11-14T07:09:18.785Z] [ERROR] [W1] [C22181796] [object Object]
+────────────────────────────────────────────────────────

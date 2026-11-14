@@ -1,0 +1,11 @@
+[2026-11-14T07:00:55.762Z] [ERROR] [W1] [C5877543] [Admin] ✗ Wait until Organization row for "Direct Intranet Agent" is visible (60109ms)
+[2026-11-14T07:00:55.763Z] [ERROR] [W1] [C5877543] Locator: role=gridcell[name="Direct Intranet Agent"i]
+[2026-11-14T07:00:55.763Z] [ERROR] [W1] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Direct Intranet Agent"i]') to be visible
+
+[2026-11-14T07:00:55.763Z] [ERROR] [W1] [C5877543] [Admin] ✗ Add organization position "Direct Intranet Agent" (61208ms)
+[2026-11-14T07:00:55.763Z] [ERROR] [W1] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Direct Intranet Agent"i]') to be visible
+

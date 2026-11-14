@@ -1,0 +1,16 @@
+[2026-11-14T07:22:39.073Z] [ERROR] [W0] [C78340] [Admin] ✗ Wait until Asset management setup list row for "County Armagh Unit" is visible (60008ms)
+[2026-11-14T07:22:39.073Z] [ERROR] [W0] [C78340] Locator: role=cell[name="County Armagh Unit"i]
+[2026-11-14T07:22:39.073Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Armagh Unit"i]') to be visible
+
+[2026-11-14T07:22:39.073Z] [ERROR] [W0] [C78340] [Admin] ✗ Save equipment group "County Armagh Unit" (60447ms)
+[2026-11-14T07:22:39.073Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Armagh Unit"i]') to be visible
+
+[2026-11-14T07:22:39.073Z] [ERROR] [W0] [C78340] [Admin] ✗ Create equipment group "County Armagh Unit" (61623ms)
+[2026-11-14T07:22:39.073Z] [ERROR] [W0] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="County Armagh Unit"i]') to be visible
+

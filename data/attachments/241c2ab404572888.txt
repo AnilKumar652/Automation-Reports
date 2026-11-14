@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877540]
+Title: Verify user can add an organization division
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T06:56:31.062Z] [INFO] [W0] [C5877540] [Admin] → Open Agency Setup Organization page
+[2026-11-14T06:56:40.885Z] [INFO] [W0] [C5877540] [Admin] ✓ Open Agency Setup Organization page (9823ms)
+[2026-11-14T06:56:40.890Z] [INFO] [W0] [C5877540] [Admin] → Is Agency Setup Organization Ready
+[2026-11-14T06:56:40.992Z] [INFO] [W0] [C5877540] [Admin] ✓ Is Agency Setup Organization Ready (102ms)
+[2026-11-14T06:56:41.013Z] [INFO] [W0] [C5877540] [Admin] → Select Organization Division tab
+[2026-11-14T06:56:41.384Z] [INFO] [W0] [C5877540] [Admin] ✓ Select Organization Division tab (371ms)
+[2026-11-14T06:56:41.384Z] [INFO] [W0] [C5877540] [Admin] → Add organization division "Grocery"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877540]
+Status: FAILED
+Duration: 73447ms
+[2026-11-14T06:57:44.008Z] [ERROR] [W0] [C5877540] [object Object]
+────────────────────────────────────────────────────────

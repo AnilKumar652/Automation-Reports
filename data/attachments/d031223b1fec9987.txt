@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:47:31.914Z] [INFO] [W0] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-11-14T07:47:37.348Z] [INFO] [W0] [C21852432] [Admin] ✓ Open Training Setup Categories page (5434ms)
+[2026-11-14T07:47:37.355Z] [INFO] [W0] [C21852432] [Admin] → Create category "Larson - Heller-Walker Unbranded Games"
+[2026-11-14T07:47:38.927Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Larson - Heller-Walker Unbranded Games" (1572ms)
+[2026-11-14T07:47:38.927Z] [INFO] [W0] [C21852432] [Admin] → Create category "Larson - Heller-Walker Oriental Outdoors"
+[2026-11-14T07:47:39.688Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Larson - Heller-Walker Oriental Outdoors" (761ms)
+[2026-11-14T07:47:39.689Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:47:40.105Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (416ms)
+[2026-11-14T07:47:40.105Z] [INFO] [W0] [C21852432] [Admin] → Search categories by name "Larson - Heller-Walker" (matching results)
+[2026-11-14T07:47:41.108Z] [INFO] [W0] [C21852432] [Admin] ✓ Search categories by name "Larson - Heller-Walker" (matching results) (1003ms)
+[2026-11-14T07:47:41.109Z] [INFO] [W0] [C21852432] [Admin] → Visible Category Names
+[2026-11-14T07:47:41.160Z] [INFO] [W0] [C21852432] [Admin] ✓ Visible Category Names (51ms)
+[2026-11-14T07:47:41.165Z] [INFO] [W0] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-11-14T07:47:41.277Z] [INFO] [W0] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (112ms)
+[2026-11-14T07:47:41.278Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:47:41.306Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (28ms)
+[2026-11-14T07:47:41.307Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:47:41.325Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (18ms)
+[2026-11-14T07:47:41.325Z] [INFO] [W0] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-11-14T07:47:41.716Z] [INFO] [W0] [C21852432] [Admin] ✓ Toggle Header Row Selection (391ms)
+[2026-11-14T07:47:41.717Z] [INFO] [W0] [C21852432] [Admin] → Selected Category Row Count
+[2026-11-14T07:47:41.763Z] [INFO] [W0] [C21852432] [Admin] ✓ Selected Category Row Count (46ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852432]
+Status: FAILED
+Duration: 10195ms
+[2026-11-14T07:47:41.860Z] [ERROR] [W0] [C21852432] [object Object]
+────────────────────────────────────────────────────────

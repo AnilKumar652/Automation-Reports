@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:47:21.969Z] [INFO] [W0] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-11-14T07:47:25.591Z] [INFO] [W0] [C21852432] [Admin] ✓ Open Training Setup Categories page (3622ms)
+[2026-11-14T07:47:25.596Z] [INFO] [W0] [C21852432] [Admin] → Create category "Sipes and Sons Refined Computers"
+[2026-11-14T07:47:27.185Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Sipes and Sons Refined Computers" (1589ms)
+[2026-11-14T07:47:27.186Z] [INFO] [W0] [C21852432] [Admin] → Create category "Sipes and Sons Practical Garden"
+[2026-11-14T07:47:28.012Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Sipes and Sons Practical Garden" (826ms)
+[2026-11-14T07:47:28.013Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:47:28.056Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (43ms)
+[2026-11-14T07:47:28.056Z] [INFO] [W0] [C21852432] [Admin] → Search categories by name "Sipes and Sons" (matching results)
+[2026-11-14T07:47:29.430Z] [INFO] [W0] [C21852432] [Admin] ✓ Search categories by name "Sipes and Sons" (matching results) (1374ms)
+[2026-11-14T07:47:29.431Z] [INFO] [W0] [C21852432] [Admin] → Visible Category Names
+[2026-11-14T07:47:29.469Z] [INFO] [W0] [C21852432] [Admin] ✓ Visible Category Names (38ms)
+[2026-11-14T07:47:29.473Z] [INFO] [W0] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-11-14T07:47:29.538Z] [INFO] [W0] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (65ms)
+[2026-11-14T07:47:29.538Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:47:29.544Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (6ms)
+[2026-11-14T07:47:29.545Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-14T07:47:29.554Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (9ms)
+[2026-11-14T07:47:29.554Z] [INFO] [W0] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-11-14T07:47:29.910Z] [INFO] [W0] [C21852432] [Admin] ✓ Toggle Header Row Selection (356ms)
+[2026-11-14T07:47:29.911Z] [INFO] [W0] [C21852432] [Admin] → Selected Category Row Count
+[2026-11-14T07:47:29.930Z] [INFO] [W0] [C21852432] [Admin] ✓ Selected Category Row Count (19ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852432]
+Status: FAILED
+Duration: 8329ms
+[2026-11-14T07:47:30.086Z] [ERROR] [W0] [C21852432] [object Object]
+────────────────────────────────────────────────────────

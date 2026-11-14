@@ -1,0 +1,16 @@
+[2026-11-14T07:06:13.287Z] [ERROR] [W1] [C45059] [Admin] ✗ Wait until Asset management setup list row for "West Yorkshire Unit" is visible (60025ms)
+[2026-11-14T07:06:13.287Z] [ERROR] [W1] [C45059] Locator: role=cell[name="West Yorkshire Unit"i]
+[2026-11-14T07:06:13.287Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="West Yorkshire Unit"i]') to be visible
+
+[2026-11-14T07:06:13.287Z] [ERROR] [W1] [C45059] [Admin] ✗ Save location group "West Yorkshire Unit" (60334ms)
+[2026-11-14T07:06:13.287Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="West Yorkshire Unit"i]') to be visible
+
+[2026-11-14T07:06:13.288Z] [ERROR] [W1] [C45059] [Admin] ✗ Create location group "West Yorkshire Unit" (61344ms)
+[2026-11-14T07:06:13.288Z] [ERROR] [W1] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="West Yorkshire Unit"i]') to be visible
+

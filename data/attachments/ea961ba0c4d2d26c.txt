@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:14:01.287Z] [INFO] [W0] [C54657] [Admin] → Open Agency Credentials page
+[2026-11-14T07:14:07.933Z] [INFO] [W0] [C54657] [Admin] ✓ Open Agency Credentials page (6646ms)
+[2026-11-14T07:14:07.933Z] [INFO] [W0] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-11-14T07:14:08.090Z] [INFO] [W0] [C54657] [Admin] ✓ Agency Credentials page is ready (157ms)
+[2026-11-14T07:14:08.108Z] [INFO] [W0] [C54657] [Admin] → Create agency credential "Stoltenberg, Brown and Cummerata-1"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C54657]
+Status: FAILED
+Duration: 21946ms
+[2026-11-14T07:14:22.968Z] [ERROR] [W0] [C54657] [object Object]
+────────────────────────────────────────────────────────

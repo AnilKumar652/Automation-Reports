@@ -1,0 +1,26 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C77675]
+Title: Verify user can create a fire station with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:21:43.730Z] [INFO] [W1] [C77675] [Admin] → Open Fire Station list page
+[2026-11-14T07:21:46.119Z] [INFO] [W1] [C77675] [Admin] ✓ Open Fire Station list page (2389ms)
+[2026-11-14T07:21:46.120Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station List Ready
+[2026-11-14T07:21:46.953Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station List Ready (833ms)
+[2026-11-14T07:21:46.958Z] [INFO] [W1] [C77675] [Admin] → Open new fire station form
+[2026-11-14T07:21:49.450Z] [INFO] [W1] [C77675] [Admin] ✓ Open new fire station form (2492ms)
+[2026-11-14T07:21:49.451Z] [INFO] [W1] [C77675] [Admin] → Is Fire Station Create Form Open
+[2026-11-14T07:21:50.710Z] [INFO] [W1] [C77675] [Admin] ✓ Is Fire Station Create Form Open (1259ms)
+[2026-11-14T07:21:50.716Z] [INFO] [W1] [C77675] [Admin] → Fire Station Create Form Fields Visible
+[2026-11-14T07:21:51.821Z] [INFO] [W1] [C77675] [Admin] ✓ Fire Station Create Form Fields Visible (1105ms)
+[2026-11-14T07:21:51.822Z] [INFO] [W1] [C77675] [Admin] → Create fire station "South Coltside Fire Station"
+[2026-11-14T07:21:55.995Z] [INFO] [W1] [C77675] [Admin] ✓ Create fire station "South Coltside Fire Station" (4173ms)
+[2026-11-14T07:21:55.998Z] [INFO] [W1] [C77675] [Admin] → Search fire stations by name "South Coltside Fire Station"
+[2026-11-14T07:21:58.796Z] [INFO] [W1] [C77675] [Admin] ✓ Search fire stations by name "South Coltside Fire Station" (2798ms)
+[2026-11-14T07:21:58.797Z] [INFO] [W1] [C77675] [Admin] → Fire Station Row Visible
+[2026-11-14T07:21:58.868Z] [INFO] [W1] [C77675] [Admin] ✓ Fire Station Row Visible (71ms)
+────────────────────────────────────────────────────────
+TEST END | [W1] [C77675]
+Status: PASSED
+Duration: 15450ms
+────────────────────────────────────────────────────────

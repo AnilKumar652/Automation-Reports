@@ -1,0 +1,5 @@
+[2026-11-14T07:45:48.732Z] [ERROR] [W1] [C22816988] [Admin] ✗ Search personnel list for "Herman Kilback" (30490ms)
+[2026-11-14T07:45:48.732Z] [ERROR] [W1] [C22816988] locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for getByRole('row', { name: /(?=.*Herman)(?=.*Kilback).*/i }).first() to be visible
+

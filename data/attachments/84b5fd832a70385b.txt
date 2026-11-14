@@ -1,0 +1,13 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-11-14T07:22:52.913Z] [INFO] [W0] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-11-14T07:22:58.027Z] [INFO] [W0] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (5114ms)
+[2026-11-14T07:22:58.027Z] [INFO] [W0] [C78340] [Admin] → Create equipment group "Lincolnshire Team"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C78340]
+Status: FAILED
+Duration: 66416ms
+[2026-11-14T07:23:59.035Z] [ERROR] [W0] [C78340] [object Object]
+────────────────────────────────────────────────────────

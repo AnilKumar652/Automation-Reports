@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58122]
+Title: Verify credential log can be removed from Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:18:25.642Z] [INFO] [W1] [C58122] [Admin] → Prepare and assign credential "supply-chains Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58122]
+Status: FAILED
+Duration: 34746ms
+[2026-11-14T07:19:00.096Z] [ERROR] [W1] [C58122] [object Object]
+────────────────────────────────────────────────────────

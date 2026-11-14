@@ -1,0 +1,26 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22181791]
+Title: Verify State / Province is mandatory for Global Credentials when TRN-1853 is enabled
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:05:32.176Z] [INFO] [W0] [C22181791] [Super Admin] → Open Global Credentials page
+[2026-11-14T07:05:35.291Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Open Global Credentials page (3115ms)
+[2026-11-14T07:05:35.293Z] [INFO] [W0] [C22181791] [Super Admin] → Is Global Credentials Page Ready
+[2026-11-14T07:05:35.314Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Is Global Credentials Page Ready (21ms)
+[2026-11-14T07:05:35.318Z] [INFO] [W0] [C22181791] [Super Admin] → Open Add Global Credential form
+[2026-11-14T07:05:36.354Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Open Add Global Credential form (1037ms)
+[2026-11-14T07:05:36.354Z] [INFO] [W0] [C22181791] [Super Admin] → Submit Global Credential Without State
+[2026-11-14T07:05:37.693Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Submit Global Credential Without State (1339ms)
+[2026-11-14T07:05:37.693Z] [INFO] [W0] [C22181791] [Super Admin] → Credential Validation Dialog Text
+[2026-11-14T07:05:37.717Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Credential Validation Dialog Text (24ms)
+[2026-11-14T07:05:37.723Z] [INFO] [W0] [C22181791] [Super Admin] → Dismiss Credential Validation Dialog
+[2026-11-14T07:05:37.754Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Dismiss Credential Validation Dialog (31ms)
+[2026-11-14T07:05:37.755Z] [INFO] [W0] [C22181791] [Super Admin] → Close Global Credential form
+[2026-11-14T07:05:37.937Z] [INFO] [W0] [C22181791] [Super Admin] ✓ Close Global Credential form (182ms)
+[2026-11-14T07:05:37.938Z] [INFO] [W0] [C22181791] [Super Admin] → Create global credential "ROI Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22181791]
+Status: FAILED
+Duration: 68929ms
+[2026-11-14T07:06:40.789Z] [ERROR] [W0] [C22181791] [object Object]
+────────────────────────────────────────────────────────

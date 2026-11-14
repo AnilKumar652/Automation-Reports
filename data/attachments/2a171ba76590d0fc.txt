@@ -1,0 +1,11 @@
+[2026-11-14T06:57:43.942Z] [ERROR] [W0] [C5877540] [Admin] ✗ Wait until Organization row for "Grocery" is visible (60009ms)
+[2026-11-14T06:57:43.942Z] [ERROR] [W0] [C5877540] Locator: role=gridcell[name="Grocery"i]
+[2026-11-14T06:57:43.942Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Grocery"i]') to be visible
+
+[2026-11-14T06:57:43.942Z] [ERROR] [W0] [C5877540] [Admin] ✗ Add organization division "Grocery" (62558ms)
+[2026-11-14T06:57:43.942Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Grocery"i]') to be visible
+

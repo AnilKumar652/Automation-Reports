@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58113]
+Title: Verify second edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:17:02.534Z] [INFO] [W1] [C58113] [Admin] → Prepare and assign credential "e-commerce Certification" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58113]
+Status: FAILED
+Duration: 34717ms
+[2026-11-14T07:17:36.837Z] [ERROR] [W1] [C58113] [object Object]
+────────────────────────────────────────────────────────

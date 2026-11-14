@@ -1,0 +1,16 @@
+[2026-11-14T07:01:51.400Z] [ERROR] [W0] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "Avon Team" is visible (60015ms)
+[2026-11-14T07:01:51.401Z] [ERROR] [W0] [C22779515] Locator: role=cell[name="Avon Team"i]
+[2026-11-14T07:01:51.401Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Avon Team"i]') to be visible
+
+[2026-11-14T07:01:51.401Z] [ERROR] [W0] [C22779515] [Admin] ✗ Save apparatus group "Avon Team" (60132ms)
+[2026-11-14T07:01:51.401Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Avon Team"i]') to be visible
+
+[2026-11-14T07:01:51.401Z] [ERROR] [W0] [C22779515] [Admin] ✗ Create apparatus group "Avon Team" (60648ms)
+[2026-11-14T07:01:51.401Z] [ERROR] [W0] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Avon Team"i]') to be visible
+

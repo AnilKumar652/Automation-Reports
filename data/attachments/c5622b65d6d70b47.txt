@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58114]
+Title: Verify third edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:17:57.631Z] [INFO] [W0] [C58114] [Admin] → Prepare and assign credential "methodologies License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58114]
+Status: FAILED
+Duration: 34349ms
+[2026-11-14T07:18:31.712Z] [ERROR] [W0] [C58114] [object Object]
+────────────────────────────────────────────────────────

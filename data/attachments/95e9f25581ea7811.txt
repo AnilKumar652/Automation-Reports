@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181794]
+Title: Verify imported Global Credential does not require State / Province at agency level
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:08:32.444Z] [INFO] [W1] [C22181794] [Super Admin] → Open Global Credentials page
+[2026-11-14T07:08:39.755Z] [INFO] [W1] [C22181794] [Super Admin] ✓ Open Global Credentials page (7311ms)
+[2026-11-14T07:08:39.755Z] [INFO] [W1] [C22181794] [Super Admin] → Create global credential "technologies License"
+[2026-11-14T07:08:48.937Z] [INFO] [W1] [C22181794] [Super Admin] ✓ Create global credential "technologies License" (9182ms)
+[2026-11-14T07:08:48.938Z] [INFO] [W1] [C22181794] [Admin] → Open Agency Credentials page
+[2026-11-14T07:08:56.091Z] [INFO] [W1] [C22181794] [Admin] ✓ Open Agency Credentials page (7153ms)
+[2026-11-14T07:08:56.091Z] [INFO] [W1] [C22181794] [Admin] → Import global credential "technologies License"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181794]
+Status: FAILED
+Duration: 36386ms
+[2026-11-14T07:09:08.105Z] [ERROR] [W1] [C22181794] [object Object]
+────────────────────────────────────────────────────────

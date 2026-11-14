@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5883872]
+Title: Verify unique credential ID validation
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:19:08.516Z] [INFO] [W1] [C5883872] [Admin] → Open Agency Credentials page
+[2026-11-14T07:19:11.312Z] [INFO] [W1] [C5883872] [Admin] ✓ Open Agency Credentials page (2796ms)
+[2026-11-14T07:19:11.312Z] [INFO] [W1] [C5883872] [Admin] → Verify Agency Credentials page is ready
+[2026-11-14T07:19:11.351Z] [INFO] [W1] [C5883872] [Admin] ✓ Agency Credentials page is ready (38ms)
+[2026-11-14T07:19:11.356Z] [INFO] [W1] [C5883872] [Admin] → Create agency credential "interfaces Credential"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5883872]
+Status: FAILED
+Duration: 14726ms
+[2026-11-14T07:19:23.159Z] [ERROR] [W1] [C5883872] [object Object]
+────────────────────────────────────────────────────────

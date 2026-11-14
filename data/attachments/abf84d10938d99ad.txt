@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181793]
+Title: Verify State / Province is optional when creating a credential from Setup
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:07:36.991Z] [INFO] [W1] [C22181793] [Admin] → Open Agency Credentials page
+[2026-11-14T07:07:41.357Z] [INFO] [W1] [C22181793] [Admin] ✓ Open Agency Credentials page (4366ms)
+[2026-11-14T07:07:41.358Z] [INFO] [W1] [C22181793] [Admin] → Verify Agency Credentials page is ready
+[2026-11-14T07:07:41.450Z] [INFO] [W1] [C22181793] [Admin] ✓ Agency Credentials page is ready (92ms)
+[2026-11-14T07:07:41.454Z] [INFO] [W1] [C22181793] [Admin] → Open Add Credential form
+[2026-11-14T07:07:41.865Z] [INFO] [W1] [C22181793] [Admin] ✓ Open Add Credential form (412ms)
+[2026-11-14T07:07:41.865Z] [INFO] [W1] [C22181793] [Admin] → State Province Mandatory Indicator
+[2026-11-14T07:07:41.910Z] [INFO] [W1] [C22181793] [Admin] ✓ State Province Mandatory Indicator (45ms)
+[2026-11-14T07:07:41.911Z] [INFO] [W1] [C22181793] [Admin] → Create agency credential "methodologies License"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181793]
+Status: FAILED
+Duration: 17883ms
+[2026-11-14T07:07:54.703Z] [ERROR] [W1] [C22181793] [object Object]
+────────────────────────────────────────────────────────

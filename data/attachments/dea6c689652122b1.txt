@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58112]
+Title: Verify first edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-14T07:15:53.845Z] [INFO] [W0] [C58112] [Admin] → Prepare and assign credential "mindshare License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58112]
+Status: FAILED
+Duration: 33542ms
+[2026-11-14T07:16:27.147Z] [ERROR] [W0] [C58112] [object Object]
+────────────────────────────────────────────────────────

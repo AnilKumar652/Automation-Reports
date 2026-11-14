@@ -1,0 +1,25 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22816988]
+Title: Verify new person can be created successfully for Training module
+────────────────────────────────────────────────────────
+[2026-11-14T07:44:13.728Z] [INFO] [W1] [C22816988] [Admin] → Open Create Person form
+[2026-11-14T07:44:21.897Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Create Person form (8169ms)
+[2026-11-14T07:44:21.897Z] [INFO] [W1] [C22816988] [Admin] → Is Create Person Form Open
+[2026-11-14T07:44:21.933Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Create Person Form Open (36ms)
+[2026-11-14T07:44:21.941Z] [INFO] [W1] [C22816988] [Admin] → Fill person form for "Rhonda Mueller"
+[2026-11-14T07:44:25.545Z] [INFO] [W1] [C22816988] [Admin] ✓ Fill person form for "Rhonda Mueller" (3604ms)
+[2026-11-14T07:44:25.546Z] [INFO] [W1] [C22816988] [Admin] → Is Person System User Active
+[2026-11-14T07:44:25.555Z] [INFO] [W1] [C22816988] [Admin] ✓ Is Person System User Active (10ms)
+[2026-11-14T07:44:25.558Z] [INFO] [W1] [C22816988] [Admin] → Submit Create Person form
+[2026-11-14T07:44:27.899Z] [INFO] [W1] [C22816988] [Admin] ✓ Submit Create Person form (2341ms)
+[2026-11-14T07:44:27.899Z] [INFO] [W1] [C22816988] [Admin] → Person Created Success Message
+[2026-11-14T07:44:27.928Z] [INFO] [W1] [C22816988] [Admin] ✓ Person Created Success Message (29ms)
+[2026-11-14T07:44:27.930Z] [INFO] [W1] [C22816988] [Admin] → Open Personnel List page
+[2026-11-14T07:44:28.751Z] [INFO] [W1] [C22816988] [Admin] ✓ Open Personnel List page (821ms)
+[2026-11-14T07:44:28.752Z] [INFO] [W1] [C22816988] [Admin] → Search personnel list for "Rhonda Mueller"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22816988]
+Status: FAILED
+Duration: 46418ms
+[2026-11-14T07:44:59.542Z] [ERROR] [W1] [C22816988] [object Object]
+────────────────────────────────────────────────────────

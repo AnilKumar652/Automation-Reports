@@ -1,0 +1,10 @@
+[2026-11-14T07:13:57.149Z] [ERROR] [W0] [C54657] [Admin] ✗ Select first available linked training plan (10006ms)
+[2026-11-14T07:13:57.149Z] [ERROR] [W0] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-11-14T07:13:57.149Z] [ERROR] [W0] [C54657] [Admin] ✗ Create agency credential "O'Reilly - Hansen-1" (14428ms)
+[2026-11-14T07:13:57.150Z] [ERROR] [W0] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
