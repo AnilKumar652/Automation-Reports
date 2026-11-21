@@ -1,0 +1,8 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:37:14.035Z] [INFO] [W0] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-11-21T08:37:17.732Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Training Setup Categories page (3697ms)
+[2026-11-21T08:37:17.734Z] [INFO] [W0] [C22680549] [Admin] → Create category "Incredible Music"

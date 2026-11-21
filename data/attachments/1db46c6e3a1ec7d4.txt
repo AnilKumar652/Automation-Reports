@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22670977]
+Title: Verify Upload External Credential modal opens with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:19:34.097Z] [INFO] [W0] [C22670977] [User] → Open My Credentials page
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22670977]
+Status: FAILED
+Duration: 60878ms
+[2026-11-21T08:20:34.739Z] [ERROR] [W0] [C22670977] [object Object]
+────────────────────────────────────────────────────────

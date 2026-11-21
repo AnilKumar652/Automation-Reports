@@ -1,0 +1,33 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:35:34.873Z] [INFO] [W0] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-11-21T08:35:45.697Z] [INFO] [W0] [C21852432] [Admin] ✓ Open Training Setup Categories page (10824ms)
+[2026-11-21T08:35:45.705Z] [INFO] [W0] [C21852432] [Admin] → Create category "Daniel, Marvin and Schultz Luxurious Grocery"
+[2026-11-21T08:35:48.251Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Daniel, Marvin and Schultz Luxurious Grocery" (2546ms)
+[2026-11-21T08:35:48.251Z] [INFO] [W0] [C21852432] [Admin] → Create category "Daniel, Marvin and Schultz Fantastic Baby"
+[2026-11-21T08:35:50.290Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Daniel, Marvin and Schultz Fantastic Baby" (2039ms)
+[2026-11-21T08:35:50.293Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-21T08:35:50.392Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (99ms)
+[2026-11-21T08:35:50.392Z] [INFO] [W0] [C21852432] [Admin] → Search categories by name "Daniel, Marvin and Schultz" (matching results)
+[2026-11-21T08:35:51.643Z] [INFO] [W0] [C21852432] [Admin] ✓ Search categories by name "Daniel, Marvin and Schultz" (matching results) (1251ms)
+[2026-11-21T08:35:51.643Z] [INFO] [W0] [C21852432] [Admin] → Visible Category Names
+[2026-11-21T08:35:51.718Z] [INFO] [W0] [C21852432] [Admin] ✓ Visible Category Names (75ms)
+[2026-11-21T08:35:51.733Z] [INFO] [W0] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-11-21T08:35:52.103Z] [INFO] [W0] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (370ms)
+[2026-11-21T08:35:52.103Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-21T08:35:52.161Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (58ms)
+[2026-11-21T08:35:52.168Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-21T08:35:52.412Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (244ms)
+[2026-11-21T08:35:52.413Z] [INFO] [W0] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-11-21T08:35:52.669Z] [INFO] [W0] [C21852432] [Admin] ✓ Toggle Header Row Selection (256ms)
+[2026-11-21T08:35:52.669Z] [INFO] [W0] [C21852432] [Admin] → Selected Category Row Count
+[2026-11-21T08:35:52.850Z] [INFO] [W0] [C21852432] [Admin] ✓ Selected Category Row Count (181ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852432]
+Status: FAILED
+Duration: 18416ms
+[2026-11-21T08:35:53.065Z] [ERROR] [W0] [C21852432] [object Object]
+────────────────────────────────────────────────────────

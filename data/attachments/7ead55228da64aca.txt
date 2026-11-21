@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181793]
+Title: Verify State / Province is optional when creating a credential from Setup
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T07:50:03.067Z] [INFO] [W1] [C22181793] [Admin] → Open Agency Credentials page
+[2026-11-21T07:50:13.214Z] [INFO] [W1] [C22181793] [Admin] ✓ Open Agency Credentials page (10147ms)
+[2026-11-21T07:50:13.217Z] [INFO] [W1] [C22181793] [Admin] → Verify Agency Credentials page is ready
+[2026-11-21T07:50:17.584Z] [INFO] [W1] [C22181793] [Admin] ✓ Agency Credentials page is ready (4367ms)
+[2026-11-21T07:50:17.602Z] [INFO] [W1] [C22181793] [Admin] → Open Add Credential form
+[2026-11-21T07:50:18.920Z] [INFO] [W1] [C22181793] [Admin] ✓ Open Add Credential form (1318ms)
+[2026-11-21T07:50:18.920Z] [INFO] [W1] [C22181793] [Admin] → State Province Mandatory Indicator
+[2026-11-21T07:50:19.002Z] [INFO] [W1] [C22181793] [Admin] ✓ State Province Mandatory Indicator (82ms)
+[2026-11-21T07:50:19.006Z] [INFO] [W1] [C22181793] [Admin] → Create agency credential "synergies License"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22181793]
+Status: FAILED
+Duration: 32312ms
+[2026-11-21T07:50:34.966Z] [ERROR] [W1] [C22181793] [object Object]
+────────────────────────────────────────────────────────

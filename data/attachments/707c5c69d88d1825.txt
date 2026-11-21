@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T07:58:01.197Z] [INFO] [W1] [C54657] [Admin] → Open Agency Credentials page
+[2026-11-21T07:58:06.107Z] [INFO] [W1] [C54657] [Admin] ✓ Open Agency Credentials page (4911ms)
+[2026-11-21T07:58:06.108Z] [INFO] [W1] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-11-21T07:58:06.150Z] [INFO] [W1] [C54657] [Admin] ✓ Agency Credentials page is ready (42ms)
+[2026-11-21T07:58:06.160Z] [INFO] [W1] [C54657] [Admin] → Create agency credential "MacGyver - Bradtke-1"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54657]
+Status: FAILED
+Duration: 22502ms
+[2026-11-21T07:58:23.403Z] [ERROR] [W1] [C54657] [object Object]
+────────────────────────────────────────────────────────

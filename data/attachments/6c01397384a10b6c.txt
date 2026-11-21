@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58122]
+Title: Verify credential log can be removed from Personnel
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:03:33.486Z] [INFO] [W1] [C58122] [Admin] → Prepare and assign credential "blockchains License" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58122]
+Status: FAILED
+Duration: 33511ms
+[2026-11-21T08:04:06.805Z] [ERROR] [W1] [C58122] [object Object]
+────────────────────────────────────────────────────────

@@ -1,0 +1,16 @@
+[2026-11-21T07:46:47.148Z] [ERROR] [W0] [C45556] [Admin] ✗ Wait until Asset management setup list row for "Cleveland Unit" is visible (60020ms)
+[2026-11-21T07:46:47.148Z] [ERROR] [W0] [C45556] Locator: role=cell[name="Cleveland Unit"i]
+[2026-11-21T07:46:47.148Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Cleveland Unit"i]') to be visible
+
+[2026-11-21T07:46:47.149Z] [ERROR] [W0] [C45556] [Admin] ✗ Save apparatus group "Cleveland Unit" (60285ms)
+[2026-11-21T07:46:47.149Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Cleveland Unit"i]') to be visible
+
+[2026-11-21T07:46:47.149Z] [ERROR] [W0] [C45556] [Admin] ✗ Create apparatus group "Cleveland Unit" (62937ms)
+[2026-11-21T07:46:47.149Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Cleveland Unit"i]') to be visible
+

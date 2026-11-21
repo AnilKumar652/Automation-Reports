@@ -1,0 +1,10 @@
+[2026-11-21T08:06:14.082Z] [ERROR] [W0] [C5911763] [Admin] ✗ Select first available linked training plan (10015ms)
+[2026-11-21T08:06:14.082Z] [ERROR] [W0] [C5911763] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-11-21T08:06:14.083Z] [ERROR] [W0] [C5911763] [Admin] ✗ Create agency credential "solutions Certification" (18277ms)
+[2026-11-21T08:06:14.083Z] [ERROR] [W0] [C5911763] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

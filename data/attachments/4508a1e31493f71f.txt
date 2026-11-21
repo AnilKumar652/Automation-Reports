@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22779515]
+Title: Verify apparatus can be created successfully with required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T07:43:17.991Z] [INFO] [W1] [C22779515] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-11-21T07:43:25.019Z] [INFO] [W1] [C22779515] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (7028ms)
+[2026-11-21T07:43:25.020Z] [INFO] [W1] [C22779515] [Admin] → Create apparatus group "Madison County Group"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22779515]
+Status: FAILED
+Duration: 69910ms
+[2026-11-21T07:44:27.646Z] [ERROR] [W1] [C22779515] [object Object]
+────────────────────────────────────────────────────────

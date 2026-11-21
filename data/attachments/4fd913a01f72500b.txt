@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C58129]
+Title: Verify personnel removal from Admin Users reflects in Credentials
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:04:58.315Z] [INFO] [W0] [C58129] [Admin] → Prepare and assign credential "relationships Certification" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C58129]
+Status: FAILED
+Duration: 42388ms
+[2026-11-21T08:05:39.786Z] [ERROR] [W0] [C58129] [object Object]
+────────────────────────────────────────────────────────

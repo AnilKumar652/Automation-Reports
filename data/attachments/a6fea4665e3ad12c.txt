@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C10485260]
+Title: Verify autogenerate toggle for same credential type across different clients
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-21T07:47:52.180Z] [INFO] [W1] [C10485260] [Admin] → Open Agency Credentials page
+[2026-11-21T07:47:56.909Z] [INFO] [W1] [C10485260] [Admin] ✓ Open Agency Credentials page (4729ms)
+[2026-11-21T07:47:56.915Z] [INFO] [W1] [C10485260] [Admin] → Verify Agency Credentials page is ready
+[2026-11-21T07:47:58.581Z] [INFO] [W1] [C10485260] [Admin] ✓ Agency Credentials page is ready (1666ms)
+[2026-11-21T07:47:58.595Z] [INFO] [W1] [C10485260] [Admin] → Create agency credential "relationships Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C10485260]
+Status: FAILED
+Duration: 22981ms
+[2026-11-21T07:48:14.996Z] [ERROR] [W1] [C10485260] [object Object]
+────────────────────────────────────────────────────────

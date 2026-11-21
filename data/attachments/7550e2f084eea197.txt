@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C54657]
+Title: Verify bulk delete removes multiple unused credentials
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T07:58:30.048Z] [INFO] [W1] [C54657] [Admin] → Open Agency Credentials page
+[2026-11-21T07:58:37.111Z] [INFO] [W1] [C54657] [Admin] ✓ Open Agency Credentials page (7065ms)
+[2026-11-21T07:58:37.127Z] [INFO] [W1] [C54657] [Admin] → Verify Agency Credentials page is ready
+[2026-11-21T07:58:42.319Z] [INFO] [W1] [C54657] [Admin] ✓ Agency Credentials page is ready (5192ms)
+[2026-11-21T07:58:42.344Z] [INFO] [W1] [C54657] [Admin] → Create agency credential "Pollich Group-1"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C54657]
+Status: FAILED
+Duration: 29905ms
+[2026-11-21T07:58:59.633Z] [ERROR] [W1] [C54657] [object Object]
+────────────────────────────────────────────────────────

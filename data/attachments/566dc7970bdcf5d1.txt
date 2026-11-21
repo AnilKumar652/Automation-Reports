@@ -1,0 +1,16 @@
+[2026-11-21T07:45:50.215Z] [ERROR] [W1] [C45539] [Admin] ✗ Wait until Asset management setup list row for "Adams County Unit" is visible (60018ms)
+[2026-11-21T07:45:50.215Z] [ERROR] [W1] [C45539] Locator: role=cell[name="Adams County Unit"i]
+[2026-11-21T07:45:50.215Z] [ERROR] [W1] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Adams County Unit"i]') to be visible
+
+[2026-11-21T07:45:50.216Z] [ERROR] [W1] [C45539] [Admin] ✗ Save equipment group "Adams County Unit" (60337ms)
+[2026-11-21T07:45:50.216Z] [ERROR] [W1] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Adams County Unit"i]') to be visible
+
+[2026-11-21T07:45:50.216Z] [ERROR] [W1] [C45539] [Admin] ✗ Create equipment group "Adams County Unit" (62807ms)
+[2026-11-21T07:45:50.216Z] [ERROR] [W1] [C45539] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Adams County Unit"i]') to be visible
+

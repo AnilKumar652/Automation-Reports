@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C5877542]
+Title: Verify user can add an organization rank
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T07:40:15.731Z] [INFO] [W1] [C5877542] [Admin] → Open Agency Setup Organization page
+[2026-11-21T07:40:22.553Z] [INFO] [W1] [C5877542] [Admin] ✓ Open Agency Setup Organization page (6822ms)
+[2026-11-21T07:40:22.558Z] [INFO] [W1] [C5877542] [Admin] → Is Agency Setup Organization Ready
+[2026-11-21T07:40:23.003Z] [INFO] [W1] [C5877542] [Admin] ✓ Is Agency Setup Organization Ready (445ms)
+[2026-11-21T07:40:23.007Z] [INFO] [W1] [C5877542] [Admin] → Select Organization Rank tab
+[2026-11-21T07:40:25.815Z] [INFO] [W1] [C5877542] [Admin] ✓ Select Organization Rank tab (2808ms)
+[2026-11-21T07:40:25.815Z] [INFO] [W1] [C5877542] [Admin] → Add organization rank "Firefighter"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C5877542]
+Status: FAILED
+Duration: 71941ms
+[2026-11-21T07:41:27.394Z] [ERROR] [W1] [C5877542] [object Object]
+────────────────────────────────────────────────────────

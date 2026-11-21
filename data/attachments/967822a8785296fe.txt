@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-11-21T07:47:01.637Z] [INFO] [W0] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-11-21T07:47:06.545Z] [INFO] [W0] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (4908ms)
+[2026-11-21T07:47:06.549Z] [INFO] [W0] [C45059] [Admin] → Is Location Groups List Ready
+[2026-11-21T07:47:06.689Z] [INFO] [W0] [C45059] [Admin] ✓ Is Location Groups List Ready (140ms)
+[2026-11-21T07:47:06.694Z] [INFO] [W0] [C45059] [Admin] → Create location group "Pike County Unit"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45059]
+Status: FAILED
+Duration: 68350ms
+[2026-11-21T07:48:09.689Z] [ERROR] [W0] [C45059] [object Object]
+────────────────────────────────────────────────────────

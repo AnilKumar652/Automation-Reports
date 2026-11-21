@@ -1,0 +1,24 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852430]
+Title: Verify user can add a category with a required name and optional associations
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:35:09.862Z] [INFO] [W0] [C21852430] [Admin] → Open Training Setup Categories page
+[2026-11-21T08:35:17.610Z] [INFO] [W0] [C21852430] [Admin] ✓ Open Training Setup Categories page (7748ms)
+[2026-11-21T08:35:17.611Z] [INFO] [W0] [C21852430] [Admin] → Create category "Gorgeous Shoes"
+[2026-11-21T08:35:18.925Z] [INFO] [W0] [C21852430] [Admin] ✓ Create category "Gorgeous Shoes" (1314ms)
+[2026-11-21T08:35:18.925Z] [INFO] [W0] [C21852430] [Admin] → Search categories by name "Gorgeous Shoes" (exact match)
+[2026-11-21T08:35:20.397Z] [INFO] [W0] [C21852430] [Admin] ✓ Search categories by name "Gorgeous Shoes" (exact match) (1472ms)
+[2026-11-21T08:35:20.397Z] [INFO] [W0] [C21852430] [Admin] → Category Row Visible
+[2026-11-21T08:35:20.413Z] [INFO] [W0] [C21852430] [Admin] ✓ Category Row Visible (16ms)
+[2026-11-21T08:35:20.417Z] [INFO] [W0] [C21852430] [Admin] → Open Edit Category Modal
+[2026-11-21T08:35:20.755Z] [INFO] [W0] [C21852430] [Admin] ✓ Open Edit Category Modal (338ms)
+[2026-11-21T08:35:20.756Z] [INFO] [W0] [C21852430] [Admin] → Is Edit Category Modal Open
+[2026-11-21T08:35:20.769Z] [INFO] [W0] [C21852430] [Admin] ✓ Is Edit Category Modal Open (13ms)
+[2026-11-21T08:35:20.770Z] [INFO] [W0] [C21852430] [Admin] → Category Modal Name Value
+[2026-11-21T08:35:20.869Z] [INFO] [W0] [C21852430] [Admin] ✓ Category Modal Name Value (99ms)
+────────────────────────────────────────────────────────
+TEST END | [W0] [C21852430]
+Status: PASSED
+Duration: 11364ms
+────────────────────────────────────────────────────────

@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45059]
+Title: Create/Edit Station Groups
+────────────────────────────────────────────────────────
+[2026-11-21T07:48:27.985Z] [INFO] [W0] [C45059] [Admin] → Open Asset Management Setup Location Groups page
+[2026-11-21T07:48:37.133Z] [INFO] [W0] [C45059] [Admin] ✓ Open Asset Management Setup Location Groups page (9146ms)
+[2026-11-21T07:48:37.134Z] [INFO] [W0] [C45059] [Admin] → Is Location Groups List Ready
+[2026-11-21T07:48:44.206Z] [INFO] [W0] [C45059] [Admin] ✓ Is Location Groups List Ready (7072ms)
+[2026-11-21T07:48:44.235Z] [INFO] [W0] [C45059] [Admin] → Create location group "Essex Team"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45059]
+Status: FAILED
+Duration: 77996ms
+[2026-11-21T07:49:45.548Z] [ERROR] [W0] [C45059] [object Object]
+────────────────────────────────────────────────────────

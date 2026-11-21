@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C21852431]
+Title: Verify user can edit an existing category and persist changes from the grid
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:36:01.700Z] [INFO] [W1] [C21852431] [Admin] → Open Training Setup Categories page
+[2026-11-21T08:36:16.191Z] [INFO] [W1] [C21852431] [Admin] ✓ Open Training Setup Categories page (14493ms)
+[2026-11-21T08:36:16.199Z] [INFO] [W1] [C21852431] [Admin] → Create category "Refined Industrial"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C21852431]
+Status: FAILED
+Duration: 77099ms
+[2026-11-21T08:37:18.605Z] [ERROR] [W1] [C21852431] [object Object]
+────────────────────────────────────────────────────────

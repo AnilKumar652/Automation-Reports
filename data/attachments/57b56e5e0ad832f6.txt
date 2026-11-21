@@ -1,0 +1,15 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C45556]
+Title: Create Apparatus Groups
+────────────────────────────────────────────────────────
+[2026-11-21T07:44:23.325Z] [INFO] [W0] [C45556] [Admin] → Open Asset Management Setup Apparatus Groups page
+[2026-11-21T07:44:26.950Z] [INFO] [W0] [C45556] [Admin] ✓ Open Asset Management Setup Apparatus Groups page (3625ms)
+[2026-11-21T07:44:26.951Z] [INFO] [W0] [C45556] [Admin] → Is Apparatus Groups List Ready
+[2026-11-21T07:44:26.960Z] [INFO] [W0] [C45556] [Admin] ✓ Is Apparatus Groups List Ready (9ms)
+[2026-11-21T07:44:26.963Z] [INFO] [W0] [C45556] [Admin] → Create apparatus group "Surrey Group"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C45556]
+Status: FAILED
+Duration: 64368ms
+[2026-11-21T07:45:27.441Z] [ERROR] [W0] [C45556] [object Object]
+────────────────────────────────────────────────────────

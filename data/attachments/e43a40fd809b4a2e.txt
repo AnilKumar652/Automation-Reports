@@ -1,0 +1,11 @@
+[2026-11-21T07:39:42.608Z] [ERROR] [W0] [C5877540] [Admin] ✗ Wait until Organization row for "Outdoors" is visible (60002ms)
+[2026-11-21T07:39:42.608Z] [ERROR] [W0] [C5877540] Locator: role=gridcell[name="Outdoors"i]
+[2026-11-21T07:39:42.608Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Outdoors"i]') to be visible
+
+[2026-11-21T07:39:42.609Z] [ERROR] [W0] [C5877540] [Admin] ✗ Add organization division "Outdoors" (63094ms)
+[2026-11-21T07:39:42.609Z] [ERROR] [W0] [C5877540] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Outdoors"i]') to be visible
+

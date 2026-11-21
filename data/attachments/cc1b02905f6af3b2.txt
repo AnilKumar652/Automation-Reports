@@ -1,0 +1,16 @@
+[2026-11-21T07:48:09.630Z] [ERROR] [W0] [C45059] [Admin] ✗ Wait until Asset management setup list row for "Pike County Unit" is visible (60002ms)
+[2026-11-21T07:48:09.630Z] [ERROR] [W0] [C45059] Locator: role=cell[name="Pike County Unit"i]
+[2026-11-21T07:48:09.630Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Pike County Unit"i]') to be visible
+
+[2026-11-21T07:48:09.631Z] [ERROR] [W0] [C45059] [Admin] ✗ Save location group "Pike County Unit" (60316ms)
+[2026-11-21T07:48:09.631Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Pike County Unit"i]') to be visible
+
+[2026-11-21T07:48:09.631Z] [ERROR] [W0] [C45059] [Admin] ✗ Create location group "Pike County Unit" (62937ms)
+[2026-11-21T07:48:09.631Z] [ERROR] [W0] [C45059] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Pike County Unit"i]') to be visible
+

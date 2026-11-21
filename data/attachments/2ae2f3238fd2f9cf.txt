@@ -1,0 +1,4 @@
+[2026-11-21T08:06:32.963Z] [ERROR] [W1] [C7106606] [Admin] ✗ Toggle Credential Autogenerate (10126ms)
+[2026-11-21T08:06:32.963Z] [ERROR] [W1] [C7106606] page.waitForFunction: Timeout 10000ms exceeded.
+[2026-11-21T08:06:32.964Z] [ERROR] [W1] [C7106606] [Admin] ✗ Create agency credential "content Certification" (14603ms)
+[2026-11-21T08:06:32.964Z] [ERROR] [W1] [C7106606] page.waitForFunction: Timeout 10000ms exceeded.

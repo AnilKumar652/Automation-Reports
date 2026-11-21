@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22680549]
+Title: Verify Import Categories rejects non-CSV and oversized files
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:38:35.216Z] [INFO] [W0] [C22680549] [Admin] → Open Training Setup Categories page
+[2026-11-21T08:38:43.400Z] [INFO] [W0] [C22680549] [Admin] ✓ Open Training Setup Categories page (8184ms)
+[2026-11-21T08:38:43.402Z] [INFO] [W0] [C22680549] [Admin] → Create category "Generic Baby"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22680549]
+Status: FAILED
+Duration: 69190ms
+[2026-11-21T08:39:44.115Z] [ERROR] [W0] [C22680549] [object Object]
+────────────────────────────────────────────────────────

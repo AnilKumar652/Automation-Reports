@@ -1,0 +1,16 @@
+[2026-11-21T08:09:22.628Z] [ERROR] [W1] [C78340] [Admin] ✗ Wait until Asset management setup list row for "Franklin County Team" is visible (60003ms)
+[2026-11-21T08:09:22.629Z] [ERROR] [W1] [C78340] Locator: role=cell[name="Franklin County Team"i]
+[2026-11-21T08:09:22.629Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Franklin County Team"i]') to be visible
+
+[2026-11-21T08:09:22.629Z] [ERROR] [W1] [C78340] [Admin] ✗ Save equipment group "Franklin County Team" (60201ms)
+[2026-11-21T08:09:22.629Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Franklin County Team"i]') to be visible
+
+[2026-11-21T08:09:22.629Z] [ERROR] [W1] [C78340] [Admin] ✗ Create equipment group "Franklin County Team" (65361ms)
+[2026-11-21T08:09:22.629Z] [ERROR] [W1] [C78340] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Franklin County Team"i]') to be visible
+

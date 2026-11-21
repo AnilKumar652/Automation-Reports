@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877540]
+Title: Verify user can add an organization division
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T07:39:53.531Z] [INFO] [W0] [C5877540] [Admin] → Open Agency Setup Organization page
+[2026-11-21T07:40:11.421Z] [INFO] [W0] [C5877540] [Admin] ✓ Open Agency Setup Organization page (17890ms)
+[2026-11-21T07:40:11.425Z] [INFO] [W0] [C5877540] [Admin] → Is Agency Setup Organization Ready
+[2026-11-21T07:40:11.655Z] [INFO] [W0] [C5877540] [Admin] ✓ Is Agency Setup Organization Ready (230ms)
+[2026-11-21T07:40:11.680Z] [INFO] [W0] [C5877540] [Admin] → Select Organization Division tab
+[2026-11-21T07:40:12.070Z] [INFO] [W0] [C5877540] [Admin] ✓ Select Organization Division tab (390ms)
+[2026-11-21T07:40:12.070Z] [INFO] [W0] [C5877540] [Admin] → Add organization division "Shoes"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877540]
+Status: FAILED
+Duration: 81167ms
+[2026-11-21T07:41:14.058Z] [ERROR] [W0] [C5877540] [object Object]
+────────────────────────────────────────────────────────

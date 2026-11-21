@@ -1,0 +1,10 @@
+[2026-11-21T07:58:59.547Z] [ERROR] [W1] [C54657] [Admin] ✗ Select first available linked training plan (10079ms)
+[2026-11-21T07:58:59.548Z] [ERROR] [W1] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-11-21T07:58:59.548Z] [ERROR] [W1] [C54657] [Admin] ✗ Create agency credential "Pollich Group-1" (17204ms)
+[2026-11-21T07:58:59.548Z] [ERROR] [W1] [C54657] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

@@ -1,0 +1,12 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C58113]
+Title: Verify second edit of credential in Personnel updates correctly
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:02:44.911Z] [INFO] [W1] [C58113] [Admin] → Prepare and assign credential "smart contracts Certificate" to personnel "Ravi Last"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C58113]
+Status: FAILED
+Duration: 35009ms
+[2026-11-21T08:03:19.336Z] [ERROR] [W1] [C58113] [object Object]
+────────────────────────────────────────────────────────

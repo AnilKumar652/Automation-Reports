@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22682824]
+Title: Verify User can submit Upload External Credential with valid required fields
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:30:11.700Z] [INFO] [W1] [C22682824] [Admin] → Open Agency Credentials page
+[2026-11-21T08:30:16.822Z] [INFO] [W1] [C22682824] [Admin] ✓ Open Agency Credentials page (5126ms)
+[2026-11-21T08:30:16.823Z] [INFO] [W1] [C22682824] [Admin] → Verify Agency Credentials page is ready
+[2026-11-21T08:30:17.312Z] [INFO] [W1] [C22682824] [Admin] ✓ Agency Credentials page is ready (489ms)
+[2026-11-21T08:30:17.339Z] [INFO] [W1] [C22682824] [Admin] → Create agency credential "mindshare Certificate"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C22682824]
+Status: FAILED
+Duration: 25668ms
+[2026-11-21T08:30:36.610Z] [ERROR] [W1] [C22682824] [object Object]
+────────────────────────────────────────────────────────

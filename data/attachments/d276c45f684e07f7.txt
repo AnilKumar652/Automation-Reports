@@ -1,0 +1,14 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C22181792]
+Title: Verify State / Province is optional when creating a regular credential
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T07:48:50.491Z] [INFO] [W1] [C22181792] [Admin] → Open Agency Credentials page
+[2026-11-21T07:48:53.793Z] [INFO] [W1] [C22181792] [Admin] ✓ Open Agency Credentials page (3302ms)
+[2026-11-21T07:48:53.793Z] [INFO] [W1] [C22181792] [Admin] → Verify Agency Credentials page is ready
+[2026-11-21T07:48:53.820Z] [INFO] [W1] [C22181792] [Admin] ✓ Agency Credentials page is ready (27ms)
+[2026-11-21T07:48:53.822Z] [INFO] [W1] [C22181792] [Admin] → Open Add Credential form
+[2026-11-21T07:48:54.911Z] [INFO] [W1] [C22181792] [Admin] ✓ Open Add Credential form (1088ms)
+[2026-11-21T07:48:54.911Z] [INFO] [W1] [C22181792] [Admin] → State Province Mandatory Indicator
+[2026-11-21T07:48:54.933Z] [INFO] [W1] [C22181792] [Admin] ✓ State Province Mandatory Indicator (22ms)
+[2026-11-21T07:48:54.935Z] [INFO] [W1] [C22181792] [Admin] → Create agency credential "systems License"

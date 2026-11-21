@@ -1,0 +1,18 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C5877543]
+Title: Verify user can add an organization position
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T07:42:52.332Z] [INFO] [W0] [C5877543] [Admin] → Open Agency Setup Organization page
+[2026-11-21T07:43:07.013Z] [INFO] [W0] [C5877543] [Admin] ✓ Open Agency Setup Organization page (14681ms)
+[2026-11-21T07:43:07.019Z] [INFO] [W0] [C5877543] [Admin] → Is Agency Setup Organization Ready
+[2026-11-21T07:43:07.395Z] [INFO] [W0] [C5877543] [Admin] ✓ Is Agency Setup Organization Ready (376ms)
+[2026-11-21T07:43:07.400Z] [INFO] [W0] [C5877543] [Admin] → Select Organization Positions tab
+[2026-11-21T07:43:08.621Z] [INFO] [W0] [C5877543] [Admin] ✓ Select Organization Positions tab (1221ms)
+[2026-11-21T07:43:08.621Z] [INFO] [W0] [C5877543] [Admin] → Add organization position "Chief Operations Director"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C5877543]
+Status: FAILED
+Duration: 78762ms
+[2026-11-21T07:44:10.814Z] [ERROR] [W0] [C5877543] [object Object]
+────────────────────────────────────────────────────────

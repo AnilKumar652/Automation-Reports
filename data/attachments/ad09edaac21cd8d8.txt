@@ -1,0 +1,27 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C21852432]
+Title: Verify category name search matches results, Reset restores defaults, and select-all toggles row selection
+Tags: @regression
+────────────────────────────────────────────────────────
+[2026-11-21T08:35:22.399Z] [INFO] [W0] [C21852432] [Admin] → Open Training Setup Categories page
+[2026-11-21T08:35:28.810Z] [INFO] [W0] [C21852432] [Admin] ✓ Open Training Setup Categories page (6411ms)
+[2026-11-21T08:35:28.814Z] [INFO] [W0] [C21852432] [Admin] → Create category "Gutmann, Shanahan and Reinger Handcrafted Home"
+[2026-11-21T08:35:30.217Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Gutmann, Shanahan and Reinger Handcrafted Home" (1403ms)
+[2026-11-21T08:35:30.217Z] [INFO] [W0] [C21852432] [Admin] → Create category "Gutmann, Shanahan and Reinger Elegant Jewelry"
+[2026-11-21T08:35:31.072Z] [INFO] [W0] [C21852432] [Admin] ✓ Create category "Gutmann, Shanahan and Reinger Elegant Jewelry" (855ms)
+[2026-11-21T08:35:31.073Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-21T08:35:31.331Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (258ms)
+[2026-11-21T08:35:31.333Z] [INFO] [W0] [C21852432] [Admin] → Search categories by name "Gutmann, Shanahan and Reinger" (matching results)
+[2026-11-21T08:35:32.296Z] [INFO] [W0] [C21852432] [Admin] ✓ Search categories by name "Gutmann, Shanahan and Reinger" (matching results) (965ms)
+[2026-11-21T08:35:32.299Z] [INFO] [W0] [C21852432] [Admin] → Visible Category Names
+[2026-11-21T08:35:32.328Z] [INFO] [W0] [C21852432] [Admin] ✓ Visible Category Names (29ms)
+[2026-11-21T08:35:32.332Z] [INFO] [W0] [C21852432] [Admin] → Clear category filters and restore the default grid
+[2026-11-21T08:35:32.406Z] [INFO] [W0] [C21852432] [Admin] ✓ Clear category filters and restore the default grid (74ms)
+[2026-11-21T08:35:32.406Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-21T08:35:32.416Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (10ms)
+[2026-11-21T08:35:32.417Z] [INFO] [W0] [C21852432] [Admin] → Verify Categories grid contains records
+[2026-11-21T08:35:32.427Z] [INFO] [W0] [C21852432] [Admin] ✓ Categories grid contains records verified (10ms)
+[2026-11-21T08:35:32.427Z] [INFO] [W0] [C21852432] [Admin] → Toggle Header Row Selection
+[2026-11-21T08:35:32.731Z] [INFO] [W0] [C21852432] [Admin] ✓ Toggle Header Row Selection (304ms)
+[2026-11-21T08:35:32.732Z] [INFO] [W0] [C21852432] [Admin] → Selected Category Row Count
+[2026-11-21T08:35:32.776Z] [INFO] [W0] [C21852432] [Admin] ✓ Selected Category Row Count (44ms)

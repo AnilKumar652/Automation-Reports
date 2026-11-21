@@ -1,0 +1,11 @@
+[2026-11-21T07:44:10.757Z] [ERROR] [W0] [C5877543] [Admin] ✗ Wait until Organization row for "Chief Operations Director" is visible (60087ms)
+[2026-11-21T07:44:10.758Z] [ERROR] [W0] [C5877543] Locator: role=gridcell[name="Chief Operations Director"i]
+[2026-11-21T07:44:10.758Z] [ERROR] [W0] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Chief Operations Director"i]') to be visible
+
+[2026-11-21T07:44:10.758Z] [ERROR] [W0] [C5877543] [Admin] ✗ Add organization position "Chief Operations Director" (62137ms)
+[2026-11-21T07:44:10.758Z] [ERROR] [W0] [C5877543] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=gridcell[name="Chief Operations Director"i]') to be visible
+

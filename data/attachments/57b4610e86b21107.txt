@@ -1,0 +1,16 @@
+[2026-11-21T07:45:27.380Z] [ERROR] [W0] [C45556] [Admin] ✗ Wait until Asset management setup list row for "Surrey Group" is visible (60004ms)
+[2026-11-21T07:45:27.380Z] [ERROR] [W0] [C45556] Locator: role=cell[name="Surrey Group"i]
+[2026-11-21T07:45:27.380Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Surrey Group"i]') to be visible
+
+[2026-11-21T07:45:27.381Z] [ERROR] [W0] [C45556] [Admin] ✗ Save apparatus group "Surrey Group" (60250ms)
+[2026-11-21T07:45:27.381Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Surrey Group"i]') to be visible
+
+[2026-11-21T07:45:27.381Z] [ERROR] [W0] [C45556] [Admin] ✗ Create apparatus group "Surrey Group" (60418ms)
+[2026-11-21T07:45:27.381Z] [ERROR] [W0] [C45556] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Surrey Group"i]') to be visible
+

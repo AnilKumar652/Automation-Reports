@@ -1,0 +1,25 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C22816988]
+Title: Verify new person can be created successfully for Training module
+────────────────────────────────────────────────────────
+[2026-11-21T08:31:58.370Z] [INFO] [W0] [C22816988] [Admin] → Open Create Person form
+[2026-11-21T08:32:05.801Z] [INFO] [W0] [C22816988] [Admin] ✓ Open Create Person form (7433ms)
+[2026-11-21T08:32:05.802Z] [INFO] [W0] [C22816988] [Admin] → Is Create Person Form Open
+[2026-11-21T08:32:05.913Z] [INFO] [W0] [C22816988] [Admin] ✓ Is Create Person Form Open (111ms)
+[2026-11-21T08:32:05.927Z] [INFO] [W0] [C22816988] [Admin] → Fill person form for "Violet Cartwright"
+[2026-11-21T08:32:14.601Z] [INFO] [W0] [C22816988] [Admin] ✓ Fill person form for "Violet Cartwright" (8674ms)
+[2026-11-21T08:32:14.601Z] [INFO] [W0] [C22816988] [Admin] → Is Person System User Active
+[2026-11-21T08:32:14.637Z] [INFO] [W0] [C22816988] [Admin] ✓ Is Person System User Active (36ms)
+[2026-11-21T08:32:14.639Z] [INFO] [W0] [C22816988] [Admin] → Submit Create Person form
+[2026-11-21T08:32:18.325Z] [INFO] [W0] [C22816988] [Admin] ✓ Submit Create Person form (3686ms)
+[2026-11-21T08:32:18.326Z] [INFO] [W0] [C22816988] [Admin] → Person Created Success Message
+[2026-11-21T08:32:18.749Z] [INFO] [W0] [C22816988] [Admin] ✓ Person Created Success Message (423ms)
+[2026-11-21T08:32:18.751Z] [INFO] [W0] [C22816988] [Admin] → Open Personnel List page
+[2026-11-21T08:32:20.878Z] [INFO] [W0] [C22816988] [Admin] ✓ Open Personnel List page (2127ms)
+[2026-11-21T08:32:20.879Z] [INFO] [W0] [C22816988] [Admin] → Search personnel list for "Violet Cartwright"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C22816988]
+Status: FAILED
+Duration: 55282ms
+[2026-11-21T08:32:53.229Z] [ERROR] [W0] [C22816988] [object Object]
+────────────────────────────────────────────────────────

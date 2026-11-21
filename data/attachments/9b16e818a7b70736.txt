@@ -1,0 +1,16 @@
+[2026-11-21T07:44:27.515Z] [ERROR] [W1] [C22779515] [Admin] ✗ Wait until Asset management setup list row for "Madison County Group" is visible (60079ms)
+[2026-11-21T07:44:27.515Z] [ERROR] [W1] [C22779515] Locator: role=cell[name="Madison County Group"i]
+[2026-11-21T07:44:27.515Z] [ERROR] [W1] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Madison County Group"i]') to be visible
+
+[2026-11-21T07:44:27.516Z] [ERROR] [W1] [C22779515] [Admin] ✗ Save apparatus group "Madison County Group" (60168ms)
+[2026-11-21T07:44:27.516Z] [ERROR] [W1] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Madison County Group"i]') to be visible
+
+[2026-11-21T07:44:27.524Z] [ERROR] [W1] [C22779515] [Admin] ✗ Create apparatus group "Madison County Group" (62504ms)
+[2026-11-21T07:44:27.524Z] [ERROR] [W1] [C22779515] locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('role=cell[name="Madison County Group"i]') to be visible
+

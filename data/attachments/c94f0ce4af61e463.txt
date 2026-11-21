@@ -1,0 +1,10 @@
+[2026-11-21T07:58:59.605Z] [ERROR] [W0] [C54656] [Admin] ✗ Select first available linked training plan (10090ms)
+[2026-11-21T07:58:59.605Z] [ERROR] [W0] [C54656] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-11-21T07:58:59.606Z] [ERROR] [W0] [C54656] [Admin] ✗ Create agency credential "paradigms License" (16676ms)
+[2026-11-21T07:58:59.606Z] [ERROR] [W0] [C54656] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+

@@ -1,0 +1,13 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-11-21T08:09:35.501Z] [INFO] [W1] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-11-21T08:09:40.515Z] [INFO] [W1] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (5014ms)
+[2026-11-21T08:09:40.516Z] [INFO] [W1] [C78340] [Admin] → Create equipment group "Lothian Group"
+────────────────────────────────────────────────────────
+TEST END | [W1] [C78340]
+Status: FAILED
+Duration: 69563ms
+[2026-11-21T08:10:44.798Z] [ERROR] [W1] [C78340] [object Object]
+────────────────────────────────────────────────────────

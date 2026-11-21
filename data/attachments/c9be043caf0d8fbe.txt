@@ -1,0 +1,16 @@
+────────────────────────────────────────────────────────
+TEST START | [W0] [C52165]
+Title: Verify duplicate credential name validation on create
+Tags: @smoke @regression
+────────────────────────────────────────────────────────
+[2026-11-21T07:56:49.670Z] [INFO] [W0] [C52165] [Admin] → Open Agency Credentials page
+[2026-11-21T07:56:54.384Z] [INFO] [W0] [C52165] [Admin] ✓ Open Agency Credentials page (4715ms)
+[2026-11-21T07:56:54.384Z] [INFO] [W0] [C52165] [Admin] → Verify Agency Credentials page is ready
+[2026-11-21T07:56:54.949Z] [INFO] [W0] [C52165] [Admin] ✓ Agency Credentials page is ready (565ms)
+[2026-11-21T07:56:54.967Z] [INFO] [W0] [C52165] [Admin] → Create agency credential "paradigms License"
+────────────────────────────────────────────────────────
+TEST END | [W0] [C52165]
+Status: FAILED
+Duration: 26470ms
+[2026-11-21T07:57:15.831Z] [ERROR] [W0] [C52165] [object Object]
+────────────────────────────────────────────────────────

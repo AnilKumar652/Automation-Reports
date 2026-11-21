@@ -1,0 +1,7 @@
+────────────────────────────────────────────────────────
+TEST START | [W1] [C78340]
+Title: Equipment List - Create an Equipment
+────────────────────────────────────────────────────────
+[2026-11-21T08:08:11.147Z] [INFO] [W1] [C78340] [Admin] → Open Asset Management Setup Equipment Groups page
+[2026-11-21T08:08:17.268Z] [INFO] [W1] [C78340] [Admin] ✓ Open Asset Management Setup Equipment Groups page (6121ms)
+[2026-11-21T08:08:17.268Z] [INFO] [W1] [C78340] [Admin] → Create equipment group "Franklin County Team"

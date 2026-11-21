@@ -1,0 +1,10 @@
+[2026-11-21T08:30:36.422Z] [ERROR] [W1] [C22682824] [Admin] ✗ Select first available linked training plan (10017ms)
+[2026-11-21T08:30:36.422Z] [ERROR] [W1] [C22682824] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
+[2026-11-21T08:30:36.422Z] [ERROR] [W1] [C22682824] [Admin] ✗ Create agency credential "mindshare Certificate" (19083ms)
+[2026-11-21T08:30:36.423Z] [ERROR] [W1] [C22682824] locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[data-testid="linked_training_plan"]')
+
